@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "artwork_policy": "Original interpretive iconographic studies. General museum objects establish recognizable attributes but do not authenticate the installed temple murti. No downloaded photographs are embedded. No fabricated inscriptions or unreadable pseudo-script.",
+  "module": "res://scripts/shrine_sculpture.gd",
+  "supported_forms": [
+    "ganesha",
+    "vishnu",
+    "saraswati",
+    "varahi",
+    "murugan",
+    "annapurna",
+    "surya",
+    "sacred_well",
+    "footprints",
+    "three_stones"
+  ],
+  "sources": [
+    {
+      "id": "kanchi_authority",
+      "url": "https://kanchikamakshi.org/about/",
+      "role": "Confirms Varahi, Arupa Lakshmi, Ganapati and Kalvar Perumal inside Gayatri Mandapam; not precise installed-image anatomy."
+    },
+    {
+      "id": "kanchi_cec",
+      "url": "https://cec.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf",
+      "role": "Government education account distinguishes Arupa/Anjana Lakshmi and Soundarya Lakshmi; separates three tank-side Vishnu postures from Kalvar."
+    },
+    {
+      "id": "vishnu_chola",
+      "url": "https://www.metmuseum.org/art/collection/search/39326",
+      "role": "General standing Vishnu anatomy and upper-right chakra, upper-left conch; not a photograph of Kalvar Perumal."
+    },
+    {
+      "id": "sarasvati",
+      "url": "https://www.metmuseum.org/art/collection/search/78258",
+      "role": "General Sarasvati vina and books iconography."
+    },
+    {
+      "id": "sarasvati_four_hands",
+      "url": "https://searchcollection.asianart.org/objects/11170/the-hindu-deity-sarasvati-playing-the-lute-with-attendants",
+      "role": "Vina played with two of four hands; book and rosary in remaining hands."
+    },
+    {
+      "id": "varahi",
+      "url": "https://umma.umich.edu/objects/varahi-1960-1-113/",
+      "role": "General crowned boar-headed goddess iconography, not Kanchi exact sculpture."
+    },
+    {
+      "id": "skanda",
+      "url": "https://www.metmuseum.org/art/collection/search/890110",
+      "role": "Spear identifies Karttikeya; general attribute evidence, not exact Madurai Murugan."
+    },
+    {
+      "id": "madurai_sculptures",
+      "url": "https://tamilculturalatlas.in/data-details/VFZBLVRFTS0wMTg2",
+      "role": "Tamil Virtual Academy inventory names Nataraja, Dwarapalakas, lions, elephants, deity shrines and consorts. Requires individual photographic matching before copying building sculptures."
+    },
+    {
+      "id": "madurai_museum",
+      "url": "https://govtmuseumchennai.org/uploads/topics/16529639911706.pdf",
+      "role": "Government museum monument directory documents sculptural Shiva forms at Madurai."
+    },
+    {
+      "id": "annapurna_museum",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co125223/statue-of-goddess-annapurna",
+      "role": "General Annapurna ladle iconography, not the installed Kanchi or Tuljapur image."
+    },
+    {
+      "id": "surya_museum",
+      "url": "https://www.metmuseum.org/art/collection/search/75359",
+      "role": "General Surya with two lotuses, not exact Kolhapur image."
+    },
+    {
+      "id": "nabhigaya_trust",
+      "url": "https://maabiraja.com/navigaya.html",
+      "role": "Sacred well, not an anthropomorphic idol."
+    },
+    {
+      "id": "sosthi_documentation",
+      "url": "https://gyanganga.ai/admin/fileupload/KOLKATA%20NH%20MERGED.pdf",
+      "role": "Three worshipped stones representing three goddesses."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "arupa_lakshmi",
+      "status": "Do not replace with generic anthropomorphic Lakshmi. Source descriptions say formless/deformed; exact contours and kumkum-covered relief need a reliably identified image."
+    },
+    {
+      "id": "inscriptions_all_sites",
+      "status": "Not transcribed or recreated. Need inscription-specific primary photograph, transcription, attribution and physical placement. Existing geometry is not proof of historical authenticity."
+    },
+    {
+      "id": "building_sculptures",
+      "status": "Inventory names alone cannot establish each carving silhouette, location or damaged state. Preserve existing geometry; source-led recreation remains incomplete."
+    }
+  ]
+}

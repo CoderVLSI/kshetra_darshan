@@ -1,0 +1,107 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be edited by hand using this format.
+
+[application]
+
+config/name="Ashta Dasha Maha Shakti Peetha Darshana"
+config/description="3D Interactive Hindu Pilgrimage & Heritage Exploration - 18 Maha Shakti Peethas"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.7")
+config/icon="res://assets/ui/icon_kamakhya.png"
+
+[autoload]
+
+GameManager="*res://scripts/game_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[input]
+
+move_forward={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":87,"physical_keycode":0,"key_label":0,"unicode":119,"location":0,"echo":false,"script":null)]
+}
+move_backward={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":83,"physical_keycode":0,"key_label":0,"unicode":115,"location":0,"echo":false,"script":null)]
+}
+move_left={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":65,"physical_keycode":0,"key_label":0,"unicode":97,"location":0,"echo":false,"script":null)]
+}
+move_right={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":68,"physical_keycode":0,"key_label":0,"unicode":100,"location":0,"echo":false,"script":null)]
+}
+jump={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"keycode":32,"physical_keycode":32,"unicode":32)]
+}
+sprint={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194325,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)]
+}
+toggle_camera={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":86,"physical_keycode":0,"key_label":0,"unicode":118,"location":0,"echo":false,"script":null)]
+}
+prayer={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":80,"physical_keycode":0,"key_label":0,"unicode":112,"location":0,"echo":false,"script":null)]
+}
+pranam={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":75,"physical_keycode":0,"key_label":0,"unicode":107,"location":0,"echo":false,"script":null)]
+}
+flower_offering={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":70,"physical_keycode":0,"key_label":0,"unicode":102,"location":0,"echo":false,"script":null)]
+}
+ring_bell={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":71,"physical_keycode":0,"key_label":0,"unicode":103,"location":0,"echo":false,"script":null)]
+}
+aarti={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":82,"physical_keycode":0,"key_label":0,"unicode":114,"location":0,"echo":false,"script":null)]
+}
+prasadam={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":84,"physical_keycode":0,"key_label":0,"unicode":116,"location":0,"echo":false,"script":null)]
+}
+conch={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":67,"physical_keycode":0,"key_label":0,"unicode":99,"location":0,"echo":false,"script":null)]
+}
+mantra={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":78,"physical_keycode":0,"key_label":0,"unicode":110,"location":0,"echo":false,"script":null)]
+}
+minimap={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":77,"physical_keycode":0,"key_label":0,"unicode":109,"location":0,"echo":false,"script":null)]
+}
+heritage_guide={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":72,"physical_keycode":0,"key_label":0,"unicode":104,"location":0,"echo":false,"script":null)]
+}
+toggle_sound={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":66,"physical_keycode":0,"key_label":0,"unicode":98,"location":0,"echo":false,"script":null)]
+}
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+
+[physics]
+
+3d/default_gravity=9.8

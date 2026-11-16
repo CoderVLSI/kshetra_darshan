@@ -1,0 +1,2524 @@
+{
+  "version": 1,
+  "research_date": "2026-11-16",
+  "scope": "Only documented worship locations within each main temple compound; no automatic inclusion of wider hills, city temples or affiliated institutions.",
+  "placement_policy": "No surveyed coordinates are available. Null placements require schematic game staging and must never be described as an accurate visitor plan. Main anchor is the existing game mesh, not proof of authentic iconography.",
+  "completeness": "Evidence-backed working catalog, not a certified exhaustive survey. An unlisted shrine is not evidence of absence.",
+  "temples": {
+    "kamakhya": {
+      "scope_note": "Main Kamakhya building and immediate entrance precinct: shared cave Peethas, Chalanta processional worship and entrance Ganesh. Wider Nilachal Mahavidya and Shiva temples are excluded.",
+      "sources": [
+        {
+          "id": "KAMAKHYA",
+          "title": "Maa Kamakhya Devalaya: Architecture",
+          "url": "https://www.maakamakhya.org/architecture"
+        },
+        {
+          "id": "KAMAKHYA_IIT",
+          "title": "IIT Guwahati archaeology field documentation: main sanctum and wider hill",
+          "url": "https://gyan.iitg.ac.in/server/api/core/bitstreams/4d9fa9b7-5c27-4b88-8662-f9052d4a2567/content"
+        },
+        {
+          "id": "KAMAKHYA_CHALANTA",
+          "title": "Kamakhya architecture account: Chalanta worship locations",
+          "url": "https://kamakhya.org/architecture-aesthetics/"
+        },
+        {
+          "id": "KAMAKHYA_FIELD_2011",
+          "title": "Ravi S. Singh: Kamakhya Temple field study (2011)",
+          "url": "https://www.academia.edu/26392847/_R023_11_Singh_Ravi_S_2011_The_Kamakhya_Devi_Temple_Symbolism_Sacredscapes_and_Festivities_in_Singh_Rana_P_B_ed_Holy_Places_and_Pilgrimages_Essays_on_India_Planet_Earth_and_Cultural_Understanding_Series_Pub_8_Shubhi_Publications_New_Delhi_pp_81_104"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Bagala",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Kali",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Tara",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Bhairavi",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Chinnamasta",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Dhumavati",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Bhubaneshwari",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Kameshwar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Siddheshwar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Aghora",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Amratokeshwar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Kautilinga",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Kedareshwar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Saubhagya",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Pandunath",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Kamakhya / Sodasi sacred Peetha",
+          "deity": "Kamakhya / Sodasi sacred Peetha",
+          "form": "sacred_symbol",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "KAMAKHYA"
+          ],
+          "model_anchor": "Deity_Kamakhya",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "matangi",
+          "label": "Matangi Peetha",
+          "deity": "Matangi Peetha",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Sacred stone form inside the shared main cave; exact geometry and relative coordinates are not authenticated."
+        },
+        {
+          "id": "kamala",
+          "label": "Kamala Peetha",
+          "deity": "Kamala Peetha",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Sacred stone form inside the shared main cave; not a separate hill temple or anthropomorphic image."
+        },
+        {
+          "id": "kameshwari",
+          "label": "Kameshwari — Chalanta processional image",
+          "deity": "Kameshwari — Chalanta processional image",
+          "form": "devi",
+          "kind": "processional",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": "Preceding_Deity_Kameshwari",
+          "placement": null,
+          "notes": "Movable worship image in Chalanta, distinct from the cave Peetha. Existing stylised model; exact anatomy is not authenticated."
+        },
+        {
+          "id": "kameshwara",
+          "label": "Kameshwara — Chalanta processional worship",
+          "deity": "Kameshwara — Chalanta processional worship",
+          "form": "unknown",
+          "kind": "processional",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": "Chalanta_Altar",
+          "placement": null,
+          "notes": "Shares the Chalanta altar with Kameshwari. A named reference altar is used because the movable image is not authenticated; the old invented linga is hidden."
+        },
+        {
+          "id": "batuk_bhairava",
+          "label": "Batuk Bhairava — Chalanta",
+          "deity": "Batuk Bhairava — Chalanta",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named in the Chalanta hall; schematic shrine and reference altar, not the separate hill Shiva temples."
+        },
+        {
+          "id": "ganesha",
+          "label": "Ganesh — entrance worship",
+          "deity": "Ganesh — entrance worship",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KAMAKHYA_FIELD_2011"
+          ],
+          "model_anchor": "Ganesha_Shrine",
+          "placement": null,
+          "notes": "Field study records Ganesh worship before entering the main edifice; precise sculpture and placement remain schematic."
+        },
+        {
+          "id": "chamunda",
+          "label": "Chamunda — Pancharatna",
+          "deity": "Chamunda — Pancharatna",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main temple building by the local architecture account.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "The local architecture account places this image in Pancharatna. Placement in this schematic complex is not a surveyed location."
+        },
+        {
+          "id": "manasa",
+          "label": "Manasa altar — Pancharatna",
+          "deity": "Manasa altar — Pancharatna",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main temple building by the local architecture account.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named altar within Pancharatna; exact altar and sculpture are not authenticated."
+        },
+        {
+          "id": "durga_natmandir",
+          "label": "Durga — Natmandir entrance image",
+          "deity": "Durga — Natmandir entrance image",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main temple building by the local architecture account.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named as a life-sized image beside the eastern Natmandir gate; schematic artwork and placement."
+        },
+        {
+          "id": "shiva_natmandir",
+          "label": "Shiva — Natmandir entrance image",
+          "deity": "Shiva — Natmandir entrance image",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main temple building by the local architecture account.",
+          "source_ids": [
+            "KAMAKHYA_CHALANTA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named as a life-sized image beside the eastern Natmandir gate; not an invented linga substituted for an anthropomorphic image."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "kalighat": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "KALIGHAT",
+          "title": "Incredible India: Kalighat Temple",
+          "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Nakuleshwar Mahadev",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Kalighat Kali (existing game extra)",
+          "deity": "Kalighat Kali (existing game extra)",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "KALIGHAT"
+          ],
+          "model_anchor": "Deity_Kalika",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "sosthi_tala",
+          "label": "Sosthi Tala — Sosthi, Shitala, Mangal Chandi",
+          "deity": "Sosthi Tala — Sosthi, Shitala, Mangal Chandi",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KALIGHAT"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Shared altar for three named goddesses, not three invented standalone temples."
+        },
+        {
+          "id": "radha_krishna",
+          "label": "Radha–Krishna",
+          "deity": "Radha–Krishna",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KALIGHAT"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Separate shrine within the temple premises; preserve paired identity."
+        },
+        {
+          "id": "brahmananda_giri",
+          "label": "Brahmananda Giri resting place",
+          "deity": "Brahmananda Giri resting place",
+          "form": "sacred_symbol",
+          "kind": "acharya",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KALIGHAT"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "At Sosthi Tala according to government tourism account; not an authenticated portrait statue."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "kashi_vishalakshi": {
+      "scope_note": "Vishalakshi building: main sanctum, pradakshina Shiva–Nandi images, mandapa Bhairava and Navagrahas. City Vishwanath, Annapurna and Kala Bhairava temples are not inside this scene.",
+      "sources": [
+        {
+          "id": "KASHI",
+          "title": "Kashi official portal: Vishalakshi Devi Temple",
+          "url": "https://www.darshan.kashi.gov.in/listing-details/vishalakshi-devi-temple"
+        },
+        {
+          "id": "KASHI_FIELD_SURVEY",
+          "title": "Vasant Kanya Mahavidyalaya archaeology field survey: Thati, pp.64–66",
+          "url": "https://www.vkm.ac.in/uploads/academics/emagazine/thati%203.pdf"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Dharmakupa well",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Dharmesha",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Divodasa linga",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Vindhyavasini",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Vishalakshi",
+          "deity": "Vishalakshi",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "KASHI"
+          ],
+          "model_anchor": "Deity_Vishalakshi",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "shiva_nandi_1",
+          "label": "Pradakshina Shiva–Nandi 1",
+          "deity": "Pradakshina Shiva–Nandi 1",
+          "form": "linga_nandi",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KASHI_FIELD_SURVEY"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Field survey records Shiva lingas with Nandi in three directions around the sanctum. Numbering is for the model, not a surveyed direction."
+        },
+        {
+          "id": "shiva_nandi_2",
+          "label": "Pradakshina Shiva–Nandi 2",
+          "deity": "Pradakshina Shiva–Nandi 2",
+          "form": "linga_nandi",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KASHI_FIELD_SURVEY"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Field survey records Shiva lingas with Nandi in three directions around the sanctum. Numbering is for the model, not a surveyed direction."
+        },
+        {
+          "id": "shiva_nandi_3",
+          "label": "Pradakshina Shiva–Nandi 3",
+          "deity": "Pradakshina Shiva–Nandi 3",
+          "form": "linga_nandi",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KASHI_FIELD_SURVEY"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Field survey records Shiva lingas with Nandi in three directions around the sanctum. Numbering is for the model, not a surveyed direction."
+        },
+        {
+          "id": "kala_bhairava",
+          "label": "Kala Bhairava — mandapa",
+          "deity": "Kala Bhairava — mandapa",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KASHI_FIELD_SURVEY"
+          ],
+          "model_anchor": "Bhairava_Shrine",
+          "placement": null,
+          "notes": "Field survey describes an image in the temple mandapa; distinct from the separate city Kala Bhairava temple."
+        },
+        {
+          "id": "navagraha",
+          "label": "Navagraha group",
+          "deity": "Navagraha group",
+          "form": "navagraha",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "KASHI_FIELD_SURVEY"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Nine planetary deities documented within this temple; precise arrangement remains schematic."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "kanchipuram_kamakshi": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "KANCHI_TRUST",
+          "title": "Sri Kamakshi Ambal Devasthanam: About",
+          "url": "https://kanchikamakshi.org/about/"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Kamakshi Amman",
+          "deity": "Kamakshi Amman",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": "Deity_Kamakshi",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "varahi",
+          "label": "Varahi",
+          "deity": "Varahi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Gayatri Mandapa; a boar-headed identity. Exact temple image and hands are unverified."
+        },
+        {
+          "id": "arupa_lakshmi",
+          "label": "Arupa Lakshmi",
+          "deity": "Arupa Lakshmi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Gayatri Mandapa; Arupa/Anjana Lakshmi must not be treated as an ordinary standing Lakshmi portrait."
+        },
+        {
+          "id": "ganapati",
+          "label": "Ganapati",
+          "deity": "Ganapati",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": "Ganesha_Shrine",
+          "placement": null,
+          "notes": "Gayatri Mandapa; exact image pose unverified."
+        },
+        {
+          "id": "kalvar_perumal",
+          "label": "Kalvar Perumal (Vishnu)",
+          "deity": "Kalvar Perumal (Vishnu)",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Vishnu worship location within Gayatri Mandapa; exact image pose unverified."
+        },
+        {
+          "id": "ayyappan",
+          "label": "Ayyappan / Sasta",
+          "deity": "Ayyappan / Sasta",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Prakaram; do not infer temple-specific posture from a generic Ayyappa image."
+        },
+        {
+          "id": "saraswati",
+          "label": "Saraswati",
+          "deity": "Saraswati",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Prakaram; exact temple iconography unverified."
+        },
+        {
+          "id": "annapoorani",
+          "label": "Annapoorani",
+          "deity": "Annapoorani",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Prakaram; exact temple iconography unverified."
+        },
+        {
+          "id": "adi_shankara",
+          "label": "Adi Shankaracharya",
+          "deity": "Adi Shankaracharya",
+          "form": "acharya",
+          "kind": "acharya",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Authority explicitly identifies this sannadhi in the prakaram. Exact image pose and location require plan confirmation."
+        },
+        {
+          "id": "kala_bhairava",
+          "label": "Kala Bhairavar",
+          "deity": "Kala Bhairavar",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": "Bhairava_Shrine",
+          "placement": null,
+          "notes": "Outer prakaram; temple-specific image not authenticated."
+        },
+        {
+          "id": "mahishasuramardini",
+          "label": "Mahishasura Mardhini",
+          "deity": "Mahishasura Mardhini",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Outer prakaram; exact image and hand mapping unverified."
+        },
+        {
+          "id": "kashi_viswanathar",
+          "label": "Kashi Viswanathar",
+          "deity": "Kashi Viswanathar",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Outer prakaram."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "madurai_meenakshi": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "MADURAI",
+          "title": "Madurai district: Sri Meenakshi-Sundareswarar Temple",
+          "url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/"
+        },
+        {
+          "id": "MADURAI_PLAN",
+          "title": "Smarthistory: Meenakshi Temple plan",
+          "url": "https://smarthistory.org/meenakshi-madurai/"
+        },
+        {
+          "id": "MADURAI_HRCE_SHRINES",
+          "title": "Tamil Nadu HRCE: Meenakshi temple subsidiary shrine register",
+          "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/shrines.php?tid=31962"
+        },
+        {
+          "id": "MADURAI_RESEARCH",
+          "title": "Veda Samskrita Academy journal: Meenakshi temple shrines",
+          "url": "https://vedasamskritaacademy.org/wp-content/uploads/2023/06/MAHAMAHOPADHYAYA-D%F4%80%81%95.-Vid%F4%80%81%99an-N.-Rangana%F4%80%81%97ha-Sha%F4%80%81%95ma.pdf"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Meenakshi–Sundareswarar (existing game extra)",
+          "deity": "Meenakshi–Sundareswarar (existing game extra)",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "MADURAI"
+          ],
+          "model_anchor": "Deity_Meenakshi",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "sundareswarar",
+          "label": "Sundareswarar",
+          "deity": "Sundareswarar",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "MADURAI"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "The other principal sanctuary in this same temple complex."
+        },
+        {
+          "id": "mukkuruni_vinayagar",
+          "label": "Mukkuruni Vinayagar",
+          "deity": "Mukkuruni Vinayagar",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "MADURAI_PLAN"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Plan-labelled shrine on the route between principal sanctuaries."
+        },
+        {
+          "id": "sevvanthiswarar",
+          "label": "Sevvantheeswarar",
+          "deity": "Sevvantheeswarar",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_HRCE_SHRINES"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "HRCE places this shrine near Meenakshi Amman."
+        },
+        {
+          "id": "kasi_viswanathar",
+          "label": "Kasi Viswanathar",
+          "deity": "Kasi Viswanathar",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_HRCE_SHRINES"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "HRCE places this shrine near Meenakshi Amman."
+        },
+        {
+          "id": "kalyanasundarar",
+          "label": "Kalyanasundarar",
+          "deity": "Kalyanasundarar",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_HRCE_SHRINES"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "HRCE places this shrine in Swamy second prakara; precise image is a reference study."
+        },
+        {
+          "id": "ekadasa_linga",
+          "label": "Ekadasa Linga group",
+          "deity": "Ekadasa Linga group",
+          "form": "linga_group",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_HRCE_SHRINES"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "HRCE records the group in Swamy second prakara; eleven lingas are represented schematically."
+        },
+        {
+          "id": "sangathar",
+          "label": "Sangathar shrine",
+          "deity": "Sangathar shrine",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_HRCE_SHRINES"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named by the HRCE shrine register; no invented count or identity of individual figures."
+        },
+        {
+          "id": "nataraja",
+          "label": "Nataraja — Silver Sabha",
+          "deity": "Nataraja — Silver Sabha",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_RESEARCH"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named temple-specific dance shrine. The raised-leg form requires dedicated authenticated sculpture; reference altar used."
+        },
+        {
+          "id": "murugan",
+          "label": "Murugan",
+          "deity": "Murugan",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "MADURAI_RESEARCH"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Research places the shrine in the second courtyard; exact image and measured placement remain unverified."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "mysore_chamundeshwari": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "CHAMUNDI",
+          "title": "Sri Chamundeshwari Development Authority: About",
+          "url": "https://chamundeshwaritemple.in/about.aspx"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Mahabaleshwara",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Narayanaswamy",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Mahishasura statue",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Large monolithic Nandi",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Chamundeshwari",
+          "deity": "Chamundeshwari",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": "Deity_Chamundeshwari",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "entrance_ganesha",
+          "label": "Entrance Ganesha",
+          "deity": "Entrance Ganesha",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": "Ganesha_Shrine",
+          "placement": null,
+          "notes": "Small image on right after entering. Doorway relief is distinct from this image."
+        },
+        {
+          "id": "anjaneya",
+          "label": "Anjaneya wall image",
+          "deity": "Anjaneya wall image",
+          "form": "hanuman",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Wall-attached image on right before flagstaff; do not invent a detached temple."
+        },
+        {
+          "id": "nandi",
+          "label": "Small Nandi",
+          "deity": "Small Nandi",
+          "form": "nandi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Faces the sanctum inside; distinct from the large monolithic Nandi down the hill."
+        },
+        {
+          "id": "devi_footprints",
+          "label": "Devi footprints",
+          "deity": "Devi footprints",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Near flagstaff. Exact footprint carving is not authenticated."
+        },
+        {
+          "id": "nandini",
+          "label": "Nandini guardian",
+          "deity": "Nandini guardian",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the two named guardians at the inner entrance; not a standalone shrine."
+        },
+        {
+          "id": "kamalini",
+          "label": "Kamalini guardian",
+          "deity": "Kamalini guardian",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Companion guardian at the inner entrance; not a standalone shrine."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "kolhapur_mahalakshmi": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "KOLHAPUR",
+          "title": "Kolhapur Tourism: Mahalaxmi Temple",
+          "url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Mahalakshmi / Ambabai",
+          "deity": "Mahalakshmi / Ambabai",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": "Deity_Mahalakshmi",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "mahakali",
+          "label": "Mahakali",
+          "deity": "Mahakali",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the flanking sancta, not the main Ambabai image."
+        },
+        {
+          "id": "mahasaraswati",
+          "label": "Mahasaraswati",
+          "deity": "Mahasaraswati",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the flanking sancta."
+        },
+        {
+          "id": "garuda",
+          "label": "Garuda",
+          "deity": "Garuda",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": "Preceding_Shrine_Garuda",
+          "placement": null,
+          "notes": "Image in Garuda mandapa facing main sanctum."
+        },
+        {
+          "id": "ganesh",
+          "label": "Ganesh mandapa",
+          "deity": "Ganesh mandapa",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": "Ganesha_Shrine",
+          "placement": null,
+          "notes": "Raised stone mandapa facing the sanctum."
+        },
+        {
+          "id": "upper_shiva",
+          "label": "Upper Shiva lingam",
+          "deity": "Upper Shiva lingam",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Above the main Mahalakshmi sanctum; a separate upper worship location."
+        },
+        {
+          "id": "upper_nandi",
+          "label": "Upper Nandi",
+          "deity": "Upper Nandi",
+          "form": "nandi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Associated with the upper Shiva shrine."
+        },
+        {
+          "id": "venkatesha",
+          "label": "Venkatesha",
+          "deity": "Venkatesha",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "North-facing devakoshta image; exact form unverified."
+        },
+        {
+          "id": "katyayani",
+          "label": "Katyayani",
+          "deity": "Katyayani",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "East-facing devakoshta image."
+        },
+        {
+          "id": "gowri_shankar",
+          "label": "Gowri Shankar",
+          "deity": "Gowri Shankar",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "South-facing devakoshta image; do not substitute a Shiva lingam for an unverified paired image."
+        },
+        {
+          "id": "navagrahas",
+          "label": "Navagrahas",
+          "deity": "Navagrahas",
+          "form": "navagraha",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Courtyard shrine; relative arrangement of the nine images unverified."
+        },
+        {
+          "id": "surya",
+          "label": "Surya",
+          "deity": "Surya",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Courtyard shrine; exact image unverified."
+        },
+        {
+          "id": "mahishasuramardini",
+          "label": "Mahishasuramardini",
+          "deity": "Mahishasuramardini",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Courtyard shrine; exact image unverified."
+        },
+        {
+          "id": "vitthal_rakhmai",
+          "label": "Vitthal–Rakhmai",
+          "deity": "Vitthal–Rakhmai",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Paired courtyard worship location; preserve both identities."
+        },
+        {
+          "id": "courtyard_shiva",
+          "label": "Courtyard Shiva shrine",
+          "deity": "Courtyard Shiva shrine",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Distinct from upper Shiva shrine; precise identity and image need confirmation."
+        },
+        {
+          "id": "courtyard_vishnu",
+          "label": "Courtyard Vishnu shrine",
+          "deity": "Courtyard Vishnu shrine",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Distinct from Venkatesha devakoshta; exact pose unverified."
+        },
+        {
+          "id": "tulja_bhavani",
+          "label": "Tulja Bhavani",
+          "deity": "Tulja Bhavani",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Courtyard shrine inside this complex, not a teleport to Tuljapur town."
+        },
+        {
+          "id": "visweshwar",
+          "label": "Visweshwar Mahadev",
+          "deity": "Visweshwar Mahadev",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "By Manikarnika Kund inside the courtyard."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "tuljapur_bhavani": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "TULJA_PRIEST",
+          "title": "Tulja Bhavani Pujari: temple route and features",
+          "url": "https://tuljabhavanipujari.co/about/"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Nagzari Tirth",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Mankavati Tirth",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Bhavani Tirth",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Papnash Tirth",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Renuka",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Charmara Kund",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Surya Kund",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Bhagwati Tirth",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Khotachi Vihir",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Lingappa Vihir",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Ahilyadevi Vihir",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Jijamata Kund",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Tulja Bhavani (existing game extra)",
+          "deity": "Tulja Bhavani (existing game extra)",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "TULJA_PRIEST"
+          ],
+          "model_anchor": "Deity_Bhavani",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "siddhivinayak",
+          "label": "Siddhivinayaka",
+          "deity": "Siddhivinayaka",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "TULJA_PRIEST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "On the internal descent route beyond Gomukh Tirtha."
+        },
+        {
+          "id": "annapurna",
+          "label": "Annapurna",
+          "deity": "Annapurna",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "TULJA_PRIEST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Practitioner account explicitly places the shrine inside the complex."
+        },
+        {
+          "id": "markandeya",
+          "label": "Markandeya Rishi",
+          "deity": "Markandeya Rishi",
+          "form": "acharya",
+          "kind": "acharya",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "TULJA_PRIEST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "To the right after Sardar Nimbalkar entrance according to first-party practitioner account; exact image unverified."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "mahur_renuka": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified. Subsidiary inventory is unresolved; do not infer that no other worship locations exist.",
+      "sources": [
+        {
+          "id": "MAHUR",
+          "title": "Nanded district: Mahur Gadh",
+          "url": "https://nanded.gov.in/en/tourist-place/mahur-gadh/"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Dattatreya / Datta Shikhar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Anasuya Mata / Anasuya Shikhar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Parashurama",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Mahakali at fort",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Matru Tirtha",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Devdeveshwar",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Ganesh Tekdi",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Ekaveerika / Renuka",
+          "deity": "Ekaveerika / Renuka",
+          "form": "sacred_symbol",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "MAHUR"
+          ],
+          "model_anchor": "Deity_Renuka",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "alampur_jogulamba": {
+      "scope_note": "Jogulamba temple precinct and its resident images only. The separately described Bala Brahma prakara, Navabrahma temples and Sangameshwara are excluded.",
+      "sources": [
+        {
+          "id": "ALAMPUR_GOV",
+          "title": "Jogulamba Gadwal district: Jogulamba Devi",
+          "url": "https://gadwal.telangana.gov.in/tourist-place/jogulamba-devi/"
+        },
+        {
+          "id": "JOGULAMBA_TRUST",
+          "title": "Sri Jogulamba Bala Brahmeswara Devasthanam: Jogulamba images",
+          "url": "https://srijogulamba.com/public/index.php/about-us"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Bala Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Taraka Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Swarga Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Padma Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Garuda Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Kumara Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Arka Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Vira Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Vishwa Brahma",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Jogulamba",
+          "deity": "Jogulamba",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "ALAMPUR_GOV"
+          ],
+          "model_anchor": "Deity_Jogulamba",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "chandi",
+          "label": "Chandi",
+          "deity": "Chandi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "JOGULAMBA_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Modern image in Jogulamba temple; originals remain at the separate Bala Brahma temple."
+        },
+        {
+          "id": "mundi",
+          "label": "Mundi",
+          "deity": "Mundi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "JOGULAMBA_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Modern image in Jogulamba temple; originals remain at the separate Bala Brahma temple."
+        },
+        {
+          "id": "saptamatrika",
+          "label": "Saptamatrika group",
+          "deity": "Saptamatrika group",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "JOGULAMBA_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "The temple authority names the group inside Jogulamba; individual iconographic details are not authenticated."
+        },
+        {
+          "id": "vighneswara",
+          "label": "Vighneswara",
+          "deity": "Vighneswara",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "JOGULAMBA_TRUST"
+          ],
+          "model_anchor": "Ganesha_Shrine",
+          "placement": null,
+          "notes": "Listed by the authority inside Jogulamba, distinct from the Bala Brahma prakara inventory."
+        },
+        {
+          "id": "veenapani_veerabhadra",
+          "label": "Veenapani Veerabhadra",
+          "deity": "Veenapani Veerabhadra",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "JOGULAMBA_TRUST"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named by the authority inside Jogulamba. Exact sculpture is represented by a reference altar until authenticated."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "srisailam_bhramaramba": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "SRISAILAM_GOV",
+          "title": "APSAC: Nandyal District Survey Report, temple section",
+          "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Nandyal.pdf"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Bhramaramba–Mallikarjuna",
+          "deity": "Bhramaramba–Mallikarjuna",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": "Deity_Bhramaramba",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "mallikarjuna",
+          "label": "Mallikarjuna",
+          "deity": "Mallikarjuna",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": "Mallikarjuna_Shiva_Shrine",
+          "placement": null,
+          "notes": "Principal Shiva sanctum in the shared walled complex."
+        },
+        {
+          "id": "sahasra_linga",
+          "label": "Sahasra Linga",
+          "deity": "Sahasra Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named in primary district inventory; exact image carving and location unverified."
+        },
+        {
+          "id": "pancha_pandava_1",
+          "label": "Pancha Pandava linga 1",
+          "deity": "Pancha Pandava linga 1",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+        },
+        {
+          "id": "pancha_pandava_2",
+          "label": "Pancha Pandava linga 2",
+          "deity": "Pancha Pandava linga 2",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+        },
+        {
+          "id": "pancha_pandava_3",
+          "label": "Pancha Pandava linga 3",
+          "deity": "Pancha Pandava linga 3",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+        },
+        {
+          "id": "pancha_pandava_4",
+          "label": "Pancha Pandava linga 4",
+          "deity": "Pancha Pandava linga 4",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+        },
+        {
+          "id": "pancha_pandava_5",
+          "label": "Pancha Pandava linga 5",
+          "deity": "Pancha Pandava linga 5",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "pithapuram_puruhutika": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "PITHAPURAM_APSAC",
+          "title": "APSAC: Kakinada District Survey Report, Puruhootika/Kukkuteshwara/Dattatreya section",
+          "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Kakinada.pdf"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Puruhutika / Padagaya",
+          "deity": "Puruhutika / Padagaya",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "PITHAPURAM_APSAC"
+          ],
+          "model_anchor": "Deity_Puruhutika",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "kukkuteswara",
+          "label": "Kukkuteswara",
+          "deity": "Kukkuteswara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "PITHAPURAM_APSAC"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Shared Kukkuteswara/Puruhutika campus; not Samalkota or Draksharamam."
+        },
+        {
+          "id": "dattatreya",
+          "label": "Dattatreya",
+          "deity": "Dattatreya",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "PITHAPURAM_APSAC"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Campus Dattatreya record; do not relocate the separate Sripada Vallabha samsthanam here."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "jajpur_biraja": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "BIRAJA",
+          "title": "Biraja Mandira Trust Board: The Temple",
+          "url": "https://maabiraja.com/temple.html"
+        },
+        {
+          "id": "BIRAJA_WELL",
+          "title": "Biraja Mandira Trust Board: Nabhigaya",
+          "url": "https://maabiraja.com/navigaya.html"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Girija / Biraja",
+          "deity": "Girija / Biraja",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "BIRAJA"
+          ],
+          "model_anchor": "Deity_Biraja",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "nabhigaya",
+          "label": "Nabhigaya sacred well",
+          "deity": "Nabhigaya sacred well",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "BIRAJA_WELL"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Sacred well in this compound; not an anthropomorphic deity."
+        },
+        {
+          "id": "jupesvara",
+          "label": "Jupeshwara",
+          "deity": "Jupeshwara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "BIRAJA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named temple inside the complex."
+        },
+        {
+          "id": "isanesvara",
+          "label": "Ishaneshwara",
+          "deity": "Ishaneshwara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "BIRAJA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named temple inside the complex."
+        },
+        {
+          "id": "mrityunjayesvara",
+          "label": "Mrityunjayeshwara",
+          "deity": "Mrityunjayeshwara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "BIRAJA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named temple inside the complex."
+        },
+        {
+          "id": "bhushandesvara",
+          "label": "Bhushandeshwara",
+          "deity": "Bhushandeshwara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "BIRAJA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named temple inside the complex."
+        },
+        {
+          "id": "bagalamukhi",
+          "label": "Bagalamukhi / Vagalamukhi",
+          "deity": "Bagalamukhi / Vagalamukhi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "BIRAJA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Named temple inside the complex; exact image unverified."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "ujjain_mahakali": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "UJJAIN",
+          "title": "Ujjain district: Harsiddhi Temple",
+          "url": "https://ujjain.nic.in/en/tourist-place/harsiddhi/"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Harsiddhi / Annapurna",
+          "deity": "Harsiddhi / Annapurna",
+          "form": "devi",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "UJJAIN"
+          ],
+          "model_anchor": "Deity_Mahakali",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "mahalakshmi",
+          "label": "Mahalakshmi",
+          "deity": "Mahalakshmi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "UJJAIN"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Flanks Annapurna in the shared sanctum; not an independent courtyard building."
+        },
+        {
+          "id": "mahasaraswati",
+          "label": "Mahasaraswati",
+          "deity": "Mahasaraswati",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "UJJAIN"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Flanks Annapurna in the shared sanctum."
+        },
+        {
+          "id": "sri_yantra",
+          "label": "Sri Yantra",
+          "deity": "Sri Yantra",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "UJJAIN"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Sacred geometric form enshrined in this temple."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "prayag_madhaveswari": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "PRAYAG",
+          "title": "Prayagraj district: Places of Interest, Alopi and Lalita entries",
+          "url": "https://prayagraj.nic.in/top-attractions/"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Lalita Devi, Mirapur",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Alopi sacred cradle",
+          "deity": "Alopi sacred cradle",
+          "form": "cradle",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "PRAYAG"
+          ],
+          "model_anchor": "Deity_Madhaveswari",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "shiva_image",
+          "label": "Shiva image",
+          "deity": "Shiva image",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "PRAYAG"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "District source distinguishes the image from the Shiva lingam; exact iconography unverified."
+        },
+        {
+          "id": "shiva_lingam",
+          "label": "Shiva lingam",
+          "deity": "Shiva lingam",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "PRAYAG"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "In Alopi temple; distinct from the Shiva image."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "gaya_mangalagauri": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "sources": [
+        {
+          "id": "GAYA",
+          "title": "Bihar Tourism: Mangala Gauri",
+          "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Bhimvedi",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Mangala Gauri",
+          "deity": "Mangala Gauri",
+          "form": "sacred_symbol",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "GAYA"
+          ],
+          "model_anchor": "Deity_Mangalagauri",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "shiva",
+          "label": "Shiva shrine",
+          "deity": "Shiva shrine",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "GAYA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Government source identifies a shrine inside the complex; exact image unverified."
+        },
+        {
+          "id": "durga",
+          "label": "Durga",
+          "deity": "Durga",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "GAYA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Government source identifies shrine inside complex."
+        },
+        {
+          "id": "dakshina_kali",
+          "label": "Dakshina Kali",
+          "deity": "Dakshina Kali",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "GAYA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Government source identifies shrine inside complex."
+        },
+        {
+          "id": "mahishasuramardini",
+          "label": "Mahishasuramardini",
+          "deity": "Mahishasuramardini",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Named within the main precinct by the cited source.",
+          "source_ids": [
+            "GAYA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "A separately named shrine in the government inventory; do not collapse into the Durga record."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "pradyumna_shrinkhala": {
+      "scope_note": "Present-day Pandua monument setting. Shrinkhala is a traditional association; the exact ancient shrine is unresolved. The minaret is not identified as a surviving temple tower.",
+      "sources": [
+        {
+          "id": "STOTRAM",
+          "title": "National Sanskrit University: Eighteen Shaktipeethas (stotram on PDF pages 2-3)",
+          "url": "https://nsktu.ac.in/wp-content/uploads/2022/01/M35-Eighteen-Shaktipeethas-Prof-Korada-subrahmanyam.pdf"
+        },
+        {
+          "id": "PANDUA_ASI_MINAR",
+          "title": "ASI Kolkata Circle: Pandua Minar, photographs and plan",
+          "url": "https://asikolkata.in/monument-sites/the-minar/"
+        },
+        {
+          "id": "PANDUA_ASI_MOSQUE",
+          "title": "ASI Kolkata Circle: Bari Masjid ruins, photographs and plan",
+          "url": "https://asikolkata.in/monument-sites/the-mosque/"
+        }
+      ],
+      "excluded": [],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Shrinkhala — traditional Pandua association",
+          "deity": "Shrinkhala tradition; no verified surviving shrine",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Traditional association, not an archaeologically authenticated surviving sanctum.",
+          "source_ids": [
+            "PANDUA_ASI_MINAR",
+            "PANDUA_ASI_MOSQUE"
+          ],
+          "model_anchor": "Pandua_Interpretation_Point",
+          "placement": null,
+          "notes": "Interpretation viewpoint. No original murti or functioning temple is reconstructed."
+        },
+        {
+          "id": "pandua_minar",
+          "label": "Pandua Minar — protected monument",
+          "deity": "Historic minaret; not a deity shrine",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "ASI identifies a brick-built minar with four diminishing stages and restored upper portion.",
+          "source_ids": [
+            "PANDUA_ASI_MINAR"
+          ],
+          "model_anchor": "Pandua_Minar",
+          "placement": null,
+          "notes": "ASI records 127 feet height and several possible historical purposes. The scene has no accessible internal spiral stair."
+        },
+        {
+          "id": "bari_masjid",
+          "label": "Bari Masjid — roofless remains",
+          "deity": "Historic mosque remains; not a Shakti shrine",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "ASI documents the surviving mosque, lost domes, pillars and east-facing arcade.",
+          "source_ids": [
+            "PANDUA_ASI_MOSQUE"
+          ],
+          "model_anchor": "BariMasjid_Ruins",
+          "placement": null,
+          "notes": "Architecture study from ASI photos and site plan. Exact broken edges, reused carvings and inscriptions remain unrecorded."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "lanka_shankari": {
+      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified. Subsidiary inventory is unresolved; do not infer that no other worship locations exist.",
+      "sources": [
+        {
+          "id": "LANKA",
+          "title": "Sri Lanka Tourism Development Authority: Ramayanaya Yathra, Thiru Koneswaram",
+          "url": "https://www.sltda.gov.lk/storage/common_media/ramayanaya-yathra%20E%20Brochure4096755957.pdf?8RYya0=5M5zV"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Mathumai Ambal",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Bhadrakali",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Ganesha",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Vishnu Thirumal",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Surya",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Ravana",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Murugan",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Durga",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Agastya",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Navagrahas",
+          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        }
+      ],
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Shankari tradition — current Devi identity unresolved",
+          "deity": "Shankari tradition — current Devi identity unresolved",
+          "form": "unknown",
+          "kind": "main",
+          "evidence": "Main sacred destination documented by the cited source.",
+          "source_ids": [
+            "LANKA"
+          ],
+          "model_anchor": "Deity_Shankari",
+          "placement": null,
+          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+        },
+        {
+          "id": "koneswaram",
+          "label": "Koneswaram Shiva sanctum",
+          "deity": "Koneswaram Shiva sanctum",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "source_ids": [
+            "LANKA"
+          ],
+          "model_anchor": null,
+          "placement": null,
+          "notes": "Present Koneswaram Shiva worship is documented. Ancient Shankari identity and historical layout remain separate and unresolved."
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+    },
+    "draksharama_manikyamba": {
+      "scope_note": "Bhimeswara–Manikyamba main temple compound only. Double enclosure, upper sanctum and documented associated shrines; this is a schematic present-day study, not a measured plan.",
+      "sources": [
+        {
+          "id": "DRAKSHARAMA",
+          "title": "APSRTC: Draksharamam",
+          "url": "https://apsrtc.ap.gov.in/fp_draksharamam.php"
+        }
+      ],
+      "excluded": [],
+      "inventory_status": "Documented subset; exact murti and complete inventory remain under review.",
+      "shrines": [
+        {
+          "id": "main",
+          "label": "Manikyamba Devi",
+          "deity": "Manikyamba",
+          "form": "unknown",
+          "kind": "main",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "model_anchor": "Manikyamba_Main_Reference",
+          "placement": null,
+          "notes": "A distinct Devi shrine is documented. Installed murti iconography is not authenticated; reference location must not be mistaken for a verified sculpture."
+        },
+        {
+          "id": "bhimeswara",
+          "label": "Bhimeswara Shiva Linga",
+          "deity": "Bhimeswara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "model_anchor": "Bhimeswara_Linga",
+          "placement": null,
+          "notes": "Tall linga within the two-level sanctum; modelling dimensions are approximate."
+        },
+        {
+          "id": "lakshmi_narayana",
+          "label": "Lakshmi Narayana",
+          "deity": "Lakshmi Narayana",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "model_anchor": "",
+          "placement": null,
+          "notes": "Documented in the main complex; exact sculpture and placement remain unverified."
+        },
+        {
+          "id": "sankaranarayana",
+          "label": "Sankaranarayana",
+          "deity": "Sankaranarayana",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "model_anchor": "",
+          "placement": null,
+          "notes": "Composite Shiva–Vishnu tradition; exact installed iconography unverified."
+        },
+        {
+          "id": "ganapati",
+          "label": "Ganapati",
+          "deity": "Ganapati",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "model_anchor": "",
+          "placement": null,
+          "notes": ""
+        },
+        {
+          "id": "navagrahas",
+          "label": "Navagrahas",
+          "deity": "Nine planetary deities",
+          "form": "navagraha",
+          "kind": "subsidiary",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "model_anchor": "",
+          "placement": null,
+          "notes": ""
+        }
+      ]
+    },
+    "jwalamukhi_vaishnavi": {
+      "scope_note": "Main temple courtyard and shared flame sanctum only. The nine flame identities are not nine detached temples. Positions and subsidiary building forms are schematic.",
+      "sources": [
+        {
+          "id": "JWALA",
+          "title": "Kangra temples authority: Shri Jawala Mata",
+          "url": "https://kangratemples.hp.gov.in/shri-jawala-mata-mandir/"
+        },
+        {
+          "id": "JWALA_CONTEXT",
+          "title": "Jwalamukhi complex contextual inventory",
+          "url": "https://devadarshanam.com/temple/jwalamukhi"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Tara Devi, Teda/Raghunath and other surrounding temples",
+          "reason": "Outside strict main-compound scope."
+        }
+      ],
+      "inventory_status": "Documented flame identities; associated building placement needs survey.",
+      "shrines": [
+        {
+          "id": "mahakali",
+          "label": "Mahakali Flame",
+          "deity": "Mahakali",
+          "form": "flame",
+          "kind": "main",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Mahakali",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "annapurna",
+          "label": "Annapurna Flame",
+          "deity": "Annapurna",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Annapurna",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "chandi",
+          "label": "Chandi Flame",
+          "deity": "Chandi",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Chandi",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "hinglaj",
+          "label": "Hinglaj Flame",
+          "deity": "Hinglaj",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Hinglaj",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "vindhyavasini",
+          "label": "Vindhyavasini Flame",
+          "deity": "Vindhyavasini",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Vindhyavasini",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "mahalakshmi",
+          "label": "Mahalakshmi Flame",
+          "deity": "Mahalakshmi",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Mahalakshmi",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "saraswati",
+          "label": "Saraswati Flame",
+          "deity": "Saraswati",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Saraswati",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "ambika",
+          "label": "Ambika Flame",
+          "deity": "Ambika",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Ambika",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "anjana",
+          "label": "Anjana Flame",
+          "deity": "Anjana",
+          "form": "flame",
+          "kind": "shared_sanctum",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA"
+          ],
+          "model_anchor": "SacredFlame_Anjana",
+          "placement": null,
+          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+        },
+        {
+          "id": "gorakh_dibbi",
+          "label": "Gorakh Dibbi",
+          "deity": "Gorakh Dibbi",
+          "form": "sacred_symbol",
+          "kind": "associated_feature",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA_CONTEXT"
+          ],
+          "model_anchor": "Gorakh_Dibbi_Reference",
+          "placement": null,
+          "notes": "Associated in-complex feature; object appearance and position remain interpretive."
+        },
+        {
+          "id": "shaiya_bhawan",
+          "label": "Shaiya Bhawan",
+          "deity": "Devi resting-place tradition",
+          "form": "unknown",
+          "kind": "associated_feature",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA_CONTEXT"
+          ],
+          "model_anchor": "Shaiya_Bhawan_Reference",
+          "placement": null,
+          "notes": "Associated resting-place building, not a new independent goddess idol."
+        },
+        {
+          "id": "akbar_chhatra",
+          "label": "Akbar Chhatra",
+          "deity": "Historical offering tradition",
+          "form": "sacred_symbol",
+          "kind": "historical_feature",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "JWALA_CONTEXT"
+          ],
+          "model_anchor": "Akbar_Chhatra_Reference",
+          "placement": null,
+          "notes": "Associated canopy offering; the simplified reference object is not an authenticated artefact replica."
+        }
+      ]
+    },
+    "kashmir_sharada": {
+      "scope_note": "Surviving historic Sharada Peeth enclosure and roofless sanctuary only. No original figurative idol is asserted. This is separate from modern Teetwal and Sringeri temples.",
+      "sources": [
+        {
+          "id": "SHARADA_DOAM",
+          "title": "Department of Archaeology and Museums: Sharda Temple",
+          "url": "https://doam.gov.pk/public/sites/6633"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Teetwal Sharada temple",
+          "reason": "Separate modern worship site, not the Neelum Valley ruins."
+        },
+        {
+          "name": "Invented lost subsidiary shrines",
+          "reason": "No securely documented inventory or plan available."
+        }
+      ],
+      "inventory_status": "Surviving architectural features only; ancient ritual inventory unresolved.",
+      "shrines": [
+        {
+          "id": "sanctuary",
+          "label": "Sharada Peeth — Roofless Sanctuary",
+          "deity": "Sharada / Saraswati tradition",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "Documented site identity; model details and positions are schematic.",
+          "source_ids": [
+            "SHARADA_DOAM"
+          ],
+          "model_anchor": "Sanctuary_Ruins",
+          "placement": null,
+          "notes": "Historic ruined sanctuary. No verified surviving original murti is represented. Sacred tradition associates Sharada with learning and Shankaracharya’s Sarvajna Peetha; that tradition does not establish the lost sculpture."
+        }
+      ]
+    }
+  }
+}

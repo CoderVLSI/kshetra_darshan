@@ -1,0 +1,33 @@
+{
+  "id": "madurai_meenakshi",
+  "name_sanskrit": "मदुरै मीनाक्षी सुन्दरेश्वर",
+  "name_english": "Madurai Meenakshi Sundareswarar Temple",
+  "location": {
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 9.9195,
+    "lng": 78.1193
+  },
+  "style": "Pandyan-Nayaka Dravidian architecture",
+  "key_structures": [
+    "Meenakshi Amman Shrine & Sundareswarar Shrine",
+    "14 majestic Gopurams (tallest southern gopuram at 52 meters)",
+    "Ayiram Kaal Mandapam (Hall of 1000 Pillars)",
+    "Potramarai Kulam (Golden Lotus Pond)",
+    "Kalyana Mandapam (Celestial Wedding Hall)"
+  ],
+  "special_features": [
+    "Enchanting emerald-hued green stone murti of Meenakshi holding a lotus and companion parrot",
+    "Musical pillars carved from single granite stones producing distinct swaras",
+    "Astounding ceiling frescoes depicting 64 divine leelas of Lord Shiva"
+  ],
+  "materials": [
+    "Dense granite stonework",
+    "Fine stucco and lime plaster for thousands of gopuram sculptures",
+    "Teak timber beams",
+    "Gilded gold kalashas"
+  ],
+  "period": "6th–17th Century CE",
+  "renovation_history": "Pandyas established the ancient shrine; after 14th-century disruptions, magnificently rebuilt and expanded to present cosmic layout by Nayaka dynasty rulers, especially Thirumalai Nayak."
+}

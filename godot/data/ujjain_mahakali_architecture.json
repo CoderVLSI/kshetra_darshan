@@ -1,0 +1,33 @@
+{
+  "id": "ujjain_mahakali",
+  "name_sanskrit": "उज्जयिनी महाकाली",
+  "name_english": "Harasiddhi / Mahakali Temple",
+  "location": {
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 23.1824,
+    "lng": 75.7681
+  },
+  "style": "Malwa-Maratha Nagara temple style",
+  "key_structures": [
+    "Main Garbhagriha housing idols of Mahalaxmi, Harasiddhi (Mahakali), and Mahasaraswati",
+    "Two towering 50-foot Deepastambhas with 1000+ oil lamp brackets",
+    "Rudrasagar Lake embankment",
+    "Ancient Yantra Sanctum",
+    "Sabhamandapa with ornate woodwork"
+  ],
+  "special_features": [
+    "Spectacular illumination of the colossal Deepastambhas during evening aarti and Navaratri",
+    "Dark vermillion-smeared sacred murti seated amidst Mahasaraswati and Mahalakshmi",
+    "Revered seat where legendary King Vikramaditya performed severe austerities and offered his head"
+  ],
+  "materials": [
+    "Red sandstone blocks",
+    "Basalt Deepastambha masonry",
+    "Timber ceiling beams",
+    "Brass ornamental fittings"
+  ],
+  "period": "Ancient, reconstructed 18th Century CE",
+  "renovation_history": "Ancient shrine celebrated by Kalidasa; ruined in medieval invasions; fully restored with monumental lamp towers during Maratha Peshwa and Scindia era."
+}

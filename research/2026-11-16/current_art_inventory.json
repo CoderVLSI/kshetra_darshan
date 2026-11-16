@@ -1,0 +1,1469 @@
+{
+  "items": [
+    {
+      "artwork_status": "Reference location — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "main",
+      "label": "Manikyamba Devi",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "DRAKSHARAMA"
+      ],
+      "temple_id": "draksharama_manikyamba"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "linga",
+      "id": "bhimeswara",
+      "label": "Bhimeswara Shiva Linga",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "DRAKSHARAMA"
+      ],
+      "temple_id": "draksharama_manikyamba"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "vishnu",
+      "id": "lakshmi_narayana",
+      "label": "Lakshmi Narayana",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "DRAKSHARAMA"
+      ],
+      "temple_id": "draksharama_manikyamba"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "sankaranarayana",
+      "label": "Sankaranarayana",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "DRAKSHARAMA"
+      ],
+      "temple_id": "draksharama_manikyamba"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "ganesha",
+      "id": "ganapati",
+      "label": "Ganapati",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "DRAKSHARAMA"
+      ],
+      "temple_id": "draksharama_manikyamba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "navagraha",
+      "id": "navagrahas",
+      "label": "Navagrahas",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "DRAKSHARAMA"
+      ],
+      "temple_id": "draksharama_manikyamba"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "mahakali",
+      "label": "Mahakali Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "annapurna",
+      "label": "Annapurna Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "chandi",
+      "label": "Chandi Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "hinglaj",
+      "label": "Hinglaj Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "vindhyavasini",
+      "label": "Vindhyavasini Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "mahalakshmi",
+      "label": "Mahalakshmi Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "saraswati",
+      "label": "Saraswati Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "ambika",
+      "label": "Ambika Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "flame",
+      "id": "anjana",
+      "label": "Anjana Flame",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Reference location — installed image not reconstructed.",
+      "form": "sacred_symbol",
+      "id": "gorakh_dibbi",
+      "label": "Gorakh Dibbi",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA_CONTEXT"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Reference location — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "shaiya_bhawan",
+      "label": "Shaiya Bhawan",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA_CONTEXT"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Reference location — installed image not reconstructed.",
+      "form": "sacred_symbol",
+      "id": "akbar_chhatra",
+      "label": "Akbar Chhatra",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JWALA_CONTEXT"
+      ],
+      "temple_id": "jwalamukhi_vaishnavi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "sanctuary",
+      "label": "Sharada Peeth — Roofless Sanctuary",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "SHARADA_DOAM"
+      ],
+      "temple_id": "kashmir_sharada"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "sacred_symbol",
+      "id": "main",
+      "label": "Kamakhya / Sodasi sacred Peetha",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KAMAKHYA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Stylised shrine and sacred-form study; exact sculpture and placement are not surveyed.",
+      "form": "sacred_symbol",
+      "id": "matangi",
+      "label": "Matangi Peetha",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KAMAKHYA_IIT"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Stylised shrine and sacred-form study; exact sculpture and placement are not surveyed.",
+      "form": "sacred_symbol",
+      "id": "kamala",
+      "label": "Kamala Peetha",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KAMAKHYA_IIT"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "kameshwari",
+      "label": "Kameshwari — Chalanta processional image",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "kameshwara",
+      "label": "Kameshwara — Chalanta processional worship",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "batuk_bhairava",
+      "label": "Batuk Bhairava — Chalanta",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "ganesha",
+      "id": "ganesha",
+      "label": "Ganesh — entrance worship",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KAMAKHYA_FIELD_2011"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "chamunda",
+      "label": "Chamunda — Pancharatna",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "sacred_symbol",
+      "id": "manasa",
+      "label": "Manasa altar — Pancharatna",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "durga_natmandir",
+      "label": "Durga — Natmandir entrance image",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "shiva_natmandir",
+      "label": "Shiva — Natmandir entrance image",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ],
+      "temple_id": "kamakhya"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Kalighat Kali (existing game extra)",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KALIGHAT"
+      ],
+      "temple_id": "kalighat"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "sacred_symbol",
+      "id": "sosthi_tala",
+      "label": "Sosthi Tala — Sosthi, Shitala, Mangal Chandi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KALIGHAT"
+      ],
+      "temple_id": "kalighat"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "radha_krishna",
+      "label": "Radha–Krishna",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KALIGHAT"
+      ],
+      "temple_id": "kalighat"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "sacred_symbol",
+      "id": "brahmananda_giri",
+      "label": "Brahmananda Giri resting place",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KALIGHAT"
+      ],
+      "temple_id": "kalighat"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Vishalakshi",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KASHI"
+      ],
+      "temple_id": "kashi_vishalakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga_nandi",
+      "id": "shiva_nandi_1",
+      "label": "Pradakshina Shiva–Nandi 1",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ],
+      "temple_id": "kashi_vishalakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga_nandi",
+      "id": "shiva_nandi_2",
+      "label": "Pradakshina Shiva–Nandi 2",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ],
+      "temple_id": "kashi_vishalakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga_nandi",
+      "id": "shiva_nandi_3",
+      "label": "Pradakshina Shiva–Nandi 3",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ],
+      "temple_id": "kashi_vishalakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "kala_bhairava",
+      "label": "Kala Bhairava — mandapa",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ],
+      "temple_id": "kashi_vishalakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "navagraha",
+      "id": "navagraha",
+      "label": "Navagraha group",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ],
+      "temple_id": "kashi_vishalakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Kamakshi Amman",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "devi",
+      "id": "varahi",
+      "label": "Varahi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "arupa_lakshmi",
+      "label": "Arupa Lakshmi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "ganesha",
+      "id": "ganapati",
+      "label": "Ganapati",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "vishnu",
+      "id": "kalvar_perumal",
+      "label": "Kalvar Perumal (Vishnu)",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "ayyappan",
+      "label": "Ayyappan / Sasta",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "devi",
+      "id": "saraswati",
+      "label": "Saraswati",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "devi",
+      "id": "annapoorani",
+      "label": "Annapoorani",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "acharya",
+      "id": "adi_shankara",
+      "label": "Adi Shankaracharya",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "kala_bhairava",
+      "label": "Kala Bhairavar",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "mahishasuramardini",
+      "label": "Mahishasura Mardhini",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "kashi_viswanathar",
+      "label": "Kashi Viswanathar",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ],
+      "temple_id": "kanchipuram_kamakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Meenakshi–Sundareswarar (existing game extra)",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "MADURAI"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "sundareswarar",
+      "label": "Sundareswarar",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "ganesha",
+      "id": "mukkuruni_vinayagar",
+      "label": "Mukkuruni Vinayagar",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "MADURAI_PLAN"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "sevvanthiswarar",
+      "label": "Sevvantheeswarar",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "kasi_viswanathar",
+      "label": "Kasi Viswanathar",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "kalyanasundarar",
+      "label": "Kalyanasundarar",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga_group",
+      "id": "ekadasa_linga",
+      "label": "Ekadasa Linga group",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "sangathar",
+      "label": "Sangathar shrine",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "nataraja",
+      "label": "Nataraja — Silver Sabha",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_RESEARCH"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "unknown",
+      "id": "murugan",
+      "label": "Murugan",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "MADURAI_RESEARCH"
+      ],
+      "temple_id": "madurai_meenakshi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Chamundeshwari",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "ganesha",
+      "id": "entrance_ganesha",
+      "label": "Entrance Ganesha",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "hanuman",
+      "id": "anjaneya",
+      "label": "Anjaneya wall image",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "nandi",
+      "id": "nandi",
+      "label": "Small Nandi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "sacred_symbol",
+      "id": "devi_footprints",
+      "label": "Devi footprints",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "nandini",
+      "label": "Nandini guardian",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "kamalini",
+      "label": "Kamalini guardian",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "temple_id": "mysore_chamundeshwari"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Mahalakshmi / Ambabai",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "mahakali",
+      "label": "Mahakali",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "devi",
+      "id": "mahasaraswati",
+      "label": "Mahasaraswati",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "garuda",
+      "label": "Garuda",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "ganesha",
+      "id": "ganesh",
+      "label": "Ganesh mandapa",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "upper_shiva",
+      "label": "Upper Shiva lingam",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "nandi",
+      "id": "upper_nandi",
+      "label": "Upper Nandi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "vishnu",
+      "id": "venkatesha",
+      "label": "Venkatesha",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "katyayani",
+      "label": "Katyayani",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "gowri_shankar",
+      "label": "Gowri Shankar",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "navagraha",
+      "id": "navagrahas",
+      "label": "Navagrahas",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "unknown",
+      "id": "surya",
+      "label": "Surya",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "mahishasuramardini",
+      "label": "Mahishasuramardini",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "vitthal_rakhmai",
+      "label": "Vitthal–Rakhmai",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "courtyard_shiva",
+      "label": "Courtyard Shiva shrine",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "vishnu",
+      "id": "courtyard_vishnu",
+      "label": "Courtyard Vishnu shrine",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "tulja_bhavani",
+      "label": "Tulja Bhavani",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "visweshwar",
+      "label": "Visweshwar Mahadev",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "temple_id": "kolhapur_mahalakshmi"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Tulja Bhavani (existing game extra)",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ],
+      "temple_id": "tuljapur_bhavani"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "ganesha",
+      "id": "siddhivinayak",
+      "label": "Siddhivinayaka",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ],
+      "temple_id": "tuljapur_bhavani"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "devi",
+      "id": "annapurna",
+      "label": "Annapurna",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ],
+      "temple_id": "tuljapur_bhavani"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "acharya",
+      "id": "markandeya",
+      "label": "Markandeya Rishi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ],
+      "temple_id": "tuljapur_bhavani"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "sacred_symbol",
+      "id": "main",
+      "label": "Ekaveerika / Renuka",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "MAHUR"
+      ],
+      "temple_id": "mahur_renuka"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Jogulamba",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "ALAMPUR_GOV"
+      ],
+      "temple_id": "alampur_jogulamba"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "chandi",
+      "label": "Chandi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ],
+      "temple_id": "alampur_jogulamba"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "mundi",
+      "label": "Mundi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ],
+      "temple_id": "alampur_jogulamba"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "saptamatrika",
+      "label": "Saptamatrika group",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ],
+      "temple_id": "alampur_jogulamba"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "ganesha",
+      "id": "vighneswara",
+      "label": "Vighneswara",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ],
+      "temple_id": "alampur_jogulamba"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "veenapani_veerabhadra",
+      "label": "Veenapani Veerabhadra",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ],
+      "temple_id": "alampur_jogulamba"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Bhramaramba–Mallikarjuna",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "linga",
+      "id": "mallikarjuna",
+      "label": "Mallikarjuna",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "sahasra_linga",
+      "label": "Sahasra Linga",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "pancha_pandava_1",
+      "label": "Pancha Pandava linga 1",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "pancha_pandava_2",
+      "label": "Pancha Pandava linga 2",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "pancha_pandava_3",
+      "label": "Pancha Pandava linga 3",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "pancha_pandava_4",
+      "label": "Pancha Pandava linga 4",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "pancha_pandava_5",
+      "label": "Pancha Pandava linga 5",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ],
+      "temple_id": "srisailam_bhramaramba"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Puruhutika / Padagaya",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "PITHAPURAM_APSAC"
+      ],
+      "temple_id": "pithapuram_puruhutika"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "kukkuteswara",
+      "label": "Kukkuteswara",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "PITHAPURAM_APSAC"
+      ],
+      "temple_id": "pithapuram_puruhutika"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "unknown",
+      "id": "dattatreya",
+      "label": "Dattatreya",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "PITHAPURAM_APSAC"
+      ],
+      "temple_id": "pithapuram_puruhutika"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Girija / Biraja",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "BIRAJA"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "sacred_symbol",
+      "id": "nabhigaya",
+      "label": "Nabhigaya sacred well",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "BIRAJA_WELL"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "jupesvara",
+      "label": "Jupeshwara",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "BIRAJA"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "isanesvara",
+      "label": "Ishaneshwara",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "BIRAJA"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "mrityunjayesvara",
+      "label": "Mrityunjayeshwara",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "BIRAJA"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "bhushandesvara",
+      "label": "Bhushandeshwara",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "BIRAJA"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "bagalamukhi",
+      "label": "Bagalamukhi / Vagalamukhi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "BIRAJA"
+      ],
+      "temple_id": "jajpur_biraja"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "devi",
+      "id": "main",
+      "label": "Harsiddhi / Annapurna",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "UJJAIN"
+      ],
+      "temple_id": "ujjain_mahakali"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "mahalakshmi",
+      "label": "Mahalakshmi",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "UJJAIN"
+      ],
+      "temple_id": "ujjain_mahakali"
+    },
+    {
+      "artwork_status": "Original sacred-form study; installed image not photo-matched.",
+      "form": "devi",
+      "id": "mahasaraswati",
+      "label": "Mahasaraswati",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "UJJAIN"
+      ],
+      "temple_id": "ujjain_mahakali"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "sacred_symbol",
+      "id": "sri_yantra",
+      "label": "Sri Yantra",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "UJJAIN"
+      ],
+      "temple_id": "ujjain_mahakali"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "cradle",
+      "id": "main",
+      "label": "Alopi sacred cradle",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "PRAYAG"
+      ],
+      "temple_id": "prayag_madhaveswari"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "shiva",
+      "id": "shiva_image",
+      "label": "Shiva image",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "PRAYAG"
+      ],
+      "temple_id": "prayag_madhaveswari"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "shiva_lingam",
+      "label": "Shiva lingam",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "PRAYAG"
+      ],
+      "temple_id": "prayag_madhaveswari"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "sacred_symbol",
+      "id": "main",
+      "label": "Mangala Gauri",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "GAYA"
+      ],
+      "temple_id": "gaya_mangalagauri"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "shiva",
+      "label": "Shiva shrine",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "GAYA"
+      ],
+      "temple_id": "gaya_mangalagauri"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "durga",
+      "label": "Durga",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "GAYA"
+      ],
+      "temple_id": "gaya_mangalagauri"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "dakshina_kali",
+      "label": "Dakshina Kali",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "GAYA"
+      ],
+      "temple_id": "gaya_mangalagauri"
+    },
+    {
+      "artwork_status": "Reference altar — installed image not reconstructed.",
+      "form": "devi",
+      "id": "mahishasuramardini",
+      "label": "Mahishasuramardini",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "GAYA"
+      ],
+      "temple_id": "gaya_mangalagauri"
+    },
+    {
+      "artwork_status": "Present-day monument study; dimensions and surviving details remain approximate.",
+      "form": "unknown",
+      "id": "main",
+      "label": "Shrinkhala — traditional Pandua association",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "PANDUA_ASI_MINAR",
+        "PANDUA_ASI_MOSQUE"
+      ],
+      "temple_id": "pradyumna_shrinkhala"
+    },
+    {
+      "artwork_status": "Present-day monument study; dimensions and surviving details remain approximate.",
+      "form": "unknown",
+      "id": "pandua_minar",
+      "label": "Pandua Minar — protected monument",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "PANDUA_ASI_MINAR"
+      ],
+      "temple_id": "pradyumna_shrinkhala"
+    },
+    {
+      "artwork_status": "Present-day monument study; dimensions and surviving details remain approximate.",
+      "form": "unknown",
+      "id": "bari_masjid",
+      "label": "Bari Masjid — roofless remains",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "PANDUA_ASI_MOSQUE"
+      ],
+      "temple_id": "pradyumna_shrinkhala"
+    },
+    {
+      "artwork_status": "Existing model; detailed iconography remains subject to reference review.",
+      "form": "unknown",
+      "id": "main",
+      "label": "Shankari tradition — current Devi identity unresolved",
+      "placement_status": "existing_model_anchor",
+      "source_ids": [
+        "LANKA"
+      ],
+      "temple_id": "lanka_shankari"
+    },
+    {
+      "artwork_status": "Stylised sacred-form study; installed sculpture and placement not surveyed.",
+      "form": "linga",
+      "id": "koneswaram",
+      "label": "Koneswaram Shiva sanctum",
+      "placement_status": "schematic_position",
+      "source_ids": [
+        "LANKA"
+      ],
+      "temple_id": "lanka_shankari"
+    }
+  ],
+  "scope": "Actual runtime artwork disclosures; an existing anchor is not proof of authentic artwork."
+}

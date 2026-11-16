@@ -1,0 +1,587 @@
+{
+  "lanka_shankari": {
+    "name": "Shankari / Koneswaram",
+    "stotram_order": 1,
+    "architecture": "The present Dravidian Koneswaram complex stands on a narrow sea cliff. Its modern buildings are distinct from the ancient temple destroyed in the Portuguese period; the lost original Shankari footprint remains unresolved.",
+    "deity_form": "Current Devi identity needs confirmation",
+    "posture": "Not established",
+    "arms": "Not established",
+    "attributes": "Not established",
+    "deity_notes": "Do not invent an exact ancient Shankari murti from a generic Parvati image. Present Mathumai Amman and the lost historical Shankari shrine require explicit identification.",
+    "uncertainties": "No authenticated main-murti photo selected; current temple and historical reconstruction remain separate.",
+    "reconstruction": true,
+    "sources": [
+      {
+        "title": "Sri Lanka Tourism Development Authority: Ramayanaya Yathra, Thiru Koneswaram",
+        "url": "https://www.sltda.gov.lk/storage/common_media/ramayanaya-yathra%20E%20Brochure4096755957.pdf?8RYya0=5M5zV"
+      },
+      {
+        "title": "National Sanskrit University: Eighteen Shaktipeethas (stotram on PDF pages 2-3)",
+        "url": "https://nsktu.ac.in/wp-content/uploads/2022/01/M35-Eighteen-Shaktipeethas-Prof-Korada-subrahmanyam.pdf"
+      },
+      {
+        "title": "Koneswaram: deity and processional-route inventory",
+        "url": "https://templesofindia.org/temple-view/shri-shankari-shaktipeeth-koneswaram-temple-trincomalee-trincomalee-eastern-province-124vjh"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "kanchipuram_kamakshi": {
+    "name": "Kamakshi Amman",
+    "stotram_order": 2,
+    "architecture": "Dravidian enclosed complex, gateway towers, pushkarini and golden sanctum roof. Gayatri Mandapa has 24 pillars; the principal Kamakshi is seated, with Sri Chakra in front.",
+    "deity_form": "Anthropomorphic main murti",
+    "posture": "Seated in padmasana",
+    "arms": "Four, documented",
+    "attributes": "Sugarcane bow; lotus/parrot; pasha and ankusha. Published accounts vary on hand assignment.",
+    "deity_notes": "Do not use a standing four-armed generic Devi. Label processional images separately from the seated main murti.",
+    "uncertainties": "Exact finger/hand geometry must be checked against an authenticated main-murti view. The official page image inspected was an exterior, so it was not substituted for a murti portrait.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Kamakshi temple authority: posture, attributes and sannadhis",
+        "url": "https://kanchikamakshi.org/about/"
+      },
+      {
+        "title": "Incredible India: padmasana and four attributes",
+        "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/kanchipuram/sri-kamakshi-temple.html"
+      },
+      {
+        "title": "CEC / Jamia Millia Islamia: Kamakshi Temple architecture teaching script",
+        "url": "https://cec.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "pradyumna_shrinkhala": {
+    "name": "Shrinkhala at Pradyumna (traditional identification)",
+    "stotram_order": 3,
+    "architecture": "Present-day Pandua Minar and roofless Bari Masjid, based on ASI photographs and a published site plan. The precise ancient Shrinkhala shrine remains unresolved. The model dimensions, spacing and damage are approximate.",
+    "deity_form": "No verified surviving original Shrinkhala image is supplied.",
+    "posture": "Not established",
+    "arms": "Not established",
+    "attributes": "Not established",
+    "deity_notes": "No verified surviving original murti established. Do not present modern devotional artwork as a documented ancient original.",
+    "uncertainties": "The traditional Pradyumna/Pandua association does not authenticate the minaret as temple fabric. No daily worship or exact ancient temple footprint is asserted. Reused carvings and any inscriptions require object-level documentation.",
+    "reconstruction": true,
+    "sources": [
+      {
+        "id": "PANDUA_ASI_MINAR",
+        "title": "ASI Kolkata Circle: Pandua Minar, photographs and plan",
+        "url": "https://asikolkata.in/monument-sites/the-minar/"
+      },
+      {
+        "id": "PANDUA_ASI_MOSQUE",
+        "title": "ASI Kolkata Circle: Bari Masjid ruins, photographs and plan",
+        "url": "https://asikolkata.in/monument-sites/the-mosque/"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "mysore_chamundeshwari": {
+    "name": "Chamundeshwari",
+    "stotram_order": 4,
+    "architecture": "Compact quadrangular Dravidian enclosure: main gateway, Navaranga, antarala and sanctum. Entrance gopura has seven tiers and seven golden kalashas; sanctum vimana is smaller.",
+    "deity_form": "Main murti, distinct from Dasara processional image",
+    "posture": "Temple-specific pose needs visual confirmation",
+    "arms": "Eight reported; conflicting eighteen-arm online claim is unverified",
+    "attributes": "Exact temple-specific weapons and hand mapping unverified",
+    "deity_notes": "Do not copy a generic eighteen-armed Durga or the Dasara utsava murti as the permanent main image.",
+    "uncertainties": "Main-image arm count and underlying form require authority-approved visual confirmation.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Eight-arm report (secondary; not final sculptural authority)",
+        "url": "https://en.wikipedia.org/wiki/Chamundeshwari_Temple"
+      },
+      {
+        "title": "Conflicting eighteen-arm description (do not adopt without corroboration)",
+        "url": "https://www.srichamundeshwaridevi.in/about"
+      },
+      {
+        "title": "Separate Dasara utsava murti held by Palace Board",
+        "url": "https://starofmysore.com/dasara-utsava-murthy-of-chamundeshwari-handed-over-to-temple-authority/"
+      },
+      {
+        "title": "Sri Chamundeshwari Development Authority: About",
+        "url": "https://chamundeshwaritemple.in/about.aspx"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "alampur_jogulamba": {
+    "name": "Jogulamba",
+    "stotram_order": 5,
+    "architecture": "Present Jogulamba is a rebuilt shrine (2005), with a sculpted gateway and its own compound. Nearby ancient Navabrahma Shiva temples exhibit Badami Chalukyan forms; they are not interchangeable with the modern Devi temple.",
+    "deity_form": "Fierce anthropomorphic form",
+    "posture": "Seated on a corpse, documented",
+    "arms": "Not established by the district source",
+    "attributes": "Tongue extended; scorpion, frog and lizard on the head, as described by district government",
+    "deity_notes": "Do not substitute a peaceful generic seated Devi or add a lion throne. Do not replace the district source's frog with a skull merely because another account differs.",
+    "uncertainties": "Arm count, hand attributes and exact current ornaments remain unverified.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Jogulamba Gadwal district: corpse seat and head fauna",
+        "url": "https://gadwal.telangana.gov.in/tourist-place/jogulamba-devi/"
+      },
+      {
+        "title": "Jogulamba Gadwal district: Places of Interest",
+        "url": "https://gadwal.telangana.gov.in/places-of-interest/"
+      },
+      {
+        "title": "Jogulamba Temple, Alampur",
+        "url": "https://en.wikipedia.org/wiki/Jogulamba_Temple%2C_Alampur"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "srisailam_bhramaramba": {
+    "name": "Bhramaramba–Mallikarjuna",
+    "stotram_order": 6,
+    "architecture": "A shared Shiva–Shakti complex with enclosure walls, gateway towers and connected pillared spaces. Bhramaramba and Mallikarjuna are distinct principal sanctuaries within the ensemble.",
+    "deity_form": "Stone main image with alankara/kavacha",
+    "posture": "Needs main-image confirmation",
+    "arms": "Eight reported in secondary accounts",
+    "attributes": "Exact hand-held objects not verified",
+    "deity_notes": "Do not infer the original anatomy from a heavily decorated festival portrait. Keep gold covering separate from the stone form.",
+    "uncertainties": "Eight-arm detail is provisional pending temple-authority confirmation.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Eight arms and Sri Yantra (secondary account)",
+        "url": "https://temple.yatradham.org/temple/bhramaramba-ammavari-temple"
+      },
+      {
+        "title": "Srisailam Devasthanam",
+        "url": "https://www.srisailadevasthanam.org/en-in/home"
+      },
+      {
+        "title": "APSAC: Nandyal District Survey Report, temple section",
+        "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Nandyal.pdf"
+      },
+      {
+        "title": "Today's Traveller, February 2021: Srisailam shrine inventory",
+        "url": "https://www.todaystraveller.net/wp-content/uploads/2021/03/Todays-Traveller-Feb-Issue-2021.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "kolhapur_mahalakshmi": {
+    "name": "Mahalakshmi / Ambabai",
+    "stotram_order": 7,
+    "architecture": "Dark Deccan stone core with offset mouldings, connected mandapas and later lighter shikharas. Western Mahadwara leads through Garuda mandapa toward three west-facing sanctuaries.",
+    "deity_form": "Black-stone four-armed main image",
+    "posture": "Upright main image; west-facing shrine",
+    "arms": "Four, documented",
+    "attributes": "Deity's lower right: citron; upper right: mace with head down; upper left: shield; lower left: bowl",
+    "deity_notes": "Keep right/left relative to the deity, not the viewer. Do not replace these with four lotuses or generic blessing hands.",
+    "uncertainties": "Ornaments and sari vary; the precise underlying sculpture and crown details need photographic comparison.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Kolhapur Tourism: Mahalaxmi Temple",
+        "url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/"
+      },
+      {
+        "title": "Shree Karveer Niwasini Ambabai Mahalaxmi",
+        "url": "https://www.mahalaxmikolhapur.com/"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "mahur_renuka": {
+    "name": "Ekaveerika / Renuka",
+    "stotram_order": 8,
+    "architecture": "Hilltop temple with a sanctum and assembly hall, a silver-clad doorway and a large worshipped face/head form. Steps and the hill approach are part of its setting.",
+    "deity_form": "Head/face sacred form",
+    "posture": "Face/head form, not a full standing body",
+    "arms": "Not applicable to the visible main sacred form",
+    "attributes": "Prominent painted eyes, facial ornaments and crown",
+    "deity_notes": "Do not invent a full multi-armed body beneath the worshipped face. Preserve this temple's distinctive facial proportions.",
+    "uncertainties": "Paint, jewellery and alankara change; distinguish decoration from the underlying form.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Temple portal: face-form reference image",
+        "url": "https://shrirenukadevi.in/"
+      },
+      {
+        "title": "Nanded district: Mahur Gadh",
+        "url": "https://nanded.gov.in/en/tourist-place/mahur-gadh/"
+      },
+      {
+        "title": "Maharashtra Gazetteer: Nanded, places of interest, Marathi",
+        "url": "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Nanded_mar/index/pdf/12.pdf"
+      },
+      {
+        "title": "Nanded District Socioeconomic Review 2024-25, Renuka entry",
+        "url": "https://des2.mahaonline.gov.in/files/publication/dsa/2024-25/DSA_Nanded_2024-25.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "ujjain_mahakali": {
+    "name": "Mahakali / Harsiddhi",
+    "stotram_order": 9,
+    "architecture": "Maratha-period temple ensemble with two prominent lamp pillars before the shrine. The principal group comprises Annapurna between Mahalakshmi and Mahasaraswati; a Sri Yantra and old well are documented.",
+    "deity_form": "Three principal goddess images",
+    "posture": "Central Annapurna between Mahalakshmi and Mahasaraswati",
+    "arms": "Not established",
+    "attributes": "Dark vermilion treatment and Sri Yantra are documented",
+    "deity_notes": "Do not replace the three-image group with one generic four-armed Mahakali or borrow the nearby Gadkalika image.",
+    "uncertainties": "Exact shape, scale and attributes of all three images need a verified frontal image.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Ujjain district: Harsiddhi Temple",
+        "url": "https://ujjain.nic.in/en/tourist-place/harsiddhi/"
+      },
+      {
+        "title": "National Sanskrit University: Eighteen Shaktipeethas (stotram on PDF pages 2-3)",
+        "url": "https://nsktu.ac.in/wp-content/uploads/2022/01/M35-Eighteen-Shaktipeethas-Prof-Korada-subrahmanyam.pdf"
+      },
+      {
+        "title": "Karkotkeshwar Mahadev, Harsiddhi courtyard",
+        "url": "https://myadhyatm.com/karkotkeshwar-mahadev-10-84-ujjain-madhya-pradesh/"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "pithapuram_puruhutika": {
+    "name": "Puruhutika / Padagaya",
+    "stotram_order": 10,
+    "architecture": "Puruhutika occupies the Kukkuteswara shared temple campus. Gateways, Shiva sanctum, Nandi, associated shrines and Padagaya water body determine the layout; it is not a freestanding Devi-only compound.",
+    "deity_form": "Four-armed main murti",
+    "posture": "Current pose needs photograph confirmation",
+    "arms": "Four, documented by university source",
+    "attributes": "Seed bag (beeja), axe (parashu), lotus (kamala), dish (madhu patra); lower-right to lower-left order given in course",
+    "deity_notes": "Do not use random weapons or confuse Puruhutika with Rajarajeshwari or a Dattatreya image from the shared campus.",
+    "uncertainties": "Hand-order wording must be resolved visually before sculpting; do not mirror the image.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Kakinada district: Tourist Places, Padagaya",
+        "url": "https://kakinada.ap.gov.in/tourism/tourist-places/"
+      },
+      {
+        "title": "APSAC: Kakinada District Survey Report, Puruhootika/Kukkuteshwara/Dattatreya section",
+        "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Kakinada.pdf"
+      },
+      {
+        "title": "Kukkuteswara Temple, Pithapuram: photographic walkthrough",
+        "url": "https://hindutemples-india.blogspot.com/2019/06/kukkuteswara-swamy-temple-pithapuram-temple.html"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "jajpur_biraja": {
+    "name": "Girija / Biraja",
+    "stotram_order": 11,
+    "architecture": "Kalinga ensemble with rekha vimana, pidha jagamohana, front chandi mandapa and lion gate. The principal Biraja image is two-armed; Nabhigaya is a well within the enclosure.",
+    "deity_form": "Two-armed Mahishamardini",
+    "posture": "Standing in a buffalo-subduing pose",
+    "arms": "Two, documented",
+    "attributes": "Right hand trident; left hand lifts the buffalo tail; left foot presses the demon",
+    "deity_notes": "Do not use the standard eight-/ten-armed lion-riding Durga template. The demon is buffalo-shaped.",
+    "uncertainties": "Trust says lion mount absent; district page mentions a lion. Retain this conflict until an authenticated image settles it.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Biraja Mandira Trust Board: The Temple",
+        "url": "https://maabiraja.com/temple.html"
+      },
+      {
+        "title": "Biraja Mandira Trust Board: Iconography",
+        "url": "https://maabiraja.com/iconography.html"
+      },
+      {
+        "title": "Biraja Mandira Trust Board: Nabhigaya",
+        "url": "https://maabiraja.com/navigaya.html"
+      },
+      {
+        "title": "Jajpur district: Biraja Khetra",
+        "url": "https://jajpur.odisha.gov.in/en/tourism/tourist-places/biraja-khetra"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "draksharama_manikyamba": {
+    "name": "Manikyamba / Bhimeswara",
+    "stotram_order": 12,
+    "architecture": "Eastern Chalukyan complex with two prakaras and four outer gateways. Two stairways access the upper sanctum around the tall Bhimeswara linga; Manikyamba has a distinct shrine within the ensemble.",
+    "deity_form": "Distinct Devi shrine in Bhimeswara complex",
+    "posture": "Not securely established",
+    "arms": "Not securely established",
+    "attributes": "A leftward-looking/tilted description occurs in secondary accounts only",
+    "deity_notes": "Do not treat an attractive generic Devi portrait or Samalkota's goddess as Manikyamba. Do not hard-code a tilt without a checked photo.",
+    "uncertainties": "An authoritative frontal view and complete attribute inventory are still required. Current scene reproduces documented architectural relationships schematically; the Manikyamba reference location is not a verified installed murti.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Leftward-looking description (secondary only)",
+        "url": "https://epaperimages.blob.core.windows.net/statetimes/files/1020211004333281.pdf"
+      },
+      {
+        "title": "APSRTC: Draksharamam",
+        "url": "https://apsrtc.ap.gov.in/fp_draksharamam.php"
+      },
+      {
+        "title": "Lok Sabha reply: conservation at Bhimeswara Temple, Draksharamam",
+        "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU98_rqGC8e.pdf?source=pqals"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "kamakhya": {
+    "name": "Kamarupa / Kamakhya",
+    "stotram_order": 13,
+    "architecture": "Nilachala hybrid architecture: polygonal banded dome, differentiated attached chamber roofs, two-roof antarala, five-domed bhogmandir and apsidal shell-roof natmandir. Four- and five-chamber descriptions coexist; retain the documented east-west axial composition.",
+    "deity_form": "Natural sacred rock cleft and spring",
+    "posture": "Subterranean sacred formation; not an anthropomorphic main idol",
+    "arms": "Not applicable",
+    "attributes": "Natural cleft, spring water and ritual coverings",
+    "deity_notes": "Do not replace the main cave sacred form with a generic multi-armed Devi. Keep movable Kameshwari images distinct from the main sacred formation.",
+    "uncertainties": "No authenticated cave close-up selected; exact access, water and coverings need separate evidence.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Maa Kamakhya Devalaya: Architecture",
+        "url": "https://www.maakamakhya.org/architecture"
+      },
+      {
+        "title": "Maa Kamakhya Devalaya: Nilachal temples",
+        "url": "https://www.maakamakhya.org/nilachal"
+      },
+      {
+        "title": "Assam government: Mahabahu Brahmaputra, Kamakhya section",
+        "url": "https://fremaa.assam.gov.in/sites/default/files/swf_utility_folder/departments/fremaa_webcomindia_org_oid_4/menu/right_menu/right_menu/the_mahabahu_brahmaputra_0.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "prayag_madhaveswari": {
+    "name": "Madhaveswari at Prayaga (game selects Alopi)",
+    "stotram_order": 14,
+    "architecture": "Current Alopi shrine is an urban enclosed devotional space centred on a covered cot/cradle and platform, rather than a standard anthropomorphic main murti. Madhaveswari's identification with Alopi versus Lalita must remain explicit.",
+    "deity_form": "Covered cradle/cot sacred focus",
+    "posture": "Suspended/covered cradle and platform arrangement",
+    "arms": "Not applicable",
+    "attributes": "Cloth, cradle/platform and ritual setting",
+    "deity_notes": "Do not add a full-body main Devi murti. Do not import Lalita Devi's image from a different Prayagraj temple.",
+    "uncertainties": "Platform/well geometry and current suspension arrangement need authenticated interior comparison.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Prayagraj district: Places of Interest, Alopi and Lalita entries",
+        "url": "https://prayagraj.nic.in/top-attractions/"
+      },
+      {
+        "title": "Alopi Devi Mandir: visitor description",
+        "url": "https://shubhpanchang.com/temples/alopi-devi-mandir"
+      },
+      {
+        "title": "National Sanskrit University: Eighteen Shaktipeethas (stotram on PDF pages 2-3)",
+        "url": "https://nsktu.ac.in/wp-content/uploads/2022/01/M35-Eighteen-Shaktipeethas-Prof-Korada-subrahmanyam.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "jwalamukhi_vaishnavi": {
+    "name": "Vaishnavi / Jwalamukhi",
+    "stotram_order": 15,
+    "architecture": "Hillside temple complex with a gilded dome. Natural flames in rock fissures are worshipped as the central manifestation. Nine named flames share the sacred precinct.",
+    "deity_form": "Natural flames from rock fissures",
+    "posture": "Flames in their rock/shrine setting",
+    "arms": "Not applicable",
+    "attributes": "Nine named flame identities; actual visible flames may vary",
+    "deity_notes": "Do not replace the flames with one large idol or nine detached statues. Reject photos from Shaktinagar or Khrew.",
+    "uncertainties": "No authenticated close-up flame photograph selected; exact fissure positions remain unverified. Courtyard and dome silhouettes use published photo references; no measured plan or stone-by-stone reconstruction is claimed.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Kangra Temples government portal: Shri Jawala Mata Mandir",
+        "url": "https://kangratemples.hp.gov.in/shri-jawala-mata-mandir/"
+      },
+      {
+        "title": "Himachal Tourism: Kangra, Jwalamukhi entry",
+        "url": "https://himachaltourism.gov.in/destination/kangra/"
+      },
+      {
+        "title": "Jwala Ji: complex features and surrounding shrines",
+        "url": "https://devadarshanam.com/temple/jwalamukhi"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "gaya_mangalagauri": {
+    "name": "Mangala Gauri",
+    "stotram_order": 16,
+    "architecture": "Compact hill shrine approached by steps and road. The principal sacred form is symbolic; the sanctum also contains old relief work.",
+    "deity_form": "Symbolic sacred form in the sanctum",
+    "posture": "Sacred symbol, not established as a full anthropomorphic figure",
+    "arms": "Not applicable to the documented symbolic form",
+    "attributes": "Reliefs and ritual adornment belong to the setting",
+    "deity_notes": "Do not invent a large multi-armed main idol from a generic devotional poster.",
+    "uncertainties": "A verified close view of the actual sacred symbol is still required.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Bihar Tourism: Mangala Gauri",
+        "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "kashi_vishalakshi": {
+    "name": "Vishalakshi",
+    "stotram_order": 17,
+    "architecture": "Dense urban lane shrine with a compact sanctum and southern architectural influence. The approach is through narrow streets; neighbouring Dharmakupa precinct is distinct from the temple interior.",
+    "deity_form": "Two-image arrangement reported",
+    "posture": "Smaller older and larger later image reported",
+    "arms": "Not reliably established",
+    "attributes": "Exact attributes and hand count require checked frontal views",
+    "deity_notes": "Do not merge both images into one or substitute a generic Kamakshi portrait. Exact relative positioning remains provisional.",
+    "uncertainties": "Two-image arrangement comes from secondary descriptions; authority confirmation pending.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Kashi official portal: Vishalakshi Devi Temple",
+        "url": "https://www.darshan.kashi.gov.in/listing-details/vishalakshi-devi-temple"
+      },
+      {
+        "title": "Indian Institute of Heritage: Vishalakshi Temple, Rana P.B. Singh and Pravin S. Rana",
+        "url": "https://culturalheritageofvaranasi.com/notable_temples/vishalakshi-temple/"
+      },
+      {
+        "title": "Vishalakshi Temple: architecture and two-image account",
+        "url": "https://temples.dsquaregee.com/en/temples/vishalakshi-varanasi/"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "kashmir_sharada": {
+    "name": "Saraswati / Sharada Peeth",
+    "stotram_order": 18,
+    "architecture": "Present-condition study of the roofless stone sanctuary, raised platform, enclosure and 63-step approach documented by the archaeology authority. Photographic reference guides masonry and doorway massing. Approximate geometry is not a measured replica; no historic roof or lost idol has been invented.",
+    "deity_form": "Ruined historic sanctuary; original image unverified",
+    "posture": "Unknown for the lost original",
+    "arms": "Unknown for the lost original",
+    "attributes": "Generic veena-bearing Saraswati imagery is not proof of this site's original sculpture",
+    "deity_notes": "Do not use Sringeri's Sharadamba or Teetwal's modern image as the verified lost Sharada murti.",
+    "uncertainties": "Exact present-day stone-by-stone condition, complete enclosure heights and lost original image remain unverified. Step count is documented; rise, tread and scene dimensions are design approximations.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Department of Archaeology and Museums: Sharda Temple",
+        "url": "https://doam.gov.pk/public/sites/6633"
+      },
+      {
+        "title": "Impart: Sharada Peeth",
+        "url": "https://imp-art.org/articles/sharada-peeth/"
+      },
+      {
+        "title": "Quaid-i-Azam University Journal of Asian Civilizations: The Sharda Temple",
+        "url": "https://jac.qau.edu.pk/index.php/jac/article/download/124/93/190"
+      },
+      {
+        "title": "Wikimedia Commons: Sharada Peeth reference photographs",
+        "url": "https://commons.wikimedia.org/wiki/Category%3ASharada_Peeth"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "madurai_meenakshi": {
+    "name": "Meenakshi–Sundareswarar (existing game extra)",
+    "stotram_order": null,
+    "architecture": "Large Dravidian twin-sanctuary complex with nested enclosures, many sculpted gateway towers, extensive roofed halls and Golden Lily Tank. Four detached outer towers do not reproduce its internal plan. The two principal shrines face east according to Library of Congress image metadata.",
+    "deity_form": "Anthropomorphic main form, distinct from festival representations",
+    "posture": "Standing queenly form; verify main-image photograph",
+    "arms": "Two in traditional iconography",
+    "attributes": "Parrot associated with raised right hand/flower; other hand lowered in traditional representations",
+    "deity_notes": "Do not use a generic four-/eight-armed Devi, assume literal emerald stone, or mistake a festival bronze for the main image.",
+    "uncertainties": "Temple-specific hand/flower/parrot geometry requires a verified main-image photograph; historical painting is only comparative iconography.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "British Museum: Minaksi historical painting",
+        "url": "https://www.britishmuseum.org/collection/object/A_2007-3005-49"
+      },
+      {
+        "title": "Commons provenance and public-domain artwork",
+        "url": "https://commons.wikimedia.org/wiki/File:Minakshi.jpg"
+      },
+      {
+        "title": "Madurai district: Sri Meenakshi-Sundareswarar Temple",
+        "url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/"
+      },
+      {
+        "title": "Smarthistory: Meenakshi Temple plan",
+        "url": "https://smarthistory.org/meenakshi-madurai/"
+      },
+      {
+        "title": "Incredible India: Madurai cultural and historical itinerary",
+        "url": "https://www.incredibleindia.gov.in/en/trips/trip-listing/unravelling-madurai-s-cultural-and-historical-threads"
+      },
+      {
+        "title": "Incredible India: Sri Meenakshi-Sundareswarar Temple",
+        "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/madurai/sri-meenakshi-sundareswarar-temple.html"
+      },
+      {
+        "title": "Library of Congress: Meenakshi temple image metadata example",
+        "url": "https://www.loc.gov/catworkshop/courses/metadatadl/pdf/mdld-instr-manual-01a.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "kalighat": {
+    "name": "Kalighat Kali (existing game extra)",
+    "stotram_order": null,
+    "architecture": "Bengali atchala-roofed shrine with decorated surfaces and a later natmandir in a dense urban precinct.",
+    "deity_form": "Distinctive Kali main sacred image",
+    "posture": "Temple-specific form; do not infer hidden body from ornament",
+    "arms": "Four, described by government tourism",
+    "attributes": "Three eyes, protruding golden tongue; scimitar and severed-head attributes described",
+    "deity_notes": "Do not substitute a generic blue ten-armed Durga or a full-body festival Kali tableau.",
+    "uncertainties": "Preserve the temple-specific face and hand arrangement; exact material history has differing accounts.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Incredible India: Kalighat Temple",
+        "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple"
+      },
+      {
+        "title": "Census of India: Kolkata district handbook, Kalighat architecture",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/27868/download/31037/DH_19_2001_KOL.pdf"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  },
+  "tuljapur_bhavani": {
+    "name": "Tulja Bhavani (existing game extra)",
+    "stotram_order": null,
+    "architecture": "Hemadpanti stone temple approached by descending steps, with successive gateways, tirthas and ritual spaces.",
+    "deity_form": "Black-stone eight-armed main image",
+    "posture": "Mahishasura-slaying form",
+    "arms": "Eight, documented by Maharashtra Tourism",
+    "attributes": "Weapons and protective gesture described; exact hand mapping needs photo",
+    "deity_notes": "Do not replace the eight-armed temple form with a generic four-armed peaceful Devi.",
+    "uncertainties": "Published height is approximate; do not use it as a surveyed modelling dimension.",
+    "reconstruction": false,
+    "sources": [
+      {
+        "title": "Maharashtra Tourism: eight-armed black-stone image",
+        "url": "https://maharashtratourism.gov.in/temple/tuljapur/"
+      },
+      {
+        "title": "Shri Tuljabhavani Mandir Sansthan: conservation/development DPR",
+        "url": "https://shrituljabhavani.org/PDF/DRPTENGLISH.pdf"
+      },
+      {
+        "title": "Tulja Bhavani Pujari: temple route and features",
+        "url": "https://tuljabhavanipujari.co/about/"
+      }
+    ],
+    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "alampur_jogulamba",
+  "name_sanskrit": "अलम्पुर जोगुलाम्बा",
+  "name_english": "Alampur Jogulamba Temple",
+  "location": {
+    "city": "Alampur",
+    "state": "Telangana",
+    "country": "India",
+    "lat": 15.8778,
+    "lng": 78.1328
+  },
+  "style": "Badami Chalukya Nagara-Rekha architectural style",
+  "key_structures": [
+    "Jogulamba Sanctum surrounded by water pool",
+    "Nava Brahma Temples complex (9 distinct 7th-century shrines)",
+    "Bala Brahmeswara Swamy Temple",
+    "Sangameshwara Temple (relocated from Krishna-Tungabhadra confluence)",
+    "ASI Archaeological Site Museum"
+  ],
+  "special_features": [
+    "Fierce yet benevolent depiction of Goddess Jogulamba with hair flowing like flame, scorpions, lizards, and skulls, seated on a corpse",
+    "Sanctum cooled by an enclosed water channel to pacify tremendous ugra energy",
+    "Superb Chalukyan sandstone lattice windows and curvilinear rekha shikharas"
+  ],
+  "materials": [
+    "Golden red sandstone",
+    "Hand-carved relief blocks",
+    "Polished granite floorings",
+    "Ancient stone beam lintels"
+  ],
+  "period": "7th–8th Century CE",
+  "renovation_history": "Original 7th-century Chalukyan temple destroyed by Bahmani sultans in 1390 CE; the deity was sheltered safely inside Bala Brahma temple; a magnificent new temple was rebuilt in 2005 CE."
+}

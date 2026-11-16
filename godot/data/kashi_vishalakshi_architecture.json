@@ -1,0 +1,33 @@
+{
+  "id": "kashi_vishalakshi",
+  "name_sanskrit": "काशी विशालाक्षी",
+  "name_english": "Kashi Vishalakshi Temple",
+  "location": {
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 25.3082,
+    "lng": 83.0105
+  },
+  "style": "Nagara-Dravidian composite sacred architecture",
+  "key_structures": [
+    "Garbhagriha (inner sanctum with ancient swayambhu and utsava murti)",
+    "Mukhamandapa (pillared entrance portico)",
+    "Gopuram-style gateway spire adorned with sculpted deities",
+    "Sub-shrine of Annapurna and Kala Bhairava",
+    "Mir Ghat access steps leading from River Ganga"
+  ],
+  "special_features": [
+    "Two murtis in sanctum: an ancient small stone deity behind and a majestic granite murti in front",
+    "Ornate granite carving reflecting South Indian temple design within the lanes of ancient Kashi",
+    "Proximity to the Manikarnika and Mir Ghats"
+  ],
+  "materials": [
+    "Chunar sandstone",
+    "Black granite stonework",
+    "Brass and silver embossed doorways",
+    "White marble trim"
+  ],
+  "period": "Ancient, reconstructed 19th–20th Century CE",
+  "renovation_history": "Ancient sanctum mentioned in Puranas; extensively renovated and consecrated by Nattukottai Chettiar community in 1908 and 1971 CE."
+}

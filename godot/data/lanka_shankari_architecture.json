@@ -1,0 +1,33 @@
+{
+  "id": "lanka_shankari",
+  "name_sanskrit": "लङ्का शाङ्करी",
+  "name_english": "Shankari Devi Temple",
+  "location": {
+    "city": "Trincomalee",
+    "state": "Eastern Province",
+    "country": "Sri Lanka",
+    "lat": 8.5817,
+    "lng": 81.2407
+  },
+  "style": "Classical Tamil Dravidian rock-cut and stone temple",
+  "key_structures": [
+    "Shankari Devi Sanctum perched on Swami Rock cliff",
+    "Koneswaram (Trikoneshwara) Temple Sanctum",
+    "Ravana Vettu (Ravana's Cleft dramatic gorge)",
+    "Papanaasam Theertham (sacred seaside spring)",
+    "Gopuram facing the Bay of Bengal"
+  ],
+  "special_features": [
+    "Spectacular location atop a 400-foot vertical cliff directly overlooking the azure Indian Ocean",
+    "Historic seat associated with sage Agastya and King Ravana's devotion to Lord Shiva",
+    "Ancient stone pillars retrieved from the ocean bed after 17th-century Portuguese demolition"
+  ],
+  "materials": [
+    "Carved black granite",
+    "Coral and coastal sandstone blocks",
+    "Gold-plated brass kalashas",
+    "Stucco sculptures"
+  ],
+  "period": "Ancient (Pre-Christian era), restored 20th Century CE",
+  "renovation_history": "Legendary 'Temple of a Thousand Pillars' destroyed by Portuguese in 1624 CE; murtis preserved secretly and retrieved from underwater; re-consecrated in 1952 and expanded in 2000s."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tuljapur_bhavani",
+  "name_sanskrit": "तुलजापुर भवानी",
+  "name_english": "Tuljapur Bhavani Temple",
+  "location": {
+    "city": "Tuljapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 18.0116,
+    "lng": 76.0682
+  },
+  "style": "Hemadpanthi and Maratha temple architecture",
+  "key_structures": [
+    "Main sanctum with svayambhu murti of Goddess Bhavani",
+    "Kallola Tirtha and Gomukha Tirtha (sacred stepping water springs)",
+    "Sardar Nimbalkar entrance gateway and Chhatrapati Shivaji Mahadwar",
+    "Yajna Kunda and Deepastambhas",
+    "Shri Ramecchari and Matangi shrines"
+  ],
+  "special_features": [
+    "Chala murti (movable deity) taken out in sacred palanquin three times a year during sleep/shayana periods",
+    "Natural springs feeding ancient sacred tirthas within the temple complex",
+    "Historic sacred tree where Chhatrapati Shivaji received the blessed Bhavani Talwar"
+  ],
+  "materials": [
+    "Indigenous basalt trap rock",
+    "Carved stone pillars with floral reliefs",
+    "Limestone stucco work",
+    "Silver plating on sanctorum doorframes"
+  ],
+  "period": "12th–17th Century CE",
+  "renovation_history": "Ancient forest shrine patronized by Yadavas; rebuilt and fortified by Chhatrapati Shivaji Maharaj and subsequent Maratha rulers in 17th century."
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "voice": "Existing project guide voice",
+  "policy": "Original spoken guide text; these recordings are explanations, not claimed historical mantras.",
+  "items": [
+    {
+      "id": "kanchi_arupa_lakshmi",
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "arupa_lakshmi",
+      "path": "res://assets/audio/guide-kanchi-arupa-lakshmi.mp3",
+      "text": "Arupa Lakshmi, also called Anjana Lakshmi, is worshipped within Kamakshi's temple complex. This sacred form is distinct from Soundarya Lakshmi. The installed relief has not yet been faithfully reconstructed in this model.",
+      "sources": [
+        "https://kanchikamakshi.org/about/",
+        "https://cec.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf"
+      ]
+    },
+    {
+      "id": "kanchi_kalvar_perumal",
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "kalvar_perumal",
+      "path": "res://assets/audio/guide-kanchi-kalvar-perumal.mp3",
+      "text": "Kalvar Perumal is the Vishnu shrine within the Kamakshi temple complex. It belongs to the Vaishnava tradition. The figure here is an original iconographic study, rather than a scan of the installed image.",
+      "sources": [
+        "https://kanchikamakshi.org/about/"
+      ]
+    },
+    {
+      "id": "sharada_present_day",
+      "temple_id": "kashmir_sharada",
+      "shrine_id": "sanctuary",
+      "path": "res://assets/audio/guide-sharada-present-day.mp3",
+      "text": "Sharada Peeth stands in the Neelum Valley. The ancient sanctuary survives without its roof, with masonry walls and a stone stairway. This scene represents the surviving ruins. The newer temple at Teetwal is a separate place of worship.",
+      "sources": [
+        "https://doam.gov.pk/public/sites/6633",
+        "https://www.sringeri.net/events/new-temple-goddess-sharada-kashmir"
+      ]
+    },
+    {
+      "id": "jwala_sacred_flames",
+      "temple_id": "jwalamukhi_vaishnavi",
+      "shrine_id": "mahakali",
+      "path": "res://assets/audio/guide-jwala-sacred-flames.mp3",
+      "text": "At Jwalamukhi, the Goddess is worshipped through natural flames, rather than a human shaped idol. The temple authority describes nine sacred flame identities. Their positions in this scene are schematic.",
+      "sources": [
+        "https://kangratemples.hp.gov.in/shri-jawala-mata-mandir/"
+      ]
+    },
+    {
+      "id": "draksharama_complex",
+      "temple_id": "draksharama_manikyamba",
+      "shrine_id": "main",
+      "path": "res://assets/audio/guide-draksharama-complex.mp3",
+      "text": "Draksharama brings together the worship of Manikyamba and Bhimeswara. The temple has two enclosures, four gateways and an upper sanctuary for Bhimeswara. This model is a study of those architectural relationships, not a measured reproduction.",
+      "sources": [
+        "https://apsrtc.ap.gov.in/fp_draksharamam.php"
+      ]
+    }
+  ]
+}

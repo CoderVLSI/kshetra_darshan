@@ -1,0 +1,33 @@
+{
+  "id": "kolhapur_mahalakshmi",
+  "name_sanskrit": "कोल्हापुर महालक्ष्मी",
+  "name_english": "Kolhapur Mahalakshmi Temple",
+  "location": {
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 16.6956,
+    "lng": 74.2246
+  },
+  "style": "Hemadpanthi / Western Chalukya temple architecture",
+  "key_structures": [
+    "Main Garbhagriha with five-spire curvilinear shikharas",
+    "Kurma Mandapa (tortoise platform pavilion)",
+    "Garuda Mandapa (outer wooden carved pillared hall)",
+    "Deepastambhas (tall carved stone lamp towers)",
+    "Manikarnika Kund (sacred tank)"
+  ],
+  "special_features": [
+    "Kiranotsav phenomenon: twice a year the setting sun rays illuminate the deity's feet, chest, and face directly through windows",
+    "Unusual monolithic gemstone (sandstone) deity holding citrus fruit, mace, shield, and bowl crowned with a lingam and cobra",
+    "Star-shaped platform base typical of early Chalukyan engineering"
+  ],
+  "materials": [
+    "Black basalt stone masonry",
+    "Carved timber wooden pillars",
+    "Mortarless stone interlocking blocks",
+    "Brass and gold kalashas"
+  ],
+  "period": "7th–11th Century CE",
+  "renovation_history": "Initiated by Chalukya King Karnadeva in 634 CE; enriched by Shilahara and Yadava dynasties; preserved and restored under Chhatrapati Shivaji Maharaj and subsequent Maratha rulers."
+}

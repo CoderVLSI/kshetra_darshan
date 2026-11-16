@@ -1,0 +1,33 @@
+{
+  "id": "mahur_renuka",
+  "name_sanskrit": "माहूर रेणुका",
+  "name_english": "Mahur Renuka Devi Temple",
+  "location": {
+    "city": "Mahur",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.8335,
+    "lng": 77.9174
+  },
+  "style": "Hilltop fortified Hemadpanthi temple style",
+  "key_structures": [
+    "Main Sanctum atop Sahyadri hillock with massive bust of Devi Renuka",
+    "Dattatreya Shikhar (highest adjacent peak)",
+    "Anasuya Mata Shrine",
+    "Parashurama Temple at the foothills",
+    "Matritirtha (holy water reservoir)"
+  ],
+  "special_features": [
+    "Deity visible as a massive, beautifully adorned natural head/face (Mastaka) emerging from the living bedrock",
+    "Pan-Deccan sacred confluence of Shakta, Datta, and Parashurama traditions",
+    "Fortified ramparts offering panoramic views across dense deciduous forests"
+  ],
+  "materials": [
+    "Local Deccan basalt stone",
+    "Rough-hewn masonry blocks",
+    "Gold and silver mukut (crowns) and masks",
+    "Lime plaster mortar"
+  ],
+  "period": "11th–13th Century CE",
+  "renovation_history": "Built during the reign of Seuna Yadava dynasty of Devagiri (around 12th century); fortified and maintained by regional Maratha chieftains."
+}

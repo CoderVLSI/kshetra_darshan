@@ -1,0 +1,33 @@
+{
+  "id": "pithapuram_puruhutika",
+  "name_sanskrit": "पिठापुरम् पुरुहूतिका",
+  "name_english": "Puruhutika Devi Temple",
+  "location": {
+    "city": "Pithapuram",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 17.1147,
+    "lng": 82.2536
+  },
+  "style": "Eastern Chalukya and Dravidian architecture",
+  "key_structures": [
+    "Puruhutika Devi Sanctum inside Kukkuteswara Swamy complex",
+    "Swayambhu Spatika Kukkuteswara Lingam Shrine",
+    "Pada Gaya Sarovaram (sacred lotus tank for ancestral rites)",
+    "Sripada Srivallabha Mahasamsthanam",
+    "Kala Bhairava Shrine"
+  ],
+  "special_features": [
+    "Four-armed black granite deity holding bag of jewels (ratnapatra), lotus, dish, and posture of boons",
+    "Sacred Pada Gaya tank where Vishnu's lotus feet rested after pinning demon Gayasura",
+    "Carved stone mandapas showing Chalukyan pillar motifs"
+  ],
+  "materials": [
+    "Dark granitic rock",
+    "Dressed sandstone blocks",
+    "Stucco ornamentation on gopurams",
+    "Brass bell metal works"
+  ],
+  "period": "10th–16th Century CE",
+  "renovation_history": "Patronized by Eastern Chalukyas of Vengi; damaged in medieval raids and revived by local Zamindars of Pithapuram and Vijayanagara feudatories."
+}

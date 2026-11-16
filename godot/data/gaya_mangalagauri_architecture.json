@@ -1,0 +1,33 @@
+{
+  "id": "gaya_mangalagauri",
+  "name_sanskrit": "गया मङ्गलगौरी",
+  "name_english": "Mangla Gauri Temple",
+  "location": {
+    "city": "Gaya",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 24.7801,
+    "lng": 85.0002
+  },
+  "style": "Eastern Nagara / Gangetic hill temple architecture",
+  "key_structures": [
+    "Hilltop Garbhagriha facing east with stone carvings",
+    "Flight of ancient rock-cut steps winding up Bhasmakuta hill",
+    "Mandapa with relief figures of Shiva and Ganesha",
+    "Akhanda Deepa (eternal lamp burning from antiquity)",
+    "Brahma Kund at the hill base"
+  ],
+  "special_features": [
+    "Sanctum houses an ancient uncarved natural stone manifestation symbolizing the maternal breast of Sati",
+    "Akhanda Jyoti (lamp burning uninterruptedly for centuries nourished with ghee)",
+    "Fine 15th-century bas-relief sculptures of Mahishasuramardini and Surya"
+  ],
+  "materials": [
+    "Local grey granitic stone",
+    "Brick and lime masonry",
+    "Silver sanctum ornamentation",
+    "Carved stone balustrades"
+  ],
+  "period": "15th Century CE",
+  "renovation_history": "Ancient sanctum referenced in Padma and Vayu Puranas; structural stone shrine erected around 15th century CE; expanded by local rulers and pilgrimage trusts."
+}

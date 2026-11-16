@@ -1,0 +1,33 @@
+{
+  "id": "jajpur_biraja",
+  "name_sanskrit": "जाजपुर विरजा",
+  "name_english": "Biraja Temple",
+  "location": {
+    "city": "Jajpur",
+    "state": "Odisha",
+    "country": "India",
+    "lat": 20.8521,
+    "lng": 86.3387
+  },
+  "style": "Kalinga architectural style (Rekha Deula and Pidha Jagamohana)",
+  "key_structures": [
+    "Vimana (Rekha Deula sanctum tower)",
+    "Jagamohana (pyramidal assembly hall)",
+    "Nabhi Gaya Kunda (sacred pit for offering Pinda)",
+    "Brahmani and Vaitarani river banks",
+    "Chausathi Yogini remnants and Varaha temple"
+  ],
+  "special_features": [
+    "Unique ancient two-armed (Dvi-bhuja) Mahishasuramardini idol spearing the demon while pulling the tail of the buffalo with left hand",
+    "Goddess mounts a lion with one foot resting on the subdued buffalo",
+    "Simhadwara (Lion Gate) facing the holy Vaitarani River"
+  ],
+  "materials": [
+    "Khandolite stone",
+    "Iron clamps and dowels",
+    "Laterite base foundations",
+    "Chlorite stone relief carvings"
+  ],
+  "period": "10th–13th Century CE",
+  "renovation_history": "First established during the Gupta period; monumental stone temple built by Somavamshi King Yayati I in the 10th-11th century; renovated by Ganga rulers."
+}

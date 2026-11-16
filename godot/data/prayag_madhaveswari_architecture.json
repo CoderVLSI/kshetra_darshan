@@ -1,0 +1,33 @@
+{
+  "id": "prayag_madhaveswari",
+  "name_sanskrit": "प्रयाग माधवेश्वरी / अलोपी",
+  "name_english": "Alopi Devi (Madhaveswari) Temple",
+  "location": {
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 25.4358,
+    "lng": 81.8795
+  },
+  "style": "North Indian Nagara style",
+  "key_structures": [
+    "Central sanctum with sacred Doli (palanquin / swing)",
+    "Concentric marble circumambulatory pathway",
+    "Shikhara with kalasha finial",
+    "Navagraha and Shiva sub-shrines",
+    "Triveni Sangam approach pavilion"
+  ],
+  "special_features": [
+    "Unique absence of an anthropomorphic idol: devotees revere a wooden swing (Doli) over a marble platform representing the disappearing (Alopa) form of Devi",
+    "Continuous canopy of sacred red threads tied by devotees for fulfillment of vows",
+    "Located near the confluence of Ganga, Yamuna, and mystical Saraswati"
+  ],
+  "materials": [
+    "White Makrana marble",
+    "Red sandstone slabs",
+    "Silver-plated sacred swing (Doli)",
+    "Gilded copper kalasha"
+  ],
+  "period": "Ancient, reconstructed 19th Century CE",
+  "renovation_history": "Puranic sanctum anciently known as Madhaveswari; sanctum renovated and marble complex built in late 19th and early 20th century by local devotee guilds."
+}

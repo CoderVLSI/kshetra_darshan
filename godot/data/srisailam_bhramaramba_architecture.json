@@ -1,0 +1,33 @@
+{
+  "id": "srisailam_bhramaramba",
+  "name_sanskrit": "श्रीशैल भ्रमराम्बा",
+  "name_english": "Bhramaramba Mallikarjuna Temple",
+  "location": {
+    "city": "Srisailam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 16.0741,
+    "lng": 78.8683
+  },
+  "style": "Vijayanagara and Dravidian temple architecture",
+  "key_structures": [
+    "Bhramaramba Devi Sanctum atop an elevated terrace behind the main Shiva shrine",
+    "Mallikarjuna Swamy Jyotirlinga Sanctum",
+    "Prakara Wall with hundreds of bas-relief panels depicting epics",
+    "Mukhamandapa with ornate carved musical pillars",
+    "Pathala Ganga Ghat on Krishna river"
+  ],
+  "special_features": [
+    "Rare holy confluence of a major Jyotirlinga and a Maha Shakti Peetha within a single fortified complex",
+    "Eight-armed murti of Bhramaramba vanquishing demon Arunasura through a swarm of black bees",
+    "Massive Vijayanagara stone fortress enclosure (prakara) built by Harihara and Bukka Raya"
+  ],
+  "materials": [
+    "Hard black and grey granite",
+    "Basalt carvings",
+    "Gold sheet coverings on vimana and dhwaja stambha",
+    "Heavy stone flag pavements"
+  ],
+  "period": "2nd–16th Century CE",
+  "renovation_history": "Earliest references in Satavahana period; expanded by Ikshvakus, Pallavas, Chalukyas, Kakatiyas, Reddi kings, and crowned by Vijayanagara Emperor Sri Krishnadevaraya in 1516 CE."
+}

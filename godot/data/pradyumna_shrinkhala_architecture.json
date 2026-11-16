@@ -1,0 +1,33 @@
+{
+  "id": "pradyumna_shrinkhala",
+  "name_sanskrit": "प्रद्युम्न शृङ्खला",
+  "name_english": "Shrinkhala Devi Temple",
+  "location": {
+    "city": "Pandua",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 23.0782,
+    "lng": 88.2831
+  },
+  "style": "Bengal Navaratna and Classical Terracotta architecture",
+  "key_structures": [
+    "Reconstructed Navaratna sanctum shrine",
+    "Ancient Tank and Sarovar",
+    "Carved brick terracotta friezes depicting Puranic narratives",
+    "Bhairava Sub-shrine",
+    "Natamandira pillared hall"
+  ],
+  "special_features": [
+    "Distinctive Navaratna (nine-pinnacled) terracotta temple design representing traditional Bengal architectural heights",
+    "Revered as the historical Pradyumna-mandala of ancient Rarh Bengal",
+    "Historical site preserved through local devotee resilience and memory"
+  ],
+  "materials": [
+    "Burnt clay terracotta plaques",
+    "Bengal red brick masonry",
+    "Lime and surkhi mortar",
+    "Stone lintels and doorways"
+  ],
+  "period": "Ancient, reconstructed 18th–20th Century CE",
+  "renovation_history": "Original temple described in ancient texts fell during medieval invasions (around 14th century); worshipped in local sanctums in Pandua/Hooghly; renovated by regional Shakta devotees."
+}

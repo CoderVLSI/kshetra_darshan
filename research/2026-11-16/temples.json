@@ -1,0 +1,3113 @@
+{
+  "title": "Maha Shakti Peetha architecture reference dossier",
+  "research_date": "2026-11-16",
+  "scope": "Stotram eighteen plus three current-game extra destinations; research only, no implementation authorization before Gemini completes.",
+  "status": "Evidence-backed initial dossier; measured plans, exhaustive shrine counts, and aerial authentication remain incomplete.",
+  "source_policy": "Prefer temple authorities, government, archaeological and university sources. Secondary claims remain labelled. No source is treated as a survey by default.",
+  "identity_note": "STOTRAM PDF pages 2-3 establish the eighteen names. Its later table has an extra Danteswari row; do not mechanically ingest that table.",
+  "temples": [
+    {
+      "id": "lanka_shankari",
+      "stotram_order": 1,
+      "name": "Shankari / Koneswaram",
+      "location": "Swami Rock, Trincomalee, Sri Lanka",
+      "map_query": "Thirukoneswaram Kovil Trincomalee Sri Lanka",
+      "architecture": "Use the present Dravidian temple on a narrow sea cliff as the observable baseline. Ancient Shankari/Koneswaram reconstruction must be a separate interpretation; current roofs cannot establish the lost medieval footprint.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Koneswaram Shiva sanctum",
+            "Shankari / Devi worship location (precise current shrine relationship unresolved)"
+          ],
+          "source_ids": [
+            "LANKA"
+          ],
+          "confidence": "identity documented; exact arrangement unresolved",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "town_to_promontory_route_candidates",
+          "names": [
+            "Mathumai Ambal",
+            "Bhadrakali",
+            "Ganesha",
+            "Vishnu Thirumal",
+            "Surya",
+            "Ravana",
+            "Murugan",
+            "Durga",
+            "Agastya",
+            "Navagrahas"
+          ],
+          "source_ids": [
+            "LANKA_WALK"
+          ],
+          "confidence": "secondary route inventory; individual campus membership unverified",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Cliff profile and approach must constrain the compound.",
+        "Do not invent a symmetrical inland courtyard or a medieval thousand-pillar hall as present-day fabric."
+      ],
+      "uncertainties": [
+        "Complete current subsidiary-shrine list and Devi sanctum location need an authenticated walkthrough.",
+        "Modern Mathumai Amman and historical Shankari identification must not be conflated without evidence.",
+        "Historical dimensions are unknown."
+      ],
+      "source_ids": [
+        "LANKA",
+        "STOTRAM",
+        "LANKA_WALK"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_photo",
+          "title": "iDiscover: Swami Rock and Koneswaram",
+          "page_url": "https://i-discoverasia.com/stories/epic-tale-trinco-forgotten-thousand-pillar-temple/",
+          "image_url": "https://cdn.sanity.io/images/ul272611/production/cf139057fc39aa3ceaf859ec1069bad7e1955aee-1920x1080.jpg?auto=format&fit=max&h=630&rect=0%2C36%2C1920%2C1008&w=1200",
+          "notes": "Site/publisher photo; exact capture date and orientation unverified.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Sri Lanka Tourism Ramayanaya sites",
+          "page_url": "https://www.srilanka.travel/ramayanaya/places.php",
+          "image_url": null,
+          "notes": "Find Thiru Koneswaram; not a measured historic reconstruction.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Thirukoneswaram%20Kovil%20Trincomalee%20Sri%20Lanka",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Thirukoneswaram%20Kovil%20Trincomalee%20Sri%20Lanka",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "lanka_shankari",
+        "name": "Shankari / Koneswaram",
+        "query": "Thirukoneswaram Kovil Trincomalee Sri Lanka",
+        "selectedUrl": "https://www.google.com/maps/place/Thirukoneswaram+Kovil/@8.5824436,81.2427807,1180m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3afbbca209ddef57:0x2e9e4b68861922df!8m2!3d8.5824436!4d81.2453556!16zL20vMGIwYmdt?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Thirukoneswaram Kovil - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Thirukoneswaram+Kovil/@8.5824436,81.2427807,1180m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3afbbca209ddef57:0x2e9e4b68861922df!8m2!3d8.5824436!4d81.2453556!16zL20vMGIwYmdt?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          8.5824436,
+          81.2453556
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@8.5824436,81.2453556,295m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "lanka_shankari_satellite.png",
+        "visual_review": {
+          "id": "lanka_shankari",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Cliff promontory, temple roof and approach visible. Present site only; medieval shrine reconstruction not established."
+        },
+        "close_view": {
+          "id": "lanka_shankari",
+          "lookup_position": [
+            8.5824436,
+            81.2453556
+          ],
+          "captureUrl": "https://www.google.com/maps/@8.5824436,81.2453556,147m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "lanka_shankari_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "kanchipuram_kamakshi",
+      "stotram_order": 2,
+      "name": "Kamakshi Amman",
+      "location": "Kanchipuram, Tamil Nadu, India",
+      "map_query": "Kamakshi Amman Temple Kanchipuram",
+      "architecture": "Dravidian enclosed complex, gateway towers, pushkarini and golden sanctum roof. Gayatri Mandapa has 24 pillars; the principal Kamakshi is seated, with Sri Chakra in front.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Kamakshi",
+            "Tapas Kamakshi",
+            "Arupa / Anjana Lakshmi",
+            "Sowbhagya Ganapati",
+            "Varahi",
+            "Ardhanarishvara",
+            "Soundarya Lakshmi",
+            "Kalvar Perumal",
+            "Santhana Sthambha",
+            "Sri Chakra",
+            "Gayatri Mandapa"
+          ],
+          "source_ids": [
+            "KANCHI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Model seated Kamakshi, not a generic standing multi-arm figure.",
+        "Preserve mandapa/enclosure/tank relationships rather than placing a lone tower in an open square."
+      ],
+      "uncertainties": [
+        "Doorway orientations and full secondary-shrine inventory require a legible surveyed plan.",
+        "Do not transfer Bangaru Kamakshi's present-day Thanjavur shrine to Kanchi.",
+        "Educational script is not a measured floor plan."
+      ],
+      "source_ids": [
+        "KANCHI",
+        "KANCHI_TRUST"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_video_preview",
+          "title": "Freepik: Kanchi Kamakshi aerial footage",
+          "page_url": "https://www.freepik.com/premium-video/aerial-view-sri-kanchi-kamakshi-amman-temple-surrounded-by-kanchipuram-city-agricultural-lands_767778",
+          "image_url": "https://videocdn.cdnpk.net/videos/31071210-cd70-4969-9656-94f4f7a9dc10/horizontal/thumbnails/large.jpg",
+          "notes": "Stock preview only; verify tower/tank identity against official ground photos.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Official temple gallery",
+          "page_url": "https://kanchikamakshi.org/about/",
+          "image_url": null,
+          "notes": "Use gallery navigation; exact image list not extracted.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Kamakshi%20Amman%20Temple%20Kanchipuram",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Kamakshi%20Amman%20Temple%20Kanchipuram",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "kanchipuram_kamakshi",
+        "name": "Kamakshi Amman",
+        "query": "Kamakshi Amman Temple Kanchipuram",
+        "selectedUrl": "https://www.google.com/maps/search/Kamakshi+Amman+Temple+Kanchipuram/@12.841139,79.7003589,1163m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Kamakshi Amman Temple Kanchipuram - Google Maps",
+        "options": [
+          {
+            "name": "Sri Kanchi Kamakshi Amman Temple",
+            "url": "https://www.google.com/maps/place/Sri+Kanchi+Kamakshi+Amman+Temple/data=!4m7!3m6!1s0x3a52c251039e03b1:0xeb0a104aa53ed53!8m2!3d12.8404465!4d79.7036765!16zL20vMGR2Zmpx!19sChIJsQOeA1HCUjoRU-1TqgShsA4?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Arulmigu Kamakshi Amman Temple South Gopuram",
+            "url": "https://www.google.com/maps/place/Arulmigu+Kamakshi+Amman+Temple+South+Gopuram/data=!4m7!3m6!1s0x3a52c2510e41635f:0xcd3b5c15d25bc342!8m2!3d12.8404676!4d79.703552!16s%2Fg%2F11gdkpt892!19sChIJX2NBDlHCUjoRQsNb0hVcO80?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Sri Adhi Kamakshi Amman Temple",
+            "url": "https://www.google.com/maps/place/Sri+Adhi+Kamakshi+Amman+Temple/data=!4m7!3m6!1s0x3a52c251a293e4bf:0xbdb0073da3b6f92e!8m2!3d12.8418315!4d79.7021912!16s%2Fg%2F11cp71n602!19sChIJv-STolHCUjoRLvm2oz0HsL0?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          }
+        ],
+        "pinUrl": "https://www.google.com/maps/place/Sri+Kanchi+Kamakshi+Amman+Temple/data=!4m7!3m6!1s0x3a52c251039e03b1:0xeb0a104aa53ed53!8m2!3d12.8404465!4d79.7036765!16zL20vMGR2Zmpx!19sChIJsQOeA1HCUjoRU-1TqgShsA4?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1",
+        "lookup_position": [
+          12.8404465,
+          79.7036765
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@12.8404465,79.7036765,291m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "kanchipuram_kamakshi_satellite.png",
+        "visual_review": {
+          "id": "kanchipuram_kamakshi",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Temple precinct, rectangular tank and connected roofs visible; exact internal shrine positions not established."
+        },
+        "close_view": {
+          "id": "kanchipuram_kamakshi",
+          "lookup_position": [
+            12.8404465,
+            79.7036765
+          ],
+          "captureUrl": "https://www.google.com/maps/@12.8404465,79.7036765,291m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "kanchipuram_kamakshi_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "pradyumna_shrinkhala",
+      "stotram_order": 3,
+      "name": "Shrinkhala at Pradyumna (traditional identification)",
+      "location": "Pandua, Hooghly, West Bengal, India; exact historical site unresolved",
+      "map_query": "Pandua Minar Hooghly West Bengal",
+      "architecture": "No authenticated standing Shrinkhala temple plan was established. The current Pandua Minar is a documented ASI monument; a Navaratna terracotta temple cannot be claimed as a verified reconstruction.",
+      "inventory": [
+        {
+          "scope": "traditional_site",
+          "names": [
+            "Shrinkhala Devi sacred-seat tradition"
+          ],
+          "source_ids": [
+            "STOTRAM"
+          ],
+          "confidence": "textual identity; historical shrine footprint unverified",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "surviving_site",
+          "names": [
+            "Pandua Minar"
+          ],
+          "source_ids": [
+            "SHRINKHALA_ASI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Label any temple reconstruction hypothetical.",
+        "Keep existing protected monument identity distinct from religious accounts about the lost shrine."
+      ],
+      "uncertainties": [
+        "Exact ancient location, period, orientation, roof type, shrine inventory and deity arrangement unresolved.",
+        "Do not confuse Hooghly Pandua with Malda Pandua.",
+        "No historical aerial photograph can establish a lost shrine."
+      ],
+      "source_ids": [
+        "STOTRAM",
+        "SHRINKHALA_ASI"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "ASI: surviving Pandua Minar",
+          "page_url": "https://asikolkata.in/monument-sites/the-minar/",
+          "image_url": null,
+          "notes": "Current monument photo; not a photograph of a surviving Shrinkhala temple.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Pandua%20Minar%20Hooghly%20West%20Bengal",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Pandua%20Minar%20Hooghly%20West%20Bengal",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "pradyumna_shrinkhala",
+        "name": "Shrinkhala at Pradyumna (traditional identification)",
+        "query": "Pandua Minar Hooghly West Bengal",
+        "selectedUrl": "https://www.google.com/maps/place/Pandua+Minar/@23.0744286,88.2827683,1098m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39f8f3006e8286a1:0xee1aba731a85da31!8m2!3d23.0744286!4d88.2853432!16s%2Fg%2F11w1x832t6?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Pandua Minar - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Pandua+Minar/@23.0744286,88.2827683,1098m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39f8f3006e8286a1:0xee1aba731a85da31!8m2!3d23.0744286!4d88.2853432!16s%2Fg%2F11w1x832t6?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          23.0744286,
+          88.2853432
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@23.0744286,88.2853432,549m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "pradyumna_shrinkhala_satellite.png",
+        "visual_review": {
+          "id": "pradyumna_shrinkhala",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "current Minar identity only; ancient temple unverified",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Pandua Minar and current grounds visible. This does not verify the lost Shrinkhala temple site or plan."
+        },
+        "close_view": {
+          "id": "pradyumna_shrinkhala",
+          "lookup_position": [
+            23.0744286,
+            88.2853432
+          ],
+          "captureUrl": "https://www.google.com/maps/@23.0744286,88.2853432,137m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "pradyumna_shrinkhala_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "mysore_chamundeshwari",
+      "stotram_order": 4,
+      "name": "Chamundeshwari",
+      "location": "Chamundi Hill, Mysuru, Karnataka, India",
+      "map_query": "Sri Chamundeshwari Temple Chamundi Hill Mysuru",
+      "architecture": "Compact quadrangular Dravidian enclosure: main gateway, Navaranga, antarala and sanctum. Entrance gopura has seven tiers and seven golden kalashas; sanctum vimana is smaller.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Chamundeshwari sanctum",
+            "Ganesha at entrance/right inside",
+            "Anjaneya wall image",
+            "Flagstaff",
+            "Devi footprints",
+            "Small Nandi facing sanctum",
+            "Nandini and Kamalini guardians"
+          ],
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "wider_hill_not_same_courtyard",
+          "names": [
+            "Mahabaleshwara",
+            "Narayanaswamy",
+            "Mahishasura statue",
+            "Large monolithic Nandi"
+          ],
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Do not put the large hillside Nandi inside the sanctum approach as though it were the small temple Nandi.",
+        "Separate small vimana from tall entrance gopura; retain hill roads and approach."
+      ],
+      "uncertainties": [
+        "Exact enclosure dimensions and current additions need dated overhead evidence.",
+        "Right/left descriptions are visitor-relative; do not convert them to compass directions without a plan."
+      ],
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_photo",
+          "title": "Deccan Herald: Chamundi Hill aerial photograph",
+          "page_url": "https://www.deccanherald.com/india/karnataka/mysuru/environmentalists-set-to-take-movement-for-conservation-of-chamundi-hill-3850170",
+          "image_url": "https://media.assettype.com/deccanherald%2F2026-01-03%2F4gxec2lt%2FChamundi-Hill-Aerial-view.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C45%2C1200%2C630&w=1200",
+          "notes": "Article/asset date 2026-01; date of exposure not verified.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Official temple authority photographs",
+          "page_url": "https://chamundeshwaritemple.in/about.aspx",
+          "image_url": null,
+          "notes": "Exterior and interior-layout description; follow gallery links for more views.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Sri%20Chamundeshwari%20Temple%20Chamundi%20Hill%20Mysuru",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Sri%20Chamundeshwari%20Temple%20Chamundi%20Hill%20Mysuru",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "mysore_chamundeshwari",
+        "name": "Chamundeshwari",
+        "query": "Sri Chamundeshwari Temple Chamundi Hill Mysuru",
+        "selectedUrl": "https://www.google.com/maps/place/Shri+Chamundeshwari+Temple/@12.2725072,76.6681465,1166m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3baf706071be8e37:0x74b90976f307c65e!8m2!3d12.2725072!4d76.6707214!16zL20vMGd6NjY2?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Shri Chamundeshwari Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Chamundeshwari+Temple/@12.2725072,76.6681465,1166m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3baf706071be8e37:0x74b90976f307c65e!8m2!3d12.2725072!4d76.6707214!16zL20vMGd6NjY2?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          12.2725072,
+          76.6707214
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@12.2725072,76.6707214,291m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "mysore_chamundeshwari_satellite.png",
+        "visual_review": {
+          "id": "mysore_chamundeshwari",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Hilltop main enclosure and neighbouring temple compounds visible. Interior boundaries still require ground survey."
+        },
+        "close_view": {
+          "id": "mysore_chamundeshwari",
+          "lookup_position": [
+            12.2725072,
+            76.6707214
+          ],
+          "captureUrl": "https://www.google.com/maps/@12.2725072,76.6707214,291m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "mysore_chamundeshwari_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "alampur_jogulamba",
+      "stotram_order": 5,
+      "name": "Jogulamba",
+      "location": "Alampur, Jogulamba Gadwal, Telangana, India",
+      "map_query": "Jogulamba Temple Alampur Telangana",
+      "architecture": "Present Jogulamba is a rebuilt shrine (2005), with a sculpted gateway and its own compound. Nearby ancient Navabrahma Shiva temples exhibit Badami Chalukyan forms; they are not interchangeable with the modern Devi temple.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Jogulamba sanctum"
+          ],
+          "source_ids": [
+            "ALAMPUR_MODERN"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "nearby_separate_temple_group",
+          "names": [
+            "Bala Brahma",
+            "Taraka Brahma",
+            "Swarga Brahma",
+            "Padma Brahma",
+            "Garuda Brahma",
+            "Kumara Brahma",
+            "Arka Brahma",
+            "Vira Brahma",
+            "Vishwa Brahma"
+          ],
+          "source_ids": [
+            "ALAMPUR"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Model the modern shrine and ancient neighbouring group as different architectural layers.",
+        "Check pool/compound boundaries against the drone reference before placing water."
+      ],
+      "uncertainties": [
+        "Modern interior inventory, water-feature outline and relative distances not measured.",
+        "Sangameshwara/Papanasi are regional sites; do not merge them into this courtyard without a mapped reason."
+      ],
+      "source_ids": [
+        "ALAMPUR",
+        "ALAMPUR_MODERN"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_video",
+          "title": "Saikanth Krishna: Jogulamba Temple Drone Video",
+          "page_url": "https://www.youtube.com/watch?v=jWT9wJk4wcg",
+          "image_url": null,
+          "notes": "Published 2022-02-16. Creator-owned footage; reference only. Not yet watched frame by frame.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Entrance gopuram, own photograph",
+          "page_url": "https://commons.wikimedia.org/wiki/File%3AJogulamba_temple_gopuram_alampur.JPG",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Jogulamba_temple_gopuram_alampur.JPG",
+          "notes": "2012-08-25; confirm per-file CC BY-SA terms.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Jogulamba%20Temple%20Alampur%20Telangana",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Jogulamba%20Temple%20Alampur%20Telangana",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "alampur_jogulamba",
+        "name": "Jogulamba",
+        "query": "Jogulamba Temple Alampur Telangana",
+        "selectedUrl": "https://www.google.com/maps/place/Sree+Jogulamba+Ammavari+Devasthanam/@15.8769909,78.1320509,1147m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bb5e8f55bb958d1:0x81281f8818d86e45!8m2!3d15.8769909!4d78.1346258!16s%2Fg%2F1td6l2w9?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Sree Jogulamba Ammavari Devasthanam - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Sree+Jogulamba+Ammavari+Devasthanam/@15.8769909,78.1320509,1147m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bb5e8f55bb958d1:0x81281f8818d86e45!8m2!3d15.8769909!4d78.1346258!16s%2Fg%2F1td6l2w9?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          15.8769909,
+          78.1346258
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@15.8769909,78.1346258,574m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "alampur_jogulamba_satellite.png",
+        "visual_review": {
+          "id": "alampur_jogulamba",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Modern Jogulamba compound, water/roof masses and separate neighbouring temples visible."
+        },
+        "close_view": {
+          "id": "alampur_jogulamba",
+          "lookup_position": [
+            15.8769909,
+            78.1346258
+          ],
+          "captureUrl": "https://www.google.com/maps/@15.8769909,78.1346258,143m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "alampur_jogulamba_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "srisailam_bhramaramba",
+      "stotram_order": 6,
+      "name": "Bhramaramba–Mallikarjuna",
+      "location": "Srisailam, Nandyal district, Andhra Pradesh, India",
+      "map_query": "Sri Bhramaramba Mallikarjuna Temple Srisailam",
+      "architecture": "A fortified shared Shiva–Shakti complex with connected pillared spaces and gateway towers. Both principal sanctuaries and the intervening circulation must be represented; an isolated Bhramaramba shrine is incomplete.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Mallikarjuna",
+            "Bhramaramba",
+            "Sahasra Linga",
+            "Panchapandava shrines",
+            "Vata Vriksha"
+          ],
+          "source_ids": [
+            "SRISAILAM_GOV"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "courtyard_candidates",
+          "names": [
+            "Vriddha Mallikarjuna",
+            "Ardhanarishvara",
+            "Veerabhadra",
+            "Uma Maheshwara",
+            "Navabrahma group"
+          ],
+          "source_ids": [
+            "SRISAILAM_INVENTORY"
+          ],
+          "confidence": "secondary inventory; placement needs confirmation",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Preserve the Shiva–Devi spatial relationship and enclosure gates.",
+        "Pathalaganga belongs to the river/ghat landscape, not an arbitrary courtyard pool."
+      ],
+      "uncertainties": [
+        "Full official inventory and exact shrine coordinates not extracted from the JavaScript portal.",
+        "Current gate/queue additions need dated plans.",
+        "Do not confuse Srisailam's Navabrahma references with Alampur's separate site.",
+        "Sikhareswaram, Sakshi Ganapati and Pathalaganga require separate regional records; official general-information pages should be consulted before placing them."
+      ],
+      "source_ids": [
+        "SRISAILAM",
+        "SRISAILAM_GOV",
+        "SRISAILAM_INVENTORY"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_video_collection",
+          "title": "Freepik: Srisailam temple town aerial clips",
+          "page_url": "https://www.freepik.com/videos/srisailam-temple-town",
+          "image_url": null,
+          "notes": "Collection includes mixed views; validate each selected clip before using its geometry.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Official Devasthanam portal",
+          "page_url": "https://www.srisailadevasthanam.org/en-in/home",
+          "image_url": null,
+          "notes": "Requires JavaScript for full gallery and temple pages.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Sri%20Bhramaramba%20Mallikarjuna%20Temple%20Srisailam",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Sri%20Bhramaramba%20Mallikarjuna%20Temple%20Srisailam",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "srisailam_bhramaramba",
+        "name": "Bhramaramba–Mallikarjuna",
+        "query": "Sri Bhramaramba Mallikarjuna Temple Srisailam",
+        "selectedUrl": "https://www.google.com/maps/search/Sri+Bhramaramba+Mallikarjuna+Temple+Srisailam/@16.0740487,78.8647285,1146m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Sri Bhramaramba Mallikarjuna Temple Srisailam - Google Maps",
+        "options": [
+          {
+            "name": "Shri Mallikarjuna Jyotirlinga Temple",
+            "url": "https://www.google.com/maps/place/Shri+Mallikarjuna+Jyotirlinga+Temple/data=!4m7!3m6!1s0x3bb5656c41af32d5:0x1875cd84b9c2e163!8m2!3d16.0740593!4d78.8673168!16s%2Fm%2F0ds8_3j!19sChIJ1TKvQWxltTsRY-HCuYTNdRg?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Sri Bhramaramba Ammavari Shakti Peetham Temple, Srisailam",
+            "url": "https://www.google.com/maps/place/Sri+Bhramaramba+Ammavari+Shakti+Peetham+Temple,+Srisailam/data=!4m7!3m6!1s0x3bb5656c6c028aad:0x73dec6cb997c34a!8m2!3d16.0740381!4d78.86729!16s%2Fg%2F1hm5wd4mm!19sChIJrYoCbGxltTsRSsOXuWzsPQc?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          }
+        ],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Mallikarjuna+Jyotirlinga+Temple/data=!4m7!3m6!1s0x3bb5656c41af32d5:0x1875cd84b9c2e163!8m2!3d16.0740593!4d78.8673168!16s%2Fm%2F0ds8_3j!19sChIJ1TKvQWxltTsRY-HCuYTNdRg?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1",
+        "lookup_position": [
+          16.0740593,
+          78.8673168
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@16.0740593,78.8673168,573m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "srisailam_bhramaramba_satellite.png",
+        "visual_review": {
+          "id": "srisailam_bhramaramba",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Shared enclosed temple precinct and roof groups visible. Labels alone do not locate all subsidiary sanctuaries."
+        },
+        "close_view": {
+          "id": "srisailam_bhramaramba",
+          "lookup_position": [
+            16.0740593,
+            78.8673168
+          ],
+          "captureUrl": "https://www.google.com/maps/@16.0740593,78.8673168,287m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "srisailam_bhramaramba_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "kolhapur_mahalakshmi",
+      "stotram_order": 7,
+      "name": "Mahalakshmi / Ambabai",
+      "location": "Kolhapur, Maharashtra, India",
+      "map_query": "Shree Ambabai Mahalakshmi Temple Kolhapur",
+      "architecture": "Dark Deccan stone core with offset mouldings, connected mandapas and later lighter shikharas. Western Mahadwara leads through Garuda mandapa toward three west-facing sanctuaries.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Mahalakshmi",
+            "Mahakali",
+            "Mahasaraswati",
+            "Garuda mandapa and Garuda image",
+            "Ganesh mandapa",
+            "Upper Shiva lingam and Nandi",
+            "Venkatesha",
+            "Katyayani",
+            "Gowri Shankar",
+            "Navagrahas",
+            "Surya",
+            "Mahishasuramardini",
+            "Vitthal-Rakhmai",
+            "Shiva",
+            "Vishnu",
+            "Tulja Bhavani",
+            "Manikarnika Kund",
+            "Visweshwar Mahadev by the kund"
+          ],
+          "source_ids": [
+            "KOLHAPUR"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Verify western entry and three-shrine arrangement.",
+        "Do not substitute a giant regular star-shaped slab for the real connected building footprint.",
+        "Check deity attributes: citron, mace, shield and bowl; preserve lion behind as documented."
+      ],
+      "uncertainties": [
+        "Exact footprint, subsidiary shrine positions and number of roof towers need an overhead survey.",
+        "Tourism page has conflicting solar dates; do not encode dates from it."
+      ],
+      "source_ids": [
+        "KOLHAPUR",
+        "KOLHAPUR_TRUST"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_survey_portfolio",
+          "title": "Hemadri Geospatial: Mahalakshmi Temple Kolhapur",
+          "page_url": "https://www.hemadri3d.com/portfolio-collections/my-portfolio/mahalakshmi-temple-kolhapur",
+          "image_url": "https://static.wixstatic.com/media/1c910a_4525be204a8a437d8930be7cfe4765ef~mv2.jpg/v1/fill/w_5472%2Ch_3648%2Cal_c/1c910a_4525be204a8a437d8930be7cfe4765ef~mv2.jpg",
+          "notes": "Direct survey-provider lead. Public preview is not the measured survey dataset.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Kolhapur tourism temple reference",
+          "page_url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/",
+          "image_url": null,
+          "notes": "Use with survey portfolio and dated ground photographs.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Shree%20Ambabai%20Mahalakshmi%20Temple%20Kolhapur",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Shree%20Ambabai%20Mahalakshmi%20Temple%20Kolhapur",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "kolhapur_mahalakshmi",
+        "name": "Mahalakshmi / Ambabai",
+        "query": "Shree Ambabai Mahalakshmi Temple Kolhapur",
+        "selectedUrl": "https://www.google.com/maps/place/Shri+Ambabai+Temple,+Kolhapur/@16.6949604,74.2203203,1143m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bc0555a31825e95:0x48d3dac4a165bedf!8m2!3d16.6948594!4d74.2226431!16zL20vMDZqczNz?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Shri Ambabai Temple, Kolhapur - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Ambabai+Temple,+Kolhapur/@16.6949604,74.2203203,1143m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bc0555a31825e95:0x48d3dac4a165bedf!8m2!3d16.6948594!4d74.2226431!16zL20vMDZqczNz?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          16.6948594,
+          74.2226431
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@16.6948594,74.2226431,571m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "kolhapur_mahalakshmi_satellite.png",
+        "visual_review": {
+          "id": "kolhapur_mahalakshmi",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Connected temple roofscape, city streets and several labelled features visible; not a regular isolated star footprint."
+        },
+        "close_view": {
+          "id": "kolhapur_mahalakshmi",
+          "lookup_position": [
+            16.6948594,
+            74.2226431
+          ],
+          "captureUrl": "https://www.google.com/maps/@16.6948594,74.2226431,286m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "kolhapur_mahalakshmi_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "mahur_renuka",
+      "stotram_order": 8,
+      "name": "Ekaveerika / Renuka",
+      "location": "Mahurgad, Nanded district, Maharashtra, India",
+      "map_query": "Renuka Mata Temple Mahur Maharashtra",
+      "architecture": "Historic hilltop temple with sanctum and assembly hall, silver-clad doorway and a large worshipped face/head form. The approach terrain and steps are essential; a flat generic compound is inadequate.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Renuka face/head sanctum",
+            "Sabhamandapa"
+          ],
+          "source_ids": [
+            "MAHUR_STAT"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "wider_mahur_region_not_one_enclosure",
+          "names": [
+            "Dattatreya / Datta Shikhar",
+            "Anasuya Mata / Anasuya Shikhar",
+            "Parashurama",
+            "Mahakali at fort",
+            "Matru Tirtha",
+            "Devdeveshwar",
+            "Ganesh Tekdi"
+          ],
+          "source_ids": [
+            "MAHUR_GAZ"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Represent the characteristic face/head image rather than an invented full-body murti.",
+        "Keep Datta and Anasuya on their separate hills."
+      ],
+      "uncertainties": [
+        "Complete Renuka courtyard inventory and present approach geometry still need plan confirmation.",
+        "Historical dates are approximate; no precise floor dimensions verified."
+      ],
+      "source_ids": [
+        "MAHUR",
+        "MAHUR_GAZ",
+        "MAHUR_STAT"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "elevated_context_photo",
+          "title": "Renuka Mata hill and approach",
+          "page_url": "https://hill-temples.blogspot.com/2011/10/renuka-mata-temple-mahur.html",
+          "image_url": "https://3.bp.blogspot.com/-LfF47TTUTR8/WfExMFR-UFI/AAAAAAAAEs8/nEnRx7YqQqYCxswJ6DMWbtBxLiUoB7qnACLcBGAs/s1600/Mahurgad26.jpg",
+          "notes": "Elevated hill context, not a verified orthographic aerial. Blog has old and subsequently added photographs.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Nanded district photographs",
+          "page_url": "https://nanded.gov.in/en/tourist-place/mahur-gadh/",
+          "image_url": null,
+          "notes": "Renuka temple and hill photographs.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Renuka%20Mata%20Temple%20Mahur%20Maharashtra",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Renuka%20Mata%20Temple%20Mahur%20Maharashtra",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "mahur_renuka",
+        "name": "Ekaveerika / Renuka",
+        "query": "Renuka Mata Temple Mahur Maharashtra",
+        "selectedUrl": "https://www.google.com/maps/place/Shri+Renuka+Mata+shaktipith,+Mahurgad/@19.8325926,77.9207391,1122m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bd1809f2c3dab01:0x2a08eac52432a3c1!8m2!3d19.8325926!4d77.923314!16s%2Fg%2F11lgpj0v_2?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Shri Renuka Mata shaktipith, Mahurgad - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Renuka+Mata+shaktipith,+Mahurgad/@19.8325926,77.9207391,1122m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bd1809f2c3dab01:0x2a08eac52432a3c1!8m2!3d19.8325926!4d77.923314!16s%2Fg%2F11lgpj0v_2?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          19.8325926,
+          77.923314
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@19.8325926,77.923314,561m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "mahur_renuka_satellite.png",
+        "visual_review": {
+          "id": "mahur_renuka",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Main ridge temple, approach and forest slopes visible. Other sacred hills are separate."
+        },
+        "close_view": {
+          "id": "mahur_renuka",
+          "lookup_position": [
+            19.8325926,
+            77.923314
+          ],
+          "captureUrl": "https://www.google.com/maps/@19.8325926,77.923314,140m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "mahur_renuka_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "ujjain_mahakali",
+      "stotram_order": 9,
+      "name": "Mahakali / Harsiddhi",
+      "location": "Ujjain, Madhya Pradesh, India",
+      "map_query": "Harsiddhi Mata Temple Ujjain",
+      "architecture": "Maratha-period temple ensemble with two prominent lamp pillars before the shrine. The principal group comprises Annapurna between Mahalakshmi and Mahasaraswati; a Sri Yantra and old well are documented.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Annapurna principal image",
+            "Mahalakshmi",
+            "Mahasaraswati",
+            "Sri Yantra",
+            "Twin deepastambhas",
+            "Ancient well and ornamental pillar"
+          ],
+          "source_ids": [
+            "UJJAIN"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "courtyard_candidate",
+          "names": [
+            "Karkotkeshwar Mahadev"
+          ],
+          "source_ids": [
+            "UJJAIN_KARKOT"
+          ],
+          "confidence": "secondary location claim; verify on current map",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Do not replace the three-image shrine with a generic four-armed Mahakali.",
+        "Twin lamp towers must read as tall oil-lamp structures, not plain columns."
+      ],
+      "uncertainties": [
+        "Mahakali in the stotram has multiple local identifications; document Harsiddhi as the chosen implementation.",
+        "Do not merge nearby Mahakaleshwar or Gadkalika into Harsiddhi's courtyard.",
+        "All smaller shrines need a current walkthrough."
+      ],
+      "source_ids": [
+        "UJJAIN",
+        "STOTRAM",
+        "UJJAIN_KARKOT"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "elevated_night_photo",
+          "title": "Dainik Bhaskar: Harsiddhi twin lamp towers",
+          "page_url": "https://www.bhaskar.com/local/mp/ujjain/news/harsiddhi-temple-is-illuminated-with-the-light-of-devotion-1011-lamps-are-lit-in-two-lamps-135990159.html",
+          "image_url": "https://images.bhaskarassets.com/thumb/1200x900/web2images/521/2025/09/23/app_175855196368d15f9bee936_1002019350.jpg",
+          "notes": "Night/festival lighting obscures roofs and edges; daylight plan still needed.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Ujjain district gallery",
+          "page_url": "https://ujjain.nic.in/en/tourist-place/harsiddhi/",
+          "image_url": null,
+          "notes": "Multiple official photographs of temple and lamp pillars.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Harsiddhi%20Mata%20Temple%20Ujjain",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Harsiddhi%20Mata%20Temple%20Ujjain",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "ujjain_mahakali",
+        "name": "Mahakali / Harsiddhi",
+        "query": "Harsiddhi Mata Temple Ujjain",
+        "selectedUrl": "https://www.google.com/maps/place/Shree+Harsiddhi+Mata+Shaktipeeth+Temple/@23.1844864,75.7620812,1097m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3963758dc72f1c67:0x96488c03f6390731!8m2!3d23.1844864!4d75.7646561!16s%2Fg%2F1tj8_ysl?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Shree Harsiddhi Mata Shaktipeeth Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Shree+Harsiddhi+Mata+Shaktipeeth+Temple/@23.1844864,75.7620812,1097m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3963758dc72f1c67:0x96488c03f6390731!8m2!3d23.1844864!4d75.7646561!16s%2Fg%2F1tj8_ysl?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          23.1844864,
+          75.7646561
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@23.1844864,75.7646561,548m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "ujjain_mahakali_satellite.png",
+        "visual_review": {
+          "id": "ujjain_mahakali",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Harsiddhi compound and adjacent lake/city context visible; separate from Mahakaleshwar."
+        },
+        "close_view": {
+          "id": "ujjain_mahakali",
+          "lookup_position": [
+            23.1844864,
+            75.7646561
+          ],
+          "captureUrl": "https://www.google.com/maps/@23.1844864,75.7646561,137m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "ujjain_mahakali_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "pithapuram_puruhutika",
+      "stotram_order": 10,
+      "name": "Puruhutika / Padagaya",
+      "location": "Pithapuram, Kakinada district, Andhra Pradesh, India",
+      "map_query": "Kukkuteswara Swamy Temple Padagaya Pithapuram",
+      "architecture": "Puruhutika occupies the Kukkuteswara shared temple campus. Gateways, Shiva sanctum, Nandi, associated shrines and Padagaya water body determine the layout; it is not a freestanding Devi-only compound.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Puruhutika",
+            "Kukkuteswara",
+            "Dattatreya",
+            "Padagaya sacred pool"
+          ],
+          "source_ids": [
+            "PITHAPURAM",
+            "PITHAPURAM_APSAC"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "main_complex_candidates",
+          "names": [
+            "Rajarajeshwari",
+            "Nandi",
+            "Chandishwara",
+            "Kala Bhairava",
+            "Murugan",
+            "Siddhi Ganapati",
+            "Dhvajastambha"
+          ],
+          "source_ids": [
+            "PITHAPURAM_INVENTORY"
+          ],
+          "confidence": "photographic walkthrough inventory; placement unverified",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Represent the shared campus and large ritual water body accurately.",
+        "Keep Kunti Madhava and Sripada Srivallabha Mahasamsthanam as separately checked sites.",
+        "Reject sources describing Kukkuteswara as one of the five Pancharamas."
+      ],
+      "uncertainties": [
+        "Full shrine inventory, pool outline and orientations need 360-video/map correlation.",
+        "Do not confuse Dattatreya within Padagaya with the separate birth-site institution."
+      ],
+      "source_ids": [
+        "PITHAPURAM",
+        "PITHAPURAM_APSAC",
+        "PITHAPURAM_INVENTORY"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Kukkuteswara campus 360-degree video",
+          "page_url": "https://www.youtube.com/watch?v=NCYrWqPpq_8",
+          "image_url": null,
+          "notes": "Temples Guide, published 2019-06-05. Ground-level 360 video, not aerial.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Kukkuteswara%20Swamy%20Temple%20Padagaya%20Pithapuram",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Kukkuteswara%20Swamy%20Temple%20Padagaya%20Pithapuram",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "pithapuram_puruhutika",
+        "name": "Puruhutika / Padagaya",
+        "query": "Kukkuteswara Swamy Temple Padagaya Pithapuram",
+        "selectedUrl": "https://www.google.com/maps/place/Sri+Kukkuteswara+Swamy+Temple/@17.107282,82.2431556,1140m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a382aefdc87ac35:0xbbc0ef1662da1db9!8m2!3d17.107282!4d82.2457305!16s%2Fg%2F11bw1hlvyw?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Sri Kukkuteswara Swamy Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Sri+Kukkuteswara+Swamy+Temple/@17.107282,82.2431556,1140m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a382aefdc87ac35:0xbbc0ef1662da1db9!8m2!3d17.107282!4d82.2457305!16s%2Fg%2F11bw1hlvyw?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          17.107282,
+          82.2457305
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@17.107282,82.2457305,570m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "pithapuram_puruhutika_satellite.png",
+        "visual_review": {
+          "id": "pithapuram_puruhutika",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Shared campus roofs and substantial sacred pool visible; exact shrine positions need walkthrough."
+        },
+        "close_view": {
+          "id": "pithapuram_puruhutika",
+          "lookup_position": [
+            17.107282,
+            82.2457305
+          ],
+          "captureUrl": "https://www.google.com/maps/@17.107282,82.2457305,285m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "pithapuram_puruhutika_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "jajpur_biraja",
+      "stotram_order": 11,
+      "name": "Girija / Biraja",
+      "location": "Jajpur, Odisha, India",
+      "map_query": "Maa Biraja Temple Jajpur Odisha",
+      "architecture": "Kalinga ensemble with rekha vimana, pidha jagamohana, front chandi mandapa and lion gate. The principal Biraja image is two-armed; Nabhigaya is a well within the enclosure.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Biraja",
+            "Nabhigaya well",
+            "Jupeshwara",
+            "Ishaneshwara",
+            "Mrityunjayeshwara",
+            "Bhushandeshwara",
+            "Bagalamukhi / Vagalamukhi",
+            "Additional Shiva linga shrines",
+            "Chandi mandapa",
+            "Lion gate"
+          ],
+          "source_ids": [
+            "BIRAJA",
+            "BIRAJA_WELL"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Use the two-armed buffalo-subduing iconography.",
+        "Keep Nabhigaya as a well, not a generic rectangular bathing tank.",
+        "Model the different rekha/pidha roof types."
+      ],
+      "uncertainties": [
+        "Trust describes no lion mount in the image; district page describes a lion. Resolve using authenticated iconography/photo before sculpting.",
+        "Full inventory and exact subsidiary locations not certified."
+      ],
+      "source_ids": [
+        "BIRAJA",
+        "BIRAJA_ICON",
+        "BIRAJA_WELL",
+        "BIRAJA_DISTRICT"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "elevated_photo",
+          "title": "Live History India: Biraja and Nabhigaya",
+          "page_url": "https://www.livehistoryindia.com/story/places/5-fascinating-facts-about-nabhigaya-at-jajpur-in-odisha",
+          "image_url": "https://cdn.sanity.io/images/nlpqts3z/production/4b203e8a99b3a2508d5111d05d4e727ebd2aec25-1920x931.jpg",
+          "notes": "Match smaller shrine roofs to the trust inventory; camera orientation unverified.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Trust Board temple photographs",
+          "page_url": "https://maabiraja.com/temple.html",
+          "image_url": null,
+          "notes": "Includes temple and shrine photo links.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Maa%20Biraja%20Temple%20Jajpur%20Odisha",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Maa%20Biraja%20Temple%20Jajpur%20Odisha",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "jajpur_biraja",
+        "name": "Girija / Biraja",
+        "query": "Maa Biraja Temple Jajpur Odisha",
+        "selectedUrl": "https://www.google.com/maps/place/Maa+Biraja+Temple,+Jajpur/@20.8337649,86.335447,1115m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a1be49de6a59dc9:0x1d20c4d25ec09943!8m2!3d20.8337649!4d86.3380219!16s%2Fm%2F04gks8w?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Maa Biraja Temple, Jajpur - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Maa+Biraja+Temple,+Jajpur/@20.8337649,86.335447,1115m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a1be49de6a59dc9:0x1d20c4d25ec09943!8m2!3d20.8337649!4d86.3380219!16s%2Fm%2F04gks8w?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          20.8337649,
+          86.3380219
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@20.8337649,86.3380219,557m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "jajpur_biraja_satellite.png",
+        "visual_review": {
+          "id": "jajpur_biraja",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Main enclosed shrine ensemble and surrounding grounds visible; smaller roof identities unverified."
+        },
+        "close_view": {
+          "id": "jajpur_biraja",
+          "lookup_position": [
+            20.8337649,
+            86.3380219
+          ],
+          "captureUrl": "https://www.google.com/maps/@20.8337649,86.3380219,279m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "jajpur_biraja_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "draksharama_manikyamba",
+      "stotram_order": 12,
+      "name": "Manikyamba / Bhimeswara",
+      "location": "Draksharamam, Konaseema district, Andhra Pradesh, India",
+      "map_query": "Bhimeswara Swamy Manikyamba Temple Draksharamam",
+      "architecture": "Eastern Chalukyan complex with two prakaras and four outer gateways. Two stairways access the upper sanctum around the tall Bhimeswara linga; Manikyamba has a distinct shrine within the ensemble.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Bhimeswara",
+            "Manikyamba",
+            "Lakshmi Narayana",
+            "Sankaranarayana",
+            "Ganapati",
+            "Navagrahas",
+            "Upper sanctum stairways"
+          ],
+          "source_ids": [
+            "DRAKSHARAMA"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "documented_structures",
+          "names": [
+            "Manikyamba Sri Chakra",
+            "Somavarapu Mandapam",
+            "Nivedhana sala",
+            "Inner prakara"
+          ],
+          "source_ids": [
+            "DRAKSHARAMA_ASI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Missing from the current game's claimed stotram set; prepare a separate scene only after Gemini finishes.",
+        "Do not substitute Samalkota Kumararama photographs.",
+        "Preserve upper/lower sanctum and double enclosure."
+      ],
+      "uncertainties": [
+        "Measured dimensions and exact Manikyamba doorway orientation need plan confirmation.",
+        "Published linga heights vary; no precise dimensions approved for modelling."
+      ],
+      "source_ids": [
+        "DRAKSHARAMA",
+        "DRAKSHARAMA_ASI"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Draksharama main gateway photograph",
+          "page_url": "https://commons.wikimedia.org/wiki/File%3ADraksharama_temple_-_Main_entrance.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Draksharama_temple_-_Main_entrance.jpg",
+          "notes": "Twooars, 2007-01-27; file page reports public domain.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Bhimeswara%20Swamy%20Manikyamba%20Temple%20Draksharamam",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Bhimeswara%20Swamy%20Manikyamba%20Temple%20Draksharamam",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "draksharama_manikyamba",
+        "name": "Manikyamba / Bhimeswara",
+        "query": "Bhimeswara Swamy Manikyamba Temple Draksharamam",
+        "selectedUrl": "https://www.google.com/maps/place/Draksharama+Sri+Manikyambadevi+Sametha+Sri+Bheemeswara+swami+temple+(Manikyamba+Shaktipeeth)/@16.7928723,82.0607683,1142m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a378d12c6558be3:0x8d61e2b9749eca81!8m2!3d16.7928723!4d82.0633432!16s%2Fg%2F12fgrlwhl?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Draksharama Sri Manikyambadevi Sametha Sri Bheemeswara swami temple (Manikyamba Shaktipeeth) - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Draksharama+Sri+Manikyambadevi+Sametha+Sri+Bheemeswara+swami+temple+(Manikyamba+Shaktipeeth)/@16.7928723,82.0607683,1142m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a378d12c6558be3:0x8d61e2b9749eca81!8m2!3d16.7928723!4d82.0633432!16s%2Fg%2F12fgrlwhl?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          16.7928723,
+          82.0633432
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@16.7928723,82.0633432,571m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "draksharama_manikyamba_satellite.png",
+        "visual_review": {
+          "id": "draksharama_manikyamba",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Temple enclosures, roofed central structure and adjacent sacred tank visible; internal floor levels not established."
+        },
+        "close_view": {
+          "id": "draksharama_manikyamba",
+          "lookup_position": [
+            16.7928723,
+            82.0633432
+          ],
+          "captureUrl": "https://www.google.com/maps/@16.7928723,82.0633432,286m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "draksharama_manikyamba_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "kamakhya",
+      "stotram_order": 13,
+      "name": "Kamarupa / Kamakhya",
+      "location": "Nilachal Hill, Guwahati, Assam, India",
+      "map_query": "Kamakhya Temple Guwahati Assam",
+      "architecture": "Nilachala hybrid architecture: polygonal banded dome, differentiated attached chamber roofs, two-roof antarala, five-domed bhogmandir and apsidal shell-roof natmandir. Four- and five-chamber descriptions coexist; retain the documented east-west axial composition.",
+      "inventory": [
+        {
+          "scope": "main_temple_chambers",
+          "names": [
+            "Garbhagriha",
+            "Antarala",
+            "Jagamohana",
+            "Bhogmandir / Pancharatna",
+            "Natmandir"
+          ],
+          "source_ids": [
+            "KAMAKHYA"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "wider_nilachal_hill_not_one_courtyard",
+          "names": [
+            "Bagala",
+            "Kali",
+            "Tara",
+            "Bhairavi",
+            "Chinnamasta",
+            "Dhumavati",
+            "Kamakhya / Sorashi",
+            "Bhubaneshwari",
+            "Matangi",
+            "Kamala",
+            "Kameshwar",
+            "Siddheshwar",
+            "Aghora",
+            "Amratokeshwar",
+            "Kautilinga",
+            "Kedareshwar",
+            "Saubhagya",
+            "Pandunath"
+          ],
+          "source_ids": [
+            "KAMAKHYA_HILL"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Preserve chamber sequence and roof differences.",
+        "Do not scatter all hill shrines inside one square wall.",
+        "Do not place Umananda's river-island temple inside Kamakhya's compound."
+      ],
+      "uncertainties": [
+        "Reconcile calanta/jagamohana/antarala nomenclature using a labelled plan.",
+        "Cave descent, spring, water level and access require separate interior evidence.",
+        "No exact current tank shape or inter-shrine distances measured."
+      ],
+      "source_ids": [
+        "KAMAKHYA",
+        "KAMAKHYA_HILL",
+        "KAMAKHYA_FOUR"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_night_photo",
+          "title": "G Plus: Assam Tourism Ambubachi aerial images",
+          "page_url": "https://guwahatiplus.com/assam/aerial-view-captures-captivating-images-of-kamakhya-temple-during-ambubachi-2025",
+          "image_url": "https://guwahatiplus.com/storage/app/public/daily_banners/fb_image/458015a66cf1345099fb67031e118f5f.webp",
+          "notes": "2025 festival imagery attributed in article to Assam Tourism; temporary canopies/crowds are not permanent architecture.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Official architecture photographs",
+          "page_url": "https://www.maakamakhya.org/architecture",
+          "image_url": null,
+          "notes": "Roof/chamber reference from the temple authority.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Kamakhya%20Temple%20Guwahati%20Assam",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Kamakhya%20Temple%20Guwahati%20Assam",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "kamakhya",
+        "name": "Kamarupa / Kamakhya",
+        "query": "Kamakhya Temple Guwahati Assam",
+        "selectedUrl": "https://www.google.com/maps/place/Maa+Kamakhya+Temple/@26.1664108,91.7029282,1071m/data=!3m2!1e3!4b1!4m6!3m5!1s0x375a5b04b0f06ef1:0xaaad40304c7d3d1d!8m2!3d26.1664108!4d91.7055031!16zL20vMDVsMDJz?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Maa Kamakhya Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Maa+Kamakhya+Temple/@26.1664108,91.7029282,1071m/data=!3m2!1e3!4b1!4m6!3m5!1s0x375a5b04b0f06ef1:0xaaad40304c7d3d1d!8m2!3d26.1664108!4d91.7055031!16zL20vMDVsMDJz?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          26.1664108,
+          91.7055031
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@26.1664108,91.7055031,535m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "kamakhya_satellite.png",
+        "visual_review": {
+          "id": "kamakhya",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "limited; hazy or soft imagery",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Site context and connected roof groups visible, but imagery is hazy and limits fine tracing."
+        },
+        "close_view": {
+          "id": "kamakhya",
+          "lookup_position": [
+            26.1664108,
+            91.7055031
+          ],
+          "captureUrl": "https://www.google.com/maps/@26.1664108,91.7055031,134m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "kamakhya_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "prayag_madhaveswari",
+      "stotram_order": 14,
+      "name": "Madhaveswari at Prayaga (game selects Alopi)",
+      "location": "Alopibagh, Prayagraj, Uttar Pradesh, India",
+      "map_query": "Alopi Devi Mandir Alopibagh Prayagraj",
+      "architecture": "Current Alopi shrine is an urban enclosed devotional space centred on a covered cot/cradle and platform, rather than a standard anthropomorphic main murti. Madhaveswari's identification with Alopi versus Lalita must remain explicit.",
+      "inventory": [
+        {
+          "scope": "alopi_main_complex",
+          "names": [
+            "Covered cot/cradle and platform",
+            "Shiva image",
+            "Shiva lingam"
+          ],
+          "source_ids": [
+            "PRAYAG"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "unverified_main_complex_candidates",
+          "names": [
+            "Hanuman",
+            "Navadurga"
+          ],
+          "source_ids": [
+            "PRAYAG_EXTRA"
+          ],
+          "confidence": "secondary account; confirm visually",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "different_city_site",
+          "names": [
+            "Lalita Devi, Mirapur"
+          ],
+          "source_ids": [
+            "PRAYAG"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Do not fabricate a central full-body Devi murti.",
+        "Do not place Sangam water or Lalita Devi inside Alopi's enclosure."
+      ],
+      "uncertainties": [
+        "Exact footprint and cradle/well treatment need authenticated interior imagery.",
+        "Stotram gives Prayaga Madhaveswari, not a modern survey pin; Alopi is an implementation choice.",
+        "All subsidiary shrines not certified."
+      ],
+      "source_ids": [
+        "PRAYAG",
+        "PRAYAG_EXTRA",
+        "STOTRAM"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Alopi temple street entrance",
+          "page_url": "https://inditales.com/ancient-temples-in-prayagraj/",
+          "image_url": "https://www.inditales.com/wp-content/uploads/2019/03/alopi-shankari-temple-prayagraj.jpg",
+          "notes": "Street-level photograph; separate from Lalita Devi.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Alopi%20Devi%20Mandir%20Alopibagh%20Prayagraj",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Alopi%20Devi%20Mandir%20Alopibagh%20Prayagraj",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "prayag_madhaveswari",
+        "name": "Madhaveswari at Prayaga (game selects Alopi)",
+        "query": "Alopi Devi Mandir Alopibagh Prayagraj",
+        "selectedUrl": "https://www.google.com/maps/search/Alopi+Devi+Mandir+Alopibagh+Prayagraj/@25.4431956,81.8671729,1077m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Alopi Devi Mandir Alopibagh Prayagraj - Google Maps",
+        "options": [
+          {
+            "name": "Alop Shankari Devi Shakti Peeth Mandir",
+            "url": "https://www.google.com/maps/place/Alop+Shankari+Devi+Shakti+Peeth+Mandir/data=!4m7!3m6!1s0x399ab556a5a0e629:0x54dba5b48cf80346!8m2!3d25.4440046!4d81.8707401!16s%2Fm%2F02rqmmy!19sChIJKeagpVa1mjkRRgP4jLSl21Q?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Alopi Mata Temple",
+            "url": "https://www.google.com/maps/place/Alopi+Mata+Temple/data=!4m7!3m6!1s0x399ab56e32484027:0x6dcc3bfc028eaa05!8m2!3d25.4423866!4d81.8687556!16s%2Fg%2F11jz8xs_f7!19sChIJJ0BIMm61mjkRBaqOAvw7zG0?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          }
+        ],
+        "pinUrl": "https://www.google.com/maps/place/Alop+Shankari+Devi+Shakti+Peeth+Mandir/data=!4m7!3m6!1s0x399ab556a5a0e629:0x54dba5b48cf80346!8m2!3d25.4440046!4d81.8707401!16s%2Fm%2F02rqmmy!19sChIJKeagpVa1mjkRRgP4jLSl21Q?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1",
+        "lookup_position": [
+          25.4440046,
+          81.8707401
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@25.4440046,81.8707401,539m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "prayag_madhaveswari_satellite.png",
+        "visual_review": {
+          "id": "prayag_madhaveswari",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "limited; hazy or soft imagery",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Correct named locality/pin selected, but satellite imagery is too hazy to establish a reliable building footprint. Ground photographs/plan remain essential."
+        },
+        "close_view": {
+          "id": "prayag_madhaveswari",
+          "lookup_position": [
+            25.4440046,
+            81.8707401
+          ],
+          "captureUrl": "https://www.google.com/maps/@25.4440046,81.8707401,135m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "prayag_madhaveswari_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "jwalamukhi_vaishnavi",
+      "stotram_order": 15,
+      "name": "Vaishnavi / Jwalamukhi",
+      "location": "Jawalamukhi, Kangra district, Himachal Pradesh, India",
+      "map_query": "Jwalamukhi Temple Kangra Himachal Pradesh",
+      "architecture": "Hillside complex with gilded dome and rock-fissure flames as the central manifestation. Nine flame identities are documented; they are not nine invented detached temples.",
+      "inventory": [
+        {
+          "scope": "main_sanctum_flame_identities",
+          "names": [
+            "Mahakali",
+            "Annapurna",
+            "Chandi",
+            "Hinglaj",
+            "Vidhya Basni / Vindhyavasini",
+            "Mahalakshmi",
+            "Saraswati",
+            "Ambika",
+            "Anji / Anjana"
+          ],
+          "source_ids": [
+            "JWALA"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "complex_candidates",
+          "names": [
+            "Gorakh Dibbi",
+            "Gorakhnath shrine",
+            "Seja Bhawan",
+            "Akbar chhatra"
+          ],
+          "source_ids": [
+            "JWALA_EXTRA"
+          ],
+          "confidence": "secondary inventory; confirm placement",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "regional_separate_sites",
+          "names": [
+            "Tara Devi",
+            "Arjun Naga",
+            "Teda / Raghunath temple"
+          ],
+          "source_ids": [
+            "JWALA_EXTRA"
+          ],
+          "confidence": "regional candidates, not automatically in main compound",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Add flame-based worship rather than a generic idol.",
+        "Keep Jwala Ji in Kangra distinct from Jwala Ji at Khrew, Kashmir."
+      ],
+      "uncertainties": [
+        "Flame positions, courtyard elevations and all subsidiary shrine locations need visual mapping.",
+        "Number of visible flames may vary; do not promise nine simultaneous large fire jets."
+      ],
+      "source_ids": [
+        "JWALA",
+        "JWALA_TOURISM",
+        "JWALA_EXTRA"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_video",
+          "title": "Pexels / RUDRA MOVIES: Jawalamukhi aerial footage",
+          "page_url": "https://www.pexels.com/es-es/video/templo-jwalamukhi-en-himachal-pradesh-india-29564257/",
+          "image_url": null,
+          "notes": "Check individual clip licensing and recording date before reuse; retain source credit.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Government temple portal",
+          "page_url": "https://kangratemples.hp.gov.in/shri-jawala-mata-mandir/",
+          "image_url": null,
+          "notes": "Main shrine/flame identity reference.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Jwalamukhi%20Temple%20Kangra%20Himachal%20Pradesh",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Jwalamukhi%20Temple%20Kangra%20Himachal%20Pradesh",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "jwalamukhi_vaishnavi",
+        "name": "Vaishnavi / Jwalamukhi",
+        "query": "Jwalamukhi Temple Kangra Himachal Pradesh",
+        "selectedUrl": "https://www.google.com/maps/place/Jawalamukhi,+Himachal+Pradesh+176031/@31.8733646,76.2976024,8105m/data=!3m2!1e3!4b1!4m6!3m5!1s0x391b312817694263:0xfcfeea1c13be92f6!8m2!3d31.8752372!4d76.3203091!16zL20vMGY1MTFs?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Jawalamukhi - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Jawalamukhi,+Himachal+Pradesh+176031/@31.8733646,76.2976024,8105m/data=!3m2!1e3!4b1!4m6!3m5!1s0x391b312817694263:0xfcfeea1c13be92f6!8m2!3d31.8752372!4d76.3203091!16zL20vMGY1MTFs?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          31.8752372,
+          76.3203091
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@31.8752372,76.3203091,507m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "jwalamukhi_vaishnavi_satellite.png",
+        "visual_review": {
+          "id": "jwalamukhi_vaishnavi",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Corrected close view shows named main temple, courtyard, Gorakh Dibbi, Akbar chhatra, Shaiya Bhawan and Annapurna labels. Initial wide town-centre view is not the temple reference."
+        },
+        "close_view": {
+          "id": "jwalamukhi_vaishnavi",
+          "lookup_position": [
+            31.8753944,
+            76.3240824
+          ],
+          "captureUrl": "https://www.google.com/maps/@31.8753944,76.3240824,127m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "jwalamukhi_vaishnavi_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        },
+        "original_lookup_warning": "Initial lookup selected Jawalamukhi town. Use corrected temple close view at 31.8753944, 76.3240824.",
+        "corrected_place_url": "https://www.google.com/maps/place/Shri+Jwalamukhi+Mata+Shaktipeeth/data=!4m2!3m1!1s0x391b312f2171643f:0xa49c70e95f333bc1"
+      }
+    },
+    {
+      "id": "gaya_mangalagauri",
+      "stotram_order": 16,
+      "name": "Mangala Gauri",
+      "location": "Mangalagauri Hill, Gaya, Bihar, India",
+      "map_query": "Mangla Gauri Temple Gaya Bihar",
+      "architecture": "Compact hill shrine reached by steps and road. The sanctum contains a symbolic form of the Goddess and old relief work, not evidence for an arbitrary large sculpted multi-arm deity.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Mangala Gauri sacred symbol",
+            "Shiva",
+            "Durga",
+            "Dakshina Kali",
+            "Mahishasuramardini"
+          ],
+          "source_ids": [
+            "GAYA"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "nearby_separate_site",
+          "names": [
+            "Bhimvedi"
+          ],
+          "source_ids": [
+            "GAYA"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Use hill topography and the compact approach.",
+        "Preserve the symbolic sanctum form.",
+        "Keep Vishnupad and other Gaya temples separate from this enclosure."
+      ],
+      "uncertainties": [
+        "Entrance axis, exact roof profile and courtyard inventory need dated photographs.",
+        "No verified measured plan or aerial image yet."
+      ],
+      "source_ids": [
+        "GAYA"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Bihar Tourism: Mangala Gauri photo and description",
+          "page_url": "https://tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri",
+          "image_url": null,
+          "notes": "Official location/photograph lead; no authenticated aerial selected.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Mangla%20Gauri%20Temple%20Gaya%20Bihar",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Mangla%20Gauri%20Temple%20Gaya%20Bihar",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "gaya_mangalagauri",
+        "name": "Mangala Gauri",
+        "query": "Mangla Gauri Temple Gaya Bihar",
+        "selectedUrl": "https://www.google.com/maps/place/Maa+Sarva+Mangla+Gauri+Shakti+Peeth+Temple/@24.7751444,84.9997717,1083m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39f32a355fb925b9:0x7e5d29cf476342e3!8m2!3d24.7751444!4d85.0023466!16s%2Fm%2F03yn1g_?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Maa Sarva Mangla Gauri Shakti Peeth Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Maa+Sarva+Mangla+Gauri+Shakti+Peeth+Temple/@24.7751444,84.9997717,1083m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39f32a355fb925b9:0x7e5d29cf476342e3!8m2!3d24.7751444!4d85.0023466!16s%2Fm%2F03yn1g_?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          24.7751444,
+          85.0023466
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@24.7751444,85.0023466,542m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "gaya_mangalagauri_satellite.png",
+        "visual_review": {
+          "id": "gaya_mangalagauri",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "limited; hazy or soft imagery",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Correct named site and hill context visible, but imagery is soft/hazy; precise footprint and roof detail remain uncertain."
+        },
+        "close_view": {
+          "id": "gaya_mangalagauri",
+          "lookup_position": [
+            24.7751444,
+            85.0023466
+          ],
+          "captureUrl": "https://www.google.com/maps/@24.7751444,85.0023466,135m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "gaya_mangalagauri_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "kashi_vishalakshi",
+      "stotram_order": 17,
+      "name": "Vishalakshi",
+      "location": "Mir Ghat / old-city lanes, Varanasi, Uttar Pradesh, India",
+      "map_query": "Vishalakshi Temple Mir Ghat Varanasi",
+      "architecture": "Dense urban lane shrine with a compact sanctum and southern architectural influence. The approach is through narrow streets; neighbouring Dharmakupa precinct is distinct from the temple interior.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Vishalakshi sanctum"
+          ],
+          "source_ids": [
+            "KASHI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "interior_candidate",
+          "names": [
+            "Adi Vishalakshi and later larger Vishalakshi image"
+          ],
+          "source_ids": [
+            "KASHI_TWO_IMAGES"
+          ],
+          "confidence": "secondary description; exact arrangement not confirmed",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "nearby_separate_precinct",
+          "names": [
+            "Dharmakupa well",
+            "Dharmesha",
+            "Divodasa linga",
+            "Vindhyavasini"
+          ],
+          "source_ids": [
+            "KASHI_HERITAGE"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Do not invent a vast isolated courtyard and a river tank around this lane shrine.",
+        "Separate neighbouring wells, ghats and city temples.",
+        "Kala Bhairava is not automatically a courtyard sub-shrine."
+      ],
+      "uncertainties": [
+        "Precise temple footprint is difficult to infer from rooftops; ground walkthrough essential.",
+        "Confirm number and placement of inner images before modelling."
+      ],
+      "source_ids": [
+        "KASHI",
+        "KASHI_HERITAGE",
+        "KASHI_TWO_IMAGES"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Kashi official portal: Vishalakshi",
+          "page_url": "https://www.darshan.kashi.gov.in/listing-details/vishalakshi-devi-temple",
+          "image_url": null,
+          "notes": "Location and photo lead; lane interior still needs walkthrough.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Vishalakshi%20Temple%20Mir%20Ghat%20Varanasi",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Vishalakshi%20Temple%20Mir%20Ghat%20Varanasi",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "kashi_vishalakshi",
+        "name": "Vishalakshi",
+        "query": "Vishalakshi Temple Mir Ghat Varanasi",
+        "selectedUrl": "https://www.google.com/maps/search/Vishalakshi+Temple+Mir+Ghat+Varanasi/@25.3093306,83.0096049,1078m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Vishalakshi Temple Mir Ghat Varanasi - Google Maps",
+        "options": [
+          {
+            "name": "Shri Vishalakshi Mata Shaktipeeth Temple, Kashi",
+            "url": "https://www.google.com/maps/place/Shri+Vishalakshi+Mata+Shaktipeeth+Temple,+Kashi/data=!4m7!3m6!1s0x398e2e1e396ceb75:0xa9e32fa23a4060c1!8m2!3d25.3099438!4d83.011898!16zL20vMGdkcDJn!19sChIJdetsOR4ujjkRwWBAOqIv46k?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Meer Ghat",
+            "url": "https://www.google.com/maps/place/Meer+Ghat/data=!4m7!3m6!1s0x398e2e1fcbd0a33d:0x6d352e75dd34885!8m2!3d25.3087709!4d83.0120715!16s%2Fg%2F1tdm242p!19sChIJPaPQyx8ujjkRhUjTXedS0wY?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Shri Kashi Vishwanath Temple",
+            "url": "https://www.google.com/maps/place/Shri+Kashi+Vishwanath+Temple/data=!4m7!3m6!1s0x398e2e21ee940b17:0x48600e4fcdfb7b13!8m2!3d25.3108532!4d83.0106783!16zL20vMDZrYzU0!19sChIJFwuU7iEujjkRE3v7zU8OYEg?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Vishalakshi ShaktiPeeth [Earrings]",
+            "url": "https://www.google.com/maps/place/Vishalakshi+ShaktiPeeth+%5BEarrings%5D/data=!4m7!3m6!1s0x398e2f000b08b3b1:0x21218d573d434aa4!8m2!3d25.3100467!4d83.011308!16s%2Fg%2F11npjw32q0!19sChIJsbMICwAvjjkRpEpDPVeNISE?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Dashashwamedh Ghat",
+            "url": "https://www.google.com/maps/place/Dashashwamedh+Ghat/data=!4m7!3m6!1s0x398e2e1e04411f67:0xa61aef36a11cc83c!8m2!3d25.3062539!4d83.0102193!16s%2Fm%2F065zy5c!19sChIJZx9BBB4ujjkRPMgcoTbvGqY?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Vishalakshi Mata temple",
+            "url": "https://www.google.com/maps/place/Vishalakshi+Mata+temple/data=!4m7!3m6!1s0x398e2f0036d26fe3:0x2a3586f4e6775a21!8m2!3d25.3124073!4d83.0114062!16s%2Fg%2F11zd9dk2cs!19sChIJ42_SNgAvjjkRIVp35vSGNSo?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Manikarnika Ghat",
+            "url": "https://www.google.com/maps/place/Manikarnika+Ghat/data=!4m7!3m6!1s0x398e2e2193166ba5:0x7d603cdfe4985030!8m2!3d25.3110735!4d83.0141404!16s%2Fm%2F0g54_76!19sChIJpWsWkyEujjkRMFCY5N88YH0?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Sri Varahi Devi Temple",
+            "url": "https://www.google.com/maps/place/Sri+Varahi+Devi+Temple/data=!4m7!3m6!1s0x398e2e1e257c0f83:0xd09c4d4a50d0d323!8m2!3d25.3085002!4d83.0112288!16s%2Fg%2F11b6dp6l71!19sChIJgw98JR4ujjkRI9PQUEpNnNA?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          }
+        ],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Vishalakshi+Mata+Shaktipeeth+Temple,+Kashi/data=!4m7!3m6!1s0x398e2e1e396ceb75:0xa9e32fa23a4060c1!8m2!3d25.3099438!4d83.011898!16zL20vMGdkcDJn!19sChIJdetsOR4ujjkRwWBAOqIv46k?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1",
+        "lookup_position": [
+          25.3099438,
+          83.011898
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@25.3099438,83.011898,539m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "kashi_vishalakshi_satellite.png",
+        "visual_review": {
+          "id": "kashi_vishalakshi",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Correct named pin and dense lane context visible; roofs cannot establish Vishalakshi's interior boundary. Do not substitute nearby Vishwanath footprint."
+        },
+        "close_view": {
+          "id": "kashi_vishalakshi",
+          "lookup_position": [
+            25.3099438,
+            83.011898
+          ],
+          "captureUrl": "https://www.google.com/maps/@25.3099438,83.011898,135m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "kashi_vishalakshi_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "kashmir_sharada",
+      "stotram_order": 18,
+      "name": "Saraswati / Sharada Peeth",
+      "location": "Sharda, Neelum Valley, Pakistan-administered Kashmir",
+      "map_query": "Sharada Peeth ruins Sharda Neelum Valley",
+      "architecture": "Surviving Kashmiri stone temple ruins: raised square sanctuary, enclosure, steps and recessed trefoil/pediment features. Existing ruined condition is the evidence baseline; a complete historical roof requires separate reconstruction justification.",
+      "inventory": [
+        {
+          "scope": "surviving_site",
+          "names": [
+            "Square central sanctuary ruins",
+            "Enclosing quadrangle",
+            "Approach steps",
+            "Surviving masonry and niches"
+          ],
+          "source_ids": [
+            "SHARADA"
+          ],
+          "confidence": "architectural interpretation; dimensions unverified",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Do not substitute Sringeri Sharadamba, Teetwal's modern Sharada temple or Pilani's Saraswati temple.",
+        "Show ruins as present-day; label restored historic version separately."
+      ],
+      "uncertainties": [
+        "Academic paper full text blocked; measured plan not extracted.",
+        "Historic roof and lost subsidiary-shrine inventory unresolved.",
+        "Photograph camera coordinates are not surveyed temple-centre coordinates."
+      ],
+      "source_ids": [
+        "SHARADA",
+        "SHARADA_PAPER",
+        "SHARADA_COMMONS"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Sharada Peeth surviving ruins",
+          "page_url": "https://commons.wikimedia.org/wiki/File%3ASharda_Devi_Temple.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sharda_Devi_Temple.jpg",
+          "notes": "2011-07-09; verify creator and share-alike terms on file page.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Sharada%20Peeth%20ruins%20Sharda%20Neelum%20Valley",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Sharada%20Peeth%20ruins%20Sharda%20Neelum%20Valley",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "kashmir_sharada",
+        "name": "Saraswati / Sharada Peeth",
+        "query": "Sharada Peeth ruins Sharda Neelum Valley",
+        "selectedUrl": "https://www.google.com/maps/search/Sharada+Peeth+ruins+Sharda+Neelum+Valley/@34.5918275,73.6523926,125708m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Sharada Peeth ruins Sharda Neelum Valley - Google Maps",
+        "options": [
+          {
+            "name": "Shri Sharda Mata Maha Shakti Peeth Temple, INDIA",
+            "url": "https://www.google.com/maps/place/Shri+Sharda+Mata+Maha+Shakti+Peeth+Temple,+INDIA/data=!4m7!3m6!1s0x38e0d5dc7989fd71:0xae3ff605d013278d!8m2!3d34.7920875!4d74.1899531!16s%2Fm%2F02qym7k!19sChIJcf2JedzV4DgRjScT0AX2P64?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          },
+          {
+            "name": "Maa Sharda Devi Temple Teetwal",
+            "url": "https://www.google.com/maps/place/Maa+Sharda+Devi+Temple+Teetwal/data=!4m7!3m6!1s0x38e0950c458a4eaf:0xdb0cb486cb54d40b!8m2!3d34.3924539!4d73.7741301!16s%2Fg%2F11s5cbnv0b!19sChIJr06KRQyV4DgRC9RUy4a0DNs?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1"
+          }
+        ],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Sharda+Mata+Maha+Shakti+Peeth+Temple,+INDIA/data=!4m7!3m6!1s0x38e0d5dc7989fd71:0xae3ff605d013278d!8m2!3d34.7920875!4d74.1899531!16s%2Fm%2F02qym7k!19sChIJcf2JedzV4DgRjScT0AX2P64?authuser=0&hl=en&g_ep=EgoyMDI2MTExMC4wIJJjKgBIAVAD&rclk=1",
+        "lookup_position": [
+          34.7920875,
+          74.1899531
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@34.7920875,74.1899531,490m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "kashmir_sharada_satellite.png",
+        "visual_review": {
+          "id": "kashmir_sharada",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "present ruins context; historic reconstruction unverified",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Ruins enclosure and valley settlement visible. User-added political suffix on the map pin is not adopted as fact."
+        },
+        "close_view": {
+          "id": "kashmir_sharada",
+          "lookup_position": [
+            34.7920875,
+            74.1899531
+          ],
+          "captureUrl": "https://www.google.com/maps/@34.7920875,74.1899531,122m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "kashmir_sharada_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "madurai_meenakshi",
+      "stotram_order": null,
+      "name": "Meenakshi–Sundareswarar (existing game extra)",
+      "location": "Madurai, Tamil Nadu, India",
+      "map_query": "Meenakshi Amman Temple Madurai",
+      "architecture": "Large Dravidian twin-sanctuary complex with nested enclosures, many sculpted gateway towers, extensive roofed halls and Golden Lily Tank. Four detached outer towers do not reproduce its internal plan. The two principal shrines face east according to Library of Congress image metadata.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Meenakshi",
+            "Sundareswarar",
+            "Thousand Pillar Hall"
+          ],
+          "source_ids": [
+            "MADURAI"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "plan_named_features",
+          "names": [
+            "Golden Lily Tank / Potramarai Kulam",
+            "Ashta Shakti Mandapa",
+            "Meenakshi Nayaka Mandapa",
+            "Kambathadi Mandapa",
+            "Kilikoondu Mandapa",
+            "Kalyana Mandapa",
+            "Mukkuruni Vinayagar"
+          ],
+          "source_ids": [
+            "MADURAI_PLAN"
+          ],
+          "confidence": "plan-index candidates; full-size plan confirmation needed",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "major_documented_spaces",
+          "names": [
+            "Ashta Shakti Mandapa",
+            "Meenakshi Nayakkar Mandapa",
+            "Golden Lotus Tank",
+            "Chitra Mandapa corridors"
+          ],
+          "source_ids": [
+            "MADURAI_HALLS"
+          ],
+          "confidence": "documented; includes aliases of plan candidates",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Keep as an additional heritage destination unless product membership changes are authorized.",
+        "Rebuild footprint from a plan before adding ornamental detail."
+      ],
+      "uncertainties": [
+        "Do not import a plan of the Meenakshi temple in Pearland, Texas.",
+        "Counts of gates and towers refer to different subsets; enumerate actual modelled towers.",
+        "Some web descriptions reverse shrine directions; use north-marked plan."
+      ],
+      "source_ids": [
+        "MADURAI",
+        "MADURAI_PLAN",
+        "MADURAI_TOURISM",
+        "MADURAI_HALLS",
+        "MADURAI_LOC"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [
+        {
+          "kind": "aerial_photo",
+          "title": "Incredible India: Meenakshi temple aerial",
+          "page_url": "https://www.incredibleindia.gov.in/en/trips/trip-listing/unravelling-madurai-s-cultural-and-historical-threads",
+          "image_url": "https://s7ap1.scene7.com/is/image/incredibleindia/meenakshi-amman-temple-madurai-tamil-nadu-tri-hero?qlt=82&ts=1727167291042",
+          "notes": "Government tourism photograph; capture date and north direction unverified.",
+          "review_status": "discovered through indexed source; not frame-by-frame visually authenticated",
+          "capture_date": null,
+          "north_verified": false,
+          "scale_verified": false,
+          "usage": "reference only; no reuse license assumed"
+        }
+      ],
+      "photo_references": [
+        {
+          "title": "Government temple photographs",
+          "page_url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+          "image_url": null,
+          "notes": "Twin sanctuaries and halls.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Meenakshi%20Amman%20Temple%20Madurai",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Meenakshi%20Amman%20Temple%20Madurai",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "candidate located; not metrically verified",
+      "satellite_capture": {
+        "id": "madurai_meenakshi",
+        "name": "Meenakshi–Sundareswarar (existing game extra)",
+        "query": "Meenakshi Amman Temple Madurai",
+        "selectedUrl": "https://www.google.com/maps/place/Meenakshi+Amman+Temple/@9.9195045,78.1167669,1175m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3b00c58461e46987:0xf134621ce5286703!8m2!3d9.9195045!4d78.1193418!16s%2Fm%2F026g1j2?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Meenakshi Amman Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Meenakshi+Amman+Temple/@9.9195045,78.1167669,1175m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3b00c58461e46987:0xf134621ce5286703!8m2!3d9.9195045!4d78.1193418!16s%2Fm%2F026g1j2?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          9.9195045,
+          78.1193418
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@9.9195045,78.1193418,294m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "madurai_meenakshi_satellite.png",
+        "visual_review": {
+          "id": "madurai_meenakshi",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Nested large precincts, connected roofs, multiple towers and internal tank clearly visible."
+        },
+        "close_view": {
+          "id": "madurai_meenakshi",
+          "lookup_position": [
+            9.9195045,
+            78.1193418
+          ],
+          "captureUrl": "https://www.google.com/maps/@9.9195045,78.1193418,294m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "madurai_meenakshi_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "kalighat",
+      "stotram_order": null,
+      "name": "Kalighat Kali (existing game extra)",
+      "location": "Kolkata, West Bengal, India",
+      "map_query": "Kalighat Kali Temple Kolkata",
+      "architecture": "Bengali atchala roof, decorated surface treatment and later natmandir in a dense urban precinct. A Navaratna tower is the wrong roof family.",
+      "inventory": [
+        {
+          "scope": "main_complex",
+          "names": [
+            "Kali",
+            "Natmandir",
+            "Jor Bangla",
+            "Sosthi Tala",
+            "Harkath Tala",
+            "Radha-Krishna shrine",
+            "Kundupukur (southeast of main temple)"
+          ],
+          "source_ids": [
+            "KALIGHAT"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "nearby_separate_site",
+          "names": [
+            "Nakuleshwar Mahadev"
+          ],
+          "source_ids": [
+            "KALIGHAT"
+          ],
+          "confidence": "documented",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Use curved atchala roof and compact urban approach.",
+        "Keep distinct from Shrinkhala's disputed Pradyumna identity."
+      ],
+      "uncertainties": [
+        "Current redevelopment can change outer precincts; photograph date must be retained.",
+        "Exact shrine and tank boundaries not measured."
+      ],
+      "source_ids": [
+        "KALIGHAT",
+        "KALIGHAT_CENSUS"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Incredible India Kalighat photographs",
+          "page_url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple",
+          "image_url": null,
+          "notes": "Atchala temple reference; select dated images for redevelopment state.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Kalighat%20Kali%20Temple%20Kolkata",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Kalighat%20Kali%20Temple%20Kolkata",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "kalighat",
+        "name": "Kalighat Kali (existing game extra)",
+        "query": "Kalighat Kali Temple Kolkata",
+        "selectedUrl": "https://www.google.com/maps/place/Kalighat+Kali+Temple/@22.5203132,88.3394967,1102m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a02774a41c0aeeb:0xd9189505f51dd4f!8m2!3d22.5203132!4d88.3420716!16s%2Fg%2F11bc5n1d7d?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Kalighat Kali Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Kalighat+Kali+Temple/@22.5203132,88.3394967,1102m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a02774a41c0aeeb:0xd9189505f51dd4f!8m2!3d22.5203132!4d88.3420716!16s%2Fg%2F11bc5n1d7d?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          22.5203132,
+          88.3420716
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@22.5203132,88.3420716,551m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "kalighat_satellite.png",
+        "visual_review": {
+          "id": "kalighat",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Compact connected temple precinct amid city blocks visible; image date/redevelopment state unknown."
+        },
+        "close_view": {
+          "id": "kalighat",
+          "lookup_position": [
+            22.5203132,
+            88.3420716
+          ],
+          "captureUrl": "https://www.google.com/maps/@22.5203132,88.3420716,138m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "kalighat_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    },
+    {
+      "id": "tuljapur_bhavani",
+      "stotram_order": null,
+      "name": "Tulja Bhavani (existing game extra)",
+      "location": "Tuljapur, Dharashiv district, Maharashtra, India",
+      "map_query": "Shri Tulja Bhavani Temple Tuljapur",
+      "architecture": "Hemadpanti stone temple reached by a descending stepped approach, with successive gateways, tirthas and ritual spaces. A generic level fort enclosure misses the pilgrimage route.",
+      "inventory": [
+        {
+          "scope": "main_complex_route",
+          "names": [
+            "Kallol Tirth",
+            "Gomukh Tirth",
+            "Siddhivinayaka",
+            "Nimbalkar gateway",
+            "Markandeya image",
+            "Nagara drum",
+            "Homa kunda / Rakta Bhairava association",
+            "Bhavani sanctum",
+            "Silver sleeping cot",
+            "Mahadev opposite the cot"
+          ],
+          "source_ids": [
+            "TULJA_PRIEST"
+          ],
+          "confidence": "priest account; placement requires trust plan",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        },
+        {
+          "scope": "wider_town_water_features_not_all_inside_temple",
+          "names": [
+            "Nagzari Tirth",
+            "Mankavati Tirth",
+            "Bhavani Tirth",
+            "Papnash Tirth",
+            "Renuka",
+            "Charmara Kund",
+            "Surya Kund",
+            "Bhagwati Tirth",
+            "Khotachi Vihir",
+            "Lingappa Vihir",
+            "Ahilyadevi Vihir",
+            "Jijamata Kund"
+          ],
+          "source_ids": [
+            "TULJA_DPR"
+          ],
+          "confidence": "document index; scope requires map review",
+          "positions": null,
+          "positions_status": "not georeferenced"
+        }
+      ],
+      "correction_checks": [
+        "Separate existing fabric from proposed DPR development.",
+        "Preserve descending approach, route sequence and tirthas."
+      ],
+      "uncertainties": [
+        "Trust DPR direct access blocked; plan pages not visually reviewed.",
+        "All town water features must not be crammed into the central courtyard.",
+        "Matangi and other reported shrines require confirmed locations."
+      ],
+      "source_ids": [
+        "TULJA_DPR",
+        "TULJA_PRIEST"
+      ],
+      "inventory_completeness": "documented subset; not certified exhaustive",
+      "measured_plan_status": "not obtained",
+      "coordinates": null,
+      "aerial_references": [],
+      "photo_references": [
+        {
+          "title": "Temple route photographs and description",
+          "page_url": "https://tuljabhavanipujari.co/about/",
+          "image_url": null,
+          "notes": "Corroborate route against trust DPR.",
+          "review_status": "source identified; not a measured photographic survey"
+        }
+      ],
+      "map_links": {
+        "google_satellite_lookup": "https://www.google.com/maps?t=k&q=Shri%20Tulja%20Bhavani%20Temple%20Tuljapur",
+        "google_place_lookup": "https://www.google.com/maps/search/?api=1&query=Shri%20Tulja%20Bhavani%20Temple%20Tuljapur",
+        "status": "lookup links only; imagery not captured, georeferenced or surveyed"
+      },
+      "aerial_status": "no authenticated aerial selected; map lookup and ground references supplied",
+      "satellite_capture": {
+        "id": "tuljapur_bhavani",
+        "name": "Tulja Bhavani (existing game extra)",
+        "query": "Shri Tulja Bhavani Temple Tuljapur",
+        "selectedUrl": "https://www.google.com/maps/place/Shri+Tuljabhavani+Temple/@18.0124474,76.0634532,1135m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bc5be0a6fb24af1:0x37ca3b89a72041b1!8m2!3d18.0124474!4d76.0660281!16zL20vMGgzMDc4?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "selectedTitle": "Shri Tuljabhavani Temple - Google Maps",
+        "options": [],
+        "pinUrl": "https://www.google.com/maps/place/Shri+Tuljabhavani+Temple/@18.0124474,76.0634532,1135m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bc5be0a6fb24af1:0x37ca3b89a72041b1!8m2!3d18.0124474!4d76.0660281!16zL20vMGgzMDc4?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "lookup_position": [
+          18.0124474,
+          76.0660281
+        ],
+        "status": "qualitative context reviewed; not a survey",
+        "captureDate": "2026-11-16",
+        "imageDate": null,
+        "captureUrl": "https://www.google.com/maps/@18.0124474,76.0660281,567m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+        "file": "tuljapur_bhavani_satellite.png",
+        "visual_review": {
+          "id": "tuljapur_bhavani",
+          "reviewed_on": "2026-11-16",
+          "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+          "site_identity_status": "named map site correlated with reference location",
+          "image_usability": "usable for qualitative site context and roof massing",
+          "survey_certified": false,
+          "exhaustive_shrines_verified": false,
+          "note": "Temple precinct and approach streets/terrain visible; interior level changes require ground/plan evidence."
+        },
+        "close_view": {
+          "id": "tuljapur_bhavani",
+          "lookup_position": [
+            18.0124474,
+            76.0660281
+          ],
+          "captureUrl": "https://www.google.com/maps/@18.0124474,76.0660281,284m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+          "file": "tuljapur_bhavani_satellite_close.png",
+          "captureDate": "2026-11-16",
+          "imageDate": null
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "STOTRAM",
+      "title": "National Sanskrit University: Eighteen Shaktipeethas (stotram on PDF pages 2-3)",
+      "url": "https://nsktu.ac.in/wp-content/uploads/2022/01/M35-Eighteen-Shaktipeethas-Prof-Korada-subrahmanyam.pdf",
+      "type": "university",
+      "access": "read_pdf_text_and_requested_page_renders",
+      "notes": "Use the stotram itself for membership. The later tabular slides contain an extra Danteswari row and inconsistent body-part assignments; do not blindly import the table.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "LANKA",
+      "title": "Sri Lanka Tourism Development Authority: Ramayanaya Yathra, Thiru Koneswaram",
+      "url": "https://www.sltda.gov.lk/storage/common_media/ramayanaya-yathra%20E%20Brochure4096755957.pdf?8RYya0=5M5zV",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Links Lanka Shankari tradition to Thiru Koneswaram. Not an archaeological reconstruction plan.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KANCHI",
+      "title": "CEC / Jamia Millia Islamia: Kamakshi Temple architecture teaching script",
+      "url": "https://cec.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf",
+      "type": "university",
+      "access": "search_excerpt_open_timeout",
+      "notes": "Useful named shrines and mandapa description; exact placement still needs plan or visual corroboration.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KANCHI_TRUST",
+      "title": "Sri Kamakshi Ambal Devasthanam: About",
+      "url": "https://kanchikamakshi.org/about/",
+      "type": "temple_authority",
+      "access": "page_opened_sparse_extraction",
+      "notes": "Official-source lead; available text extraction is incomplete.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SHRINKHALA_ASI",
+      "title": "ASI Kolkata Circle: The Minar, Pandua, Hooghly",
+      "url": "https://asikolkata.in/monument-sites/the-minar/",
+      "type": "archaeological_authority",
+      "access": "search_excerpt",
+      "notes": "Confirms the surviving monument identity, not an ancient Shrinkhala temple floor plan.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "CHAMUNDI",
+      "title": "Sri Chamundeshwari Development Authority: About",
+      "url": "https://chamundeshwaritemple.in/about.aspx",
+      "type": "temple_authority",
+      "access": "page_read",
+      "notes": "Detailed sequence of halls, gateway, flags, images, and nearby hill temples.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "ALAMPUR",
+      "title": "Jogulamba Gadwal district: Places of Interest",
+      "url": "https://gadwal.telangana.gov.in/places-of-interest/",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Documents Navabrahma group; distinguish these ancient Shiva temples from the rebuilt Jogulamba shrine.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "ALAMPUR_MODERN",
+      "title": "Jogulamba Temple, Alampur",
+      "url": "https://en.wikipedia.org/wiki/Jogulamba_Temple%2C_Alampur",
+      "type": "secondary",
+      "access": "search_excerpt",
+      "notes": "2005 rebuilding and photographic/panoramic lead; corroborate modern boundaries with imagery.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SRISAILAM",
+      "title": "Srisailam Devasthanam",
+      "url": "https://www.srisailadevasthanam.org/en-in/home",
+      "type": "temple_authority",
+      "access": "search_excerpt_spa_requires_javascript",
+      "notes": "Official portal; main-temple route did not expose the full inventory through text extraction.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SRISAILAM_GOV",
+      "title": "APSAC: Nandyal District Survey Report, temple section",
+      "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Nandyal.pdf",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Lists enclosing walls and several subsidiary shrines.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SRISAILAM_INVENTORY",
+      "title": "Today's Traveller, February 2021: Srisailam shrine inventory",
+      "url": "https://www.todaystraveller.net/wp-content/uploads/2021/03/Todays-Traveller-Feb-Issue-2021.pdf",
+      "type": "secondary",
+      "access": "search_excerpt",
+      "notes": "Additional courtyard shrine names; placements unverified.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KOLHAPUR",
+      "title": "Kolhapur Tourism: Mahalaxmi Temple",
+      "url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/",
+      "type": "tourism",
+      "access": "page_read",
+      "notes": "Architecture and shrine inventory useful. The page contradicts itself on solar-event dates; dates excluded.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KOLHAPUR_TRUST",
+      "title": "Shree Karveer Niwasini Ambabai Mahalaxmi",
+      "url": "https://www.mahalaxmikolhapur.com/",
+      "type": "temple_source_lead",
+      "access": "image_search_page",
+      "notes": "Photo reference lead; exact authority attribution and current-date photography need checking.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MAHUR",
+      "title": "Nanded district: Mahur Gadh",
+      "url": "https://nanded.gov.in/en/tourist-place/mahur-gadh/",
+      "type": "government",
+      "access": "page_read",
+      "notes": "Hill setting and historic shrine identification.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MAHUR_GAZ",
+      "title": "Maharashtra Gazetteer: Nanded, places of interest, Marathi",
+      "url": "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Nanded_mar/index/pdf/12.pdf",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Documents separate sacred hills and wider Mahur sites. Do not put every regional shrine in Renuka's courtyard.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MAHUR_STAT",
+      "title": "Nanded District Socioeconomic Review 2024-25, Renuka entry",
+      "url": "https://des2.mahaonline.gov.in/files/publication/dsa/2024-25/DSA_Nanded_2024-25.pdf",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Describes head/face image, silver-clad doorway and two-part temple.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "UJJAIN",
+      "title": "Ujjain district: Harsiddhi Temple",
+      "url": "https://ujjain.nic.in/en/tourist-place/harsiddhi/",
+      "type": "government",
+      "access": "page_read",
+      "notes": "Three principal goddess images, yantra, twin lamp pillars and well.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "PITHAPURAM",
+      "title": "Kakinada district: Tourist Places, Padagaya",
+      "url": "https://kakinada.ap.gov.in/tourism/tourist-places/",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Shared sacred complex; not an isolated standalone Puruhutika temple.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "PITHAPURAM_APSAC",
+      "title": "APSAC: Kakinada District Survey Report, Puruhootika/Kukkuteshwara/Dattatreya section",
+      "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Kakinada.pdf",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Names principal shared-complex shrines.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "PITHAPURAM_INVENTORY",
+      "title": "Kukkuteswara Temple, Pithapuram: photographic walkthrough",
+      "url": "https://hindutemples-india.blogspot.com/2019/06/kukkuteswara-swamy-temple-pithapuram-temple.html",
+      "type": "secondary",
+      "access": "image_search_excerpt",
+      "notes": "Extra shrine candidates only; verify each placement against walkthrough before modelling.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "BIRAJA",
+      "title": "Biraja Mandira Trust Board: The Temple",
+      "url": "https://maabiraja.com/temple.html",
+      "type": "temple_authority",
+      "access": "page_read",
+      "notes": "Rekha vimana, pidha jagamohana, chandi mandapa and named shrines.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "BIRAJA_ICON",
+      "title": "Biraja Mandira Trust Board: Iconography",
+      "url": "https://maabiraja.com/iconography.html",
+      "type": "temple_authority",
+      "access": "page_read",
+      "notes": "Two arms; buffalo iconography. Lion-mount statement conflicts with district tourist page.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "BIRAJA_WELL",
+      "title": "Biraja Mandira Trust Board: Nabhigaya",
+      "url": "https://maabiraja.com/navigaya.html",
+      "type": "temple_authority",
+      "access": "page_read",
+      "notes": "Nabhigaya is a ritual well within the compound, not an invented large bathing tank.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "BIRAJA_DISTRICT",
+      "title": "Jajpur district: Biraja Khetra",
+      "url": "https://jajpur.odisha.gov.in/en/tourism/tourist-places/biraja-khetra",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Corroborates two-armed form but differs from trust on lion. Preserve conflict.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "DRAKSHARAMA",
+      "title": "APSRTC: Draksharamam",
+      "url": "https://apsrtc.ap.gov.in/fp_draksharamam.php",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Two enclosures, four outer gateways, upper-sanctum stairs and named shrines.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "DRAKSHARAMA_ASI",
+      "title": "Lok Sabha reply: conservation at Bhimeswara Temple, Draksharamam",
+      "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU98_rqGC8e.pdf?source=pqals",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Independently names Manikyamba shrine, Sri Chakra, Somavarapu Mandapam, Nivedhana sala and inner prakara.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KAMAKHYA",
+      "title": "Maa Kamakhya Devalaya: Architecture",
+      "url": "https://www.maakamakhya.org/architecture",
+      "type": "temple_authority",
+      "access": "page_read",
+      "notes": "Five-chamber terminology and differentiated roof forms.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KAMAKHYA_HILL",
+      "title": "Maa Kamakhya Devalaya: Nilachal temples",
+      "url": "https://www.maakamakhya.org/nilachal",
+      "type": "temple_authority",
+      "access": "page_read",
+      "notes": "Wider hill shrine names; proximity does not imply one enclosure.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KAMAKHYA_FOUR",
+      "title": "Assam government: Mahabahu Brahmaputra, Kamakhya section",
+      "url": "https://fremaa.assam.gov.in/sites/default/files/swf_utility_folder/departments/fremaa_webcomindia_org_oid_4/menu/right_menu/right_menu/the_mahabahu_brahmaputra_0.pdf",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Four-chamber terminology and east-west alignment; reconcile with authority's five-chamber account.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "PRAYAG",
+      "title": "Prayagraj district: Places of Interest, Alopi and Lalita entries",
+      "url": "https://prayagraj.nic.in/top-attractions/",
+      "type": "government",
+      "access": "page_read",
+      "notes": "Alopi and Lalita are distinct locations; platform/cot, Shiva image and lingam.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "PRAYAG_EXTRA",
+      "title": "Alopi Devi Mandir: visitor description",
+      "url": "https://shubhpanchang.com/temples/alopi-devi-mandir",
+      "type": "secondary",
+      "access": "search_excerpt",
+      "notes": "Hanuman/Navadurga candidates; do not certify these without visual evidence.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "JWALA",
+      "title": "Kangra Temples government portal: Shri Jawala Mata Mandir",
+      "url": "https://kangratemples.hp.gov.in/shri-jawala-mata-mandir/",
+      "type": "temple_authority",
+      "access": "search_excerpt",
+      "notes": "Nine flame names and rock-fissure worship.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "JWALA_TOURISM",
+      "title": "Himachal Tourism: Kangra, Jwalamukhi entry",
+      "url": "https://himachaltourism.gov.in/destination/kangra/",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Wooded spur and gilded dome.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "JWALA_EXTRA",
+      "title": "Jwala Ji: complex features and surrounding shrines",
+      "url": "https://devadarshanam.com/temple/jwalamukhi",
+      "type": "secondary",
+      "access": "search_excerpt",
+      "notes": "Gorakh Dibbi, Seja Bhawan and outlying shrines are candidate inventory; separate regional sites.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "GAYA",
+      "title": "Bihar Tourism: Mangala Gauri",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri",
+      "type": "government",
+      "access": "page_read",
+      "notes": "Hill setting, symbolic sanctum and four subsidiary deities.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KASHI",
+      "title": "Kashi official portal: Vishalakshi Devi Temple",
+      "url": "https://www.darshan.kashi.gov.in/listing-details/vishalakshi-devi-temple",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Site identity, Mir Ghat/lane context, principal sanctum.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KASHI_HERITAGE",
+      "title": "Indian Institute of Heritage: Vishalakshi Temple, Rana P.B. Singh and Pravin S. Rana",
+      "url": "https://culturalheritageofvaranasi.com/notable_temples/vishalakshi-temple/",
+      "type": "research_institution",
+      "access": "page_read",
+      "notes": "Lane approach and separate neighbouring Dharmakupa, Dharmesha, Divodasa and Vindhyavasini sites.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KASHI_TWO_IMAGES",
+      "title": "Vishalakshi Temple: architecture and two-image account",
+      "url": "https://temples.dsquaregee.com/en/temples/vishalakshi-varanasi/",
+      "type": "secondary",
+      "access": "page_excerpt",
+      "notes": "Treat two-image arrangement as requiring interior confirmation.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SHARADA",
+      "title": "Impart: Sharada Peeth",
+      "url": "https://imp-art.org/articles/sharada-peeth/",
+      "type": "art_history",
+      "access": "search_excerpt",
+      "notes": "Kashmiri temple architecture and archival Stein photograph lead.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SHARADA_PAPER",
+      "title": "Quaid-i-Azam University Journal of Asian Civilizations: The Sharda Temple",
+      "url": "https://jac.qau.edu.pk/index.php/jac/article/download/124/93/190",
+      "type": "research_paper",
+      "access": "search_excerpt_open_403",
+      "notes": "Archaeology paper lead; full text/plan not yet reviewed, no dimensions extracted.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "SHARADA_COMMONS",
+      "title": "Wikimedia Commons: Sharada Peeth reference photographs",
+      "url": "https://commons.wikimedia.org/wiki/Category%3ASharada_Peeth",
+      "type": "photo_collection",
+      "access": "page_text_available",
+      "notes": "File captions sometimes use 'university' or 'fort'; do not derive archaeological identity from those names.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MADURAI",
+      "title": "Madurai district: Sri Meenakshi-Sundareswarar Temple",
+      "url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+      "type": "government",
+      "access": "page_read",
+      "notes": "Twin sanctuaries and Thousand Pillar Hall.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MADURAI_PLAN",
+      "title": "Smarthistory: Meenakshi Temple plan",
+      "url": "https://smarthistory.org/meenakshi-madurai/",
+      "type": "art_history",
+      "access": "image_index_open_403",
+      "notes": "Plan located through image index; direct fetch blocked. Orientation details should be checked from full-size plan.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MADURAI_TOURISM",
+      "title": "Incredible India: Madurai cultural and historical itinerary",
+      "url": "https://www.incredibleindia.gov.in/en/trips/trip-listing/unravelling-madurai-s-cultural-and-historical-threads",
+      "type": "government",
+      "access": "page_opened_and_aerial_index",
+      "notes": "Aerial photograph reference.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KALIGHAT",
+      "title": "Incredible India: Kalighat Temple",
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple",
+      "type": "government",
+      "access": "page_read",
+      "notes": "Natmandir, Jor Bangla, Sosthi Tala, Harkath Tala, Radha-Krishna, tank and nearby Nakuleshwar.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "KALIGHAT_CENSUS",
+      "title": "Census of India: Kolkata district handbook, Kalighat architecture",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/27868/download/31037/DH_19_2001_KOL.pdf",
+      "type": "government",
+      "access": "search_excerpt",
+      "notes": "Atchala roof, tiles and later natmandap; distinguish from Navaratna.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "TULJA_DPR",
+      "title": "Shri Tuljabhavani Mandir Sansthan: conservation/development DPR",
+      "url": "https://shrituljabhavani.org/PDF/DRPTENGLISH.pdf",
+      "type": "temple_authority",
+      "access": "search_excerpt_open_403",
+      "notes": "Plan/document lead, not fully reviewed. Contains proposed work: never treat proposal as as-built.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "TULJA_PRIEST",
+      "title": "Tulja Bhavani Pujari: temple route and features",
+      "url": "https://tuljabhavanipujari.co/about/",
+      "type": "priest_account",
+      "access": "page_text_available",
+      "notes": "Detailed route and shrines; placements need trust plan corroboration.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "LANKA_WALK",
+      "title": "Koneswaram: deity and processional-route inventory",
+      "url": "https://templesofindia.org/temple-view/shri-shankari-shaktipeeth-koneswaram-temple-trincomalee-trincomalee-eastern-province-124vjh",
+      "type": "secondary",
+      "access": "search_excerpt",
+      "notes": "Route begins in town; named deities are not all established as shrines inside the promontory enclosure.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "UJJAIN_KARKOT",
+      "title": "Karkotkeshwar Mahadev, Harsiddhi courtyard",
+      "url": "https://myadhyatm.com/karkotkeshwar-mahadev-10-84-ujjain-madhya-pradesh/",
+      "type": "secondary",
+      "access": "search_excerpt",
+      "notes": "Additional named shrine candidate, independently check against current map or walkthrough.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MADURAI_HALLS",
+      "title": "Incredible India: Sri Meenakshi-Sundareswarar Temple",
+      "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/madurai/sri-meenakshi-sundareswarar-temple.html",
+      "type": "government",
+      "access": "page_text_available",
+      "notes": "Names major halls and Golden Lotus Tank; not an exhaustive shrine inventory.",
+      "accessed_on": "2026-11-16"
+    },
+    {
+      "id": "MADURAI_LOC",
+      "title": "Library of Congress: Meenakshi temple image metadata example",
+      "url": "https://www.loc.gov/catworkshop/courses/metadatadl/pdf/mdld-instr-manual-01a.pdf",
+      "type": "research_institution",
+      "access": "search_excerpt",
+      "notes": "Two east-facing principal shrines; documented photograph metadata, not a floor survey.",
+      "accessed_on": "2026-11-16"
+    }
+  ]
+}

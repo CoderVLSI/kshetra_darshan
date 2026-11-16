@@ -1,0 +1,36 @@
+# Engine, Python and operating-system caches
+godot/.godot/
+**/__pycache__/
+**/.playwright-cli/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local distributions, logs, test runs and backups
+builds/
+output/
+*.log
+*.blend1
+
+# Regenerable captures and external research media stay local.
+godot/screenshots/
+research/**/tmp/
+research/**/output/
+research/**/deity_assets/
+research/**/*.png
+research/**/*.jpg
+research/**/*.jpeg
+research/**/*.webp
+research/**/*.gif
+research/**/*.pdf
+
+# Godot extracts these duplicates from the embedded GLB textures.
+godot/assets/models/*_kshetra_full_*_albedo.png*
+godot/assets/models/*_kshetra_full_*_normal.png*
+
+# Never commit local credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.key

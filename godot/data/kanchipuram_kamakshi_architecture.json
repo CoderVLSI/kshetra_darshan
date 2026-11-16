@@ -1,0 +1,33 @@
+{
+  "id": "kanchipuram_kamakshi",
+  "name_sanskrit": "काञ्ची कामाक्षी",
+  "name_english": "Kanchipuram Kamakshi Amman Temple",
+  "location": {
+    "city": "Kanchipuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 12.8407,
+    "lng": 79.7036
+  },
+  "style": "Dravidian architecture (Pallava, Chola, and Vijayanagara)",
+  "key_structures": [
+    "Gayatri Mandapam (inner sanctum with four pillars representing 4 Vedas)",
+    "Golden Vimana (gilded superstructure over sanctum)",
+    "Sri Chakra Yantra (established by Adi Shankaracharya)",
+    "Four towering Rajagopurams",
+    "Pancha Ganga Tank"
+  ],
+  "special_features": [
+    "Goddess seated in Padmasana posture holding sugarcane bow, lotus, parrot, and floral arrows",
+    "Absence of other traditional Shakti sanctums in Kanchipuram city, centering all cosmic energy here",
+    "Sri Chakra consecrated before the deity to pacify ferocious energy"
+  ],
+  "materials": [
+    "Carved black granite stone",
+    "Gilded gold sheets covering Vimana",
+    "Laterite prakara boundary walls",
+    "Stucco sculptures"
+  ],
+  "period": "6th–14th Century CE",
+  "renovation_history": "Initially patronized by Pallava monarchs; renovated and adorned with golden vimana by Chola kings and expanded by Vijayanagara emperors."
+}

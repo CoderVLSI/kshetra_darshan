@@ -1,0 +1,212 @@
+[
+  {
+    "id": "lanka_shankari",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Cliff promontory, temple roof and approach visible. Present site only; medieval shrine reconstruction not established."
+  },
+  {
+    "id": "kanchipuram_kamakshi",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Temple precinct, rectangular tank and connected roofs visible; exact internal shrine positions not established."
+  },
+  {
+    "id": "pradyumna_shrinkhala",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "current Minar identity only; ancient temple unverified",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Pandua Minar and current grounds visible. This does not verify the lost Shrinkhala temple site or plan."
+  },
+  {
+    "id": "mysore_chamundeshwari",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Hilltop main enclosure and neighbouring temple compounds visible. Interior boundaries still require ground survey."
+  },
+  {
+    "id": "alampur_jogulamba",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Modern Jogulamba compound, water/roof masses and separate neighbouring temples visible."
+  },
+  {
+    "id": "srisailam_bhramaramba",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Shared enclosed temple precinct and roof groups visible. Labels alone do not locate all subsidiary sanctuaries."
+  },
+  {
+    "id": "kolhapur_mahalakshmi",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Connected temple roofscape, city streets and several labelled features visible; not a regular isolated star footprint."
+  },
+  {
+    "id": "mahur_renuka",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Main ridge temple, approach and forest slopes visible. Other sacred hills are separate."
+  },
+  {
+    "id": "ujjain_mahakali",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Harsiddhi compound and adjacent lake/city context visible; separate from Mahakaleshwar."
+  },
+  {
+    "id": "pithapuram_puruhutika",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Shared campus roofs and substantial sacred pool visible; exact shrine positions need walkthrough."
+  },
+  {
+    "id": "jajpur_biraja",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Main enclosed shrine ensemble and surrounding grounds visible; smaller roof identities unverified."
+  },
+  {
+    "id": "draksharama_manikyamba",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Temple enclosures, roofed central structure and adjacent sacred tank visible; internal floor levels not established."
+  },
+  {
+    "id": "kamakhya",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "limited; hazy or soft imagery",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Site context and connected roof groups visible, but imagery is hazy and limits fine tracing."
+  },
+  {
+    "id": "prayag_madhaveswari",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "limited; hazy or soft imagery",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Correct named locality/pin selected, but satellite imagery is too hazy to establish a reliable building footprint. Ground photographs/plan remain essential."
+  },
+  {
+    "id": "jwalamukhi_vaishnavi",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Corrected close view shows named main temple, courtyard, Gorakh Dibbi, Akbar chhatra, Shaiya Bhawan and Annapurna labels. Initial wide town-centre view is not the temple reference."
+  },
+  {
+    "id": "gaya_mangalagauri",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "limited; hazy or soft imagery",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Correct named site and hill context visible, but imagery is soft/hazy; precise footprint and roof detail remain uncertain."
+  },
+  {
+    "id": "kashi_vishalakshi",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Correct named pin and dense lane context visible; roofs cannot establish Vishalakshi's interior boundary. Do not substitute nearby Vishwanath footprint."
+  },
+  {
+    "id": "kashmir_sharada",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "present ruins context; historic reconstruction unverified",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Ruins enclosure and valley settlement visible. User-added political suffix on the map pin is not adopted as fact."
+  },
+  {
+    "id": "madurai_meenakshi",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Nested large precincts, connected roofs, multiple towers and internal tank clearly visible."
+  },
+  {
+    "id": "kalighat",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Compact connected temple precinct amid city blocks visible; image date/redevelopment state unknown."
+  },
+  {
+    "id": "tuljapur_bhavani",
+    "reviewed_on": "2026-11-16",
+    "method": "contact-sheet visual review; selected full-resolution screenshots also inspected",
+    "site_identity_status": "named map site correlated with reference location",
+    "image_usability": "usable for qualitative site context and roof massing",
+    "survey_certified": false,
+    "exhaustive_shrines_verified": false,
+    "note": "Temple precinct and approach streets/terrain visible; interior level changes require ground/plan evidence."
+  }
+]

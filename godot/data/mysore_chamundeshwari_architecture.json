@@ -1,0 +1,33 @@
+{
+  "id": "mysore_chamundeshwari",
+  "name_sanskrit": "मैसूरु चामुण्डेश्वरी",
+  "name_english": "Chamundeshwari Temple",
+  "location": {
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 12.2727,
+    "lng": 76.6713
+  },
+  "style": "Dravidian architecture (Vijayanagara and Wodeyar styles)",
+  "key_structures": [
+    "Seven-tiered ornate Rajagopuram (built by Krishnaraja Wodeyar III)",
+    "Sanctum Sanctorum (housing stone idol of eight-armed Chamunda)",
+    "Navaranga and Antarala pillared pavilions",
+    "1,000 stone step ancient hill staircase",
+    "Colossal monolithic Nandi statue (16 feet high, 24 feet wide)"
+  ],
+  "special_features": [
+    "Hilltop citadel sanctum overlooking the historical city of Mysuru",
+    "Gilded temple doors with silver coverings portraying various manifestations of Shakti",
+    "Statue of demon Mahishasura greeting pilgrims near the entrance"
+  ],
+  "materials": [
+    "Fine granite stone masonry",
+    "Carved stone pillars",
+    "Embossed silver-clad doorways",
+    "Gilded kalasha crowns"
+  ],
+  "period": "12th–19th Century CE",
+  "renovation_history": "Earliest shrines built by Hoysala monarchs (12th century); massive expansion, ramparts, and towering gopuram added by Vijayanagara rulers and Wodeyar Maharajas in 1827 CE."
+}

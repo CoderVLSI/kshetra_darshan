@@ -1,0 +1,841 @@
+{
+  "scope": "Runtime-generated subsidiary artwork; existing main/model anchors require separate visual verification",
+  "summary": {
+    "shared_cave_stone_study": 2,
+    "reference_altar_pending": 38,
+    "sacred_form_geometry": 33,
+    "distinct_iconographic_study": 10
+  },
+  "shrines": [
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "matangi",
+      "deity": "Matangi Peetha",
+      "form": "sacred_symbol",
+      "artwork_status": "shared_cave_stone_study",
+      "source_ids": [
+        "KAMAKHYA_IIT"
+      ]
+    },
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "kamala",
+      "deity": "Kamala Peetha",
+      "form": "sacred_symbol",
+      "artwork_status": "shared_cave_stone_study",
+      "source_ids": [
+        "KAMAKHYA_IIT"
+      ]
+    },
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "batuk_bhairava",
+      "deity": "Batuk Bhairava — Chalanta",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ]
+    },
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "chamunda",
+      "deity": "Chamunda — Pancharatna",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ]
+    },
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "manasa",
+      "deity": "Manasa altar — Pancharatna",
+      "form": "sacred_symbol",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ]
+    },
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "durga_natmandir",
+      "deity": "Durga — Natmandir entrance image",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ]
+    },
+    {
+      "temple_id": "kamakhya",
+      "shrine_id": "shiva_natmandir",
+      "deity": "Shiva — Natmandir entrance image",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KAMAKHYA_CHALANTA"
+      ]
+    },
+    {
+      "temple_id": "kalighat",
+      "shrine_id": "sosthi_tala",
+      "deity": "Sosthi Tala — Sosthi, Shitala, Mangal Chandi",
+      "form": "sacred_symbol",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KALIGHAT"
+      ]
+    },
+    {
+      "temple_id": "kalighat",
+      "shrine_id": "radha_krishna",
+      "deity": "Radha–Krishna",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KALIGHAT"
+      ]
+    },
+    {
+      "temple_id": "kalighat",
+      "shrine_id": "brahmananda_giri",
+      "deity": "Brahmananda Giri resting place",
+      "form": "sacred_symbol",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KALIGHAT"
+      ]
+    },
+    {
+      "temple_id": "kashi_vishalakshi",
+      "shrine_id": "shiva_nandi_1",
+      "deity": "Pradakshina Shiva–Nandi 1",
+      "form": "linga_nandi",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ]
+    },
+    {
+      "temple_id": "kashi_vishalakshi",
+      "shrine_id": "shiva_nandi_2",
+      "deity": "Pradakshina Shiva–Nandi 2",
+      "form": "linga_nandi",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ]
+    },
+    {
+      "temple_id": "kashi_vishalakshi",
+      "shrine_id": "shiva_nandi_3",
+      "deity": "Pradakshina Shiva–Nandi 3",
+      "form": "linga_nandi",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ]
+    },
+    {
+      "temple_id": "kashi_vishalakshi",
+      "shrine_id": "navagraha",
+      "deity": "Navagraha group",
+      "form": "navagraha",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KASHI_FIELD_SURVEY"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "varahi",
+      "deity": "Varahi",
+      "form": "devi",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "arupa_lakshmi",
+      "deity": "Arupa Lakshmi",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "kalvar_perumal",
+      "deity": "Kalvar Perumal (Vishnu)",
+      "form": "vishnu",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "ayyappan",
+      "deity": "Ayyappan / Sasta",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "saraswati",
+      "deity": "Saraswati",
+      "form": "devi",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "annapoorani",
+      "deity": "Annapoorani",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "adi_shankara",
+      "deity": "Adi Shankaracharya",
+      "form": "acharya",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "mahishasuramardini",
+      "deity": "Mahishasura Mardhini",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "kanchipuram_kamakshi",
+      "shrine_id": "kashi_viswanathar",
+      "deity": "Kashi Viswanathar",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KANCHI_TRUST"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "sundareswarar",
+      "deity": "Sundareswarar",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "MADURAI"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "mukkuruni_vinayagar",
+      "deity": "Mukkuruni Vinayagar",
+      "form": "ganesha",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "MADURAI_PLAN"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "sevvanthiswarar",
+      "deity": "Sevvantheeswarar",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "kasi_viswanathar",
+      "deity": "Kasi Viswanathar",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "kalyanasundarar",
+      "deity": "Kalyanasundarar",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "ekadasa_linga",
+      "deity": "Ekadasa Linga group",
+      "form": "linga_group",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "sangathar",
+      "deity": "Sangathar shrine",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "MADURAI_HRCE_SHRINES"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "nataraja",
+      "deity": "Nataraja — Silver Sabha",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "MADURAI_RESEARCH"
+      ]
+    },
+    {
+      "temple_id": "madurai_meenakshi",
+      "shrine_id": "murugan",
+      "deity": "Murugan",
+      "form": "unknown",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "MADURAI_RESEARCH"
+      ]
+    },
+    {
+      "temple_id": "mysore_chamundeshwari",
+      "shrine_id": "anjaneya",
+      "deity": "Anjaneya wall image",
+      "form": "hanuman",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "CHAMUNDI"
+      ]
+    },
+    {
+      "temple_id": "mysore_chamundeshwari",
+      "shrine_id": "nandi",
+      "deity": "Small Nandi",
+      "form": "nandi",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "CHAMUNDI"
+      ]
+    },
+    {
+      "temple_id": "mysore_chamundeshwari",
+      "shrine_id": "devi_footprints",
+      "deity": "Devi footprints",
+      "form": "sacred_symbol",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "CHAMUNDI"
+      ]
+    },
+    {
+      "temple_id": "mysore_chamundeshwari",
+      "shrine_id": "nandini",
+      "deity": "Nandini guardian",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "CHAMUNDI"
+      ]
+    },
+    {
+      "temple_id": "mysore_chamundeshwari",
+      "shrine_id": "kamalini",
+      "deity": "Kamalini guardian",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "CHAMUNDI"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "mahakali",
+      "deity": "Mahakali",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "mahasaraswati",
+      "deity": "Mahasaraswati",
+      "form": "devi",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "upper_shiva",
+      "deity": "Upper Shiva lingam",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "upper_nandi",
+      "deity": "Upper Nandi",
+      "form": "nandi",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "venkatesha",
+      "deity": "Venkatesha",
+      "form": "vishnu",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "katyayani",
+      "deity": "Katyayani",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "gowri_shankar",
+      "deity": "Gowri Shankar",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "navagrahas",
+      "deity": "Navagrahas",
+      "form": "navagraha",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "surya",
+      "deity": "Surya",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "mahishasuramardini",
+      "deity": "Mahishasuramardini",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "vitthal_rakhmai",
+      "deity": "Vitthal–Rakhmai",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "courtyard_shiva",
+      "deity": "Courtyard Shiva shrine",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "courtyard_vishnu",
+      "deity": "Courtyard Vishnu shrine",
+      "form": "vishnu",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "tulja_bhavani",
+      "deity": "Tulja Bhavani",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "kolhapur_mahalakshmi",
+      "shrine_id": "visweshwar",
+      "deity": "Visweshwar Mahadev",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "KOLHAPUR"
+      ]
+    },
+    {
+      "temple_id": "tuljapur_bhavani",
+      "shrine_id": "siddhivinayak",
+      "deity": "Siddhivinayaka",
+      "form": "ganesha",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ]
+    },
+    {
+      "temple_id": "tuljapur_bhavani",
+      "shrine_id": "annapurna",
+      "deity": "Annapurna",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ]
+    },
+    {
+      "temple_id": "tuljapur_bhavani",
+      "shrine_id": "markandeya",
+      "deity": "Markandeya Rishi",
+      "form": "acharya",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ]
+    },
+    {
+      "temple_id": "alampur_jogulamba",
+      "shrine_id": "chandi",
+      "deity": "Chandi",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ]
+    },
+    {
+      "temple_id": "alampur_jogulamba",
+      "shrine_id": "mundi",
+      "deity": "Mundi",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ]
+    },
+    {
+      "temple_id": "alampur_jogulamba",
+      "shrine_id": "saptamatrika",
+      "deity": "Saptamatrika group",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ]
+    },
+    {
+      "temple_id": "alampur_jogulamba",
+      "shrine_id": "veenapani_veerabhadra",
+      "deity": "Veenapani Veerabhadra",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "JOGULAMBA_TRUST"
+      ]
+    },
+    {
+      "temple_id": "srisailam_bhramaramba",
+      "shrine_id": "sahasra_linga",
+      "deity": "Sahasra Linga",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ]
+    },
+    {
+      "temple_id": "srisailam_bhramaramba",
+      "shrine_id": "pancha_pandava_1",
+      "deity": "Pancha Pandava linga 1",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ]
+    },
+    {
+      "temple_id": "srisailam_bhramaramba",
+      "shrine_id": "pancha_pandava_2",
+      "deity": "Pancha Pandava linga 2",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ]
+    },
+    {
+      "temple_id": "srisailam_bhramaramba",
+      "shrine_id": "pancha_pandava_3",
+      "deity": "Pancha Pandava linga 3",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ]
+    },
+    {
+      "temple_id": "srisailam_bhramaramba",
+      "shrine_id": "pancha_pandava_4",
+      "deity": "Pancha Pandava linga 4",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ]
+    },
+    {
+      "temple_id": "srisailam_bhramaramba",
+      "shrine_id": "pancha_pandava_5",
+      "deity": "Pancha Pandava linga 5",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "SRISAILAM_GOV"
+      ]
+    },
+    {
+      "temple_id": "pithapuram_puruhutika",
+      "shrine_id": "kukkuteswara",
+      "deity": "Kukkuteswara",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "PITHAPURAM_APSAC"
+      ]
+    },
+    {
+      "temple_id": "pithapuram_puruhutika",
+      "shrine_id": "dattatreya",
+      "deity": "Dattatreya",
+      "form": "unknown",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "PITHAPURAM_APSAC"
+      ]
+    },
+    {
+      "temple_id": "jajpur_biraja",
+      "shrine_id": "nabhigaya",
+      "deity": "Nabhigaya sacred well",
+      "form": "sacred_symbol",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "BIRAJA_WELL"
+      ]
+    },
+    {
+      "temple_id": "jajpur_biraja",
+      "shrine_id": "jupesvara",
+      "deity": "Jupeshwara",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "BIRAJA"
+      ]
+    },
+    {
+      "temple_id": "jajpur_biraja",
+      "shrine_id": "isanesvara",
+      "deity": "Ishaneshwara",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "BIRAJA"
+      ]
+    },
+    {
+      "temple_id": "jajpur_biraja",
+      "shrine_id": "mrityunjayesvara",
+      "deity": "Mrityunjayeshwara",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "BIRAJA"
+      ]
+    },
+    {
+      "temple_id": "jajpur_biraja",
+      "shrine_id": "bhushandesvara",
+      "deity": "Bhushandeshwara",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "BIRAJA"
+      ]
+    },
+    {
+      "temple_id": "jajpur_biraja",
+      "shrine_id": "bagalamukhi",
+      "deity": "Bagalamukhi / Vagalamukhi",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "BIRAJA"
+      ]
+    },
+    {
+      "temple_id": "ujjain_mahakali",
+      "shrine_id": "mahalakshmi",
+      "deity": "Mahalakshmi",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "UJJAIN"
+      ]
+    },
+    {
+      "temple_id": "ujjain_mahakali",
+      "shrine_id": "mahasaraswati",
+      "deity": "Mahasaraswati",
+      "form": "devi",
+      "artwork_status": "distinct_iconographic_study",
+      "source_ids": [
+        "UJJAIN"
+      ]
+    },
+    {
+      "temple_id": "ujjain_mahakali",
+      "shrine_id": "sri_yantra",
+      "deity": "Sri Yantra",
+      "form": "sacred_symbol",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "UJJAIN"
+      ]
+    },
+    {
+      "temple_id": "prayag_madhaveswari",
+      "shrine_id": "shiva_image",
+      "deity": "Shiva image",
+      "form": "shiva",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "PRAYAG"
+      ]
+    },
+    {
+      "temple_id": "prayag_madhaveswari",
+      "shrine_id": "shiva_lingam",
+      "deity": "Shiva lingam",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "PRAYAG"
+      ]
+    },
+    {
+      "temple_id": "gaya_mangalagauri",
+      "shrine_id": "shiva",
+      "deity": "Shiva shrine",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "GAYA"
+      ]
+    },
+    {
+      "temple_id": "gaya_mangalagauri",
+      "shrine_id": "durga",
+      "deity": "Durga",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "GAYA"
+      ]
+    },
+    {
+      "temple_id": "gaya_mangalagauri",
+      "shrine_id": "dakshina_kali",
+      "deity": "Dakshina Kali",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "GAYA"
+      ]
+    },
+    {
+      "temple_id": "gaya_mangalagauri",
+      "shrine_id": "mahishasuramardini",
+      "deity": "Mahishasuramardini",
+      "form": "devi",
+      "artwork_status": "reference_altar_pending",
+      "source_ids": [
+        "GAYA"
+      ]
+    },
+    {
+      "temple_id": "lanka_shankari",
+      "shrine_id": "koneswaram",
+      "deity": "Koneswaram Shiva sanctum",
+      "form": "linga",
+      "artwork_status": "sacred_form_geometry",
+      "source_ids": [
+        "LANKA"
+      ]
+    }
+  ]
+}

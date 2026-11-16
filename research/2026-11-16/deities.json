@@ -1,0 +1,570 @@
+{
+  "research_date": "2026-11-16",
+  "policy": "Main-murti, festival, kavacha, symbolic and conjectural forms must be distinguished. Unknown anatomy stays unknown. Right/left means the deity's own side unless stated otherwise.",
+  "deities": [
+    {
+      "id": "lanka_shankari",
+      "name": "Shankari / Devi worship at Koneswaram",
+      "form": "Current Devi identity needs confirmation",
+      "posture": "Not established",
+      "arms": "Not established",
+      "attributes": "Not established",
+      "adornment": "Not established",
+      "checks": "Do not invent an exact ancient Shankari murti from a generic Parvati image. Present Mathumai Amman and the lost historical Shankari shrine require explicit identification.",
+      "source_ids": [
+        "LANKA"
+      ],
+      "uncertainties": "No authenticated main-murti photo selected; current temple and historical reconstruction remain separate.",
+      "associated": "Koneswaram: Shiva linga; Mathumai Amman relationship needs a checked shrine plan.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "kanchipuram_kamakshi",
+      "name": "Kamakshi",
+      "form": "Anthropomorphic main murti",
+      "posture": "Seated in padmasana",
+      "arms": "Four, documented",
+      "attributes": "Sugarcane bow; lotus/parrot; pasha and ankusha. Published accounts vary on hand assignment.",
+      "adornment": "Crescent forehead emblem; Sri Chakra before the shrine",
+      "checks": "Do not use a standing four-armed generic Devi. Label processional images separately from the seated main murti.",
+      "source_ids": [
+        "KANCHI_TRUST",
+        "KANCHI"
+      ],
+      "uncertainties": "Exact finger/hand geometry must be checked against an authenticated main-murti view. The official page image inspected was an exterior, so it was not substituted for a murti portrait.",
+      "associated": "Kalvar Perumal, Varahi, Lakshmi and Ganapati are separate worship locations.",
+      "image": null,
+      "additional_sources": [
+        {
+          "title": "Kamakshi temple authority: posture, attributes and sannadhis",
+          "url": "https://kanchikamakshi.org/about/"
+        },
+        {
+          "title": "Incredible India: padmasana and four attributes",
+          "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/kanchipuram/sri-kamakshi-temple.html"
+        }
+      ],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "pradyumna_shrinkhala",
+      "name": "Shrinkhala",
+      "form": "Lost/disputed shrine",
+      "posture": "Unknown",
+      "arms": "Unknown",
+      "attributes": "Unknown",
+      "adornment": "Unknown",
+      "checks": "No verified surviving original murti established. Do not present modern devotional artwork as a documented ancient original.",
+      "source_ids": [
+        "STOTRAM",
+        "SHRINKHALA_ASI"
+      ],
+      "uncertainties": "Historical facial features, posture, arms, material and attributes unresolved.",
+      "associated": "Pandua Minar is not a deity image or evidence for a replacement murti.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "mysore_chamundeshwari",
+      "name": "Chamundeshwari",
+      "form": "Main murti, distinct from Dasara processional image",
+      "posture": "Temple-specific pose needs visual confirmation",
+      "arms": "Eight reported; conflicting eighteen-arm online claim is unverified",
+      "attributes": "Exact temple-specific weapons and hand mapping unverified",
+      "adornment": "Golden kavacha and jewellery can conceal the original form",
+      "checks": "Do not copy a generic eighteen-armed Durga or the Dasara utsava murti as the permanent main image.",
+      "source_ids": [
+        "CHAMUNDI"
+      ],
+      "uncertainties": "Main-image arm count and underlying form require authority-approved visual confirmation.",
+      "associated": "Distinguish the small Nandi by the sanctum from the large hillside Nandi.",
+      "image": null,
+      "additional_sources": [
+        {
+          "title": "Eight-arm report (secondary; not final sculptural authority)",
+          "url": "https://en.wikipedia.org/wiki/Chamundeshwari_Temple"
+        },
+        {
+          "title": "Conflicting eighteen-arm description (do not adopt without corroboration)",
+          "url": "https://www.srichamundeshwaridevi.in/about"
+        },
+        {
+          "title": "Separate Dasara utsava murti held by Palace Board",
+          "url": "https://starofmysore.com/dasara-utsava-murthy-of-chamundeshwari-handed-over-to-temple-authority/"
+        }
+      ],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "alampur_jogulamba",
+      "name": "Jogulamba",
+      "form": "Fierce anthropomorphic form",
+      "posture": "Seated on a corpse, documented",
+      "arms": "Not established by the district source",
+      "attributes": "Tongue extended; scorpion, frog and lizard on the head, as described by district government",
+      "adornment": "Adornments may hide head details",
+      "checks": "Do not substitute a peaceful generic seated Devi or add a lion throne. Do not replace the district source's frog with a skull merely because another account differs.",
+      "source_ids": [
+        "ALAMPUR"
+      ],
+      "uncertainties": "Arm count, hand attributes and exact current ornaments remain unverified.",
+      "associated": "Balabrahmeshwara is worshipped as Shiva in the neighbouring temple.",
+      "image": null,
+      "additional_sources": [
+        {
+          "title": "Jogulamba Gadwal district: corpse seat and head fauna",
+          "url": "https://gadwal.telangana.gov.in/tourist-place/jogulamba-devi/"
+        }
+      ],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "srisailam_bhramaramba",
+      "name": "Bhramaramba",
+      "form": "Stone main image with alankara/kavacha",
+      "posture": "Needs main-image confirmation",
+      "arms": "Eight reported in secondary accounts",
+      "attributes": "Exact hand-held objects not verified",
+      "adornment": "Silk, ornaments and face covering can conceal the original carving",
+      "checks": "Do not infer the original anatomy from a heavily decorated festival portrait. Keep gold covering separate from the stone form.",
+      "source_ids": [
+        "SRISAILAM"
+      ],
+      "uncertainties": "Eight-arm detail is provisional pending temple-authority confirmation.",
+      "associated": "Mallikarjuna is a Shiva linga; do not replace it with a generic standing Shiva figure.",
+      "image": {
+        "id": "srisailam_bhramaramba",
+        "url": "https://pbs.twimg.com/media/G1f2yn_XkAAX0lD?format=jpg&name=small",
+        "source_page": "https://www.shanarthi.com/latest/karthika-masam-celebrations-begin-in-srisailam/",
+        "caption": "Decorated Bhramaramba portrait reproduced in a local news report; main/festival identity unverified",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "srisailam_bhramaramba.jpg",
+        "size": [
+          509,
+          680
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [
+        {
+          "title": "Eight arms and Sri Yantra (secondary account)",
+          "url": "https://temple.yatradham.org/temple/bhramaramba-ammavari-temple"
+        }
+      ],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "kolhapur_mahalakshmi",
+      "name": "Mahalakshmi / Ambabai",
+      "form": "Black-stone four-armed main image",
+      "posture": "Upright main image; west-facing shrine",
+      "arms": "Four, documented",
+      "attributes": "Deity's lower right: citron; upper right: mace with head down; upper left: shield; lower left: bowl",
+      "adornment": "Crown with serpent imagery; lion behind the image",
+      "checks": "Keep right/left relative to the deity, not the viewer. Do not replace these with four lotuses or generic blessing hands.",
+      "source_ids": [
+        "KOLHAPUR"
+      ],
+      "uncertainties": "Ornaments and sari vary; the precise underlying sculpture and crown details need photographic comparison.",
+      "associated": "Mahakali and Mahasaraswati have separate adjacent sanctuaries.",
+      "image": {
+        "id": "kolhapur_mahalakshmi",
+        "url": "https://feeds.abplive.com/onecms/images/uploaded-images/2024/05/02/24b07f6d9def569a41dad2975979f3286d574.jpeg?impolicy=abp_cdn&imwidth=720",
+        "source_page": "https://marathi.abplive.com/photo-gallery/news/kolhapur-kolhapur-news-former-chief-minister-uddhav-thackeray-visits-shri-ambabai-mandir-kolhapur-with-son-tejas-1278597",
+        "caption": "ABP Majha news photograph, article dated 2 May 2024; decorated shrine, not bare stone geometry",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "kolhapur_mahalakshmi.jpg",
+        "size": [
+          720,
+          724
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "mahur_renuka",
+      "name": "Renuka / Ekaveerika",
+      "form": "Head/face sacred form",
+      "posture": "Face/head form, not a full standing body",
+      "arms": "Not applicable to the visible main sacred form",
+      "attributes": "Prominent painted eyes, facial ornaments and crown",
+      "adornment": "Silver-clad doorway and changing facial adornment",
+      "checks": "Do not invent a full multi-armed body beneath the worshipped face. Preserve this temple's distinctive facial proportions.",
+      "source_ids": [
+        "MAHUR_STAT",
+        "MAHUR"
+      ],
+      "uncertainties": "Paint, jewellery and alankara change; distinguish decoration from the underlying form.",
+      "associated": "Parashurama, Datta and Anasuya require separate shrine/location checks.",
+      "image": {
+        "id": "mahur_renuka",
+        "url": "https://shrirenukadevi.in/imagesOfTemples/faceOfRenukaDevi.jpg",
+        "source_page": "https://shrirenukadevi.in/",
+        "caption": "Temple-portal face image; decoration and recording date unverified",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "mahur_renuka.jpg",
+        "size": [
+          3628,
+          2419
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [
+        {
+          "title": "Temple portal: face-form reference image",
+          "url": "https://shrirenukadevi.in/"
+        }
+      ],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "ujjain_mahakali",
+      "name": "Harsiddhi / Annapurna group",
+      "form": "Three principal goddess images",
+      "posture": "Central Annapurna between Mahalakshmi and Mahasaraswati",
+      "arms": "Not established",
+      "attributes": "Dark vermilion treatment and Sri Yantra are documented",
+      "adornment": "Dressing and metal framing can conceal the underlying images",
+      "checks": "Do not replace the three-image group with one generic four-armed Mahakali or borrow the nearby Gadkalika image.",
+      "source_ids": [
+        "UJJAIN"
+      ],
+      "uncertainties": "Exact shape, scale and attributes of all three images need a verified frontal image.",
+      "associated": "Karkotkeshwar is a distinct Shiva shrine candidate in the compound.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "pithapuram_puruhutika",
+      "name": "Puruhutika",
+      "form": "Four-armed main murti",
+      "posture": "Current pose needs photograph confirmation",
+      "arms": "Four, documented by university source",
+      "attributes": "Seed bag (beeja), axe (parashu), lotus (kamala), dish (madhu patra); lower-right to lower-left order given in course",
+      "adornment": "Crown and jewellery; exact material needs image confirmation",
+      "checks": "Do not use random weapons or confuse Puruhutika with Rajarajeshwari or a Dattatreya image from the shared campus.",
+      "source_ids": [
+        "STOTRAM",
+        "PITHAPURAM"
+      ],
+      "uncertainties": "Hand-order wording must be resolved visually before sculpting; do not mirror the image.",
+      "associated": "Kukkuteswara is a Shiva linga; Dattatreya is a separate shrine.",
+      "image": {
+        "id": "pithapuram_puruhutika",
+        "url": "https://static.toiimg.com/thumb/msid-104468042%2Cwidth-748%2Cheight-499%2Cresizemode%3D4%2Cimgsize-56768/Puruhutika-Devi-Temple-Andhra-Pradesh.jpg",
+        "source_page": "https://timesofindia.indiatimes.com/travel/destinations/all-about-18-astadasha-shakti-peethas-holy-abodes-of-shakti/photostory/104467781.cms",
+        "caption": "Times of India captioned reference; exact main-versus-festival identity not authenticated",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "pithapuram_puruhutika.jpg",
+        "size": [
+          748,
+          499
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "jajpur_biraja",
+      "name": "Biraja",
+      "form": "Two-armed Mahishamardini",
+      "posture": "Standing in a buffalo-subduing pose",
+      "arms": "Two, documented",
+      "attributes": "Right hand trident; left hand lifts the buffalo tail; left foot presses the demon",
+      "adornment": "Crown includes multiple sacred emblems according to the trust",
+      "checks": "Do not use the standard eight-/ten-armed lion-riding Durga template. The demon is buffalo-shaped.",
+      "source_ids": [
+        "BIRAJA_ICON",
+        "BIRAJA_DISTRICT"
+      ],
+      "uncertainties": "Trust says lion mount absent; district page mentions a lion. Retain this conflict until an authenticated image settles it.",
+      "associated": "Nabhigaya is a ritual well, not another anthropomorphic murti.",
+      "image": {
+        "id": "jajpur_biraja",
+        "url": "https://maabiraja.com/images/xmaaviraja.jpg.pagespeed.ic.eZgVUY4gyL.jpg",
+        "source_page": "https://maabiraja.com/iconography.html",
+        "caption": "Illustrative pale sculpture reproduced on Biraja Trust iconography page. NOT authenticated as the installed ancient main image. Use only for the two-arm/buffalo relationship.",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "jajpur_biraja.jpg",
+        "size": [
+          200,
+          320
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "illustrative sculpture, not main-murti photograph"
+      },
+      "additional_sources": [],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "draksharama_manikyamba",
+      "name": "Manikyamba",
+      "form": "Distinct Devi shrine in Bhimeswara complex",
+      "posture": "Not securely established",
+      "arms": "Not securely established",
+      "attributes": "A leftward-looking/tilted description occurs in secondary accounts only",
+      "adornment": "Sri Chakra is documented; exact face/crown/hand form not established",
+      "checks": "Do not treat an attractive generic Devi portrait or Samalkota's goddess as Manikyamba. Do not hard-code a tilt without a checked photo.",
+      "source_ids": [
+        "DRAKSHARAMA",
+        "DRAKSHARAMA_ASI"
+      ],
+      "uncertainties": "An authoritative frontal view and complete attribute inventory are still required.",
+      "associated": "Bhimeswara is the tall Shiva linga in the two-level sanctum.",
+      "image": {
+        "id": "draksharama_manikyamba",
+        "url": "https://templeconnect.com/wp-content/uploads/2022/06/Goddess-Manikyamba-of-Draksharamam.jpg",
+        "source_page": "https://templeconnect.com/draksharamam-bhimeswara-swamy-temple/",
+        "caption": "Temple Connect decorated Manikyamba shrine reference; underlying hand geometry obscured",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "draksharama_manikyamba.jpg",
+        "size": [
+          720,
+          960
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [
+        {
+          "title": "Leftward-looking description (secondary only)",
+          "url": "https://epaperimages.blob.core.windows.net/statetimes/files/1020211004333281.pdf"
+        }
+      ],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "kamakhya",
+      "name": "Kamakhya",
+      "form": "Natural sacred rock cleft and spring",
+      "posture": "Subterranean sacred formation; not an anthropomorphic main idol",
+      "arms": "Not applicable",
+      "attributes": "Natural cleft, spring water and ritual coverings",
+      "adornment": "Ritual cloth/metal coverings do not turn the main sacred form into a human figure",
+      "checks": "Do not replace the main cave sacred form with a generic multi-armed Devi. Keep movable Kameshwari images distinct from the main sacred formation.",
+      "source_ids": [
+        "KAMAKHYA",
+        "KAMAKHYA_FOUR"
+      ],
+      "uncertainties": "No authenticated cave close-up selected; exact access, water and coverings need separate evidence.",
+      "associated": "Associated movable images belong to their documented chamber, not the natural cleft.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "prayag_madhaveswari",
+      "name": "Alopi sacred cradle (chosen Prayaga implementation)",
+      "form": "Covered cradle/cot sacred focus",
+      "posture": "Suspended/covered cradle and platform arrangement",
+      "arms": "Not applicable",
+      "attributes": "Cloth, cradle/platform and ritual setting",
+      "adornment": "Decoration varies; underlying cradle is not an idol",
+      "checks": "Do not add a full-body main Devi murti. Do not import Lalita Devi's image from a different Prayagraj temple.",
+      "source_ids": [
+        "PRAYAG"
+      ],
+      "uncertainties": "Platform/well geometry and current suspension arrangement need authenticated interior comparison.",
+      "associated": "Shiva image and lingam are documented separately.",
+      "image": {
+        "id": "prayag_madhaveswari",
+        "url": "https://www.jagranimages.com/images/newimg/14082024/Alopi%20Devi%20Temple.jpg",
+        "source_page": "https://www.jagran.com/spiritual/mukhye-dharmik-sthal-alopi-devi-temple-the-palm-of-the-right-hand-of-maa-sati-had-fallen-at-this-place-know-the-specialty-and-more-details-23778259.html",
+        "caption": "Dainik Jagran cradle-shrine reference, 2024 article; original photographer unconfirmed",
+        "rights": "Reference reproduction with source attribution; no game-asset reuse permission assumed",
+        "included": true,
+        "file": "prayag_madhaveswari.jpg",
+        "size": [
+          650,
+          540
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [],
+      "photo_status": "Reference included with explicit limitations"
+    },
+    {
+      "id": "jwalamukhi_vaishnavi",
+      "name": "Jwalamukhi",
+      "form": "Natural flames from rock fissures",
+      "posture": "Flames in their rock/shrine setting",
+      "arms": "Not applicable",
+      "attributes": "Nine named flame identities; actual visible flames may vary",
+      "adornment": "A relief or metal backdrop is distinct from the principal flames",
+      "checks": "Do not replace the flames with one large idol or nine detached statues. Reject photos from Shaktinagar or Khrew.",
+      "source_ids": [
+        "JWALA",
+        "JWALA_TOURISM"
+      ],
+      "uncertainties": "No authenticated close-up flame photograph selected; exact fissure positions remain unverified.",
+      "associated": "Annapurna temple/other compound shrines are distinct from flame-name identities.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "gaya_mangalagauri",
+      "name": "Mangala Gauri",
+      "form": "Symbolic sacred form in the sanctum",
+      "posture": "Sacred symbol, not established as a full anthropomorphic figure",
+      "arms": "Not applicable to the documented symbolic form",
+      "attributes": "Reliefs and ritual adornment belong to the setting",
+      "adornment": "Clothing/metal decoration is not evidence of hidden full-body anatomy",
+      "checks": "Do not invent a large multi-armed main idol from a generic devotional poster.",
+      "source_ids": [
+        "GAYA"
+      ],
+      "uncertainties": "A verified close view of the actual sacred symbol is still required.",
+      "associated": "Shiva, Durga, Dakshina Kali and Mahishasuramardini are subsidiary forms.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "kashi_vishalakshi",
+      "name": "Vishalakshi / Adi Vishalakshi",
+      "form": "Two-image arrangement reported",
+      "posture": "Smaller older and larger later image reported",
+      "arms": "Not reliably established",
+      "attributes": "Exact attributes and hand count require checked frontal views",
+      "adornment": "Silk and jewellery may conceal the older smaller image",
+      "checks": "Do not merge both images into one or substitute a generic Kamakshi portrait. Exact relative positioning remains provisional.",
+      "source_ids": [
+        "KASHI",
+        "KASHI_TWO_IMAGES"
+      ],
+      "uncertainties": "Two-image arrangement comes from secondary descriptions; authority confirmation pending.",
+      "associated": "Kala Bhairava is a separate city shrine, not automatically a second murti beside Vishalakshi.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "kashmir_sharada",
+      "name": "Saraswati / Sharada at the historic Peetha",
+      "form": "Ruined historic sanctuary; original image unverified",
+      "posture": "Unknown for the lost original",
+      "arms": "Unknown for the lost original",
+      "attributes": "Generic veena-bearing Saraswati imagery is not proof of this site's original sculpture",
+      "adornment": "Present ruins and later devotional representations must be labelled separately",
+      "checks": "Do not use Sringeri's Sharadamba or Teetwal's modern image as the verified lost Sharada murti.",
+      "source_ids": [
+        "SHARADA",
+        "SHARADA_COMMONS"
+      ],
+      "uncertainties": "No authenticated surviving original main murti selected; historical reconstruction remains conjectural.",
+      "associated": "Do not import unrelated Saraswati shrine layouts into the ruins.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "madurai_meenakshi",
+      "name": "Meenakshi",
+      "form": "Anthropomorphic main form, distinct from festival representations",
+      "posture": "Standing queenly form; verify main-image photograph",
+      "arms": "Two in traditional iconography",
+      "attributes": "Parrot associated with raised right hand/flower; other hand lowered in traditional representations",
+      "adornment": "Crown, jewellery and silk; green imagery does not prove emerald material",
+      "checks": "Do not use a generic four-/eight-armed Devi, assume literal emerald stone, or mistake a festival bronze for the main image.",
+      "source_ids": [
+        "MADURAI"
+      ],
+      "uncertainties": "Temple-specific hand/flower/parrot geometry requires a verified main-image photograph; historical painting is only comparative iconography.",
+      "associated": "Sundareswarar's linga and festival images must remain distinct.",
+      "image": null,
+      "additional_sources": [
+        {
+          "title": "British Museum: Minaksi historical painting",
+          "url": "https://www.britishmuseum.org/collection/object/A_2007-3005-49"
+        },
+        {
+          "title": "Commons provenance and public-domain artwork",
+          "url": "https://commons.wikimedia.org/wiki/File:Minakshi.jpg"
+        }
+      ],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "kalighat",
+      "name": "Kalika / Dakshina Kali",
+      "form": "Distinctive Kali main sacred image",
+      "posture": "Temple-specific form; do not infer hidden body from ornament",
+      "arms": "Four, described by government tourism",
+      "attributes": "Three eyes, protruding golden tongue; scimitar and severed-head attributes described",
+      "adornment": "Jewellery and metal fittings vary",
+      "checks": "Do not substitute a generic blue ten-armed Durga or a full-body festival Kali tableau.",
+      "source_ids": [
+        "KALIGHAT"
+      ],
+      "uncertainties": "Preserve the temple-specific face and hand arrangement; exact material history has differing accounts.",
+      "associated": "Radha-Krishna and nearby Nakuleshwar are separate worship locations.",
+      "image": null,
+      "additional_sources": [],
+      "photo_status": "No authenticated main-murti photograph included; use text/source links and obtain temple-authority confirmation."
+    },
+    {
+      "id": "tuljapur_bhavani",
+      "name": "Tulja Bhavani",
+      "form": "Black-stone eight-armed main image",
+      "posture": "Mahishasura-slaying form",
+      "arms": "Eight, documented by Maharashtra Tourism",
+      "attributes": "Weapons and protective gesture described; exact hand mapping needs photo",
+      "adornment": "Crown, sari and ornaments vary",
+      "checks": "Do not replace the eight-armed temple form with a generic four-armed peaceful Devi.",
+      "source_ids": [
+        "TULJA_PRIEST"
+      ],
+      "uncertainties": "Published height is approximate; do not use it as a surveyed modelling dimension.",
+      "associated": "Sleeping cot and Mahadev are separate documented ritual features.",
+      "image": {
+        "id": "tuljapur_bhavani",
+        "url": "https://images.bhaskarassets.com/thumb/730x0/web2images/5483/2018/11/12/tuljabhavani_1542004949.jpg",
+        "source_page": "https://divyamarathi.bhaskar.com/news/the-devotees-queue-for-mother-tuljabhavani-abhishek-pooja-5980741.html",
+        "caption": "Divya Marathi shrine photograph accompanying 2018 report. Alankara obscures the underlying arm/weapon arrangement.",
+        "rights": "Reference image; source credit retained. No commercial game-asset reuse permission inferred.",
+        "included": true,
+        "file": "tuljapur_bhavani.jpg",
+        "size": [
+          730,
+          548
+        ],
+        "download_status": "ok",
+        "visual_review": "Contact sheet reviewed; temple-specific physical details remain limited by decoration.",
+        "kind": "decorated shrine photograph; underlying sculpture not fully visible"
+      },
+      "additional_sources": [
+        {
+          "title": "Maharashtra Tourism: eight-armed black-stone image",
+          "url": "https://maharashtratourism.gov.in/temple/tuljapur/"
+        }
+      ],
+      "photo_status": "Reference included with explicit limitations"
+    }
+  ]
+}

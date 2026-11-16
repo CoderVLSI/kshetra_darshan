@@ -1,0 +1,34 @@
+{
+  "id": "kamakhya",
+  "name_sanskrit": "कामाख्या",
+  "name_english": "Kamakhya Temple",
+  "location": {
+    "city": "Guwahati",
+    "state": "Assam",
+    "country": "India",
+    "lat": 26.1664,
+    "lng": 91.7054
+  },
+  "style": "Nilachala style (hybrid Nagara beehive dome and medieval Assamese roof)",
+  "key_structures": [
+    "Garbhagriha (subterranean cave shrine with natural spring)",
+    "Calanta (quadrangular hall with idols)",
+    "Pancharatna (five-spired mandapa)",
+    "Natamandira (pillared dance hall with apsidal end)",
+    "Saubhagya Kunda (sacred stepped water pond)"
+  ],
+  "special_features": [
+    "Natural subterranean spring flowing over yoni-shaped rock fracture",
+    "Beehive shikhara with sculptured stone bands",
+    "Sunken inner sanctum accessed by steep rock-cut steps",
+    "Sculpted relief panels of Ganesha, Mahishasuramardini, and Chamunda on outer walls"
+  ],
+  "materials": [
+    "Red laterite stone",
+    "Granite masonry blocks",
+    "Terracotta decorative bricks",
+    "Brass and gold-gilded finials"
+  ],
+  "period": "8th–17th Century CE",
+  "renovation_history": "Original temple destroyed during invasions; rebuilt by Koch King Chilarai and King Naranarayana in 1565 CE in Nilachala architectural style; expanded by Ahom kings in 17th-18th centuries."
+}

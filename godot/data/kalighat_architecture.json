@@ -1,0 +1,33 @@
+{
+  "id": "kalighat",
+  "name_sanskrit": "कालीघाट कालिका",
+  "name_english": "Kalighat Kali Temple",
+  "location": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 22.5204,
+    "lng": 88.3426
+  },
+  "style": "Bengali Aatchala (sloped eight-roofed vernacular temple style)",
+  "key_structures": [
+    "Garbhagriha (sanctum with unique touchstone Kali idol)",
+    "Natmandir (spacious covered congregation hall)",
+    "Jor Bangla (twin hut structured platform)",
+    "Harkath Tala (consecrated sacrificial altar space)",
+    "Adi Ganga Kund / Kundupukur (sacred tank)"
+  ],
+  "special_features": [
+    "Curved chala cornice reflecting thatched roof Bengali vernacular heritage",
+    "Iconic black touchstone image of Maa Kali with three golden eyes, protruding golden tongue, and four hands",
+    "Adjacent sacred Adi Ganga canal bank"
+  ],
+  "materials": [
+    "Burnt brick and terracotta core",
+    "White lime plaster and stucco work",
+    "Polished marble flooring",
+    "Brass and gold ornaments"
+  ],
+  "period": "16th–19th Century CE",
+  "renovation_history": "Original shrine dated to the Gupta era; current brick structure constructed under the patronage of the Sabarna Roy Choudhury family in 1809 CE."
+}
