@@ -2449,25 +2449,37 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "lanka_shankari": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified. Subsidiary inventory is unresolved; do not infer that no other worship locations exist.",
+      "scope_note": "Present Koneswaram at the tip of Swami Rock and its immediate cliffside visitor paths. Aerial and photographic references guide the layout. The ancient Shankari footprint remains unresolved.",
       "sources": [
         {
           "id": "LANKA",
           "title": "Sri Lanka Tourism Development Authority: Ramayanaya Yathra, Thiru Koneswaram",
           "url": "https://www.sltda.gov.lk/storage/common_media/ramayanaya-yathra%20E%20Brochure4096755957.pdf?8RYya0=5M5zV"
+        },
+        {
+          "id": "LANKA_JCIC",
+          "title": "Japan Consortium for International Cooperation in Cultural Heritage, Survey of Sri Lanka (2014), Koneswaram Kovil",
+          "url": "https://www.jcic-heritage.jp/wp-content/uploads/2022/12/2014Report_SriLanka_en.pdf"
+        },
+        {
+          "id": "LANKA_FESTIVAL",
+          "title": "Eyewitness account of the Koneswaram chariot festival and its deities",
+          "url": "https://tamilnet.com/art.html?artid=14654&catid=13"
+        },
+        {
+          "id": "LANKA_RAVANA",
+          "title": "D. de Koning, The Many Faces of Ravana (2021), Koneswaram field study and fig. 2.1",
+          "url": "https://pure.uvt.nl/ws/portalfiles/portal/59020919/De_Koning_The_Many_15_12_2021_incl_kaft.pdf"
+        },
+        {
+          "id": "LANKA_PHOTOS",
+          "title": "Koneswaram facade, steps, carved gate and Ravana platform photographs",
+          "url": "https://independent-travellers.com/sri_lanka/trincomalee/koneswaram_temple/"
         }
       ],
       "excluded": [
         {
-          "name": "Mathumai Ambal",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
           "name": "Bhadrakali",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Ganesha",
           "reason": "Outside the strict main-compound scope, or current compound membership is not established."
         },
         {
@@ -2476,14 +2488,6 @@
         },
         {
           "name": "Surya",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Ravana",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Murugan",
           "reason": "Outside the strict main-compound scope, or current compound membership is not established."
         },
         {
@@ -2497,36 +2501,143 @@
         {
           "name": "Navagrahas",
           "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+        },
+        {
+          "name": "Papanasachunai sacred well and the Fort Frederick inscriptions",
+          "reason": "Documented in the wider Fort Frederick setting outside the immediate temple compound."
         }
       ],
       "shrines": [
         {
           "id": "main",
-          "label": "Shankari tradition — current Devi identity unresolved",
-          "deity": "Shankari tradition — current Devi identity unresolved",
+          "label": "Shankari Peetha tradition",
+          "deity": "Shankari",
           "form": "unknown",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The Shakti Peetha tradition associates Shankari with Lanka. The visit takes place at the present Koneswaram compound.",
           "source_ids": [
             "LANKA"
           ],
-          "model_anchor": "Deity_Shankari",
+          "model_anchor": "Shankari_Tradition_Anchor",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The historical shrine plan and installed sacred form remain unresolved. This guide point identifies the Shankari tradition. Mathumai Amman is named in the current temple’s liturgy and has a separate guide entry.",
+          "installed_image_unverified": true
         },
         {
           "id": "koneswaram",
-          "label": "Koneswaram Shiva sanctum",
-          "deity": "Koneswaram Shiva sanctum",
+          "label": "Koneswarar · Shiva sanctum",
+          "deity": "Koneswarar",
           "form": "linga",
           "kind": "subsidiary",
           "evidence": "Documented inside the main temple precinct in the cited source.",
           "source_ids": [
-            "LANKA"
+            "LANKA",
+            "LANKA_JCIC"
           ],
-          "model_anchor": null,
+          "model_anchor": "Koneswaram_Sanctum_Linga",
           "placement": null,
-          "notes": "Present Koneswaram Shiva worship is documented. Ancient Shankari identity and historical layout remain separate and unresolved."
+          "notes": "Shiva worship as Koneswarar at the present temple. The stone linga is an iconographic study and the precise sanctum dimensions are approximate."
+        },
+        {
+          "id": "mathumai",
+          "label": "Mathumai Amman",
+          "deity": "Mathumai Amman",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_FESTIVAL"
+          ],
+          "model_anchor": "Mathumai_Amman_Anchor",
+          "placement": null,
+          "notes": "The present temple’s consort goddess participates in the chariot festival with Koneswarar. This interior bay is provisional and the installed murti remains to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "vinayagar",
+          "label": "Vinayagar · Pillaiyar",
+          "deity": "Vinayagar",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_FESTIVAL"
+          ],
+          "model_anchor": "Vinayagar_Anchor",
+          "placement": null,
+          "notes": "Pillaiyar leads the festival procession. The exact worship bay and installed image remain to be surveyed.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "murugan",
+          "label": "Murugan",
+          "deity": "Murugan",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_FESTIVAL"
+          ],
+          "model_anchor": "Murugan_Anchor",
+          "placement": null,
+          "notes": "Murugan, Valli and Theivayanai are documented in the temple procession. This bay is provisional.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "seated_shiva",
+          "label": "Golden seated Shiva",
+          "deity": "Shiva",
+          "form": "deity",
+          "kind": "heritage",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_JCIC"
+          ],
+          "model_anchor": "Shiva_Public_Monument_Anchor",
+          "placement": null,
+          "notes": "Large seated Shiva beside the entrance steps. Its proportions, paint and features are an original study based on site photographs."
+        },
+        {
+          "id": "ravana_ledge",
+          "label": "Ravana’s prayer statue",
+          "deity": "Ravana",
+          "form": "deity",
+          "kind": "heritage",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_RAVANA"
+          ],
+          "model_anchor": "Ravana_Prayer_Anchor",
+          "placement": null,
+          "notes": "On the lower east-side ledge, Ravana stands with joined hands facing a small linga. Each figure is a study of its photographed setting."
+        },
+        {
+          "id": "ravana_linga",
+          "label": "Cliffside Shiva linga",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_RAVANA"
+          ],
+          "model_anchor": "Ravana_Ledge_Linga",
+          "placement": null,
+          "notes": "The small linga that the lower Ravana statue faces. Its sculptural study is approximate."
+        },
+        {
+          "id": "ravana_vettu",
+          "label": "Ravana Vettu · cliff cleft",
+          "deity": "",
+          "form": "sacred_symbol",
+          "kind": "heritage",
+          "evidence": "Documented in the cited record of the present compound.",
+          "source_ids": [
+            "LANKA_JCIC"
+          ],
+          "model_anchor": "Ravana_Vettu_Anchor",
+          "placement": null,
+          "notes": "The photographed fissure is associated with Ravana in the local tradition. The cliff outline and ledge elevations are approximate."
         }
       ],
       "inventory_complete": false,

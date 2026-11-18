@@ -226,13 +226,13 @@ var temples: Dictionary = {
 	},
 	"lanka_shankari": {
 		"id": "lanka_shankari",
-		"name": "Shankari Devi Temple",
+		"name": "Shankari tradition at Koneswaram",
 		"short_name": "Lanka Shankari",
 		"location": "Trincomalee, Sri Lanka",
 		"devi": "Mata Shankari",
 		"anga": "Groin / Heart / Anklet",
 		"bhairava": "Trikoneshwara",
-		"style": "Ocean Cliffside Dravidian Mandir",
+		"style": "Present-day temple on Swami Rock",
 		"color": Color(0.25, 0.65, 0.85)
 	}
 }

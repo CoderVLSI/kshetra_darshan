@@ -1,33 +1,33 @@
 {
   "id": "lanka_shankari",
   "name_sanskrit": "लङ्का शाङ्करी",
-  "name_english": "Shankari Devi Temple",
+  "name_english": "Shankari tradition at Koneswaram",
   "location": {
     "city": "Trincomalee",
     "state": "Eastern Province",
     "country": "Sri Lanka",
-    "lat": 8.5817,
-    "lng": 81.2407
+    "lat": 8.5825,
+    "lng": 81.24556
   },
-  "style": "Classical Tamil Dravidian rock-cut and stone temple",
+  "style": "Present-day Tamil Dravidian temple on the Swami Rock headland",
   "key_structures": [
-    "Shankari Devi Sanctum perched on Swami Rock cliff",
-    "Koneswaram (Trikoneshwara) Temple Sanctum",
-    "Ravana Vettu (Ravana's Cleft dramatic gorge)",
-    "Papanaasam Theertham (sacred seaside spring)",
-    "Gopuram facing the Bay of Bengal"
+    "Broad hall and sculpted entrance tower",
+    "Red entrance steps and central ramp",
+    "Large seated Shiva beside the entrance",
+    "Lower Ravana statue and facing Shiva linga",
+    "Ravana Vettu cliff fissure"
   ],
   "special_features": [
-    "Spectacular location atop a 400-foot vertical cliff directly overlooking the azure Indian Ocean",
-    "Historic seat associated with sage Agastya and King Ravana's devotion to Lord Shiva",
-    "Ancient stone pillars retrieved from the ocean bed after 17th-century Portuguese demolition"
+    "The headland narrows toward the tip overlooking the sea.",
+    "The living temple venerates Koneswarar and Mathumai Amman.",
+    "The Shankari tradition is associated with the site; the ancient shrine footprint remains unresolved."
   ],
   "materials": [
-    "Carved black granite",
-    "Coral and coastal sandstone blocks",
-    "Gold-plated brass kalashas",
-    "Stucco sculptures"
+    "Coastal rock",
+    "Painted stucco",
+    "Stone and paved courts",
+    "Sheet-roofed pillared hall"
   ],
-  "period": "Ancient (Pre-Christian era), restored 20th Century CE",
-  "renovation_history": "Legendary 'Temple of a Thousand Pillars' destroyed by Portuguese in 1624 CE; murtis preserved secretly and retrieved from underwater; re-consecrated in 1952 and expanded in 2000s."
+  "period": "Present temple rebuilt in the twentieth century",
+  "renovation_history": "The older complex was destroyed in the Portuguese period. The modeled compound follows twentieth-century reconstruction and later photographed additions."
 }

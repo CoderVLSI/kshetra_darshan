@@ -2,14 +2,14 @@
   "lanka_shankari": {
     "name": "Shankari / Koneswaram",
     "stotram_order": 1,
-    "architecture": "The present Dravidian Koneswaram complex stands on a narrow sea cliff. Its modern buildings are distinct from the ancient temple destroyed in the Portuguese period; the lost original Shankari footprint remains unresolved.",
-    "deity_form": "Current Devi identity needs confirmation",
+    "architecture": "The present headland precinct follows aerial and ground photographs, with the red entrance stair, seated Shiva, wide temple hall and eastern lower Ravana ledge.",
+    "deity_form": "Shankari sacred form remains unresolved. The current temple worships Shiva as Koneswarar and his consort Mathumai Amman.",
     "posture": "Not established",
     "arms": "Not established",
     "attributes": "Not established",
-    "deity_notes": "Do not invent an exact ancient Shankari murti from a generic Parvati image. Present Mathumai Amman and the lost historical Shankari shrine require explicit identification.",
-    "uncertainties": "No authenticated main-murti photo selected; current temple and historical reconstruction remain separate.",
-    "reconstruction": true,
+    "deity_notes": "The Shankari guide point records the tradition. The current temple guide separately names Koneswarar, Mathumai Amman, Vinayagar and Murugan.",
+    "uncertainties": "Modern interior bays and cliff elevation are approximate. A measured survey is required for installed deity locations, recovered sculpture and surviving epigraphy.",
+    "reconstruction": false,
     "sources": [
       {
         "title": "Sri Lanka Tourism Development Authority: Ramayanaya Yathra, Thiru Koneswaram",
@@ -22,9 +22,13 @@
       {
         "title": "Koneswaram: deity and processional-route inventory",
         "url": "https://templesofindia.org/temple-view/shri-shankari-shaktipeeth-koneswaram-temple-trincomalee-trincomalee-eastern-province-124vjh"
+      },
+      {
+        "title": "Japan Consortium survey, Koneswaram Kovil",
+        "url": "https://www.jcic-heritage.jp/wp-content/uploads/2022/12/2014Report_SriLanka_en.pdf"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model represents the present precinct and the documented Shiva and Ravana landmarks. Their fine sculptural details and the historical inscription inventory remain incomplete."
   },
   "kanchipuram_kamakshi": {
     "name": "Kamakshi Amman",
