@@ -2533,30 +2533,46 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "draksharama_manikyamba": {
-      "scope_note": "Bhimeswara–Manikyamba main temple compound only. Double enclosure, upper sanctum and documented associated shrines; this is a schematic present-day study, not a measured plan.",
+      "scope_note": "Bhimeswara–Manikyamba main temple compound. Aerial imagery guides enclosure footprints. Rama Rao’s field survey guides gallery sections and shrine relationships.",
       "sources": [
         {
           "id": "DRAKSHARAMA",
           "title": "APSRTC: Draksharamam",
           "url": "https://apsrtc.ap.gov.in/fp_draksharamam.php"
+        },
+        {
+          "id": "DRAK_RAMA_RAO",
+          "title": "M. Rama Rao, Eastern Calukyan Temples of Andhra Desa, Andhra Pradesh Government Archaeological Series 19, pp. 18–21",
+          "url": "https://archive.org/details/lgpr_eastern-chalukyan-temples-of-andhra-desha-by-m-rama-rao-edited-by-mohd-abdu/page/n29"
+        },
+        {
+          "id": "DRAK_INSCRIPTION",
+          "title": "Epigraphia Indica XXII, no. 23, Draksharama inscription of Vanduvaraja, indexed reading",
+          "url": "https://teluguhistory.org/en/inscriptions/draksharama-kulottunga-i-1103/"
+        },
+        {
+          "id": "DRAK_MURI",
+          "title": "National Sanskrit University, Eighteen Shaktipeethas, Draksharamam",
+          "url": "https://nsktu.ac.in/wp-content/uploads/2022/01/M35-Eighteen-Shaktipeethas-Prof-Korada-subrahmanyam.pdf#page=51"
         }
       ],
       "excluded": [],
-      "inventory_status": "Documented subset; exact murti and complete inventory remain under review.",
+      "inventory_status": "Fourteen inner gallery locations and several documented outer sites are mapped. Exact shrine bays and the complete sculptural and inscription inventory remain under review.",
       "shrines": [
         {
           "id": "main",
           "label": "Manikyamba Devi",
           "deity": "Manikyamba",
-          "form": "unknown",
+          "form": "devi",
           "kind": "main",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The Government of Andhra Pradesh archaeological survey locates Manikyamba in the north section.",
           "source_ids": [
-            "DRAKSHARAMA"
+            "DRAK_RAMA_RAO",
+            "DRAK_MURI"
           ],
-          "model_anchor": "Manikyamba_Main_Reference",
+          "model_anchor": "Manikyamba_Anchor",
           "placement": null,
-          "notes": "A distinct Devi shrine is documented. Installed murti iconography is not authenticated; reference location must not be mistaken for a verified sculpture."
+          "notes": "Shrine in the north inner gallery. Manikyamba is revered here as Bhimeswara’s consort. The seated figure is an iconographic study; the installed image remains to be documented."
         },
         {
           "id": "bhimeswara",
@@ -2566,11 +2582,12 @@
           "kind": "subsidiary",
           "evidence": "Documented site identity; model details and positions are schematic.",
           "source_ids": [
+            "DRAK_RAMA_RAO",
             "DRAKSHARAMA"
           ],
           "model_anchor": "Bhimeswara_Linga",
           "placement": null,
-          "notes": "Tall linga within the two-level sanctum; modelling dimensions are approximate."
+          "notes": "Ground-floor darshan of Bhimeswara. The single tall pale linga rises into the upper storey, reached by paired stair flights."
         },
         {
           "id": "lakshmi_narayana",
@@ -2578,13 +2595,14 @@
           "deity": "Lakshmi Narayana",
           "form": "vishnu",
           "kind": "subsidiary",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The archaeological survey gives this gallery section.",
           "source_ids": [
-            "DRAKSHARAMA"
+            "DRAK_RAMA_RAO"
           ],
-          "model_anchor": "",
+          "model_anchor": "Lakshmi_Narayana_Anchor",
           "placement": null,
-          "notes": "Documented in the main complex; exact sculpture and placement remain unverified."
+          "notes": "Southern gallery shrine. The rendered Vishnu image is a provisional iconographic study; the paired installed image remains to be documented.",
+          "render_iconographic_study": true
         },
         {
           "id": "sankaranarayana",
@@ -2598,7 +2616,7 @@
           ],
           "model_anchor": "",
           "placement": null,
-          "notes": "Composite Shiva–Vishnu tradition; exact installed iconography unverified."
+          "notes": "APSRTC lists Sankaranarayana in the temple complex. The current map position is provisional pending a source for its bay."
         },
         {
           "id": "ganapati",
@@ -2606,13 +2624,14 @@
           "deity": "Ganapati",
           "form": "ganesha",
           "kind": "subsidiary",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The archaeological survey gives this gallery section.",
           "source_ids": [
-            "DRAKSHARAMA"
+            "DRAK_RAMA_RAO"
           ],
-          "model_anchor": "",
+          "model_anchor": "Ganapati_Anchor",
           "placement": null,
-          "notes": ""
+          "notes": "Ganapati shrine in the southern inner gallery. An iconographic study is shown in its modeled shrine bay.",
+          "render_iconographic_study": true
         },
         {
           "id": "navagrahas",
@@ -2620,13 +2639,276 @@
           "deity": "Nine planetary deities",
           "form": "navagraha",
           "kind": "subsidiary",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The archaeological survey gives this gallery section.",
           "source_ids": [
-            "DRAKSHARAMA"
+            "DRAK_RAMA_RAO"
           ],
-          "model_anchor": "",
+          "model_anchor": "Navagrahas_Anchor",
           "placement": null,
-          "notes": ""
+          "notes": "Group of nine planetary deities documented in the eastern inner gallery. Their individual sculptures are representative."
+        },
+        {
+          "id": "bhimeswara_upper",
+          "label": "Bhimeswara · Upper darshan",
+          "deity": "Bhimeswara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented in the upper hall.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Bhimeswara_Upper_Darshan",
+          "placement": null,
+          "notes": "Paired stair flights lead up to the crown of the same linga."
+        },
+        {
+          "id": "nakuleswara",
+          "label": "Nakuleswara",
+          "deity": "Nakuleswara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented in the southern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Nakuleswara_Anchor",
+          "placement": null,
+          "notes": "The linga is an iconographic study."
+        },
+        {
+          "id": "brahma",
+          "label": "Brahma",
+          "deity": "Brahma",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the southern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Brahma_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "virupaksha",
+          "label": "Virupaksha",
+          "deity": "Virupaksha",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented in the southern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Virupaksha_Anchor",
+          "placement": null,
+          "notes": "The linga is an iconographic study."
+        },
+        {
+          "id": "nataraja",
+          "label": "Nataraja",
+          "deity": "Nataraja",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the southern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Nataraja_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "virabhadra",
+          "label": "Virabhadra",
+          "deity": "Virabhadra",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the eastern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Virabhadra_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "vatuka_bhairava",
+          "label": "Vatuka Bhairava",
+          "deity": "Vatuka Bhairava",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the eastern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Vatuka_Bhairava_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "dikpalakas",
+          "label": "Dikpalakas",
+          "deity": "Guardians of the directions",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the eastern gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Dikpalakas_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "saptamatrikas",
+          "label": "Saptamatrikas",
+          "deity": "Seven Mothers",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Documented in the western gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Saptamatrikas_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "kumara_group",
+          "label": "Kumara and two Devis",
+          "deity": "Kumara and two Devis",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the western gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Kumara_Group_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "mahishasuramardini",
+          "label": "Mahishasuramardini",
+          "deity": "Mahishasuramardini",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Documented in the western gallery.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Mahishasuramardini_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "vijayeswara",
+          "label": "Vijayeswara",
+          "deity": "Vijayeswara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented in the central bay of the triple shrine.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Vijayeswara_Anchor",
+          "placement": null,
+          "notes": "The linga is an iconographic study."
+        },
+        {
+          "id": "annapurna",
+          "label": "Annapurna",
+          "deity": "Annapurna",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Documented in the southern bay of the triple shrine.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Annapurna_Anchor",
+          "placement": null,
+          "notes": "The seated figure is an iconographic study.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "dakshinamurti",
+          "label": "Dakshinamurti",
+          "deity": "Dakshinamurti",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the northern bay of the triple shrine.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Dakshinamurti_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "kala_bhairava",
+          "label": "Kala Bhairava",
+          "deity": "Kala Bhairava",
+          "form": "deity",
+          "kind": "subsidiary",
+          "evidence": "Documented in the northeastern outer enclosure.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Kala_Bhairava_Anchor",
+          "placement": null,
+          "notes": "The exact bay and installed sculpture remain to be documented.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "nandi",
+          "label": "Nandi Mandapa",
+          "deity": "Nandi",
+          "form": "nandi",
+          "kind": "subsidiary",
+          "evidence": "Documented in the eastern outer court.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Bhimeswara_Nandi",
+          "placement": null,
+          "notes": "Nandi faces toward Bhimeswara. The sculpture is a study."
+        },
+        {
+          "id": "gajalakshmi_lintel",
+          "label": "Gajalakshmi · Southern lintel",
+          "deity": "Gajalakshmi",
+          "form": "devi",
+          "kind": "heritage",
+          "evidence": "Documented in the southern inner doorway.",
+          "source_ids": [
+            "DRAK_RAMA_RAO"
+          ],
+          "model_anchor": "Gajalakshmi_South_Lintel_Anchor",
+          "placement": null,
+          "notes": "The relief is a study of the documented figure and flanking elephants."
+        },
+        {
+          "id": "vanduvaraja_inscription",
+          "label": "Vanduvaraja inscription · 1103",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Documented in the south wall of the main temple.",
+          "source_ids": [
+            "DRAK_INSCRIPTION"
+          ],
+          "model_anchor": "Bhimeswara_South_Wall_Inscription",
+          "placement": null,
+          "notes": "The Sanskrit record in Telugu script records a pavilion gift under Kulottunga I. The model marks the slab; lettering remains to be reproduced."
         }
       ]
     },
