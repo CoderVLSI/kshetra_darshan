@@ -1482,12 +1482,27 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "mahur_renuka": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified. Subsidiary inventory is unresolved; do not infer that no other worship locations exist.",
+      "scope_note": "Renuka summit and the immediate covered route to Parashurama. The other Mahur hills and separate pilgrimage sites are outside this modeled precinct.",
       "sources": [
         {
           "id": "MAHUR",
           "title": "Nanded district: Mahur Gadh",
           "url": "https://nanded.gov.in/en/tourist-place/mahur-gadh/"
+        },
+        {
+          "id": "MAHUR_SURVEY",
+          "title": "Mahur field survey, circulation map and shrine materials, pp. 3–5",
+          "url": "https://www.ijert.org/research/explication-for-haphazard-and-uncontrolled-development-around-the-pilgrim-centre-mohta-devi-and-its-impacts-in-its-vicinity-IJERTV13IS050244.pdf"
+        },
+        {
+          "id": "MAHUR_DISTRICT_RECORD",
+          "title": "Nanded District Socioeconomic Review 2024–25, Renuka Mata entry",
+          "url": "https://des2.mahaonline.gov.in/files/publication/dsa/2024-25/DSA_Nanded_2024-25.pdf"
+        },
+        {
+          "id": "MAHUR_TRUST",
+          "title": "Renuka Devi Mata Charitable Trust, Mahur pilgrimage traditions",
+          "url": "https://www.renukadevitrust.org/about-us/the-renuka-devi-temple-as-a-shakti-peeth/"
         }
       ],
       "excluded": [
@@ -1497,10 +1512,6 @@
         },
         {
           "name": "Anasuya Mata / Anasuya Shikhar",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Parashurama",
           "reason": "Outside the strict main-compound scope, or current compound membership is not established."
         },
         {
@@ -1529,11 +1540,55 @@
           "kind": "main",
           "evidence": "Main sacred destination documented by the cited source.",
           "source_ids": [
-            "MAHUR"
+            "MAHUR",
+            "MAHUR_DISTRICT_RECORD",
+            "MAHUR_TRUST"
           ],
           "model_anchor": "Deity_Renuka",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The district describes a stepped hilltop approach, a Sabha Mandapa and a silver-clad sanctum doorway. The vermilion face represents Renuka, also known here in the Shakti Peetha tradition as Ekaveerika."
+        },
+        {
+          "id": "hanuman",
+          "label": "Hanuman",
+          "deity": "Hanuman",
+          "form": "hanuman",
+          "kind": "subsidiary",
+          "evidence": "Documented in the cited Mahur precinct record.",
+          "source_ids": [
+            "MAHUR_SURVEY"
+          ],
+          "model_anchor": "Hanuman_Anchor",
+          "placement": null,
+          "notes": "The field survey records a white-marble Hanuman shrine. Its individual location and installed murti remain approximate. The sculpture is an iconographic study."
+        },
+        {
+          "id": "parashurama",
+          "label": "Parashurama",
+          "deity": "Parashurama",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "Documented in the cited Mahur precinct record.",
+          "source_ids": [
+            "MAHUR_SURVEY"
+          ],
+          "model_anchor": "Parashurama_Anchor",
+          "placement": null,
+          "notes": "The field survey shows the covered descent from Renuka to Parashurama. The axe identifies the iconographic study. The installed image and lower shrine elevation remain approximate."
+        },
+        {
+          "id": "main_door_record",
+          "label": "Renuka main doorway record",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Documented in the cited Mahur precinct record.",
+          "source_ids": [
+            "MAHUR_DISTRICT_RECORD"
+          ],
+          "model_anchor": "Renuka_Main_Door_Record",
+          "placement": null,
+          "notes": "The district review records rebuilding of the main doorway in 1464. The entry identifies the location and date. Original lettering remains pending."
         }
       ],
       "inventory_complete": false,

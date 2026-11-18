@@ -293,8 +293,10 @@ def upgrade_scene(temple_id):
         # Existing builder's altar origin is at z+.08; preserve its exact base.
         name=main.name
         base=tuple(main.location-Vector((0,0,.08)))
+        rotation=main.rotation_euler.copy()
         bpy.data.objects.remove(main,do_unlink=True)
         main=renuka_face(name,base)
+        main.rotation_euler=rotation
         font_path=Path('C:/Windows/Fonts/Nirmala.ttf')
         if font_path.exists():
             curve=bpy.data.curves.new('Renuka_Forehead_Om','FONT')
