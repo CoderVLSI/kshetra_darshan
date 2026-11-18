@@ -1258,6 +1258,26 @@
           "id": "TULJA_PRIEST",
           "title": "Tulja Bhavani Pujari: temple route and features",
           "url": "https://tuljabhavanipujari.co/about/"
+        },
+        {
+          "id": "TULJA_PLAN",
+          "title": "Tuljabhavani Temple Trust conservation report, existing plan and tirth survey, pp. 25, 31 and 54",
+          "url": "https://shrituljabhavanitempletrust.org/PDF/DRPTENGLISH.pdf"
+        },
+        {
+          "id": "TULJA_TRUST",
+          "title": "Tuljabhavani Temple Trust, temple precinct information",
+          "url": "https://shrituljabhavanitempletrust.org/Pages/HowtoReach.html"
+        },
+        {
+          "id": "TULJA_TIRTH_ROUTE",
+          "title": "Tuljabhavani Mahadwar photographic record and visitor route",
+          "url": "https://commons.wikimedia.org/wiki/File:Tuljabhavani_Mandir_Mahadwar_(Main_entrance_gate).jpg"
+        },
+        {
+          "id": "TULJA_INSCRIPTION",
+          "title": "Journal of the Oriental Numismatic Society 200, Tuljapur inscription",
+          "url": "https://www.orientalnumismaticsociety.org/archive/ONS_200.pdf"
         }
       ],
       "excluded": [
@@ -1313,17 +1333,18 @@
       "shrines": [
         {
           "id": "main",
-          "label": "Tulja Bhavani (existing game extra)",
-          "deity": "Tulja Bhavani (existing game extra)",
+          "label": "Tulja Bhavani",
+          "deity": "Tulja Bhavani",
           "form": "devi",
           "kind": "main",
           "evidence": "Main sacred destination documented by the cited source.",
           "source_ids": [
-            "TULJA_PRIEST"
+            "TULJA_PRIEST",
+            "TULJA_PLAN"
           ],
           "model_anchor": "Deity_Bhavani",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The temple is approached from the east through a stepped precinct and a cross-shaped Sabha Mandapa. The external footprint and interior spaces follow the published conservation plan at approximate scale."
         },
         {
           "id": "siddhivinayak",
@@ -1335,9 +1356,10 @@
           "source_ids": [
             "TULJA_PRIEST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Siddhivinayaka_Anchor",
           "placement": null,
-          "notes": "On the internal descent route beyond Gomukh Tirtha."
+          "notes": "On the internal descent route beyond Gomukh Tirtha.",
+          "render_iconographic_study": true
         },
         {
           "id": "annapurna",
@@ -1349,9 +1371,10 @@
           "source_ids": [
             "TULJA_PRIEST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Annapurna_Anchor",
           "placement": null,
-          "notes": "Practitioner account explicitly places the shrine inside the complex."
+          "notes": "Practitioner account explicitly places the shrine inside the complex.",
+          "render_iconographic_study": true
         },
         {
           "id": "markandeya",
@@ -1363,9 +1386,96 @@
           "source_ids": [
             "TULJA_PRIEST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Markandeya_Anchor",
           "placement": null,
-          "notes": "To the right after Sardar Nimbalkar entrance according to first-party practitioner account; exact image unverified."
+          "notes": "To the right after Sardar Nimbalkar entrance according to first-party practitioner account; exact image unverified.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "bhavani_shankar",
+          "label": "Bhavani Shankar",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Identified in the cited temple or site record.",
+          "source_ids": [
+            "TULJA_PLAN"
+          ],
+          "model_anchor": "Bhavani_Shankar_Linga",
+          "placement": null,
+          "notes": "Shiva shrine at the east end of the Sabha Mandapa, facing Bhavani. The linga is a study."
+        },
+        {
+          "id": "kallol",
+          "label": "Kallol Tirtha",
+          "deity": "",
+          "form": "sacred_symbol",
+          "kind": "heritage",
+          "evidence": "Identified in the cited temple or site record.",
+          "source_ids": [
+            "TULJA_PLAN"
+          ],
+          "model_anchor": "Kallol_Tirtha_Anchor",
+          "placement": null,
+          "notes": "Elongated tank on the left of the descent from the eastern gateway."
+        },
+        {
+          "id": "gomukh",
+          "label": "Gomukh Tirtha",
+          "deity": "",
+          "form": "sacred_symbol",
+          "kind": "heritage",
+          "evidence": "Identified in the cited temple or site record.",
+          "source_ids": [
+            "TULJA_PLAN"
+          ],
+          "model_anchor": "Gomukh_Tirtha_Anchor",
+          "placement": null,
+          "notes": "Spout and basin on the right of the descending route."
+        },
+        {
+          "id": "vitthal_rakhumai",
+          "label": "Vitthal and Rakhumai",
+          "deity": "Vitthal and Rakhumai",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Identified in the cited temple or site record.",
+          "source_ids": [
+            "TULJA_TIRTH_ROUTE"
+          ],
+          "model_anchor": "Vitthal_Rakhumai_Anchor",
+          "placement": null,
+          "notes": "Paired shrine near Gomukh Tirtha. Installed image details remain unverified.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "adimaya_adishakti",
+          "label": "Adimaya Adishakti",
+          "deity": "Adimaya Adishakti",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Identified in the cited temple or site record.",
+          "source_ids": [
+            "TULJA_TRUST"
+          ],
+          "model_anchor": "Adimaya_Adishakti_Anchor",
+          "placement": null,
+          "notes": "The Trust locates the deity to the right near the temple entrance. Installed image details remain unverified.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "south_door_inscription",
+          "label": "Southern doorway inscription",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The published reading identifies the inscription at the southern doorway.",
+          "source_ids": [
+            "TULJA_INSCRIPTION"
+          ],
+          "model_anchor": "Southern_Door_Inscription_Anchor",
+          "placement": null,
+          "notes": "The record is dated 8 April 1881 and includes a eulogy of Tulja Bhavani and a reference to Jagaddeva. The stone is represented in the model. Its letterforms are pending."
         }
       ],
       "inventory_complete": false,
