@@ -6,21 +6,21 @@
     "city": "Mysuru",
     "state": "Karnataka",
     "country": "India",
-    "lat": 12.2727,
-    "lng": 76.6713
+    "lat": 12.272474,
+    "lng": 76.670611
   },
   "style": "Dravidian architecture (Vijayanagara and Wodeyar styles)",
   "key_structures": [
-    "Seven-tiered ornate Rajagopuram (built by Krishnaraja Wodeyar III)",
-    "Sanctum Sanctorum (housing stone idol of eight-armed Chamunda)",
-    "Navaranga and Antarala pillared pavilions",
-    "1,000 stone step ancient hill staircase",
-    "Colossal monolithic Nandi statue (16 feet high, 24 feet wide)"
+    "East-facing seven-tier Raja Gopura with seven ridge kalashas",
+    "Entrance with Vinayaka and wall-mounted Anjaneya",
+    "Flagstaff, Devi footprints and small Nandi",
+    "Navaranga, Antarala, west sanctum and vimana",
+    "Quadrangular prakara and low perimeter ranges"
   ],
   "special_features": [
-    "Hilltop citadel sanctum overlooking the historical city of Mysuru",
-    "Gilded temple doors with silver coverings portraying various manifestations of Shakti",
-    "Statue of demon Mahishasura greeting pilgrims near the entrance"
+    "Sculpted gopura with granite passage and ochre stucco tiers",
+    "Ganesha lintel image, doorway guardians and silver-clad Devi reliefs",
+    "Documented Wodeyar gopura inscription"
   ],
   "materials": [
     "Fine granite stone masonry",
@@ -29,5 +29,5 @@
     "Gilded kalasha crowns"
   ],
   "period": "12th–19th Century CE",
-  "renovation_history": "Earliest shrines built by Hoysala monarchs (12th century); massive expansion, ramparts, and towering gopuram added by Vijayanagara rulers and Wodeyar Maharajas in 1827 CE."
+  "renovation_history": "The Development Authority attributes the 1827 repairs and entrance gopura to Krishnaraja Wodeyar III."
 }

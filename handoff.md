@@ -1,8 +1,8 @@
 # Kshetra Darshan handoff
 
-Updated 18 November 2026 after the Kalighat precinct rebuild.
+Updated 18 November 2026 after the Chamundeshwari precinct rebuild.
 
-Current status: playable procedural preview with 21 scenes and 179 mapped destinations. All 179 teleports and 21 short arrival routes pass the current checks. Kalighat’s 11 destinations follow its visitor diagram and aerial footprint. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
+Current status: playable procedural preview with 21 scenes and 183 mapped destinations. Kalighat’s 11 destinations follow its visitor diagram and aerial footprint. Chamundeshwari’s 11 destinations follow its hilltop footprint and the temple authority’s documented shrine sequence. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
 
 ## Run
 

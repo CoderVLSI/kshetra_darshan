@@ -1003,12 +1003,47 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "mysore_chamundeshwari": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "Chamundeshwari’s quadrangular hilltop enclosure and its entrance, with the aerial footprint oriented east–west. The nearby hill temples, plaza monument and large Nandi belong to separate grounds.",
       "sources": [
         {
           "id": "CHAMUNDI",
-          "title": "Sri Chamundeshwari Development Authority: About",
-          "url": "https://chamundeshwaritemple.in/about.aspx"
+          "title": "Sri Chamundeshwari Development Authority: history and architectural sequence",
+          "url": "https://chamundeshwaritemple.in/About.aspx"
+        },
+        {
+          "id": "CHAMUNDI_SHRINES",
+          "title": "Karnataka HRI & CE: Chamundeshwari subsidiary shrines",
+          "url": "https://itms.kar.nic.in/hrcehome/shrines.php?tid=58"
+        },
+        {
+          "id": "CHAMUNDI_VINAYAKA_PHOTO",
+          "title": "Karnataka HRI & CE: Vinayaka photograph",
+          "url": "https://itms.kar.nic.in/resources/docs/templeinfo/subshrine/2021/10/58/95/image_1.jpg"
+        },
+        {
+          "id": "CHAMUNDI_ANJANEYA_PHOTO",
+          "title": "Karnataka HRI & CE: Anjaneya photograph",
+          "url": "https://itms.kar.nic.in/resources/docs/templeinfo/subshrine/2021/10/58/98/image_1.jpg"
+        },
+        {
+          "id": "CHAMUNDI_INSCRIPTION",
+          "title": "Karnataka HRI & CE: gopura construction inscription",
+          "url": "https://itms.kar.nic.in/hrcehome/inscription.php?tid=58"
+        },
+        {
+          "id": "CHAMUNDI_GALLERY",
+          "title": "Sri Chamundeshwari Development Authority: temple and adornment photographs",
+          "url": "https://chamundeshwaritemple.in/Gallery.aspx"
+        },
+        {
+          "id": "CHAMUNDI_DISTRICT",
+          "title": "Mysuru District Administration: Chamundi Hill and gopura photograph",
+          "url": "https://mysore.nic.in/en/tourist-place/chamunid-hill/"
+        },
+        {
+          "id": "CHAMUNDI_AERIAL",
+          "title": "Esri World Imagery: Chamundeshwari enclosure and surrounding summit",
+          "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemap=satellite&center=76.670611%2C12.272474&level=19"
         }
       ],
       "excluded": [
@@ -1032,117 +1067,196 @@
       "shrines": [
         {
           "id": "main",
-          "label": "Chamundeshwari",
+          "label": "Sri Chamundeshwari",
           "deity": "Chamundeshwari",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "Presiding goddess at the western sanctum of the Chamundi Hill temple.",
           "source_ids": [
-            "CHAMUNDI"
+            "CHAMUNDI",
+            "CHAMUNDI_GALLERY",
+            "CHAMUNDI_DISTRICT"
           ],
           "model_anchor": "Deity_Chamundeshwari",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The Mysuru Wodeyars’ tutelary deity and revered here as Mahishasuramardini. The displayed form follows temple-gallery adornment.",
+          "artwork_description": "Original sculpture and floral adornment based on official gallery views. Details beneath the garlands remain approximate.",
+          "landing_anchor": "Chamundeshwari_Darshan_Landing"
         },
         {
           "id": "entrance_ganesha",
-          "label": "Entrance Ganesha",
-          "deity": "Entrance Ganesha",
+          "label": "Vinayaka — Entrance Shrine",
+          "deity": "Vinayaka",
           "form": "ganesha",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority locates this image on the right immediately after entering.",
           "source_ids": [
-            "CHAMUNDI"
+            "CHAMUNDI",
+            "CHAMUNDI_SHRINES",
+            "CHAMUNDI_VINAYAKA_PHOTO"
           ],
-          "model_anchor": "Ganesha_Shrine",
+          "model_anchor": "Entrance_Vinayaka_Anchor",
           "placement": null,
-          "notes": "Small image on right after entering. Doorway relief is distinct from this image."
+          "notes": "This is the interior Vinayaka worship image. A smaller Ganesha relief is also above the gateway.",
+          "artwork_description": "Sculptural study from the Department’s photo of the silver-covered Vinayaka. Engraving and garland arrangement are approximate.",
+          "landing_anchor": "Entrance_Vinayaka_Landing"
         },
         {
           "id": "anjaneya",
-          "label": "Anjaneya wall image",
-          "deity": "Anjaneya wall image",
+          "label": "Anjaneya — Wall Shrine",
+          "deity": "Anjaneya",
           "form": "hanuman",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "A wall-mounted Anjaneya is described on the right near the flagstaff approach.",
           "source_ids": [
-            "CHAMUNDI"
+            "CHAMUNDI",
+            "CHAMUNDI_SHRINES",
+            "CHAMUNDI_ANJANEYA_PHOTO"
           ],
-          "model_anchor": null,
+          "model_anchor": "Anjaneya_Anchor",
           "placement": null,
-          "notes": "Wall-attached image on right before flagstaff; do not invent a detached temple."
+          "notes": "The department also lists Anjaneya in the visitor’s darshan sequence.",
+          "artwork_description": "Profile relief study from the Department’s photo of the silver-covered Anjaneya. Fine engraving is approximate.",
+          "landing_anchor": "Anjaneya_Landing",
+          "tradition": "Anjaneya worship • Hanuman wall relief"
         },
         {
           "id": "nandi",
-          "label": "Small Nandi",
-          "deity": "Small Nandi",
+          "label": "Nandi — Sanctum Approach",
+          "deity": "Nandi",
           "form": "nandi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The small Nandi inside the main temple faces the goddess’s sanctum.",
           "source_ids": [
             "CHAMUNDI"
           ],
-          "model_anchor": null,
+          "model_anchor": "Small_Nandi_Anchor",
           "placement": null,
-          "notes": "Faces the sanctum inside; distinct from the large monolithic Nandi down the hill."
+          "notes": "The large hill-road monolith belongs to a separate pavilion down the hill.",
+          "artwork_description": "Small reclining-bull study. The dimensions and installed ornaments are approximate.",
+          "landing_anchor": "Small_Nandi_Landing"
         },
         {
           "id": "devi_footprints",
-          "label": "Devi footprints",
-          "deity": "Devi footprints",
+          "label": "Devi’s Sacred Footprints",
+          "deity": "Chamundeshwari",
           "form": "sacred_symbol",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority records the goddess’s footprints alongside the flagstaff sequence.",
           "source_ids": [
             "CHAMUNDI"
           ],
-          "model_anchor": null,
+          "model_anchor": "Devi_Footprints_Anchor",
           "placement": null,
-          "notes": "Near flagstaff. Exact footprint carving is not authenticated."
+          "notes": "Worship marks representing the goddess’s feet.",
+          "artwork_description": "Symbol study based on the documented identity. The exact carving has not been verified against a close photograph.",
+          "landing_anchor": "Devi_Footprints_Landing",
+          "tradition": "Shakta tradition • Devi’s sacred footprints"
         },
         {
           "id": "nandini",
-          "label": "Nandini — inner doorway guardian",
-          "deity": "Nandini — inner doorway guardian",
+          "label": "Nandini — Inner Door Guardian",
+          "deity": "Nandini",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The authority names Nandini as one of two guardians at the inner entrance.",
           "source_ids": [
             "CHAMUNDI"
           ],
-          "model_anchor": null,
+          "model_anchor": "Nandini_Anchor",
           "placement": null,
-          "notes": "One of the two named guardians at the inner entrance; not a standalone shrine. The pair flanks the entrance. Individual sides are schematic.",
-          "placement_mesh": "Garbhagriha",
-          "placement_context": "the inner sanctum entrance",
-          "hall_slot": [
-            0.24,
-            1.06
-          ]
+          "notes": "Nandini and Kamalini flank the inner approach. Their individual sides have not been verified.",
+          "artwork_description": "Original guardian relief study. The exact carving remains unverified.",
+          "landing_anchor": "Nandini_Landing",
+          "tradition": "Door guardian • Chamundeshwari inner entrance"
         },
         {
           "id": "kamalini",
-          "label": "Kamalini — inner doorway guardian",
-          "deity": "Kamalini — inner doorway guardian",
+          "label": "Kamalini — Inner Door Guardian",
+          "deity": "Kamalini",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The authority names Kamalini as one of two guardians at the inner entrance.",
           "source_ids": [
             "CHAMUNDI"
           ],
-          "model_anchor": null,
+          "model_anchor": "Kamalini_Anchor",
           "placement": null,
-          "notes": "Companion guardian at the inner entrance; not a standalone shrine. The pair flanks the entrance. Individual sides are schematic.",
-          "placement_mesh": "Garbhagriha",
-          "placement_context": "the inner sanctum entrance",
-          "hall_slot": [
-            0.76,
-            1.06
-          ]
+          "notes": "Kamalini and Nandini flank the inner approach. Their individual sides have not been verified.",
+          "artwork_description": "Original guardian relief study. The exact carving remains unverified.",
+          "landing_anchor": "Kamalini_Landing",
+          "tradition": "Door guardian • Chamundeshwari inner entrance"
+        },
+        {
+          "id": "lintel_ganesha",
+          "label": "Ganesha — Gopura Doorway",
+          "deity": "Ganesha",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "The Development Authority describes a small Ganesha on the entrance tower doorway.",
+          "source_ids": [
+            "CHAMUNDI",
+            "CHAMUNDI_GALLERY"
+          ],
+          "model_anchor": "Lintel_Ganesha_Reference",
+          "placement": null,
+          "notes": "A doorway image distinct from the interior Vinayaka shrine.",
+          "artwork_description": "Approximate study of the gateway relief.",
+          "landing_anchor": "Lintel_Ganesha_Landing"
+        },
+        {
+          "id": "gopura_dvarapalas",
+          "label": "Dvarapalas — Gopura Doorway",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The temple authority describes door guardians on both sides of the doorway.",
+          "source_ids": [
+            "CHAMUNDI",
+            "CHAMUNDI_GALLERY"
+          ],
+          "model_anchor": "Gopura_Left_Dvarapala_Reference",
+          "placement": null,
+          "notes": "The visit faces the first of the paired reliefs at the entrance.",
+          "artwork_description": "Paired relief silhouettes. Individual identities, attributes and originals require close documentation.",
+          "landing_anchor": "Gopura_Left_Dvarapala_Landing"
+        },
+        {
+          "id": "silver_door",
+          "label": "Silver Doorway — Devi Reliefs",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The temple authority records a silver-plated doorway bearing images of the Goddess in several forms.",
+          "source_ids": [
+            "CHAMUNDI"
+          ],
+          "model_anchor": "Silver_Door_Reference",
+          "placement": null,
+          "notes": "The relief program is represented as a door study, with no unsupported identification of individual panels.",
+          "artwork_description": "Sculptural doorway study. Exact panel subjects and their arrangement still need a verified reference.",
+          "landing_anchor": "Silver_Door_Landing"
+        },
+        {
+          "id": "gopura_inscription",
+          "label": "Gopura Construction Record",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The Karnataka temple department lists a Kannada inscription about the gopura’s construction. The Development Authority attributes the tower to Krishnaraja Wodeyar III and gives 1827 for his work.",
+          "source_ids": [
+            "CHAMUNDI",
+            "CHAMUNDI_INSCRIPTION"
+          ],
+          "model_anchor": "Gopura_Inscription_Reference",
+          "placement": null,
+          "notes": "The Department places the Kannada record on the left of the entry. Its catalogue dates it to the 18th century, while the Development Authority dates the Wodeyar work to 1827. The inscription has not been independently dated or transcribed.",
+          "artwork_description": "Reference point on the documented left of the entrance. The exact inscribed surface has not been reproduced.",
+          "landing_anchor": "Gopura_Inscription_Landing"
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Both sub-shrines listed by Karnataka HRI & CE are placed within the route described by the temple authority. Door sculpture subjects and any further restricted objects require individual records."
     },
     "kolhapur_mahalakshmi": {
       "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",

@@ -248,6 +248,8 @@ def upgrade_scene(temple_id):
     bpy.context.view_layer.update()
     main=next((obj for obj in bpy.context.scene.objects if obj.type=='MESH' and obj.name.startswith('Deity_')),None)
     if not main:return
+    if main.get('has_authored_ornaments'):
+        return
     if temple_id=='kolhapur_mahalakshmi':
         ambabai_refinement(main)
     if temple_id=='kamakhya':

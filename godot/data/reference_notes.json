@@ -85,33 +85,41 @@
   "mysore_chamundeshwari": {
     "name": "Chamundeshwari",
     "stotram_order": 4,
-    "architecture": "Compact quadrangular Dravidian enclosure: main gateway, Navaranga, antarala and sanctum. Entrance gopura has seven tiers and seven golden kalashas; sanctum vimana is smaller.",
-    "deity_form": "Main murti, distinct from Dasara processional image",
-    "posture": "Temple-specific pose needs visual confirmation",
-    "arms": "Eight reported; conflicting eighteen-arm online claim is unverified",
-    "attributes": "Exact temple-specific weapons and hand mapping unverified",
-    "deity_notes": "Do not copy a generic eighteen-armed Durga or the Dasara utsava murti as the permanent main image.",
-    "uncertainties": "Main-image arm count and underlying form require authority-approved visual confirmation.",
+    "architecture": "A long east–west quadrangle on Chamundi Hill. The seven-tiered eastern gopura leads through the entrance and Navaranga to the Antarala and west sanctum. The western vimana is smaller than the gateway tower. Aerial footprints and the temple authority’s sequence informed the model.",
+    "deity_form": "Chamundeshwari as Mahishasuramardini, dressed in layered floral and metal adornment in the temple gallery.",
+    "posture": "Dressed seated iconographic study",
+    "arms": "The game maintains eight in its sculptural study. Gallery adornment obscures the full arrangement.",
+    "attributes": "Crown, flower garlands and ornamental arch as shown in the temple gallery.",
+    "deity_notes": "The temple authority gallery shows several ceremonial and decorated forms. The game uses its floral adornment as a visual source.",
+    "uncertainties": "Aerial imagery fixes the orientation and relative building footprints. Detailed interior dimensions, guardian sides, the original installed anatomy beneath adornment and some relief identities remain approximate.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Eight-arm report (secondary; not final sculptural authority)",
-        "url": "https://en.wikipedia.org/wiki/Chamundeshwari_Temple"
+        "title": "Sri Chamundeshwari Development Authority: history and architectural sequence",
+        "url": "https://chamundeshwaritemple.in/About.aspx"
       },
       {
-        "title": "Conflicting eighteen-arm description (do not adopt without corroboration)",
-        "url": "https://www.srichamundeshwaridevi.in/about"
+        "title": "Karnataka HRI & CE: Chamundeshwari subsidiary shrines",
+        "url": "https://itms.kar.nic.in/hrcehome/shrines.php?tid=58"
       },
       {
-        "title": "Separate Dasara utsava murti held by Palace Board",
-        "url": "https://starofmysore.com/dasara-utsava-murthy-of-chamundeshwari-handed-over-to-temple-authority/"
+        "title": "Karnataka HRI & CE: gopura construction inscription",
+        "url": "https://itms.kar.nic.in/hrcehome/inscription.php?tid=58"
       },
       {
-        "title": "Sri Chamundeshwari Development Authority: About",
-        "url": "https://chamundeshwaritemple.in/about.aspx"
+        "title": "Sri Chamundeshwari Development Authority: temple and adornment photographs",
+        "url": "https://chamundeshwaritemple.in/Gallery.aspx"
+      },
+      {
+        "title": "Mysuru District Administration: Chamundi Hill and gopura photograph",
+        "url": "https://mysore.nic.in/en/tourist-place/chamunid-hill/"
+      },
+      {
+        "title": "Esri World Imagery: Chamundeshwari enclosure and surrounding summit",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemap=satellite&center=76.670611%2C12.272474&level=19"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model includes stucco aedicules and guardian and doorway relief studies. The gopura inscription is documented on the left of the entry. The in-game record links to the Karnataka temple department’s catalogue. The exact slab and inscription text still need verification."
   },
   "alampur_jogulamba": {
     "name": "Jogulamba",

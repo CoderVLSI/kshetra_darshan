@@ -22,6 +22,7 @@ var is_ready: bool = false
 var _space: PhysicsDirectSpaceState3D
 var _identity_labels: Array[Dictionary] = []
 var _label_tick: float = 0.0
+var _last_teleport_id: String = ""
 
 func _process(delta: float) -> void:
 	_label_tick -= delta
@@ -29,6 +30,7 @@ func _process(delta: float) -> void:
 		return
 	_label_tick = .20
 	var camera := get_viewport().get_camera_3d()
+	var viewport_size := get_viewport().get_visible_rect().size
 	var nearby: Array[Dictionary] = []
 	for identity in _identity_labels:
 		var distance: float = _player.global_position.distance_to(identity["target"])
@@ -37,16 +39,35 @@ func _process(delta: float) -> void:
 		if camera and not camera.is_position_in_frustum(identity["group"].global_position):
 			continue
 		if distance < 12.0:
+			var at_landing: bool = _player.global_position.distance_to(identity["landing"]) < 2.5
+			identity["priority"] = -1.0 if at_landing and identity["id"] == _last_teleport_id else distance
 			nearby.append(identity)
-	nearby.sort_custom(func(a: Dictionary, b: Dictionary) -> bool: return a["distance"] < b["distance"])
+	nearby.sort_custom(func(a: Dictionary, b: Dictionary) -> bool: return a["priority"] < b["priority"])
 	# At darshan distance, a second shrine name on the same sightline can
 	# appear to identify the wrong sculpture. Show only the approached shrine.
 	var limit := 1 if not nearby.is_empty() and float(nearby[0]["distance"]) < 3.5 else 3
-	for index in range(mini(limit, nearby.size())):
-		nearby[index]["group"].visible = true
+	var occupied: Array[Rect2] = []
+	var shown := 0
+	for identity in nearby:
+		if shown == limit:
+			break
+		var group := identity["group"] as Node3D
+		if camera:
+			var screen := camera.unproject_position(group.global_position)
+			var title := identity["title"] as Label3D
+			var font := title.font if title.font else ThemeDB.fallback_font
+			var length := font.get_string_size(title.text, HORIZONTAL_ALIGNMENT_LEFT, -1, title.font_size).x
+			var width_factor := minf(length + 24.0, float(title.width)) * .0014
+			var half_size := Vector2(width_factor, .043) * viewport_size.y
+			var footprint := Rect2(screen - half_size, half_size * 2.0)
+			if occupied.any(func(area: Rect2) -> bool: return area.intersects(footprint)):
+				continue
+			occupied.append(footprint)
+		group.visible = true
+		shown += 1
 		# Tradition belongs in the nearby inspection panel, not another floating
 		# paragraph over the murti. Keep it as metadata for that panel and map.
-		nearby[index]["context"].visible = false
+		identity["context"].visible = false
 
 func setup(id: String, model_root: Node3D, player: CharacterBody3D) -> void:
 	temple_id = id
@@ -88,6 +109,8 @@ func teleport_to(id: String) -> bool:
 			_player.look_at(target, Vector3.UP)
 		_player.rotation.x = 0.0
 		_player.rotation.z = 0.0
+		_last_teleport_id = id
+		_label_tick = 0.0
 		destination_selected.emit(destination)
 		return true
 	return false
@@ -625,7 +648,7 @@ func _add_destination_label(entry: Dictionary, destination: Dictionary) -> void:
 	add_child(group)
 	var target: Vector3 = destination["target"]
 	var landing: Vector3 = destination["position"]
-	var approach := target.lerp(landing, .15) if destination["available"] else target
+	var approach := target.lerp(landing, .35) if destination["available"] else target
 	approach.y = maxf(target.y + .80, landing.y + 1.70)
 	group.global_position = approach
 	var title := _label_3d(str(destination["label"]), 28, Color(1.0, .9, .64))
@@ -644,7 +667,8 @@ func _add_destination_label(entry: Dictionary, destination: Dictionary) -> void:
 	context.visibility_range_end = 9.0
 	context.outline_size = 8
 	group.add_child(context)
-	_identity_labels.append({"group": group, "context": context, "target": target})
+	_identity_labels.append({"group": group, "title": title, "context": context, "target": target,
+		"id": destination["id"], "landing": landing})
 
 func _add_nameplate(parent: Node3D, text: String, position: Vector3) -> void:
 	var label = _label_3d(text, 36, Color(.91, .79, .55))

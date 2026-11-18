@@ -265,7 +265,8 @@ func _setup_sanctum_lighting() -> void:
 		light.omni_range = 6.0
 		light.omni_attenuation = 1.5
 		sanctum_lights.add_child(light)
-		light.global_position = deity.global_position + Vector3(0, 1.8, 1.0)
+		var lamp_position := model_instance.find_child("Sanctum_Lamp_Position", true, false) as Node3D
+		light.global_position = lamp_position.global_position if lamp_position else deity.global_position + Vector3(0, 1.8, 1.0)
 	if GameManager.current_temple_id == "draksharama_manikyamba":
 		var devi_location = _find_node_fuzzy(model_instance, "Manikyamba_Main_Reference") as Node3D
 		if devi_location:
