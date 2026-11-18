@@ -1,15 +1,15 @@
 # Kshetra Darshan handoff
 
-Updated 16 November 2026 after Gemini completion and independent review.
+Updated 18 November 2026 after the Kalighat precinct rebuild.
 
-Current status: playable procedural preview, not AAA or a surveyed preservation model. There are now 21 scenes and 133 mapped destinations, including the three formerly missing traditional names. All 133 teleports/labels and 21 short arrival routes pass. Exact installed images at 34 reference altars, Manikyamba's main image, and inscription/building-sculpture preservation remain unfinished. Read `research/2026-11-16/CURRENT_IMPLEMENTATION.md` and `current_art_inventory.json` for the current scope and gaps. Do not claim every shrine or idol is faithfully built.
+Current status: playable procedural preview with 21 scenes and 179 mapped destinations. All 179 teleports and 21 short arrival routes pass the current checks. Kalighat’s 11 destinations follow its visitor diagram and aerial footprint. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
 
 ## Run
 
-- Latest Windows preview: `builds/windows/current-preview/KshetraDarshan.exe`, with `KshetraDarshan.pck` beside it. The older reviewed build is retained separately.
+- Latest Windows preview: `builds/windows/AshtaDashaShaktiPeetha.exe`, with `AshtaDashaShaktiPeetha.pck` beside it. The older reviewed build is retained separately.
 - Original Gemini distribution retained in `builds/windows/`.
 - Project: `godot/project.godot` (Godot4.7.1); Blender builders in `blender/` (Blender5.3).
-- Desktop controls: WASD move, Space jump, Shift sprint, mouse look, Esc release/capture cursor, V first/third person, P prayer, K forward Pranam, F flowers, G bell, R aarti, T prasadam, C conch, N mantra, B sound, H heritage, M searchable shrine map/teleports, 1–5 time presets. Five selected shrine details offer narration in the existing project voice.
+- Desktop controls: WASD or arrow keys move, Space jump, Shift sprint, mouse look, Esc release/capture cursor, V first/third person, P prayer, K forward Pranam, F flowers, G bell, R aarti, T prasadam, C conch, N mantra, B sound, H heritage, M searchable shrine map/teleports, 1–5 time presets. Five selected shrine details offer narration in the existing project voice.
 
 ## What changed
 

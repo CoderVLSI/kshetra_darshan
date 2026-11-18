@@ -251,80 +251,251 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "kalighat": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "The enclosed Kalighat compound. North-up aerial imagery and a published visitor diagram inform the footprint. Relative structure positions follow the diagram and visitor dimensions are approximate.",
       "sources": [
         {
           "id": "KALIGHAT",
           "title": "Incredible India: Kalighat Temple",
           "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple"
+        },
+        {
+          "id": "KALIGHAT_PLAN",
+          "title": "Kalighat visitor plan: sanctum, lingams, and courtyard buildings",
+          "url": "https://discoveringkolkata.wordpress.com/2018/09/03/kalighat-temple-kolkata-how-to-reach-and-things-to-see-in-and-around-this-famous-temple/"
+        },
+        {
+          "id": "KALIGHAT_INTACH",
+          "title": "INTACH Heritage Education: Kalighat Temple",
+          "url": "https://youngintach.org/files/kalighat-temple-kolkata.pdf"
+        },
+        {
+          "id": "KALIGHAT_FIELDWORK",
+          "title": "Deonnie Moodie: The Making of a Modern Temple, Kalighat and Kolkata",
+          "url": "https://www.academia.edu/37299486/Introduction_to_The_Making_of_a_Modern_Temple_Kalighat_and_Kolkata_pdf"
+        },
+        {
+          "id": "KALIGHAT_SHYAM_RAI",
+          "title": "Kalighat field account: Shyamoroy Mandir and Vaishnava worship",
+          "url": "https://www.kalibhakti.com/kalighat/"
+        },
+        {
+          "id": "KALIGHAT_IMAGE",
+          "title": "The Telegraph: Kalighat Kali worship photograph",
+          "url": "https://assets.telegraphindia.com/abp/2020/11/23/1609142396_5fe9907cc1456_kalighat-maa.jpg"
+        },
+        {
+          "id": "KALIGHAT_AERIAL",
+          "title": "Esri World Imagery: north-up aerial view of Kalighat",
+          "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemap=satellite&center=88.3426%2C22.5204&level=19"
         }
       ],
       "excluded": [
         {
           "name": "Nakuleshwar Mahadev",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+          "reason": "Separate temple outside the enclosed Kalighat compound."
+        },
+        {
+          "name": "Kundupukur",
+          "reason": "Shown beyond the eastern wall as the adjacent sacred pond. Shrine teleport stays within the compound."
         }
       ],
       "shrines": [
         {
           "id": "main",
-          "label": "Kalighat Kali (existing game extra)",
-          "deity": "Kalighat Kali (existing game extra)",
+          "label": "Maa Kalika",
+          "deity": "Kalika",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "Living Shakta worship in the principal Kalighat sanctum. Kalika is the presiding goddess of this Peetha tradition.",
           "source_ids": [
-            "KALIGHAT"
+            "KALIGHAT",
+            "KALIGHAT_PLAN",
+            "KALIGHAT_INTACH",
+            "KALIGHAT_IMAGE"
           ],
           "model_anchor": "Deity_Kalika",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The worship image has a black face, three eyes, a long golden tongue and four golden hands. Garlands and attire vary by occasion.",
+          "artwork_description": "Original sculptural study based on a published worship photograph and descriptions.",
+          "landing_anchor": "Kalika_Darshan_Landing"
         },
         {
           "id": "sosthi_tala",
-          "label": "Sosthi Tala — Sosthi, Shitala, Mangal Chandi",
-          "deity": "Sosthi Tala — Sosthi, Shitala, Mangal Chandi",
+          "label": "Sosthi Tala — Sosthi, Shitala and Mangal Chandi",
+          "deity": "Sosthi, Shitala and Mangal Chandi",
           "form": "sacred_symbol",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The north courtyard contains a shared altar for three goddesses.",
           "source_ids": [
-            "KALIGHAT"
+            "KALIGHAT",
+            "KALIGHAT_PLAN",
+            "KALIGHAT_INTACH"
           ],
-          "model_anchor": null,
+          "model_anchor": "Sosthi_Tala_Anchor",
+          "tradition": "Shared altar for Sosthi, Shitala and Mangal Chandi",
           "placement": null,
-          "notes": "Shared altar for three named goddesses, not three invented standalone temples."
+          "notes": "Three sacred stones on the low altar represent Sosthi, Shitala and Mangal Chandi.",
+          "artwork_description": "Tree altar and three stones based on the published description. Individual stone contours are approximate.",
+          "landing_anchor": "Sosthi_Tala_Landing"
         },
         {
           "id": "radha_krishna",
-          "label": "Radha–Krishna",
-          "deity": "Radha–Krishna",
-          "form": "unknown",
+          "label": "Shyam Rai Mandir — Radha and Krishna",
+          "deity": "Radha and Krishna",
+          "form": "radha_krishna",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The west courtyard contains the Radha–Krishna temple, known as Shyam Rai Mandir.",
           "source_ids": [
-            "KALIGHAT"
+            "KALIGHAT",
+            "KALIGHAT_PLAN",
+            "KALIGHAT_SHYAM_RAI"
           ],
-          "model_anchor": null,
+          "model_anchor": "Shyam_Rai_Anchor",
           "placement": null,
-          "notes": "Separate shrine within the temple premises; preserve paired identity."
+          "notes": "A Vaishnava shrine within the Shakta temple precinct. The paired figures depict Radha and Krishna with festive adornment.",
+          "artwork_description": "Original iconographic study. Installed images and their adornment require image references.",
+          "landing_anchor": "Shyam_Rai_Landing"
         },
         {
           "id": "brahmananda_giri",
-          "label": "Brahmananda Giri resting place",
-          "deity": "Brahmananda Giri resting place",
+          "label": "Brahmananda Giri — Sosthi Tala",
+          "deity": "Brahmananda Giri",
           "form": "sacred_symbol",
           "kind": "acharya",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Incredible India associates Brahmananda Giri’s resting place with the shared altar at Sosthi Tala.",
           "source_ids": [
-            "KALIGHAT"
+            "KALIGHAT",
+            "KALIGHAT_INTACH"
           ],
-          "model_anchor": null,
+          "model_anchor": "Brahmananda_Giri_Reference",
+          "tradition": "Acharya tradition • Brahmananda Giri at Sosthi Tala",
           "placement": null,
-          "notes": "At Sosthi Tala according to government tourism account; not an authenticated portrait statue."
+          "notes": "The destination approaches the shared altar and identifies the associated acharya.",
+          "artwork_description": "Shared altar reference. A portrait or separate tomb would require additional evidence.",
+          "landing_anchor": "Brahmananda_Giri_Landing"
+        },
+        {
+          "id": "shiva_north",
+          "label": "Shiva Lingam — North Court",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The visitor plan places a Shiva lingam shrine here. The plan identifies it by sacred form.",
+          "source_ids": [
+            "KALIGHAT_PLAN",
+            "KALIGHAT_AERIAL"
+          ],
+          "model_anchor": "Kalighat_Shiva_North",
+          "placement": null,
+          "notes": "Immediately east of Sosthi Tala. The map uses its location as its name until a dedicated title can be sourced.",
+          "artwork_description": "Shiva lingam study in a mapped position. Installed form and shrine elevations are approximate.",
+          "landing_anchor": "Kalighat_Shiva_North_Landing"
+        },
+        {
+          "id": "shiva_west_inner",
+          "label": "Shiva Lingam — West Court, Inner",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The visitor plan places a Shiva lingam shrine here. The plan identifies it by sacred form.",
+          "source_ids": [
+            "KALIGHAT_PLAN",
+            "KALIGHAT_AERIAL"
+          ],
+          "model_anchor": "Kalighat_Shiva_West_Inner",
+          "placement": null,
+          "notes": "The northern of the two west-court lingam shrines. The map uses its location as its name until a dedicated title can be sourced.",
+          "artwork_description": "Shiva lingam study in a mapped position. Installed form and shrine elevations are approximate.",
+          "landing_anchor": "Kalighat_Shiva_West_Inner_Landing"
+        },
+        {
+          "id": "shiva_west_outer",
+          "label": "Shiva Lingam — West Court, Outer",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The visitor plan places a Shiva lingam shrine here. The plan identifies it by sacred form.",
+          "source_ids": [
+            "KALIGHAT_PLAN",
+            "KALIGHAT_AERIAL"
+          ],
+          "model_anchor": "Kalighat_Shiva_West_Outer",
+          "placement": null,
+          "notes": "The southern of the two west-court lingam shrines. The map uses its location as its name until a dedicated title can be sourced.",
+          "artwork_description": "Shiva lingam study in a mapped position. Installed form and shrine elevations are approximate.",
+          "landing_anchor": "Kalighat_Shiva_West_Outer_Landing"
+        },
+        {
+          "id": "shiva_southeast",
+          "label": "Shiva Lingam — Southeast Corner",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The visitor plan places a Shiva lingam shrine here. The plan identifies it by sacred form.",
+          "source_ids": [
+            "KALIGHAT_PLAN",
+            "KALIGHAT_AERIAL"
+          ],
+          "model_anchor": "Kalighat_Shiva_Southeast",
+          "placement": null,
+          "notes": "In the southeast corner of the enclosed court. The map uses its location as its name until a dedicated title can be sourced.",
+          "artwork_description": "Shiva lingam study in a mapped position. Installed form and shrine elevations are approximate.",
+          "landing_anchor": "Kalighat_Shiva_Southeast_Landing"
+        },
+        {
+          "id": "natmandir",
+          "label": "Natmandir — Congregation Hall",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The long, covered congregation hall stands south of the Kalika sanctum.",
+          "source_ids": [
+            "KALIGHAT",
+            "KALIGHAT_PLAN",
+            "KALIGHAT_INTACH"
+          ],
+          "model_anchor": "Natmandir_Reference",
+          "placement": null,
+          "notes": "The central aisle aligns with the approach through Jor Bangla. The hall serves congregational worship and darshan.",
+          "artwork_description": "Architectural study of the rectangular plan and open pink arcade.",
+          "landing_anchor": "Natmandir_Landing"
+        },
+        {
+          "id": "swing_pavilion",
+          "label": "Shyam Rai Swing Pavilion",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The visitor plan places a swing pavilion immediately east of Shyam Rai Mandir.",
+          "source_ids": [
+            "KALIGHAT_PLAN",
+            "KALIGHAT_SHYAM_RAI"
+          ],
+          "model_anchor": "Swing_Pavilion_Anchor",
+          "placement": null,
+          "notes": "The pavilion adjoins the west-court Vaishnava shrine.",
+          "artwork_description": "Approximate pavilion and swing based on the mapped function."
+        },
+        {
+          "id": "harkath_tala",
+          "label": "Harkath Tala",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The documented ritual site stands at the south end of the courtyard beside the Natmandir.",
+          "source_ids": [
+            "KALIGHAT",
+            "KALIGHAT_PLAN",
+            "KALIGHAT_INTACH"
+          ],
+          "model_anchor": "Harkath_Tala_Anchor",
+          "placement": null,
+          "notes": "Incredible India records its historical ritual use. The game visit identifies the site and its location.",
+          "artwork_description": "Architectural study of the platform and paired settings marked on the plan."
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "All four Shiva shrines shown on the published visitor plan are represented. Dedicated names and any restricted images still require temple records."
     },
     "kashi_vishalakshi": {
       "scope_note": "Vishalakshi building: main sanctum, pradakshina Shiva–Nandi images, mandapa Bhairava and Navagrahas. City Vishwanath, Annapurna and Kala Bhairava temples are not inside this scene.",

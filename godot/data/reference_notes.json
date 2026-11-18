@@ -543,15 +543,15 @@
     "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
   },
   "kalighat": {
-    "name": "Kalighat Kali (existing game extra)",
+    "name": "Kalighat Kali",
     "stotram_order": null,
-    "architecture": "Bengali atchala-roofed shrine with decorated surfaces and a later natmandir in a dense urban precinct.",
+    "architecture": "Kalika’s double aatchala stands north of the long pink Natmandir. Shyam Rai Mandir occupies the west side, with Sosthi Tala and Shiva in the north court. The enclosed footprint follows the aerial imagery and the published visitor plan. Kundupukur lies just outside the east perimeter.",
     "deity_form": "Distinctive Kali main sacred image",
-    "posture": "Temple-specific form; do not infer hidden body from ornament",
+    "posture": "Temple-specific face and devotional adornment",
     "arms": "Four, described by government tourism",
     "attributes": "Three eyes, protruding golden tongue; scimitar and severed-head attributes described",
     "deity_notes": "Do not substitute a generic blue ten-armed Durga or a full-body festival Kali tableau.",
-    "uncertainties": "Preserve the temple-specific face and hand arrangement; exact material history has differing accounts.",
+    "uncertainties": "Footprints are visually registered to the aerial view. Detailed dimensions, chala profiles, individual subsidiary images and some service structures are approximate. The visitor plan determines the west placement of Shyam Rai Mandir. INTACH describes it to the east.",
     "reconstruction": false,
     "sources": [
       {
@@ -559,11 +559,31 @@
         "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple"
       },
       {
-        "title": "Census of India: Kolkata district handbook, Kalighat architecture",
-        "url": "https://censusindia.gov.in/nada/index.php/catalog/27868/download/31037/DH_19_2001_KOL.pdf"
+        "title": "Kalighat visitor plan: sanctum, lingams, and courtyard buildings",
+        "url": "https://discoveringkolkata.wordpress.com/2018/09/03/kalighat-temple-kolkata-how-to-reach-and-things-to-see-in-and-around-this-famous-temple/"
+      },
+      {
+        "title": "INTACH Heritage Education: Kalighat Temple",
+        "url": "https://youngintach.org/files/kalighat-temple-kolkata.pdf"
+      },
+      {
+        "title": "Deonnie Moodie: The Making of a Modern Temple, Kalighat and Kolkata",
+        "url": "https://www.academia.edu/37299486/Introduction_to_The_Making_of_a_Modern_Temple_Kalighat_and_Kolkata_pdf"
+      },
+      {
+        "title": "Kalighat field account: Shyamoroy Mandir and Vaishnava worship",
+        "url": "https://www.kalibhakti.com/kalighat/"
+      },
+      {
+        "title": "The Telegraph: Kalighat Kali worship photograph",
+        "url": "https://assets.telegraphindia.com/abp/2020/11/23/1609142396_5fe9907cc1456_kalighat-maa.jpg"
+      },
+      {
+        "title": "Esri World Imagery: north-up aerial view of Kalighat",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemap=satellite&center=88.3426%2C22.5204&level=19"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model depicts the Bengali curved eaves, Natmandir arches and shrine masonry. Individual façade reliefs and inscriptions require adequate photographs or transcriptions."
   },
   "tuljapur_bhavani": {
     "name": "Tulja Bhavani (existing game extra)",

@@ -143,6 +143,7 @@ func _populate() -> void:
 				artwork = "Reference location — installed image not reconstructed."
 			elif entry.get("kind", "") == "heritage":
 				artwork = "Present-day monument study; dimensions and surviving details remain approximate."
+			artwork = str(entry.get("artwork_description", artwork))
 		else:
 			status = "schematic_position"
 			artwork = "Stylised shrine and sacred-form study; exact sculpture and placement are not surveyed."
@@ -190,7 +191,15 @@ func _populate() -> void:
 				target = _bounds.get_center()
 		var landing: Vector3 = Vector3(INF, INF, INF)
 		if status != "unavailable":
-			landing = _find_landing(target, target.y - 1.0)
+			var landing_name := str(entry.get("landing_anchor", ""))
+			if not landing_name.is_empty():
+				var authored := _model.find_child(landing_name, true, false) as Node3D
+				if authored:
+					var floor := _floor_at(authored.global_position, authored.global_position.y)
+					if _landing_clear(floor):
+						landing = floor
+			if not landing.is_finite():
+				landing = _find_landing(target, target.y - 1.0)
 		var available: bool = landing.is_finite()
 		var destination: Dictionary = {
 			"id": str(entry.get("id", "shrine_%d" % _destinations.size())),
@@ -581,6 +590,8 @@ func _label_3d(text: String, font_size: int, color: Color) -> Label3D:
 	return label
 
 func _tradition_context(entry: Dictionary) -> String:
+	if entry.has("tradition"):
+		return str(entry["tradition"])
 	var form := str(entry.get("form", "unknown"))
 	var role := "Main sanctuary" if entry.get("kind", "") == "main" else "In-complex shrine"
 	if entry.get("kind", "") == "heritage":
@@ -592,6 +603,7 @@ func _tradition_context(entry: Dictionary) -> String:
 		"linga_group": "Shaiva tradition • Group of Shiva lingas",
 		"shiva": "Shaiva tradition • Shiva image",
 		"vishnu": "Vaishnava tradition • Vishnu worship",
+		"radha_krishna": "Vaishnava tradition • Radha and Krishna worship",
 		"ganesha": "Ganesha / Ganapati worship",
 		"nandi": "Nandi • Shiva's sacred bull",
 		"navagraha": "Navagraha • Nine planetary deities",
