@@ -980,6 +980,11 @@
           "id": "KOLHAPUR",
           "title": "Kolhapur Tourism: Mahalaxmi Temple",
           "url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/"
+        },
+        {
+          "id": "KOLHAPUR_PLAN",
+          "title": "Yogesh Prabhudesai, Archaeology of Religious Ideas at Kolhapur, figure 4.12",
+          "url": "https://www.wisdomlib.org/history/essay/archaeology-of-religious-ideas-at-kolhapur/ocr/1906859/16"
         }
       ],
       "excluded": [],
@@ -1006,11 +1011,13 @@
           "kind": "subsidiary",
           "evidence": "Named within the main precinct by the cited source.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR",
+            "KOLHAPUR_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mahakali_Sanctum_Anchor",
+          "installed_image_unverified": true,
           "placement": null,
-          "notes": "One of the flanking sancta, not the main Ambabai image."
+          "notes": "The northern sanctum opens south into the Sabha Mandapa. Its installed image awaits a reference."
         },
         {
           "id": "mahasaraswati",
@@ -1020,11 +1027,13 @@
           "kind": "subsidiary",
           "evidence": "Named within the main precinct by the cited source.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR",
+            "KOLHAPUR_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mahasaraswati_Sanctum_Anchor",
+          "render_iconographic_study": true,
           "placement": null,
-          "notes": "One of the flanking sancta."
+          "notes": "The southern sanctum opens north into the Sabha Mandapa. Its Saraswati study represents the iconographic tradition."
         },
         {
           "id": "garuda",
@@ -1042,17 +1051,19 @@
         },
         {
           "id": "ganesh",
-          "label": "Ganesh mandapa",
-          "deity": "Ganesh mandapa",
+          "label": "Ganesha · Mukha Mandapa",
+          "deity": "Ganesha",
           "form": "ganesha",
           "kind": "subsidiary",
           "evidence": "Named within the main precinct by the cited source.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR",
+            "KOLHAPUR_PLAN"
           ],
-          "model_anchor": "Ganesha_Shrine",
+          "model_anchor": "Ganesha_Mandapa_Anchor",
+          "render_iconographic_study": true,
           "placement": null,
-          "notes": "Raised stone mandapa facing the sanctum."
+          "notes": "The source places the Ganesha shrine in the entrance halls. The modeled bay is approximate."
         },
         {
           "id": "upper_shiva",
@@ -1495,7 +1506,8 @@
           "source_ids": [
             "JOGULAMBA_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Chandi_Hall_Anchor",
+          "installed_image_unverified": true,
           "placement": null,
           "notes": "Modern image in Jogulamba temple; originals remain at the separate Bala Brahma temple."
         },
@@ -1509,7 +1521,8 @@
           "source_ids": [
             "JOGULAMBA_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mundi_Hall_Anchor",
+          "installed_image_unverified": true,
           "placement": null,
           "notes": "Modern image in Jogulamba temple; originals remain at the separate Bala Brahma temple."
         },
@@ -1523,7 +1536,8 @@
           "source_ids": [
             "JOGULAMBA_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Saptamatrikas_Hall_Anchor",
+          "installed_image_unverified": true,
           "placement": null,
           "notes": "The temple authority names the group inside Jogulamba; individual iconographic details are not authenticated."
         },
@@ -1537,7 +1551,8 @@
           "source_ids": [
             "JOGULAMBA_TRUST"
           ],
-          "model_anchor": "Ganesha_Shrine",
+          "model_anchor": "Vighneswara_Hall_Anchor",
+          "render_iconographic_study": true,
           "placement": null,
           "notes": "Listed by the authority inside Jogulamba, distinct from the Bala Brahma prakara inventory."
         },
@@ -1551,7 +1566,8 @@
           "source_ids": [
             "JOGULAMBA_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Veenapani_Veerabhadra_Hall_Anchor",
+          "installed_image_unverified": true,
           "placement": null,
           "notes": "Named by the authority inside Jogulamba. Exact sculpture is represented by a reference altar until authenticated."
         }
@@ -1693,23 +1709,29 @@
           "id": "PITHAPURAM_APSAC",
           "title": "APSAC: Kakinada District Survey Report, Puruhootika/Kukkuteshwara/Dattatreya section",
           "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Kakinada.pdf"
+        },
+        {
+          "id": "PITHAPURAM_LAYOUT",
+          "title": "Sri Raja Rajeswari Peetham, Pithikayam Purhuthika",
+          "url": "https://sites.google.com/view/srirajarajeswaripeetham/ashtadasa-shakthipeetalu/pithikayam-purhuthika"
         }
       ],
       "excluded": [],
       "shrines": [
         {
           "id": "main",
-          "label": "Puruhutika / Padagaya",
-          "deity": "Puruhutika / Padagaya",
+          "label": "Puruhutika Devi",
+          "deity": "Puruhutika Devi",
           "form": "devi",
           "kind": "main",
           "evidence": "Main sacred destination documented by the cited source.",
           "source_ids": [
-            "PITHAPURAM_APSAC"
+            "PITHAPURAM_APSAC",
+            "PITHAPURAM_LAYOUT"
           ],
           "model_anchor": "Deity_Puruhutika",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "Puruhutika faces south from the northeast of the shrine group. Exact courtyard coordinates and installed image details remain approximate."
         },
         {
           "id": "kukkuteswara",
@@ -1721,9 +1743,9 @@
           "source_ids": [
             "PITHAPURAM_APSAC"
           ],
-          "model_anchor": null,
+          "model_anchor": "Kukkuteswara_Lingam_Study",
           "placement": null,
-          "notes": "Shared Kukkuteswara/Puruhutika campus; not Samalkota or Draksharamam."
+          "notes": "The Shiva sanctuary stands west of the Pada Gaya tank. The linga and architectural dimensions are studies."
         },
         {
           "id": "dattatreya",

@@ -27,7 +27,7 @@ if blender_dir not in sys.path:
 
 import bpy
 import bmesh
-from mathutils import Vector
+from mathutils import Matrix, Vector
 import common_materials as mats
 import common_geometry as geom
 
@@ -444,26 +444,11 @@ def build_authentic_kolhapur():
     # Archaka Priest NPC
     geom.create_human_figure("Priest", (1.2, 4.5, plinth_h + 0.2), height=1.75, mat_skin=mat_skin, mat_cloth=mat_cloth)
 
-    # =========================================================================
-    # COURTYARD SUB-SHRINES: BHAIRAVA (Kala Bhairava) & GANESHA
-    # =========================================================================
-    # Bhairava Sub-Shrine
-    b_loc = (-14.0, 6.0, 0.0)
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(b_loc[0], b_loc[1], 1.5))
-    b_shrine = bpy.context.active_object
-    b_shrine.scale = (1.8, 1.8, 1.5)
-    b_shrine.name = "Bhairava_Shrine"
-    bpy.ops.object.transform_apply(scale=True)
-    b_shrine.data.materials.append(mat_basalt_rough)
-
-    # Ganesha Sub-Shrine
-    g_loc = (14.0, 6.0, 0.0)
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(g_loc[0], g_loc[1], 1.5))
-    g_shrine = bpy.context.active_object
-    g_shrine.scale = (1.8, 1.8, 1.5)
-    g_shrine.name = "Ganesha_Shrine"
-    bpy.ops.object.transform_apply(scale=True)
-    g_shrine.data.materials.append(mat_basalt_rough)
+    # Ganesha is in the approach halls between Garuda and the Sabha Mandapa.
+    # The study stands clear of the central path to Ambabai.
+    ganesha = bpy.data.objects.new("Ganesha_Mandapa_Anchor", None)
+    bpy.context.scene.collection.objects.link(ganesha)
+    ganesha.location = (-2.8, -1.05, plinth_h + .2)
 
     # Courtyard Trees
     for tx, ty in [(-18, -12), (-18, 14), (18, -12), (18, 14)]:
@@ -473,6 +458,40 @@ def build_authentic_kolhapur():
     spawn = bpy.data.objects.new("Spawn_Point", None)
     bpy.context.scene.collection.objects.link(spawn)
     spawn.location = (0.0, -15.0, plinth_h)
+
+    # The archaeological sketch plan shows two smaller sanctuaries opening
+    # toward one another through the Sabha Mandapa, west of Ambabai's image.
+    geom.create_mandapa(
+        "Sabha_Mandapa", (0, 2.0, plinth_h), width=9.4, depth=5.3, height=3.8,
+        pillar_count_x=3, pillar_count_y=2, mat_stone=mat_basalt_rough,
+        mat_floor=mat_basalt_black, pillar_style="octagonal",
+    )
+    for name, side in [("Mahakali", -1), ("Mahasaraswati", 1)]:
+        center = Vector((side * 7.0, 2.0, plinth_h))
+        turn = Matrix.Translation(center) @ Matrix.Rotation(side * -math.pi / 2, 4, 'Z')
+        walls = geom.create_garbhagriha(
+            name, width=4.5, depth=4.6, wall_height=3.6, mat=mat_basalt_rough,
+            door_width=1.9, door_height=2.7,
+        )
+        bpy.context.view_layer.update()
+        for wall in walls:
+            wall.matrix_world = turn @ wall.matrix_world
+        geom.create_platform(name + "_Foundation", (center.x, center.y, 0),
+                             size=(4.6, 4.5, plinth_h), mat=mat_basalt_rough)
+        geom.create_platform(name + "_Roof", (center.x, center.y, plinth_h + 3.6),
+                             size=(4.8, 4.8, .3), mat=mat_basalt_rough)
+        geom.create_shikhara(name + "_Tower", (center.x, center.y, plinth_h + 3.9),
+                            base_width=4.3, height=5.0, tiers=5, mat=mat_basalt_rough, style="nagara")
+        shrine = bpy.data.objects.new(name + "_Sanctum_Anchor", None)
+        bpy.context.scene.collection.objects.link(shrine)
+        shrine.matrix_world = turn @ Matrix.Translation((0, 0.65, 0))
+
+    # Convert builder axes to map axes. Mahadwar is west of the sanctuary.
+    bpy.context.view_layer.update()
+    westward = Matrix.Rotation(-math.pi / 2, 4, 'Z')
+    for obj in bpy.context.scene.objects:
+        if obj.parent is None:
+            obj.matrix_world = westward @ obj.matrix_world
 
     # Export
     out_dir = os.path.join(os.path.dirname(blender_dir), "godot", "assets", "models")

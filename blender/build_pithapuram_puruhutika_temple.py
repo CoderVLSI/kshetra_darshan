@@ -7,7 +7,7 @@ import sys
 import os
 import math
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if SCRIPT_DIR not in sys.path:
@@ -23,7 +23,7 @@ from common_geometry import (
     clear_scene, create_pillar, create_platform, create_garbhagriha,
     create_shikhara, create_gopuram, create_deepam, create_hanging_bell, create_kunda,
     create_human_figure, create_ground_plane, create_mandapa,
-    create_prakara_wall, export_glb
+    create_prakara_wall, create_nandi, export_glb
 )
 
 
@@ -273,7 +273,10 @@ def build_pithapuram_puruhutika():
     ]
 
     # 1. Ground Plane (Ground Z=0)
-    ground = create_ground_plane("Ground_Main", size=68.0, mat=mat_granite)
+    mat_paving = create_granite_stone(
+        "Pithapuram_Courtyard_Paving", color=(.46, .44, .40, 1.0)
+    )
+    ground = create_ground_plane("Ground_Main", size=68.0, mat=mat_paving)
 
     # 2. Raised Dravidian Jagati Plinth
     bpy.ops.mesh.primitive_cube_add(size=2, location=(0, 4.0, 0.3))
@@ -365,35 +368,56 @@ def build_pithapuram_puruhutika():
         mat_skin=mat_skin, mat_cloth=mat_dhoti
     )
 
-    # 9. Sub-shrines: Bhairava_Shrine and Ganesha_Shrine
-    bhairava_shrine = create_sub_shrine(
-        name="Bhairava_Shrine",
-        location=(9.0, 1.0, 0.0),
-        size=(2.4, 2.4, 3.0),
-        mat_stone=mat_granite, mat_deity=mat_granite, mat_gold=mat_gold
-    )
+    # Puruhutika occupies the northeast of the shrine group and opens south.
+    bpy.context.view_layer.update()
+    for obj in bpy.context.scene.objects:
+        if obj != ground and obj.parent is None:
+            obj.location += Vector((-6, 7, 0))
 
-    ganesha_shrine = create_sub_shrine(
-        name="Ganesha_Shrine",
-        location=(-9.0, 1.0, 0.0),
-        size=(2.4, 2.4, 3.0),
-        mat_stone=mat_granite, mat_deity=mat_granite, mat_gold=mat_gold
+    # Kukkuteswara occupies its own sanctuary west of the tank. The approach
+    # runs eastward from the shrine to the Nandi mandapa.
+    shiva = Vector((-21, -6, 0))
+    parts = create_garbhagriha(
+        "Kukkuteswara_Garbhagriha", width=6.2, depth=6,
+        wall_height=4, mat=mat_granite, door_width=2, door_height=2.7,
     )
+    turn = Matrix.Translation(shiva) @ Matrix.Rotation(math.pi / 2, 4, 'Z')
+    bpy.context.view_layer.update()
+    for part in parts:
+        part.matrix_world = turn @ part.matrix_world
+    create_platform("Kukkuteswara_Roof", (-21, -6, 4),
+                    size=(6.4, 6.5, .25), mat=mat_granite)
+    create_shikhara("Kukkuteswara_Vimana", (-21, -6, 4.25),
+                    base_width=5.8, height=6.2, tiers=5,
+                    mat=mat_granite, mat_gold=mat_gold, style="dravidian")
+    create_mandapa("Kukkuteswara_Mandapa", (-14.5, -6, 0), width=7, depth=6,
+                   height=3.8, mat_stone=mat_granite, mat_floor=mat_granite)
+    bpy.ops.mesh.primitive_cylinder_add(vertices=32, radius=.8, depth=.32, location=(-21, -6, .16))
+    pedestal = bpy.context.active_object
+    pedestal.name = "Kukkuteswara_Pedestal"
+    pedestal.data.materials.append(mat_granite)
+    bpy.ops.mesh.primitive_uv_sphere_add(segments=24, ring_count=12, location=(-21, -6, .68))
+    lingam = bpy.context.active_object
+    lingam.name = "Kukkuteswara_Lingam_Study"
+    lingam.scale = (.32, .32, .51)
+    lingam.data.materials.append(mat_granite)
+    nandi = create_nandi("Kukkuteswara_Nandi", (-11.8, -6, .1), scale=1.3, mat=mat_granite)
+    nandi.rotation_euler.z = math.pi / 2
 
     # 10. Sacred Pada Gaya Sarovar (Tank with central mandapa)
     tank_objs = create_pada_gaya_tank(
         name="Pada_Gaya_Tank",
-        location=(-11.0, -6.5, 0.0),
-        size=(7.5, 7.5, 1.6),
+        location=(10.0, -3.5, 0.0),
+        size=(19.5, 23.0, 1.6),
         mat_granite=mat_granite,
         mat_water=mat_water,
         mat_gold=mat_gold
     )
 
-    # 11. Coastal Andhra Colorful Raja Gopuram Gateway Tower at South Entrance
+    # 11. Coastal Andhra Colorful Raja Gopuram Gateway Tower at North Entrance
     gopuram_objs = create_gopuram(
         name="Pithapuram_Raja_Gopuram",
-        location=(0, -14.5, 0.0),
+        location=(-6, 19.5, 0.0),
         base_width=7.0, base_depth=4.0,
         height=11.0, tiers=7,
         mat=mat_granite, colorful_mats=gopuram_mats
@@ -402,15 +426,15 @@ def build_pithapuram_puruhutika():
     # 12. Prakara Wall with Gateway Opening
     prakara_objs = create_prakara_wall(
         name="Pithapuram_Prakara",
-        center=(0, 0.0, 0.0),
-        width=36.0, depth=30.0,
+        center=(-6, 0, 0),
+        width=56.0, depth=39.0,
         wall_height=3.4, wall_thickness=0.55,
-        mat=mat_granite, gate_width=4.2, gate_sides=["S"]
+        mat=mat_granite, gate_width=4.2, gate_sides=["N"]
     )
 
-    # 13. Spawn_Point (in front of Raja Gopuram)
+    # 13. Spawn_Point on the interior festival approach
     spawn = bpy.data.objects.new("Spawn_Point", None)
-    spawn.location = (0, -10.5, 0.0)
+    spawn.location = (-6, -3.5, 0.0)
     bpy.context.collection.objects.link(spawn)
 
     # Export GLB

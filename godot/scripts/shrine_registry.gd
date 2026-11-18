@@ -106,6 +106,7 @@ func _populate() -> void:
 		if not entry_value is Dictionary:
 			continue
 		var entry: Dictionary = entry_value
+		var study = preload("res://scripts/shrine_sculpture.gd").new()
 		var anchor = _resolve_anchor(entry)
 		var target := Vector3.ZERO
 		var status := "existing_model_anchor"
@@ -122,7 +123,6 @@ func _populate() -> void:
 				inner.name = "Shrine_" + str(entry.id)
 				inner.global_position = base
 				inner.rotation.y = PI / 2 if slot[0] < .5 else -PI / 2
-				var study = preload("res://scripts/shrine_sculpture.gd").new()
 				if study.supports(entry):
 					inner.add_child(study.build(entry))
 					artwork = "Iconographic study within %s. Exact position and installed image remain unverified." % entry.placement_context
@@ -136,7 +136,10 @@ func _populate() -> void:
 				status = "unavailable"
 		elif anchor:
 			target = _anchor_center(anchor)
-			if "Reference" in str(anchor.name):
+			if entry.get("render_iconographic_study", false) and study.supports(entry):
+				anchor.add_child(study.build(entry))
+				artwork = "Iconographic study in the documented sanctum. Installed image details remain unverified."
+			elif "Reference" in str(anchor.name) or entry.get("installed_image_unverified", false):
 				artwork = "Reference location — installed image not reconstructed."
 			elif entry.get("kind", "") == "heritage":
 				artwork = "Present-day monument study; dimensions and surviving details remain approximate."

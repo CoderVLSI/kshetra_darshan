@@ -7,7 +7,7 @@ import sys
 import os
 import math
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if SCRIPT_DIR not in sys.path:
@@ -296,7 +296,10 @@ def build_alampur_jogulamba():
     mat_silk = create_kumkum_red("Jogulamba_Red_Silk")
 
     # 1. Ground Plane (Ground Z=0)
-    ground = create_ground_plane("Ground_Main", size=68.0, mat=mat_sandstone)
+    mat_courtyard = create_sandstone(
+        "Alampur_Courtyard_Paving", color=(.41, .39, .35, 1.0), roughness=.92
+    )
+    ground = create_ground_plane("Ground_Main", size=68.0, mat=mat_courtyard)
 
     # 2. Raised Chalukyan Jagati Platform for Main Temple
     bpy.ops.mesh.primitive_cube_add(size=2, location=(0, 4.0, 0.3))
@@ -388,75 +391,48 @@ def build_alampur_jogulamba():
         mat_skin=mat_skin, mat_cloth=mat_dhoti
     )
 
-    # 9. Sub-shrines: Bhairava_Shrine and Ganesha_Shrine
-    bhairava_shrine = create_sub_shrine(
-        name="Bhairava_Shrine",
-        location=(9.0, 1.0, 0.0),
-        size=(2.4, 2.4, 3.0),
-        mat_stone=mat_sandstone, mat_deity=mat_dark_stone, mat_gold=mat_gold
+    # Place the documented attendant figures along the interior approach.
+    # Their individual bays are approximate pending an interior survey.
+    for name, x, y in [
+        ("Chandi", -2.8, 0.8), ("Mundi", 2.8, 0.8),
+        ("Saptamatrikas", -2.8, -1.8), ("Vighneswara", 2.8, -1.8),
+        ("Veenapani_Veerabhadra", 2.8, -3.1),
+    ]:
+        marker = bpy.data.objects.new(name + "_Hall_Anchor", None)
+        bpy.context.scene.collection.objects.link(marker)
+        marker.location = (x, y, .1)
+
+    # The satellite view shows the sanctuary at the west end of an elongated
+    # east-west compound. Rotate its entrance hall to open east.
+    bpy.context.view_layer.update()
+    eastward = Matrix.Translation((-9, 0, 0)) @ Matrix.Rotation(math.pi / 2, 4, 'Z')
+    for obj in bpy.context.scene.objects:
+        if obj != ground and obj.parent is None:
+            obj.matrix_world = eastward @ obj.matrix_world
+
+    # The temple pool borders the sanctuary platform. Leave a dry central
+    # causeway along the approach and space to walk outside the pool curb.
+    for name, y, depth in [("North", 5.4, 2.5), ("South", -5.4, 2.5)]:
+        create_platform("Pool_" + name + "_Curb", (-10, y, 0),
+                        size=(13.5, depth + .5, .18), mat=mat_sandstone)
+        create_platform("Pool_" + name + "_Water", (-10, y, .18),
+                        size=(13, depth, .02), mat=mat_water)
+
+    create_prakara_wall(
+        name="Alampur_Prakara", center=(-1.5, 0, 0),
+        width=38.0, depth=20.0, wall_height=3.2, wall_thickness=.55,
+        mat=mat_sandstone, gate_width=4.0, gate_sides=["E"],
     )
+    create_mandapa("East_Entrance", (17.5, 0, 0), width=3.2, depth=5.0,
+                   height=3.6, pillar_count_x=2, pillar_count_y=2,
+                   mat_stone=mat_sandstone, mat_floor=mat_sandstone)
+    create_shikhara("East_Gateway_Tower", (17.5, 0, 3.8),
+                    base_width=3.5, height=4.8, tiers=4,
+                    mat=mat_sandstone, mat_gold=mat_gold, style="dravidian")
 
-    ganesha_shrine = create_sub_shrine(
-        name="Ganesha_Shrine",
-        location=(-9.0, 1.0, 0.0),
-        size=(2.4, 2.4, 3.0),
-        mat_stone=mat_sandstone, mat_deity=mat_sandstone, mat_gold=mat_gold
-    )
-
-    # 10. Navabrahma Courtyard: 9 Miniature Chalukyan Shrines
-    # Arranged neatly around the perimeter courtyard (outside walking corridors)
-    navabrahma_names = [
-        "Taraka_Brahma", "Swarga_Brahma", "Padma_Brahma",
-        "Bala_Brahma", "Garuda_Brahma", "Kumara_Brahma",
-        "Arka_Brahma", "Vira_Brahma", "Vishwa_Brahma"
-    ]
-    navabrahma_locs = [
-        (-12.0, 7.0, 0.0), (-12.0, 2.0, 0.0), (-12.0, -3.0, 0.0),
-        (12.0, 7.0, 0.0), (12.0, 2.0, 0.0), (12.0, -3.0, 0.0),
-        (-6.0, 9.5, 0.0), (0.0, 9.5, 0.0), (6.0, 9.5, 0.0)
-    ]
-    for idx, (b_name, b_loc) in enumerate(zip(navabrahma_names, navabrahma_locs)):
-        create_chalukya_mini_shrine(
-            name=f"Navabrahma_{b_name}",
-            location=b_loc,
-            size=(1.8, 1.8, 2.5),
-            mat_sandstone=mat_sandstone,
-            mat_gold=mat_gold
-        )
-
-    # 11. Tungabhadra River & Ghat Steps along the Western edge
-    # River plane
-    bpy.ops.mesh.primitive_plane_add(size=1, location=(-18.0, 0.0, -0.2))
-    river = bpy.context.active_object
-    river.scale = (4.0, 22.0, 1.0)
-    river.name = "Tungabhadra_River"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_water: river.data.materials.append(mat_water)
-
-    # Ghat steps descending to river
-    for step_i in range(4):
-        bpy.ops.mesh.primitive_cube_add(
-            size=2, location=(-14.5 - step_i * 0.4, 0.0, 0.15 - step_i * 0.1)
-        )
-        ghat_step = bpy.context.active_object
-        ghat_step.scale = (0.2, 16.0, 0.06)
-        ghat_step.name = f"Tungabhadra_Ghat_Step_{step_i+1}"
-        bpy.ops.object.transform_apply(scale=True)
-        if mat_sandstone: ghat_step.data.materials.append(mat_sandstone)
-
-    # 12. Prakara Enclosure Wall with South Gateway
-    prakara_objs = create_prakara_wall(
-        name="Alampur_Prakara",
-        center=(0, 0.0, 0.0),
-        width=36.0, depth=30.0,
-        wall_height=3.2, wall_thickness=0.55,
-        mat=mat_sandstone, gate_width=4.0, gate_sides=["S"]
-    )
-
-    # 13. Spawn_Point
     spawn = bpy.data.objects.new("Spawn_Point", None)
-    spawn.location = (0, -12.0, 0.0)
-    bpy.context.collection.objects.link(spawn)
+    bpy.context.scene.collection.objects.link(spawn)
+    spawn.location = (15, 0, 0)
 
     # Export GLB
     output_path = os.path.join(os.path.dirname(SCRIPT_DIR), "godot", "assets", "models", "alampur_jogulamba_kshetra_full.glb")
