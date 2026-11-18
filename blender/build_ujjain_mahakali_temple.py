@@ -1,6 +1,6 @@
 """
 Blender 5.3 Build Script for Ujjain Mahakali / Harasiddhi Temple (Kshetra #14)
-Architecture: Maratha-Nagara with Signature TWIN Deepastambhas, Sabha Mandap & Shipra River Ghat
+Architecture: Maratha-Nagara with twin deepastambhas, Sabha Mandap and a southern well
 Deity: Authentic Harasiddhi Devi - vermilion sindoor rock murti seated under silver Chhatra,
        flanked by Mahalakshmi & Mahasaraswati, with Akhanda Jyoti
 Output: d:\\Kshetra_Darshan\\godot\\assets\\models\\ujjain_mahakali_kshetra_full.glb
@@ -9,7 +9,7 @@ import os
 import sys
 import math
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 if script_dir not in sys.path:
@@ -24,7 +24,7 @@ from common_materials import (
 from common_geometry import (
     clear_scene, create_pillar, create_platform, create_garbhagriha,
     create_hanging_bell, create_deepam, create_human_figure,
-    create_ground_plane, export_glb
+    create_ground_plane, create_mandapa, create_prakara_wall, export_glb
 )
 
 def build_deepastambha(name, location, height=13.0, tiers=11, mat_stone=None, mat_brass=None, mat_flame=None):
@@ -47,7 +47,8 @@ def build_deepastambha(name, location, height=13.0, tiers=11, mat_stone=None, ma
     
     # Main octagonal tapering shaft
     shaft_h = height - 3.0
-    bpy.ops.mesh.primitive_cylinder_add(vertices=8, radius=0.75, depth=shaft_h, location=(x, y, z + 1.4 + shaft_h/2))
+    bpy.ops.mesh.primitive_cone_add(vertices=16, radius1=.98, radius2=.24, depth=shaft_h,
+                                   location=(x, y, z + 1.4 + shaft_h / 2))
     shaft = bpy.context.active_object
     shaft.name = f"{name}_Shaft"
     if mat_stone: shaft.data.materials.append(mat_stone)
@@ -57,7 +58,7 @@ def build_deepastambha(name, location, height=13.0, tiers=11, mat_stone=None, ma
     tier_spacing = shaft_h / (tiers + 1)
     for i in range(tiers):
         tz = z + 1.6 + (i + 1) * tier_spacing
-        tier_radius = 0.75 * (1.0 - 0.25 * (i / tiers))
+        tier_radius = .98 - .74 * ((i + 1) / (tiers + 1))
         
         # Ring shelf
         bpy.ops.mesh.primitive_cylinder_add(vertices=8, radius=tier_radius + 0.15, depth=0.10, location=(x, y, tz))
@@ -305,35 +306,6 @@ def build_maratha_mandapa(name="Mandapa", location=(0, 3.2, 0), width=8.5, depth
             
     return objs
 
-def build_shipra_ghat(location=(22, 5, 0), depth=32.0, mat_stone=None, mat_water=None):
-    """Build sacred Shipra River ghat on the East side."""
-    objs = []
-    gx, gy, gz = location
-    
-    # Wide Shipra river water plane
-    bpy.ops.mesh.primitive_plane_add(size=1, location=(gx + 10, gy, gz - 1.2))
-    water = bpy.context.active_object
-    water.scale = (12, depth/2 + 6, 1)
-    water.name = "Shipra_Water"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_water: water.data.materials.append(mat_water)
-    objs.append(water)
-    
-    # Stepped ghat terraces
-    steps_count = 8
-    for i in range(steps_count):
-        sx = gx + (steps_count - i) * 0.7
-        sz = gz - i * 0.16
-        bpy.ops.mesh.primitive_cube_add(size=2, location=(sx, gy, sz))
-        step = bpy.context.active_object
-        step.scale = (0.7/2, depth/2, 0.16/2)
-        step.name = f"Shipra_Step_{i+1}"
-        bpy.ops.object.transform_apply(scale=True)
-        if mat_stone: step.data.materials.append(mat_stone)
-        objs.append(step)
-        
-    return objs
-
 def build_subshrine(name, location, deity_type="bhairava", mat_stone=None, mat_gold=None, mat_black=None):
     """Build sub-shrine joined into single mesh."""
     objs = []
@@ -393,12 +365,13 @@ def main():
     mat_sindoor = create_kumkum_red("Harasiddhi_Sindoor", color=(0.92, 0.18, 0.08, 1.0))
     mat_silk = create_kumkum_red("Red_Silk_Sari", color=(0.85, 0.08, 0.08, 1.0))
     mat_flame = create_flame_emission("Flame_Glow", strength=9.0)
-    mat_water = create_water("Shipra_Water_Mat", color=(0.14, 0.36, 0.45, 0.85))
+    mat_water = create_water("Harsiddhi_Well_Water", color=(0.14, 0.36, 0.45, 0.85))
+    mat_paving = create_sandstone("Harsiddhi_Courtyard_Paving", color=(.45, .41, .37, 1.0))
     mat_skin = create_skin("Priest_Skin")
     mat_dhoti = create_white_dhoti("Priest_Dhoti")
     
     # 1. Main Ground
-    ground = create_ground_plane(name="Ground_Main", size=70, mat=mat_sandstone)
+    ground = create_ground_plane(name="Ground_Main", size=70, mat=mat_paving)
     
     # 2. Garbhagriha Walls
     garbha_walls = create_garbhagriha(
@@ -448,20 +421,54 @@ def main():
     create_deepam(name="Deepam_1", location=(-1.3, 8.0, 0), mat_brass=mat_brass, mat_flame=mat_flame)
     create_deepam(name="Deepam_2", location=(1.3, 8.0, 0), mat_brass=mat_brass, mat_flame=mat_flame)
     
-    # 10. Subshrines
-    build_subshrine("Bhairava_Shrine", location=(-10, 5, 0), deity_type="bhairava", mat_stone=mat_sandstone, mat_gold=mat_gold, mat_black=mat_black)
-    build_subshrine("Ganesha_Shrine", location=(10, 5, 0), deity_type="ganesha", mat_stone=mat_sandstone, mat_gold=mat_gold, mat_black=mat_black)
-    
-    # 11. Sacred Shipra River Ghat
-    build_shipra_ghat(location=(22, 5, 0), depth=32.0, mat_stone=mat_sandstone, mat_water=mat_water)
-    
-    # 12. Spawn_Point
-    bpy.ops.object.empty_add(type='PLAIN_AXES', location=(0, -14, 0.1))
-    spawn = bpy.context.active_object
-    spawn.name = "Spawn_Point"
-    
-    # 13. Export GLB
-    output_path = r"d:\Kshetra_Darshan\godot\assets\models\ujjain_mahakali_kshetra_full.glb"
+    # The district inventory puts all three deities in the shared sanctum.
+    for name, position in [
+        ("Mahalakshmi_Sanctum_Anchor", (-.65, 11.8, .82)),
+        ("Mahasaraswati_Sanctum_Anchor", (.65, 11.8, .82)),
+    ]:
+        marker = bpy.data.objects.new(name, None)
+        bpy.context.scene.collection.objects.link(marker)
+        marker.location = position
+
+    bpy.context.view_layer.update()
+    eastward = Matrix.Rotation(math.pi / 2, 4, 'Z')
+    for obj in bpy.context.scene.objects:
+        if obj != ground and obj.parent is None:
+            obj.matrix_world = eastward @ obj.matrix_world
+
+    # The temple and district describe four entrances, with the eastern main
+    # gate leading between the two lamp towers.
+    create_prakara_wall("Harsiddhi_Enclosure", width=48, depth=35, wall_height=2.75,
+                        mat=mat_sandstone, gate_width=4.5, gate_sides=["E", "W", "N", "S"])
+    create_mandapa("Harsiddhi_East_Gateway", (24, 0, 0), width=3.5, depth=5,
+                   height=3.9, pillar_count_x=2, pillar_count_y=2,
+                   mat_stone=mat_sandstone, mat_floor=mat_paving)
+
+    # The district inventory places the well on the south side.
+    bpy.ops.mesh.primitive_torus_add(major_segments=48, location=(-4, -12, .56),
+                                    major_radius=1.5, minor_radius=.23)
+    well = bpy.context.active_object
+    well.name = "Harsiddhi_South_Well"
+    well.data.materials.append(mat_black)
+    bpy.ops.mesh.primitive_cylinder_add(vertices=36, radius=1.3, depth=.05,
+                                       location=(-4, -12, .14))
+    water = bpy.context.active_object
+    water.name = "Harsiddhi_Well_Water"
+    water.data.materials.append(mat_water)
+    create_pillar("Harsiddhi_Well_Dated_Pillar", (-5.5, -12, 0), height=2.65,
+                  radius=.27, mat=mat_sandstone, style="octagonal")
+
+    # Karkoteshwar occupies the north side of the main temple.
+    karkot = build_subshrine("Karkoteshwar_Shiva", location=(0, 0, 0),
+                             deity_type="bhairava", mat_stone=mat_sandstone,
+                             mat_gold=mat_gold, mat_black=mat_black)
+    karkot.rotation_euler.z = math.pi / 2
+    karkot.location = (-6, 11, 0)
+    bpy.ops.object.empty_add(type='PLAIN_AXES', location=(19, 0, .1))
+    bpy.context.active_object.name = "Spawn_Point"
+
+    output_path = os.path.join(os.path.dirname(script_dir), "godot", "assets", "models",
+                               "ujjain_mahakali_kshetra_full.glb")
     export_glb(output_path)
     print("Successfully built authentic Ujjain Mahakali / Harasiddhi Temple GLB!")
 

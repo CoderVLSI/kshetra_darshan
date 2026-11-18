@@ -2,14 +2,14 @@
 Blender 5.3 Build Script for Jajpur Biraja Temple (Kshetra #13)
 Kalinga Architecture: Rekha Deula (sanctum) + Pidha Jagamohana (hall)
 Deity: 2-armed Biraja (Dvi-bhuja Mahishasuramardini)
-Features: Baitarani River Ghat, Vaitaraneeshwar Bhairava Shrine, Ganesha Shrine
+Features: East-facing Simhadwara, Chandi Mandapa, Nabhigaya and the northeast shrine group
 Output: d:\\Kshetra_Darshan\\godot\\assets\\models\\jajpur_biraja_kshetra_full.glb
 """
 import os
 import sys
 import math
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 # Ensure blender directory in sys.path
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -20,12 +20,12 @@ from common_materials import (
     create_sandstone, create_gold_metal, create_brass_metal,
     create_red_silk, create_water, create_flame_emission,
     create_skin, create_white_dhoti, create_flower_garland,
-    create_black_stone, create_white_marble
+    create_black_stone
 )
 from common_geometry import (
     clear_scene, create_pillar, create_platform, create_garbhagriha,
     create_hanging_bell, create_deepam, create_human_figure,
-    create_ground_plane
+    create_ground_plane, create_mandapa, create_prakara_wall, create_shikhara
 )
 
 
@@ -48,16 +48,9 @@ def build_kalinga_rekha_deula(name="Rekha_Deula", location=(0, 12, 0), width=7.0
     objs = []
     x, y, z = location
     
-    # Bada (lower wall structure)
-    bada_h = 4.5
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(x, y, z + bada_h/2))
-    bada = bpy.context.active_object
-    bada.scale = (width/2, width/2, bada_h/2)
-    bada.name = f"{name}_Bada"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: bada.data.materials.append(mat_stone)
-    objs.append(bada)
-    
+    # The garbhagriha walls form the lower mass and leave the sanctuary open.
+    bada_h = 4.8
+
     # Gandi (spire with vertical pagas and curved taper)
     tiers = 10
     gandi_h = height - bada_h - 2.5
@@ -361,168 +354,50 @@ def create_two_armed_biraja(name="Deity_Biraja", location=(0, 12, 0.4), mat_ston
     return deity
 
 
-def build_baitarani_ghat(location=(-22, 5, 0), width=14.0, depth=30.0, mat_stone=None, mat_water=None):
-    """Build the sacred Baitarani (Vaitarani) river ghat with wide stone steps and water plane."""
-    objs = []
-    gx, gy, gz = location
-    
-    # River water plane (Z = -1.0)
-    bpy.ops.mesh.primitive_plane_add(size=1, location=(gx - 10, gy, gz - 1.0))
-    water = bpy.context.active_object
-    water.scale = (12, depth/2 + 5, 1)
-    water.name = "Baitarani_Water"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_water: water.data.materials.append(mat_water)
-    objs.append(water)
-    
-    # Ghat stepped terraces descending into water
-    steps_count = 8
-    step_w = 4.0
-    step_h = 0.18
-    for i in range(steps_count):
-        sx = gx - (steps_count - i) * 0.6
-        sz = gz - i * step_h
-        bpy.ops.mesh.primitive_cube_add(size=2, location=(sx, gy, sz))
-        step = bpy.context.active_object
-        step.scale = (0.6/2, depth/2, step_h/2)
-        step.name = f"Baitarani_Ghat_Step_{i+1}"
-        bpy.ops.object.transform_apply(scale=True)
-        if mat_stone: step.data.materials.append(mat_stone)
-        objs.append(step)
-        
-    # Ghat promenade upper platform
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(gx + 1.5, gy, gz - 0.05))
-    prom = bpy.context.active_object
-    prom.scale = (2.0, depth/2, 0.05)
-    prom.name = "Baitarani_Promenade"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: prom.data.materials.append(mat_stone)
-    objs.append(prom)
-    
-    # Riverside Chhatri / Bathing pavilion
-    for cy in [gy - 8, gy + 8]:
-        p = create_pillar(f"Ghat_Pillar_{cy}_1", (gx + 0.5, cy - 1.5, gz), height=2.8, radius=0.15, mat=mat_stone)
-        objs.append(p)
-        p2 = create_pillar(f"Ghat_Pillar_{cy}_2", (gx + 0.5, cy + 1.5, gz), height=2.8, radius=0.15, mat=mat_stone)
-        objs.append(p2)
-        bpy.ops.mesh.primitive_cone_add(vertices=8, radius1=1.8, radius2=0.2, depth=1.0,
-                                        location=(gx + 0.5, cy, gz + 3.3))
-        roof = bpy.context.active_object
-        roof.name = f"Ghat_Chhatri_Roof_{cy}"
-        if mat_stone: roof.data.materials.append(mat_stone)
-        objs.append(roof)
-        
-    return objs
+def build_linga(name, position, material, radius=.16, height=.36):
+    x, y, z = position
+    bpy.ops.mesh.primitive_cylinder_add(
+        vertices=20, radius=radius * 1.7, depth=.12, location=(x, y, z + .06)
+    )
+    base = bpy.context.active_object
+    base.name = name + "_Base"
+    base.data.materials.append(material)
+    bpy.ops.mesh.primitive_uv_sphere_add(
+        segments=16, ring_count=8, radius=1, location=(x, y, z + .1 + height / 2)
+    )
+    form = bpy.context.active_object
+    form.name = name
+    form.scale = (radius, radius, height / 2)
+    form.data.materials.append(material)
 
 
-def build_subshrine(name, location, style="kalinga", mat_stone=None, mat_gold=None):
-    """Build a complete sub-shrine (Bhairava or Ganesha) and join into a single named object."""
-    objs = []
-    x, y, z = location
-    sw, sd, sh = 3.2, 3.2, 2.8
-    
-    # Platform
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(x, y, z + 0.15))
-    plat = bpy.context.active_object
-    plat.scale = (sw/2 + 0.2, sd/2 + 0.2, 0.15)
-    plat.name = f"{name}_Plat"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: plat.data.materials.append(mat_stone)
-    objs.append(plat)
-    
-    # Walls (3 solid walls, front open with doorway)
-    # Back
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(x, y + sd/2 - 0.2, z + 0.3 + sh/2))
-    wb = bpy.context.active_object
-    wb.scale = (sw/2, 0.2, sh/2)
-    wb.name = f"{name}_WallB"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: wb.data.materials.append(mat_stone)
-    objs.append(wb)
-    
-    # Left
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(x - sw/2 + 0.2, y, z + 0.3 + sh/2))
-    wl = bpy.context.active_object
-    wl.scale = (0.2, sd/2, sh/2)
-    wl.name = f"{name}_WallL"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: wl.data.materials.append(mat_stone)
-    objs.append(wl)
-    
-    # Right
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(x + sw/2 - 0.2, y, z + 0.3 + sh/2))
-    wr = bpy.context.active_object
-    wr.scale = (0.2, sd/2, sh/2)
-    wr.name = f"{name}_WallR"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: wr.data.materials.append(mat_stone)
-    objs.append(wr)
-    
-    # Front doorway pillars
-    for px in [-sw/2 + 0.3, sw/2 - 0.3]:
-        p = create_pillar(f"{name}_Pillar_{px}", (x + px, y - sd/2 + 0.2, z + 0.3), height=sh, radius=0.15, mat=mat_stone)
-        objs.append(p)
-        
-    # Front lintel
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(x, y - sd/2 + 0.2, z + 0.3 + sh - 0.2))
-    lint = bpy.context.active_object
-    lint.scale = (sw/2, 0.25, 0.2)
-    lint.name = f"{name}_Lintel"
-    bpy.ops.object.transform_apply(scale=True)
-    if mat_stone: lint.data.materials.append(mat_stone)
-    objs.append(lint)
-    
-    # Stepped Pidha roof for subshrine
-    for i in range(4):
-        t = i / 3.0
-        rw = (sw/2 + 0.2) * (1.0 - t * 0.6)
-        rd = (sd/2 + 0.2) * (1.0 - t * 0.6)
-        rz = z + 0.3 + sh + i * 0.4 + 0.2
-        bpy.ops.mesh.primitive_cube_add(size=2, location=(x, y, rz))
-        rt = bpy.context.active_object
-        rt.scale = (rw, rd, 0.2)
-        rt.name = f"{name}_RoofTier_{i+1}"
-        bpy.ops.object.transform_apply(scale=True)
-        if mat_stone: rt.data.materials.append(mat_stone)
-        objs.append(rt)
-        
-    # Kalasha finial
-    bpy.ops.mesh.primitive_uv_sphere_add(radius=0.22, location=(x, y, z + 0.3 + sh + 1.8))
-    fin = bpy.context.active_object
-    fin.name = f"{name}_Finial"
-    if mat_gold: fin.data.materials.append(mat_gold)
-    objs.append(fin)
-    
-    # Murti / Linga inside shrine
-    if "Bhairava" in name:
-        # Vaitaraneeshwar Shiva Lingam
-        bpy.ops.mesh.primitive_cylinder_add(vertices=16, radius=0.25, depth=0.15, location=(x, y, z + 0.38))
-        yoni = bpy.context.active_object
-        if mat_stone: yoni.data.materials.append(mat_stone)
-        objs.append(yoni)
-        bpy.ops.mesh.primitive_cylinder_add(vertices=16, radius=0.12, depth=0.35, location=(x, y, z + 0.58))
-        linga = bpy.context.active_object
-        if mat_stone: linga.data.materials.append(mat_stone)
-        objs.append(linga)
-    else:
-        # Ganesha icon
-        bpy.ops.mesh.primitive_cube_add(size=2, location=(x, y, z + 0.6))
-        g_body = bpy.context.active_object
-        g_body.scale = (0.2, 0.15, 0.25)
-        g_body.name = f"{name}_GaneshaBody"
-        bpy.ops.object.transform_apply(scale=True)
-        if mat_stone: g_body.data.materials.append(mat_stone)
-        objs.append(g_body)
-        
-    # Join into single object
-    bpy.ops.object.select_all(action='DESELECT')
-    for o in objs:
-        o.select_set(True)
-    bpy.context.view_layer.objects.active = plat
-    bpy.ops.object.join()
-    shrine = bpy.context.active_object
-    shrine.name = name
-    return shrine
+def build_deva_sabha(name, center, width, depth, count, faces_east, stone, roof):
+    x, y = center
+    create_platform(name + "_Floor", (x, y, 0), size=(width, depth, .12), mat=stone)
+    front = 1 if faces_east else -1
+    for side in [-1, 1]:
+        create_platform(name + "_End_Wall", (x, y + side * (depth / 2 - .12), .12),
+                        size=(width, .24, 3.1), mat=stone)
+    create_platform(name + "_Rear_Wall", (x - front * (width / 2 - .12), y, .12),
+                    size=(.24, depth, 3.1), mat=stone)
+    for dy in [-depth / 2 + .25, 0, depth / 2 - .25]:
+        create_pillar(name + "_Post", (x + front * (width / 2 - .18), y + dy, .12),
+                      height=3.1, radius=.12, mat=stone)
+    for side in [-1, 1]:
+        sheet = create_platform(name + "_Sheet_Roof", (x + side * width / 4, y, 3.58),
+                                size=(width / 2 + .2, depth + .35, .11), mat=roof)
+        sheet.rotation_euler.y = side * .14
+    # Preserve the documented counts. The arrangement and individual shapes
+    # are representative until a measured interior survey is available.
+    for index in range(count):
+        row, column = divmod(index, 12)
+        build_linga(name + "_Linga_" + str(index + 1),
+                    (x - front * (width / 2 - .55 - row * .8),
+                     y + (column - 5.5) * (depth - 1) / 12, .12),
+                    stone, radius=.10, height=.26 + .05 * (index % 4))
+    marker = bpy.data.objects.new(name + "_Anchor", None)
+    bpy.context.scene.collection.objects.link(marker)
+    marker.location = (x + front * width / 3, y, .65)
 
 
 def main():
@@ -538,10 +413,11 @@ def main():
     mat_skin = create_skin("Priest_Skin")
     mat_dhoti = create_white_dhoti("Priest_Dhoti")
     mat_stone_dark = create_black_stone("Black_Basalt_Biraja")
-    mat_marble = create_white_marble("Courtyard_Paving")
+    mat_paving = create_sandstone("Biraja_Courtyard_Paving", color=(.39, .36, .31, 1.0))
     
     # 2. Main Courtyard Ground
-    ground = create_ground_plane(name="Ground_Main", size=70, mat=mat_sandstone)
+    create_ground_plane(name="Ground_Main", size=75, mat=mat_sandstone)
+    create_platform("Biraja_Courtyard_Paving", (0, 0, 0), size=(50, 50, .04), mat=mat_paving)
     
     # 3. Sanctum (Garbhagriha) Walls
     # Sanctum interior size: 5.4 x 5.4, height 4.8, centered at (0, 12, 0)
@@ -566,7 +442,7 @@ def main():
     garbhagriha.name = "Garbhagriha"
     
     # 4. Kalinga Rekha Deula Tower over Garbhagriha
-    build_kalinga_rekha_deula(name="Biraja_RekhaDeula", location=(0, 12, 0), width=6.8, height=15.5, mat_stone=mat_sandstone, mat_gold=mat_gold)
+    build_kalinga_rekha_deula(name="Biraja_RekhaDeula", location=(0, 12, 0), width=7.2, height=21.15, mat_stone=mat_sandstone, mat_gold=mat_gold)
     
     # 5. Kalinga Pidha Jagamohana (Mandapa)
     mandapa_parts = build_kalinga_pidha_jagamohana(name="Mandapa_Struct", location=(0, 3.5, 0), width=8.5, depth=7.5, height=3.8, mat_stone=mat_sandstone, mat_gold=mat_gold)
@@ -592,23 +468,106 @@ def main():
     create_deepam(name="Deepam_1", location=(-1.3, 8.8, 0), mat_brass=mat_brass, mat_flame=mat_flame)
     create_deepam(name="Deepam_2", location=(1.3, 8.8, 0), mat_brass=mat_brass, mat_flame=mat_flame)
     
-    # 10. Subshrines
-    # Bhairava: Vaitaraneeshwar Shrine (North-West courtyard)
-    build_subshrine("Bhairava_Shrine", location=(-10, 6, 0), style="kalinga", mat_stone=mat_sandstone, mat_gold=mat_gold)
-    
-    # Ganesha Shrine (North-East courtyard)
-    build_subshrine("Ganesha_Shrine", location=(10, 6, 0), style="kalinga", mat_stone=mat_sandstone, mat_gold=mat_gold)
-    
-    # 11. Baitarani River Ghat on West side
-    build_baitarani_ghat(location=(-20, 6, 0), width=12.0, depth=32.0, mat_stone=mat_sandstone, mat_water=mat_water)
-    
-    # 12. Spawn_Point (South entrance, walk path facing +Y towards Mandapa and Sanctum)
-    bpy.ops.object.empty_add(type='PLAIN_AXES', location=(0, -14, 0.1))
-    spawn = bpy.context.active_object
-    spawn.name = "Spawn_Point"
-    
-    # 13. Export GLB
-    output_path = r"d:\Kshetra_Darshan\godot\assets\models\jajpur_biraja_kshetra_full.glb"
+    # Add the antarala and the documented Chandi Mandapa in front of the hall.
+    connector = create_garbhagriha("Biraja_Antarala", (0, 8.1, 0), width=4.6,
+                                  depth=2.1, wall_height=3.35, door_width=2.2,
+                                  door_height=2.6, mat=mat_sandstone)
+    bpy.data.objects.remove(connector[0], do_unlink=True)
+    create_platform("Biraja_Antarala_Roof", (0, 8.1, 3.35),
+                    size=(4.9, 2.4, .25), mat=mat_sandstone)
+    create_mandapa("Chandi_Mandapa", (0, -4.2, 0), width=10.8, depth=7.9,
+                   height=3.5, pillar_count_x=4, pillar_count_y=2,
+                   mat_stone=mat_sandstone, mat_floor=mat_paving)
+
+    # Rotate the sanctuary, halls and figures together toward the Simhadwara.
+    bpy.context.view_layer.update()
+    eastward = Matrix.Rotation(math.pi / 2, 4, 'Z')
+    for obj in bpy.context.scene.objects:
+        if obj.parent is None:
+            obj.matrix_world = eastward @ obj.matrix_world
+
+    # IGNCA records a 50 m square courtyard with gates on all four sides.
+    create_prakara_wall("Biraja_Prakar", width=50, depth=50, wall_height=2.8,
+                        wall_thickness=.55, mat=mat_sandstone, gate_width=4.8,
+                        gate_sides=["E", "W", "N", "S"])
+    create_mandapa("Simhadwara", (24.8, 0, 0), width=3.2, depth=5.2,
+                   height=3.8, pillar_count_x=2, pillar_count_y=2,
+                   mat_stone=mat_sandstone, mat_floor=mat_paving)
+
+    # The separate northeast shrines follow IGNCA's footprint and orientation data.
+    baidyanatha = (7, 18, 0)
+    walls = create_garbhagriha("Baidyanatha", width=4.1, depth=4.1, wall_height=3.4,
+                              door_width=1.4, door_height=2.4, mat=mat_sandstone)
+    shrine_transform = Matrix.Translation(baidyanatha) @ eastward
+    bpy.context.view_layer.update()
+    for wall in walls:
+        wall.matrix_world = shrine_transform @ wall.matrix_world
+    for index, width in enumerate([4.1, 3.55, 3.0, 2.45, 1.9, 1.35]):
+        create_platform("Baidyanatha_Pidha", (7, 18, 3.4 + index * .6),
+                        size=(width, width, .6), mat=mat_sandstone)
+    build_linga("Baidyanatha_Linga", baidyanatha, mat_stone_dark, radius=.22, height=.65)
+    metal = create_black_stone("Deva_Sabha_Grey_Roof", color=(.31, .34, .35, 1.0))
+    build_deva_sabha("Sahasralinga_I", (18, 18), 6, 10.5, 54, False, mat_stone_dark, metal)
+    build_deva_sabha("Sahasralinga_II", (18, 6.8), 5.8, 10.2, 37, True, mat_stone_dark, metal)
+    for index in range(5):
+        votive_x, votive_y = 18.1, 4.8 + index * .8
+        create_platform("Deva_Sabha_Votive_Plinth", (votive_x, votive_y, .12),
+                        size=(.48, .48, .28), mat=mat_sandstone)
+        create_shikhara("Deva_Sabha_Votive_Spire", (votive_x, votive_y, .4),
+                        base_width=.46, height=.56, tiers=4, mat=mat_sandstone)
+
+    # The Trust identifies this shrine in front of the southwest wall fragment.
+    create_garbhagriha("Bhushandeshwara", (-18, -19, 0),
+                       width=3.4, depth=3.4, wall_height=2.9, door_width=1.5,
+                       door_height=2.2, mat=mat_sandstone)
+    create_platform("Bhushandeshwara_Roof", (-18, -19, 2.9),
+                    size=(3.6, 3.6, .2), mat=mat_sandstone)
+    create_shikhara("Bhushandeshwara_Tower", (-18, -19, 3.1),
+                    base_width=3, height=2.7, tiers=4, mat=mat_sandstone)
+    build_linga("Bhushandeshwara_Linga", (-18, -19, 0), mat_stone_dark)
+
+    # The Trust documents the Bhikari Das inscription at this upper lintel.
+    create_platform("Simhadwara_Inscription_Stone", (26.15, 0, 3.13),
+                    size=(.20, 2.45, .45), mat=mat_stone_dark)
+
+    # The satellite view places the Nabhi Gaya well southeast of the main shrine.
+    create_mandapa("Nabhigaya_Pavilion", (7.7, -7.5, 0), width=5.2, depth=5,
+                   height=3.1, pillar_count_x=2, pillar_count_y=2,
+                   mat_stone=mat_sandstone, mat_floor=mat_paving)
+    bpy.ops.mesh.primitive_torus_add(
+        major_segments=40, minor_segments=12, location=(7.7, -7.5, .42),
+        major_radius=.83, minor_radius=.16
+    )
+    rim = bpy.context.active_object
+    rim.name = "Nabhigaya_Well_Rim"
+    rim.data.materials.append(mat_stone_dark)
+    bpy.ops.mesh.primitive_cylinder_add(vertices=40, radius=.75, depth=.03, location=(7.7, -7.5, .16))
+    bpy.context.active_object.name = "Nabhigaya_Well_Water"
+    bpy.context.active_object.data.materials.append(mat_water)
+
+    # The Trust photo shows the well enclosed by a circular metal grille.
+    for level in [.47, .96, 1.60]:
+        bpy.ops.mesh.primitive_torus_add(major_segments=40, minor_segments=8,
+                                        location=(7.7, -7.5, level),
+                                        major_radius=.87, minor_radius=.022)
+        hoop = bpy.context.active_object
+        hoop.name = "Nabhigaya_Grille_Hoop"
+        hoop.data.materials.append(metal)
+    for index in range(32):
+        angle = math.tau * index / 32
+        bpy.ops.mesh.primitive_cylinder_add(
+            vertices=8, radius=.014, depth=1.16,
+            location=(7.7 + .87 * math.cos(angle), -7.5 + .87 * math.sin(angle), 1.04),
+        )
+        bar = bpy.context.active_object
+        bar.name = "Nabhigaya_Grille_Bar"
+        bar.data.materials.append(metal)
+
+    bpy.ops.object.empty_add(type='PLAIN_AXES', location=(20, 0, .1))
+    bpy.context.active_object.name = "Spawn_Point"
+
+    output_path = os.path.join(os.path.dirname(script_dir), "godot", "assets", "models",
+                               "jajpur_biraja_kshetra_full.glb")
     export_glb(output_path)
     print("Successfully built and exported Jajpur Biraja Temple GLB!")
 

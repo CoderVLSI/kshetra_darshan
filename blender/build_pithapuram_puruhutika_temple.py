@@ -401,8 +401,9 @@ def build_pithapuram_puruhutika():
     lingam.name = "Kukkuteswara_Lingam_Study"
     lingam.scale = (.32, .32, .51)
     lingam.data.materials.append(mat_granite)
-    nandi = create_nandi("Kukkuteswara_Nandi", (-11.8, -6, .1), scale=1.3, mat=mat_granite)
+    nandi = create_nandi("Kukkuteswara_Nandi", (0, 0, 0), scale=1.3, mat=mat_granite)
     nandi.rotation_euler.z = math.pi / 2
+    nandi.location = (-11.8, -6, .1)
 
     # 10. Sacred Pada Gaya Sarovar (Tank with central mandapa)
     tank_objs = create_pada_gaya_tank(

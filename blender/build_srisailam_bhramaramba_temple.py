@@ -424,22 +424,24 @@ def build_srisailam_bhramaramba():
     # 10. Mallikarjuna Shiva Shrine (Secondary Sanctum in Srisailam Complex)
     mallikarjuna_shrine = create_mallikarjuna_shiva_shrine(
         name="Mallikarjuna_Shiva_Shrine",
-        location=(3.0, 0.0, 0.0),
+        location=(0, 0, 0),
         mat_granite=mat_granite,
         mat_gold=mat_gold,
         mat_black_stone=mat_black_stone
     )
 
     mallikarjuna_shrine.rotation_euler.z = math.pi / 2
+    mallikarjuna_shrine.location = (3, 0, 0)
 
     # Nandi facing Mallikarjuna Shiva Shrine
     nandi = create_nandi(
         name="Srisailam_Nandi",
-        location=(13.0, 0.0, 0.0),
+        location=(0, 0, 0),
         scale=1.1,
         mat=mat_black_stone
     )
     nandi.rotation_euler.z = math.pi / 2
+    nandi.location = (13, 0, 0)
 
     # 11. Large Srisailam Prakara Enclosure Wall
     prakara_objs = create_prakara_wall(

@@ -1777,6 +1777,31 @@
           "id": "BIRAJA_WELL",
           "title": "Biraja Mandira Trust Board: Nabhigaya",
           "url": "https://maabiraja.com/navigaya.html"
+        },
+        {
+          "id": "BIRAJA_IGNCA",
+          "title": "IGNCA archaeological inventory, Viraja Temple",
+          "url": "https://ignca.gov.in/asi_reports/Orjajpur059.pdf"
+        },
+        {
+          "id": "BIRAJA_BAIDYANATHA",
+          "title": "IGNCA archaeological inventory, Baidyanatha Siva Temple",
+          "url": "https://ignca.gov.in/asi_reports/Orjajpur006.pdf"
+        },
+        {
+          "id": "BIRAJA_SAHASRALINGA_I",
+          "title": "IGNCA archaeological inventory, Sahasralinga Shrine I",
+          "url": "https://ignca.gov.in/asi_reports/Orjajpur043.pdf"
+        },
+        {
+          "id": "BIRAJA_SAHASRALINGA_II",
+          "title": "IGNCA archaeological inventory, Sahasralinga Shrine II",
+          "url": "https://ignca.gov.in/asi_reports/Orjajpur044.pdf"
+        },
+        {
+          "id": "BIRAJA_INSCRIPTIONS",
+          "title": "Biraja Mandira Trust Board, Inscriptions in the Biraja Temple",
+          "url": "https://maabiraja.com/inscription.html"
         }
       ],
       "excluded": [],
@@ -1789,25 +1814,27 @@
           "kind": "main",
           "evidence": "Main sacred destination documented by the cited source.",
           "source_ids": [
-            "BIRAJA"
+            "BIRAJA",
+            "BIRAJA_IGNCA",
+            "BIRAJA_INSCRIPTIONS"
           ],
           "model_anchor": "Deity_Biraja",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The shrine faces the east Simhadwara through the antarala, jagamohana and Chandi Mandapa. Sculpture and architectural detail remain approximate. The Trust records five surviving inscriptions in the compound, including Bhikari Das’s Odia record of the enclosure wall on the Simhadwara lintel. The model marks the inscribed stone; its lettering is pending."
         },
         {
           "id": "nabhigaya",
           "label": "Nabhigaya sacred well",
           "deity": "Nabhigaya sacred well",
           "form": "sacred_symbol",
-          "kind": "subsidiary",
+          "kind": "heritage",
           "evidence": "Named within the main precinct by the cited source.",
           "source_ids": [
             "BIRAJA_WELL"
           ],
-          "model_anchor": null,
+          "model_anchor": "Nabhigaya_Well_Rim",
           "placement": null,
-          "notes": "Sacred well in this compound; not an anthropomorphic deity."
+          "notes": "An in-compound sacred well southeast of the main shrine, associated with rites for ancestors. The modeled well and pavilion are approximate."
         },
         {
           "id": "jupesvara",
@@ -1859,11 +1886,12 @@
           "kind": "subsidiary",
           "evidence": "Named within the main precinct by the cited source.",
           "source_ids": [
-            "BIRAJA"
+            "BIRAJA",
+            "BIRAJA_INSCRIPTIONS"
           ],
-          "model_anchor": null,
+          "model_anchor": "Bhushandeshwara_Linga",
           "placement": null,
-          "notes": "Named temple inside the complex."
+          "notes": "The Trust identifies this shrine in front of a fragmentary 12th- or 13th-century inscription in the southwest wall. The shrine elevation and linga in the model are approximate."
         },
         {
           "id": "bagalamukhi",
@@ -1878,6 +1906,48 @@
           "model_anchor": null,
           "placement": null,
           "notes": "Named temple inside the complex; exact image unverified."
+        },
+        {
+          "id": "baidyanatha",
+          "label": "Baidyanatha Shiva",
+          "deity": "Baidyanatha",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented by the IGNCA archaeological inventory for this precinct.",
+          "source_ids": [
+            "BIRAJA_BAIDYANATHA"
+          ],
+          "model_anchor": "Baidyanatha_Linga",
+          "placement": null,
+          "notes": "An east-facing pidha sanctuary in the northeastern part of the compound."
+        },
+        {
+          "id": "sahasralinga_i",
+          "label": "Deva Sabha · Sahasralinga Shrine I",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented by the IGNCA archaeological inventory for this precinct.",
+          "source_ids": [
+            "BIRAJA_SAHASRALINGA_I"
+          ],
+          "model_anchor": "Sahasralinga_I_Anchor",
+          "placement": null,
+          "notes": "The west-facing sheet-roof shrine holds 54 lingas. The individual stones and their arrangement are representative."
+        },
+        {
+          "id": "sahasralinga_ii",
+          "label": "Deva Sabha · Sahasralinga Shrine II",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Documented by the IGNCA archaeological inventory for this precinct.",
+          "source_ids": [
+            "BIRAJA_SAHASRALINGA_II"
+          ],
+          "model_anchor": "Sahasralinga_II_Anchor",
+          "placement": null,
+          "notes": "The east-facing sheet-roof shrine holds 37 lingas. IGNCA also records five votive temples. The individual stones and their arrangement are representative."
         }
       ],
       "inventory_complete": false,
@@ -1890,6 +1960,16 @@
           "id": "UJJAIN",
           "title": "Ujjain district: Harsiddhi Temple",
           "url": "https://ujjain.nic.in/en/tourist-place/harsiddhi/"
+        },
+        {
+          "id": "UJJAIN_DISTRICT_LAYOUT",
+          "title": "Ujjain District, Places of Interest, Harsiddhi Temple",
+          "url": "https://ujjain.nic.in/en/places-of-interest/"
+        },
+        {
+          "id": "UJJAIN_MP_TOURISM",
+          "title": "Madhya Pradesh Tourism, Discovering Madhya Pradesh",
+          "url": "https://www.mptourism.com/pdf/Discovering-MP-Final-Book.pdf"
         }
       ],
       "excluded": [],
@@ -1902,11 +1982,12 @@
           "kind": "main",
           "evidence": "Main sacred destination documented by the cited source.",
           "source_ids": [
-            "UJJAIN"
+            "UJJAIN",
+            "UJJAIN_DISTRICT_LAYOUT"
           ],
           "model_anchor": "Deity_Mahakali",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The east entrance leads between the two lamp towers to the shared sanctum. The district describes Annapurna with Mahalakshmi and Mahasaraswati."
         },
         {
           "id": "mahalakshmi",
@@ -1918,9 +1999,9 @@
           "source_ids": [
             "UJJAIN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mahalakshmi_Sanctum_Anchor",
           "placement": null,
-          "notes": "Flanks Annapurna in the shared sanctum; not an independent courtyard building."
+          "notes": "Flanking deity in the shared Annapurna sanctum. The side and installed image are approximate in the model."
         },
         {
           "id": "mahasaraswati",
@@ -1932,9 +2013,9 @@
           "source_ids": [
             "UJJAIN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mahasaraswati_Sanctum_Anchor",
           "placement": null,
-          "notes": "Flanks Annapurna in the shared sanctum."
+          "notes": "Flanking deity in the shared Annapurna sanctum. The side and installed image are approximate in the model."
         },
         {
           "id": "sri_yantra",
@@ -1949,6 +2030,34 @@
           "model_anchor": null,
           "placement": null,
           "notes": "Sacred geometric form enshrined in this temple."
+        },
+        {
+          "id": "karkoteshwar",
+          "label": "Karkoteshwar Mahadev",
+          "deity": "Karkoteshwar Mahadev",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The state tourism guide places the shrine beside Harsiddhi temple.",
+          "source_ids": [
+            "UJJAIN_MP_TOURISM"
+          ],
+          "model_anchor": "Karkoteshwar_Shiva",
+          "placement": null,
+          "notes": "The existing shrine form is a study. Its detailed footprint and sculpture still require a site reference."
+        },
+        {
+          "id": "south_well",
+          "label": "Harsiddhi stepwell",
+          "deity": "",
+          "form": "sacred_symbol",
+          "kind": "heritage",
+          "evidence": "The district records a well south of the main shrine and an inscribed pillar above it.",
+          "source_ids": [
+            "UJJAIN_DISTRICT_LAYOUT"
+          ],
+          "model_anchor": "Harsiddhi_South_Well",
+          "placement": null,
+          "notes": "The district gives the pillar date as Vikram Samvat 1947. The well and pillar are approximate in the model. The inscription lettering remains pending."
         }
       ],
       "inventory_complete": false,
