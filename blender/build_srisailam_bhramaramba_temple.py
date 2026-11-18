@@ -7,7 +7,7 @@ import sys
 import os
 import math
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if SCRIPT_DIR not in sys.path:
@@ -394,17 +394,29 @@ def build_srisailam_bhramaramba():
         mat_skin=mat_skin, mat_cloth=mat_dhoti
     )
 
+    # The Kurnool district census describes Bhramaramba west of Mallikarjuna.
+    # Turn the entire sanctuary and approach together, facing the eastern gate.
+    bpy.context.view_layer.update()
+    sanctuary_transform = (
+        Matrix.Translation((-9, 0, 0))
+        @ Matrix.Rotation(math.pi / 2, 4, 'Z')
+        @ Matrix.Translation((0, -4, 0))
+    )
+    for obj in list(bpy.context.scene.objects):
+        if obj != ground and obj.parent is None:
+            obj.matrix_world = sanctuary_transform @ obj.matrix_world
+
     # 9. Sub-shrines in Courtyard: Bhairava_Shrine and Ganesha_Shrine
     bhairava_shrine = create_sub_shrine(
         name="Bhairava_Shrine",
-        location=(9.0, 1.0, 0.0),
+        location=(9.0, 8.0, 0.0),
         size=(2.4, 2.4, 3.0),
         mat_stone=mat_granite, mat_deity=mat_black_stone, mat_gold=mat_gold
     )
 
     ganesha_shrine = create_sub_shrine(
         name="Ganesha_Shrine",
-        location=(-9.0, 1.0, 0.0),
+        location=(-9.0, 8.0, 0.0),
         size=(2.4, 2.4, 3.0),
         mat_stone=mat_granite, mat_deity=mat_black_stone, mat_gold=mat_gold
     )
@@ -412,20 +424,22 @@ def build_srisailam_bhramaramba():
     # 10. Mallikarjuna Shiva Shrine (Secondary Sanctum in Srisailam Complex)
     mallikarjuna_shrine = create_mallikarjuna_shiva_shrine(
         name="Mallikarjuna_Shiva_Shrine",
-        location=(-10.0, -5.0, 0.0),
+        location=(3.0, 0.0, 0.0),
         mat_granite=mat_granite,
         mat_gold=mat_gold,
         mat_black_stone=mat_black_stone
     )
 
+    mallikarjuna_shrine.rotation_euler.z = math.pi / 2
+
     # Nandi facing Mallikarjuna Shiva Shrine
     nandi = create_nandi(
         name="Srisailam_Nandi",
-        location=(-10.0, -2.5, 0.0),
+        location=(13.0, 0.0, 0.0),
         scale=1.1,
         mat=mat_black_stone
     )
-    nandi.rotation_euler = (0, 0, math.pi)
+    nandi.rotation_euler.z = math.pi / 2
 
     # 11. Large Srisailam Prakara Enclosure Wall
     prakara_objs = create_prakara_wall(
@@ -433,7 +447,7 @@ def build_srisailam_bhramaramba():
         center=(0, 0.0, 0.0),
         width=36.0, depth=30.0,
         wall_height=3.6, wall_thickness=0.6,
-        mat=mat_granite, gate_width=4.0, gate_sides=["S"]
+        mat=mat_granite, gate_width=4.0, gate_sides=["E", "W", "N", "S"]
     )
 
     # 12. Nallamala Forest Sacred Trees along the outer perimeter

@@ -12,7 +12,7 @@ if str(blender_dir) not in sys.path:
 import bpy
 import bmesh
 import math
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 import common_materials as mats
 import common_geometry as geom
@@ -129,6 +129,7 @@ def build_madurai_meenakshi():
     golden_lotus_petals.name = "Golden_Lotus_Petals"
     golden_lotus_petals.data.materials.append(mat_gold)
 
+    exterior = set(bpy.context.scene.objects)
     # 5. Adhisthana (Raised Central Granite Temple Platform)
     adhisthana = geom.create_platform(
         name="Adhisthana_Platform",
@@ -361,6 +362,16 @@ def build_madurai_meenakshi():
         scale=1.2
     )
 
+    # The published plan and Library of Congress description place the two
+    # principal sanctuaries on east-facing axes. Rotate the complete Amman
+    # assembly, including its approach, lamps and image, as one unit.
+    bpy.context.view_layer.update()
+    amman_axis = (Matrix.Translation(Vector((-8, -3, 0))) @
+                  Matrix.Rotation(math.pi / 2, 4, 'Z') @
+                  Matrix.Translation(Vector((0, -13.5, 0))))
+    for component in set(bpy.context.scene.objects) - exterior:
+        if component.parent is None:
+            component.matrix_world = amman_axis @ component.matrix_world
     # 12. Spawn Point (facing North, inside South Raja Gopuram)
     spawn = bpy.data.objects.new("Spawn_Point", None)
     spawn.location = (0.0, -10.0, 0.0)
@@ -368,7 +379,7 @@ def build_madurai_meenakshi():
 
     # 13. Sundareshwarar Shrine (Lord Shiva shrine on Northwest side: X = -12, Y = 13.5)
     sun_objs = []
-    sun_loc = (-12.0, 13.5, 0.0)
+    sun_loc = (-8.0, 12.0, 0.0)
     bpy.ops.mesh.primitive_cube_add(size=2, location=(sun_loc[0], sun_loc[1], sun_loc[2] + 0.3))
     s_base = bpy.context.active_object
     s_base.scale = (2.2, 2.2, 0.3)
@@ -485,6 +496,15 @@ def build_madurai_meenakshi():
         gate_width=4.5,
         gate_sides=["N", "S", "E", "W"]
     )
+
+    # Northeast roof mass visible between the north and east gates in the
+    # saved overhead reference. Column spacing is illustrative at game scale.
+    from present_day_sites import box, material, cylinder
+    hall_roof = material('Madurai hall roof', (.46, .27, .18))
+    box('Thousand_Pillar_Hall_Roof', (15, 17, 3.55), (13, 13, .40), hall_roof, .06)
+    for col in range(6):
+        for row in range(6):
+            cylinder('Thousand_Pillar_Hall_Column', (9.4 + col * 2.24, 11.4 + row * 2.24, 1.675), .14, 3.35, mat_granite)
 
     # 17. Export GLB
     export_path = Path(__file__).resolve().parent.parent / "godot" / "assets" / "models" / "madurai_meenakshi_kshetra_full.glb"

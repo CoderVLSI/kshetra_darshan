@@ -427,7 +427,14 @@
           ],
           "model_anchor": "Bhairava_Shrine",
           "placement": null,
-          "notes": "Field survey describes an image in the temple mandapa; distinct from the separate city Kala Bhairava temple."
+          "notes": "Field survey describes an image in the temple mandapa; distinct from the separate city Kala Bhairava temple.",
+          "placement_mesh": "Mandapa",
+          "placement_context": "the mandapa",
+          "hall_slot": [
+            0.22,
+            0.62
+          ],
+          "figure_from_mesh": "Bhairava_Shrine"
         },
         {
           "id": "navagraha",
@@ -484,11 +491,17 @@
           ],
           "model_anchor": null,
           "placement": null,
-          "notes": "Gayatri Mandapa; a boar-headed identity. Exact temple image and hands are unverified."
+          "notes": "Gayatri Mandapa; a boar-headed identity. Exact temple image and hands are unverified. Inside Gayatri Mandapam. The individual bay is approximate.",
+          "hall_slot": [
+            0.22,
+            0.66
+          ],
+          "placement_mesh": "Mandapa",
+          "placement_context": "Gayatri Mandapam"
         },
         {
           "id": "arupa_lakshmi",
-          "label": "Arupa Lakshmi",
+          "label": "Arupa Lakshmi (Anjana Lakshmi)",
           "deity": "Arupa Lakshmi",
           "form": "devi",
           "kind": "subsidiary",
@@ -498,11 +511,17 @@
           ],
           "model_anchor": null,
           "placement": null,
-          "notes": "Gayatri Mandapa; Arupa/Anjana Lakshmi must not be treated as an ordinary standing Lakshmi portrait."
+          "notes": "Gayatri Mandapa; Arupa/Anjana Lakshmi must not be treated as an ordinary standing Lakshmi portrait. Inside Gayatri Mandapam. The individual bay is approximate.",
+          "hall_slot": [
+            0.78,
+            0.66
+          ],
+          "placement_mesh": "Mandapa",
+          "placement_context": "Gayatri Mandapam"
         },
         {
           "id": "ganapati",
-          "label": "Ganapati",
+          "label": "Sowbhagya Ganapati",
           "deity": "Ganapati",
           "form": "ganesha",
           "kind": "subsidiary",
@@ -510,9 +529,15 @@
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": "Ganesha_Shrine",
+          "model_anchor": null,
           "placement": null,
-          "notes": "Gayatri Mandapa; exact image pose unverified."
+          "notes": "Gayatri Mandapa; exact image pose unverified. Inside Gayatri Mandapam. The individual bay is approximate.",
+          "hall_slot": [
+            0.22,
+            0.33
+          ],
+          "placement_mesh": "Mandapa",
+          "placement_context": "Gayatri Mandapam"
         },
         {
           "id": "kalvar_perumal",
@@ -526,7 +551,13 @@
           ],
           "model_anchor": null,
           "placement": null,
-          "notes": "Vishnu worship location within Gayatri Mandapa; exact image pose unverified."
+          "notes": "Vishnu worship location within Gayatri Mandapa; exact image pose unverified. Inside Gayatri Mandapam. The individual bay is approximate.",
+          "hall_slot": [
+            0.78,
+            0.33
+          ],
+          "placement_mesh": "Mandapa",
+          "placement_context": "Gayatri Mandapam"
         },
         {
           "id": "ayyappan",
@@ -900,8 +931,8 @@
         },
         {
           "id": "nandini",
-          "label": "Nandini guardian",
-          "deity": "Nandini guardian",
+          "label": "Nandini — inner doorway guardian",
+          "deity": "Nandini — inner doorway guardian",
           "form": "unknown",
           "kind": "subsidiary",
           "evidence": "Named within the main precinct by the cited source.",
@@ -910,12 +941,18 @@
           ],
           "model_anchor": null,
           "placement": null,
-          "notes": "One of the two named guardians at the inner entrance; not a standalone shrine."
+          "notes": "One of the two named guardians at the inner entrance; not a standalone shrine. The pair flanks the entrance. Individual sides are schematic.",
+          "placement_mesh": "Garbhagriha",
+          "placement_context": "the inner sanctum entrance",
+          "hall_slot": [
+            0.24,
+            1.06
+          ]
         },
         {
           "id": "kamalini",
-          "label": "Kamalini guardian",
-          "deity": "Kamalini guardian",
+          "label": "Kamalini — inner doorway guardian",
+          "deity": "Kamalini — inner doorway guardian",
           "form": "unknown",
           "kind": "subsidiary",
           "evidence": "Named within the main precinct by the cited source.",
@@ -924,7 +961,13 @@
           ],
           "model_anchor": null,
           "placement": null,
-          "notes": "Companion guardian at the inner entrance; not a standalone shrine."
+          "notes": "Companion guardian at the inner entrance; not a standalone shrine. The pair flanks the entrance. Individual sides are schematic.",
+          "placement_mesh": "Garbhagriha",
+          "placement_context": "the inner sanctum entrance",
+          "hall_slot": [
+            0.76,
+            1.06
+          ]
         }
       ],
       "inventory_complete": false,

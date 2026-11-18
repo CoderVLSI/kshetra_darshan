@@ -12,7 +12,14 @@ def build():
     grass = material('Pandua ground', (.22,.29,.15))
     box('Ground_Pandua',(9,0,-.18),(115,105,.36),grass)
     # ASI's 127-foot tower, four diminishing stages. Profiles approximate.
-    cx,cy=34,8
+    # ASI Kolkata, Bari Masjid site plan: mosque centre (111,216),
+    # minar centre (190,188), mosque length 84 pixels in the 296px plate.
+    # Scale the relative positions to the model's 70 m mosque length.
+    # https://asikolkata.in/monument-sites/the-mosque/
+    mx = -20
+    metres_per_pixel = 70 / 84
+    cx = mx + (190 - 111) * metres_per_pixel
+    cy = (216 - 188) * metres_per_pixel
     box('Minar_Platform',(cx,cy,.13),(17,17,.26),plaster,.06)
     bpy.ops.mesh.primitive_cone_add(vertices=96,radius1=8,radius2=6.8,depth=2.4,location=(cx,cy,1.45))
     bpy.context.object.name='Minar_Sloping_Base'
@@ -31,7 +38,6 @@ def build():
     sphere('Minar_Finial',(cx,cy,height+.85),(.58,.58,.65),plaster)
     anchor('Pandua_Minar',(cx,cy,1.0))
     # Roofless east-facing Bari Masjid lies west of minaret in ASI plan.
-    mx=-20
     box('BariMasjid_Floor',(mx,0,.05),(13,70,.10),stone)
     box('BariMasjid_West_Ruin',(mx-6.5,0,2.1),(.8,70,4.2),brick,.04)
     for side in [-1,1]:

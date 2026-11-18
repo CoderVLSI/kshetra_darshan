@@ -165,12 +165,18 @@ def build_sharada():
         h=(k+1)*.16
         box(f'Approach_Step_{k+1:02}',(0,-34.16+(k+.5)*.32,h/2),(2.7,.32,h),stone[k%6],.012)
     anchor('Spawn_Point',(0,-37,.05))
+    # DOAM documents a northern gateway. Close the other three breaks
+    # inherited from the generic four-gate enclosure helper.
     enclosure('Enclosing_Quadrangle',(0,1,top),43,29,1.65,stone[1])
+    box('South_Enclosure_Continuation',(0,15.5,top+.825),(4,.65,1.65),stone[1])
+    for side in [-1,1]:
+        box('Side_Enclosure_Continuation',(side*21.5,1,top+.825),(.65,4,1.65),stone[1])
     # The preserved entrance masonry and recessed cell, not a new gopuram.
     for x in [-2.1,2.1]:
         box('Entrance_Stone_Pier',(x,-13.5,top+1.9),(1.15,1.1,3.8),stone[2],.07)
     arch('Entrance_Trefoil_Lower',0,-13.5,top,2.65,3.4,.75,stone[4])
     # Central roofless sanctuary: jointed masonry and surviving pilasters.
+    court_objects=set(bpy.context.scene.objects)
     cy=3.8;base=top+.48
     box('Sanctuary_Platform',(0,cy,top+.24),(10,10,.48),stone[3],.05)
     for k in range(3):
@@ -206,6 +212,15 @@ def build_sharada():
         o=box('Fallen_Masonry',(x,y,top+.12),(rng.uniform(.4,1),rng.uniform(.35,.8),.24),rng.choice(stone),.06);o.rotation_euler.z=rng.random()*3
     # No roof and no presumed original idol: the surviving sanctuary is the
     # destination. Current Teetwal and Sringeri sculptures are different sites.
+    # DOAM records the west door at a right angle to the north entry.
+    # Local north points toward -Y, so local west points toward +X.
+    from mathutils import Matrix
+    pivot=Matrix.Translation((0,cy,0))
+    quarter_turn=pivot @ Matrix.Rotation(math.pi/2,4,'Z') @ pivot.inverted()
+    bpy.context.view_layer.update()
+    for obj in set(bpy.context.scene.objects)-court_objects:
+        if obj.parent is None:
+            obj.matrix_world=quarter_turn @ obj.matrix_world
     finish('kashmir_sharada')
 
 
@@ -229,7 +244,17 @@ def build_jwala():
     dome('Central_Gilded_Dome',(x,y,5.25),2.45,2.65,gold)
     # Arcaded entrance veranda has open passages rather than a solid facade.
     box('Veranda_Roof',(x,y-6.0,3.8),(13.7,2.0,.25),white,.04)
-    for dx in [-4.5,0,4.5]:arch('Veranda_Arch',x+dx,y-6.25,0,3.0,3.65,.45,white)
+    # Courtyard photograph shows a paired front opening and an arcade
+    # continuing along the side facing the paved court.
+    for dx in [-1.25,1.25]:arch('Veranda_Arch',x+dx,y-6.25,0,2.2,3.65,.45,white)
+    box('Side_Gallery_Roof',(x+7.1,y,3.8),(1.5,10.8,.25),white,.04)
+    for dy in [-3.6,-1.2,1.2,3.6]:
+        for side in [-1,1]:
+            box('Court_Gallery_Pier',(x+7.65,y+dy+side*1.05,1.35),(.32,.20,2.7),white,.02)
+        for i in range(14):
+            a=math.pi*(i+.5)/14
+            block=box('Court_Gallery_Arch',(x+7.65,y+dy+1.05*math.cos(a),2.70+1.05*math.sin(a)),(.32,.20,.25),white,.01)
+            block.rotation_euler.x=a
     # Modest blue/gold flames in rock recesses, not nine anthropomorphic idols.
     blue=material('Jwala_Blue_Flame',(.07,.25,1),.35,emission=3)
     tip=material('Jwala_Golden_Flame',(1,.48,.08),.35,emission=2)

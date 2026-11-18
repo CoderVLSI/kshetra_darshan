@@ -139,7 +139,7 @@
   "srisailam_bhramaramba": {
     "name": "Bhramaramba–Mallikarjuna",
     "stotram_order": 6,
-    "architecture": "A shared Shiva–Shakti complex with enclosure walls, gateway towers and connected pillared spaces. Bhramaramba and Mallikarjuna are distinct principal sanctuaries within the ensemble.",
+    "architecture": "A shared Shiva–Shakti complex with enclosure walls, gateway towers and connected pillared spaces. Bhramaramba stands west of Mallikarjuna. The model represents their relative order with approximate spacing.",
     "deity_form": "Stone main image with alankara/kavacha",
     "posture": "Needs main-image confirmation",
     "arms": "Eight reported in secondary accounts",
@@ -148,6 +148,10 @@
     "uncertainties": "Eight-arm detail is provisional pending temple-authority confirmation.",
     "reconstruction": false,
     "sources": [
+      {
+        "title": "Census of India, Fairs and Festivals of Kurnool District",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/30154/download/33335/22180_1961_KUR.pdf"
+      },
       {
         "title": "Eight arms and Sri Yantra (secondary account)",
         "url": "https://temple.yatradham.org/temple/bhramaramba-ammavari-temple"

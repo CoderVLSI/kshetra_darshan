@@ -28,15 +28,21 @@ func _process(delta: float) -> void:
 	if _label_tick > 0 or not is_instance_valid(_player):
 		return
 	_label_tick = .20
+	var camera := get_viewport().get_camera_3d()
 	var nearby: Array[Dictionary] = []
 	for identity in _identity_labels:
 		var distance: float = _player.global_position.distance_to(identity["target"])
 		identity["distance"] = distance
 		identity["group"].visible = false
+		if camera and not camera.is_position_in_frustum(identity["group"].global_position):
+			continue
 		if distance < 12.0:
 			nearby.append(identity)
 	nearby.sort_custom(func(a: Dictionary, b: Dictionary) -> bool: return a["distance"] < b["distance"])
-	for index in range(mini(3, nearby.size())):
+	# At darshan distance, a second shrine name on the same sightline can
+	# appear to identify the wrong sculpture. Show only the approached shrine.
+	var limit := 1 if not nearby.is_empty() and float(nearby[0]["distance"]) < 3.5 else 3
+	for index in range(mini(limit, nearby.size())):
 		nearby[index]["group"].visible = true
 		# Tradition belongs in the nearby inspection panel, not another floating
 		# paragraph over the murti. Keep it as metadata for that panel and map.
@@ -104,7 +110,31 @@ func _populate() -> void:
 		var target := Vector3.ZERO
 		var status := "existing_model_anchor"
 		var artwork := "Existing model; detailed iconography remains subject to reference review."
-		if anchor:
+		if entry.has("hall_slot"):
+			var hall = _model.find_child(str(entry.placement_mesh), true, false) as MeshInstance3D
+			status = "schematic_position"
+			if hall:
+				var bounds: AABB = hall.global_transform * hall.get_aabb()
+				var slot: Array = entry.hall_slot
+				var base := bounds.position + Vector3(bounds.size.x * slot[0], .1, bounds.size.z * slot[1])
+				var inner := Node3D.new()
+				add_child(inner)
+				inner.name = "Shrine_" + str(entry.id)
+				inner.global_position = base
+				inner.rotation.y = PI / 2 if slot[0] < .5 else -PI / 2
+				var study = preload("res://scripts/shrine_sculpture.gd").new()
+				if study.supports(entry):
+					inner.add_child(study.build(entry))
+					artwork = "Iconographic study within %s. Exact position and installed image remain unverified." % entry.placement_context
+				elif entry.has("figure_from_mesh") and _place_imported_figure(inner, entry.figure_from_mesh):
+					artwork = "Existing deity study in the documented mandapa. Individual bay and iconography remain approximate."
+				else:
+					artwork = "Reference location at %s. Installed image remains unverified." % entry.placement_context
+				target = base + Vector3.UP
+				_reserved.append(base)
+			else:
+				status = "unavailable"
+		elif anchor:
 			target = _anchor_center(anchor)
 			if "Reference" in str(anchor.name):
 				artwork = "Reference location — installed image not reconstructed."
@@ -185,6 +215,28 @@ func _populate() -> void:
 	is_ready = true
 	registry_ready.emit()
 
+func _place_imported_figure(parent: Node3D, source_name: String) -> bool:
+	var source = _model.find_child(source_name, true, false) as MeshInstance3D
+	if not source or not source.mesh is ArrayMesh:
+		return false
+	# The old builder joined a sandstone pavilion and a basalt-and-gold idol.
+	# Carry the idol surfaces into the documented hall without the pavilion.
+	var result := ArrayMesh.new()
+	for index in source.mesh.get_surface_count():
+		var mat = source.mesh.surface_get_material(index)
+		if not mat or not ("basalt" in mat.resource_name.to_lower() or "gold" in mat.resource_name.to_lower()):
+			continue
+		result.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, source.mesh.surface_get_arrays(index))
+		result.surface_set_material(result.get_surface_count() - 1, mat)
+	if result.get_surface_count() == 0:
+		return false
+	var figure := MeshInstance3D.new()
+	figure.mesh = result
+	var bounds = result.get_aabb()
+	figure.position = Vector3(-bounds.get_center().x, -bounds.position.y, -bounds.get_center().z)
+	parent.add_child(figure)
+	return true
+
 func _resolve_anchor(entry: Dictionary) -> Node3D:
 	var anchor_name = str(entry.get("model_anchor", ""))
 	if not anchor_name.is_empty():
@@ -214,9 +266,10 @@ func _suppress_unlisted_generic_shrines() -> void:
 	# Older blockouts placed entire neighbouring temple groups inside a
 	# courtyard. Remove those from the complex-only playable presentation.
 	var outside_prefixes: Dictionary = {
+		"kanchipuram_kamakshi": ["Ganesha_Shrine"],
 		"mahur_renuka": ["Parashurama_Shrine", "Matru_Tirtha"],
 		"alampur_jogulamba": ["Navabrahma_", "Tungabhadra_Ghat"],
-		"kashi_vishalakshi": ["Annapurna_Shrine"],
+		"kashi_vishalakshi": ["Annapurna_Shrine", "Bhairava_Shrine"],
 		"kamakhya": ["Preceding_Shiva_Kameshwara"]
 	}
 	for prefix in outside_prefixes.get(temple_id, []):

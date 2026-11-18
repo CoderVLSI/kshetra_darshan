@@ -50,13 +50,14 @@ def build_authentic_kamakhya():
     geom.create_ground_plane(name="Ground_Main", size=75, mat=mat_paving)
 
     # 2. Nilachal Hill Complex Plinth (elevated temple foundation)
-    geom.create_platform(name="Nilachal_Plinth", location=(0, 6.0, 0), size=(26.0, 36.0, 0.8), mat=mat_laterite_wall, steps=4)
+    geom.create_platform(name="Nilachal_Plinth", location=(0, 2.0, 0), size=(26.0, 44.0, 0.8), mat=mat_laterite_wall, steps=4)
 
     # =========================================================================
     # CHAMBER 1: NATAMANDIRA (Audience & Dance Hall)
     # Features authentic curved barrel-vaulted roof (Dochala/Calchala)
     # =========================================================================
     nata_center = (0.0, -4.0, 0.8)
+    before_nata = set(bpy.context.scene.objects)
     nata_w, nata_d, nata_h = 10.0, 8.0, 4.0
 
     # Natamandira Floor
@@ -162,6 +163,21 @@ def build_authentic_kamakhya():
 
     # Hanging Brass Bell (Ghanta) at Natamandira entrance arch
     geom.create_hanging_bell("Ghanta", (0.0, -7.5, nata_center[2] + 3.2), mat_brass=mat_brass, scale=1.3)
+
+    # Insert the missing five-domed Bhogmandir between Natmandir and the
+    # inner halls. Keep both axial ends open to preserve the visitor route.
+    # Chamber sequence and roof type: Maa Kamakhya Devalaya, Architecture.
+    for part in set(bpy.context.scene.objects) - before_nata:
+        if part.parent is None:
+            part.location.y -= 8.0
+    from present_day_sites import box, dome
+    for side in [-1, 1]:
+        box('Pancharatna_Side_Wall', (side*4.25,-3.5,2.8), (.4,9,4), mat_laterite_wall)
+    box('Pancharatna_Roof', (0,-3.5,4.85), (9,9.2,.3), mat_laterite_carved)
+    dome('Bhogmandir_Central_Dome',(0,-3.5,5),1.65,2.0,mat_laterite_carved)
+    for x in [-3.1,3.1]:
+        for y in [-6.6,-.4]:
+            dome('Bhogmandir_Corner_Dome',(x,y,5),.76,1.05,mat_laterite_carved)
 
     # =========================================================================
     # CHAMBER 2: CHALANTA (Antarala / Preceding Shrine)
@@ -442,7 +458,7 @@ def build_authentic_kamakhya():
     # Spawn Point at Nilachal gateway pathway
     spawn = bpy.data.objects.new("Spawn_Point", None)
     bpy.context.scene.collection.objects.link(spawn)
-    spawn.location = (0.0, -15.0, 0.8)
+    spawn.location = (0.0, -23.0, 0.8)
 
     # Open the actual descent through the courtyard plane, raised plinth,
     # and the otherwise solid exterior tower shell. A hidden solid floor over
