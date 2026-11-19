@@ -1,8 +1,8 @@
 # Kshetra Darshan handoff
 
-Updated 19 November 2026 after the Kashi Vishalakshi rebuild.
+Updated 19 November 2026 after the Srisailam rebuild.
 
-Current status is a playable procedural preview with 21 scenes and 203 mapped destinations. Kashi Vishalakshi’s eleven destinations include both Devi images, the three Shiva-and-Nandi stops, mandapa Kala Bhairava and Navagraha, Ganapati, Adi Shankaracharya, the Mir Ghat gateway and the Tamil wall dedication. The compound follows aerial imagery, entrance photographs and the Vasant Kanya Mahavidyalaya field survey. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
+Current status is a playable procedural preview with 21 scenes and 240 mapped destinations. Srisailam has 45 named stops in its satellite-led enclosure, including both principal sanctuaries, the Sri Chakra, the Pancha Sivalaya and Nava Brahma rows, four gateways and three ritual springs. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
 
 ## Run
 

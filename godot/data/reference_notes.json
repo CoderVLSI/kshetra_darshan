@@ -163,37 +163,61 @@
   "srisailam_bhramaramba": {
     "name": "Bhramaramba–Mallikarjuna",
     "stotram_order": 6,
-    "architecture": "A shared Shiva–Shakti complex with enclosure walls, gateway towers and connected pillared spaces. Bhramaramba stands west of Mallikarjuna. The model represents their relative order with approximate spacing.",
-    "deity_form": "Stone main image with alankara/kavacha",
-    "posture": "Needs main-image confirmation",
-    "arms": "Eight reported in secondary accounts",
-    "attributes": "Exact hand-held objects not verified",
-    "deity_notes": "Do not infer the original anatomy from a heavily decorated festival portrait. Keep gold covering separate from the stone form.",
-    "uncertainties": "Eight-arm detail is provisional pending temple-authority confirmation.",
+    "architecture": "The satellite footprint defines the four gated prakara and north and south perimeter ranges. Mallikarjuna stands on the eastern arrival axis beyond Nandi and Veerasiro. The elevated Bhramaramba terrace occupies the west end. Subsidiary shrines and covered wells follow relative locations described in the architectural record.",
+    "deity_form": "Bhramaramba alankara and Mallikarjuna Jyotirlinga, with separate sacred images and stops.",
+    "posture": "Standing-style outline of the photographed dressed Bhramaramba. Mallikarjuna is worshipped as a lingam.",
+    "arms": "The Bhramaramba kavacha and garlands conceal the underlying stone form in the model.",
+    "attributes": "Gold kavacha, tiered crown, garlands and trishula study based on published darshan imagery. The Jyotirlinga has the historic serpent hood and suspended abhisheka vessel.",
+    "deity_notes": "The alankara is modeled as seen in the published frontal image. Both principal darshan areas are treated as separate sacred spaces.",
+    "uncertainties": "The major enclosure and roof positions are aerial references. Small-shrine bay positions and order, exact installed iconography, current visitor restrictions and some gateway dimensions remain approximate.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Census of India, Fairs and Festivals of Kurnool District",
-        "url": "https://censusindia.gov.in/nada/index.php/catalog/30154/download/33335/22180_1961_KUR.pdf"
-      },
-      {
-        "title": "Eight arms and Sri Yantra (secondary account)",
-        "url": "https://temple.yatradham.org/temple/bhramaramba-ammavari-temple"
-      },
-      {
-        "title": "Srisailam Devasthanam",
-        "url": "https://www.srisailadevasthanam.org/en-in/home"
-      },
-      {
-        "title": "APSAC: Nandyal District Survey Report, temple section",
+        "title": "APSAC Nandyal District Survey Report: Bhramaramba and Mallikarjuna",
         "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Nandyal.pdf"
       },
       {
-        "title": "Today's Traveller, February 2021: Srisailam shrine inventory",
-        "url": "https://www.todaystraveller.net/wp-content/uploads/2021/03/Todays-Traveller-Feb-Issue-2021.pdf"
+        "title": "Census of India, Fairs and Festivals of Kurnool District, Srisailam and Plate II",
+        "url": "https://censusindia.gov.in/nada/index.php/catalog/30154/download/33335/22180_1961_KUR.pdf"
+      },
+      {
+        "title": "Illustrated Srisailam architectural account: two sanctuaries, minor shrines and springs",
+        "url": "https://templesinindiainfo.com/about-srisailam-bhramarambha-mallikharjuna-swamy-temple-main-temple/"
+      },
+      {
+        "title": "Veludharan: photographed temple visit and shrine inventory",
+        "url": "https://veludharan.blogspot.com/2021/07/sri-mallikarjuna-swamy-temple-srisailam.html"
+      },
+      {
+        "title": "Adityamadhav83: Bhramaramba and the west gopura, January 2025",
+        "url": "https://commons.wikimedia.org/wiki/File:2025_West_Gopuram_and_Bhramaramba_Devi_temple_view_in_Srisailam.jpg"
+      },
+      {
+        "title": "Photographs of the Srisailam complex and gateways",
+        "url": "https://commons.wikimedia.org/wiki/Category:Sri_Bhramaramba_Mallikarjuna_Swamy_Varla_Devasthanam"
+      },
+      {
+        "title": "ISPRS: Srisailam case study and historic Shiva temple photographs",
+        "url": "https://isprs-archives.copernicus.org/articles/XLII-5-W1/607/2017/isprs-archives-XLII-5-W1-607-2017.pdf"
+      },
+      {
+        "title": "Satellite imagery of the Srisailam main compound",
+        "url": "https://www.google.com/maps/@16.07412,78.86805,19z/data=!3m1!1e3"
+      },
+      {
+        "title": "PMO photograph of the Mukhamandapa and its ritual Nandi, 2025",
+        "url": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Bharat,_Shri_Narendra_Damodardas_Modi_performs_pooja_at_Sri_Bhramaramba_Mallikarjuna_Swamy_Varla_Devasthanam.jpg"
+      },
+      {
+        "title": "ASI epigraphy director's identification of the south-wall animal procession, with photograph",
+        "url": "https://www.newindianexpress.com/states/telangana/2026/Jul/17/srisailam-sculptures-hint-at-medieval-trade-with-africa"
+      },
+      {
+        "title": "Published Bhramaramba alankara photographs",
+        "url": "https://shrishailshaktipeeth.com/gallery.html"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model includes the south-wall animal procession, the two-tier Bhramaramba vimana with named niche studies, and the two continuous shrine rows. The complete prakara relief cycle, plaque transcriptions and all in-complex artwork still need site survey."
   },
   "kolhapur_mahalakshmi": {
     "name": "Mahalakshmi / Ambabai",

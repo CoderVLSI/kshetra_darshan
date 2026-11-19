@@ -2292,131 +2292,827 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "srisailam_bhramaramba": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "Srisailam main enclosure, from the east gateway to the raised Bhramaramba court. Named rows, halls and springs follow published architectural accounts. Mapped placement of individual small sanctums remains approximate.",
       "sources": [
         {
           "id": "SRISAILAM_GOV",
-          "title": "APSAC: Nandyal District Survey Report, temple section",
+          "title": "APSAC Nandyal District Survey Report: Bhramaramba and Mallikarjuna",
           "url": "https://apsac.ap.gov.in/wp-content/uploads/2025/09/DSR-Reports/Nandyal.pdf"
+        },
+        {
+          "id": "SRISAILAM_CENSUS",
+          "title": "Census of India, Fairs and Festivals of Kurnool District, Srisailam and Plate II",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/30154/download/33335/22180_1961_KUR.pdf"
+        },
+        {
+          "id": "SRISAILAM_PLAN",
+          "title": "Illustrated Srisailam architectural account: two sanctuaries, minor shrines and springs",
+          "url": "https://templesinindiainfo.com/about-srisailam-bhramarambha-mallikharjuna-swamy-temple-main-temple/"
+        },
+        {
+          "id": "SRISAILAM_WALK",
+          "title": "Veludharan: photographed temple visit and shrine inventory",
+          "url": "https://veludharan.blogspot.com/2021/07/sri-mallikarjuna-swamy-temple-srisailam.html"
+        },
+        {
+          "id": "SRISAILAM_WEST",
+          "title": "Adityamadhav83: Bhramaramba and the west gopura, January 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:2025_West_Gopuram_and_Bhramaramba_Devi_temple_view_in_Srisailam.jpg"
+        },
+        {
+          "id": "SRISAILAM_PHOTOS",
+          "title": "Photographs of the Srisailam complex and gateways",
+          "url": "https://commons.wikimedia.org/wiki/Category:Sri_Bhramaramba_Mallikarjuna_Swamy_Varla_Devasthanam"
+        },
+        {
+          "id": "SRISAILAM_ISPRS",
+          "title": "ISPRS: Srisailam case study and historic Shiva temple photographs",
+          "url": "https://isprs-archives.copernicus.org/articles/XLII-5-W1/607/2017/isprs-archives-XLII-5-W1-607-2017.pdf"
+        },
+        {
+          "id": "SRISAILAM_AERIAL",
+          "title": "Satellite imagery of the Srisailam main compound",
+          "url": "https://www.google.com/maps/@16.07412,78.86805,19z/data=!3m1!1e3"
+        },
+        {
+          "id": "SRISAILAM_PIB",
+          "title": "PMO photograph of the Mukhamandapa and its ritual Nandi, 2025",
+          "url": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Bharat,_Shri_Narendra_Damodardas_Modi_performs_pooja_at_Sri_Bhramaramba_Mallikarjuna_Swamy_Varla_Devasthanam.jpg"
+        },
+        {
+          "id": "SRISAILAM_ASI_RELIEF",
+          "title": "ASI epigraphy director's identification of the south-wall animal procession, with photograph",
+          "url": "https://www.newindianexpress.com/states/telangana/2026/Jul/17/srisailam-sculptures-hint-at-medieval-trade-with-africa"
+        },
+        {
+          "id": "SRISAILAM_ALANKARA",
+          "title": "Published Bhramaramba alankara photographs",
+          "url": "https://shrishailshaktipeeth.com/gallery.html"
         }
       ],
-      "excluded": [],
+      "excluded": [
+        {
+          "name": "Sakshi Ganapati, Sikhareswaram and Patalaganga",
+          "reason": "Separate pilgrimage destinations elsewhere in Srisailam."
+        },
+        {
+          "name": "Arama and Bailu Veerabhadra, the Pancha Mathas and Hemareddy Mallamma memorial",
+          "reason": "Separate complexes outside the prakara. The image of Mallamma inside the enclosure is represented."
+        }
+      ],
       "shrines": [
         {
           "id": "main",
-          "label": "Bhramaramba–Mallikarjuna",
-          "deity": "Bhramaramba–Mallikarjuna",
+          "label": "Bhramaramba Devi",
+          "deity": "Bhramaramba",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "Census and architectural records put Bhramaramba in a separate western enclosure.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_CENSUS",
+            "SRISAILAM_WEST",
+            "SRISAILAM_ALANKARA"
           ],
           "model_anchor": "Deity_Bhramaramba",
+          "landing_anchor": "Bhramaramba_Darshan_Landing",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "Bhramaramba is the presiding goddess at the Srisailam Shakti Peetha. The western shrine stands above the main stone court.",
+          "artwork_description": "Original sculptural study of a documented alankara with kavacha, flower garlands and pendant ornaments. The underlying stone figure still needs confirmation."
+        },
+        {
+          "id": "sri_chakra",
+          "label": "Sri Chakra · Bhramaramba Mandapa",
+          "deity": "Sri Chakra",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural account records the stone Sri Chakra at the centre of the Mukhamandapa.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Sri_Chakra_Anchor",
+          "landing_anchor": "Sri_Chakra_Landing",
+          "placement": null,
+          "notes": "The Sri Chakra is worshipped in front of Bhramaramba. Local tradition associates its installation with Adi Shankaracharya.",
+          "artwork_description": "Original stone diagram study. The installed carving pattern and wear remain approximate."
         },
         {
           "id": "mallikarjuna",
-          "label": "Mallikarjuna",
+          "label": "Mallikarjuna Jyotirlinga",
           "deity": "Mallikarjuna",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Photographic Plate II in the Census records the dressed form, serpent canopy and suspended ritual vessel.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_CENSUS",
+            "SRISAILAM_GOV",
+            "SRISAILAM_PIB"
           ],
-          "model_anchor": "Mallikarjuna_Shiva_Shrine",
+          "model_anchor": "Mallikarjuna_Anchor",
+          "landing_anchor": "Mallikarjuna_Landing",
           "placement": null,
-          "notes": "Principal Shiva sanctum in the shared walled complex."
+          "notes": "Mallikarjuna is Srisailam's principal Shiva form. The east-facing shrine has its own darshan route through the pillared halls.",
+          "artwork_description": "Historical photo-led Jyotirlinga, hood and abhisheka vessel study. The stone surface and contemporary decoration remain approximate."
+        },
+        {
+          "id": "vriddha_mallikarjuna",
+          "label": "Vriddha Mallikarjuna",
+          "deity": "Vriddha Mallikarjuna",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Older Shiva shrine under the sacred tree to the north of the principal temple.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK",
+            "SRISAILAM_CENSUS"
+          ],
+          "model_anchor": "Vriddha_Mallikarjuna_Anchor",
+          "landing_anchor": "Vriddha_Mallikarjuna_Landing",
+          "placement": null,
+          "notes": "In local tradition this is the lingam associated with Chandravati's cow and her worship at Srisailam.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
         },
         {
           "id": "sahasra_linga",
-          "label": "Sahasra Linga",
-          "deity": "Sahasra Linga",
+          "label": "Sahasra Lingeswara",
+          "deity": "Sahasra Lingeswara",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Shrine immediately beyond Vriddha Mallikarjuna, facing back toward it.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK",
+            "SRISAILAM_CENSUS"
           ],
-          "model_anchor": null,
+          "model_anchor": "Sahasra_Lingeswara_Anchor",
+          "landing_anchor": "Sahasra_Lingeswara_Landing",
           "placement": null,
-          "notes": "Named in primary district inventory; exact image carving and location unverified."
+          "notes": "The Census describes one thousand small lingas, grouped in twenty-five facets of forty, and the three-headed naga.",
+          "artwork_description": "The model follows the recorded total of one thousand small lingas and the three-headed naga."
+        },
+        {
+          "id": "ardhanariswara",
+          "label": "Ardhanariswara",
+          "deity": "Ardhanariswara",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "East-facing shrine on the north of the main sanctuary.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Ardhanariswara_Anchor",
+          "landing_anchor": "Ardhanariswara_Landing",
+          "placement": null,
+          "notes": "Shiva and Devi share one form. The Srisailam sculpture is described seated.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "jwala_veerabhadra",
+          "label": "Jwala Veerabhadra",
+          "deity": "Jwala Veerabhadra",
+          "form": "bhairava",
+          "kind": "subsidiary",
+          "evidence": "Standing Veerabhadra in his own shrine immediately north of the five-shrine row.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK",
+            "SRISAILAM_CENSUS"
+          ],
+          "model_anchor": "Jwala_Veerabhadra_Anchor",
+          "landing_anchor": "Jwala_Veerabhadra_Landing",
+          "placement": null,
+          "notes": "The guardian shrine is distinct from the Sudarshana Veerabhadra in Mallikarjuna's Mukhamandapa.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "kumara",
+          "label": "Kumaraswamy",
+          "deity": "Kumaraswamy",
+          "form": "skanda",
+          "kind": "subsidiary",
+          "evidence": "Shrine placed at the end of the Nava Brahma row.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Kumaraswamy_Anchor",
+          "landing_anchor": "Kumaraswamy_Landing",
+          "placement": null,
+          "notes": "The six-faced form is associated with the peacock mount.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "uma_maheswara",
+          "label": "Uma Maheswara",
+          "deity": "Uma Maheswara",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "Named shrine in the northern Sala Mandapa.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Uma_Maheswara_Anchor",
+          "landing_anchor": "Uma_Maheswara_Landing",
+          "placement": null,
+          "notes": "Shiva and Uma are worshipped together in a seated icon.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "rajarajeswara",
+          "label": "Rajarajeswara",
+          "deity": "Rajarajeswara",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Paired west-facing shrine in the northern range near Uma Maheswara.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Rajarajeswara_Anchor",
+          "landing_anchor": "Rajarajeswara_Landing",
+          "placement": null,
+          "notes": "The icon is a Shiva lingam.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "rajarajeswari",
+          "label": "Rajarajeswari",
+          "deity": "Rajarajeswari",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Paired west-facing shrine in the northern range near Uma Maheswara.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Rajarajeswari_Anchor",
+          "landing_anchor": "Rajarajeswari_Landing",
+          "placement": null,
+          "notes": "Rajarajeswari is worshipped in a seated form.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "annapurna",
+          "label": "Annapurna",
+          "deity": "Annapurna",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Listed in the temple prakara by the published visitor survey.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Annapurna_Anchor",
+          "landing_anchor": "Annapurna_Landing",
+          "placement": null,
+          "notes": "Annapurna represents nourishment. The in-complex shrine is represented with a bowl and ladle.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "akkamahadevi",
+          "label": "Akkamahadevi · Asthana Mandapa",
+          "deity": "Akkamahadevi",
+          "form": "saint",
+          "kind": "subsidiary",
+          "evidence": "The architectural account records an image of Akkamahadevi in the Asthana Mandapa by Nava Brahma.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Akkamahadevi_Anchor",
+          "landing_anchor": "Akkamahadevi_Landing",
+          "placement": null,
+          "notes": "The Kannada saint's bhakti is devoted to Chennamallikarjuna.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "hema_reddy_mallamma",
+          "label": "Hema Reddy Mallamma · Asthana Mandapa",
+          "deity": "Hema Reddy Mallamma",
+          "form": "saint",
+          "kind": "subsidiary",
+          "evidence": "The architectural account records Mallamma's image in the Asthana Mandapa.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Hema_Reddy_Mallamma_Anchor",
+          "landing_anchor": "Hema_Reddy_Mallamma_Landing",
+          "placement": null,
+          "notes": "The local devotee is associated with Srisailam's Mallikarjuna tradition.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "ratnagarbha_ganapati",
+          "label": "Ratnagarbha Ganapati",
+          "deity": "Ratnagarbha Ganapati",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Recorded as a red-stone seated Ganapati in the southwest of the Mukhamandapa.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Ratnagarbha_Ganapati_Anchor",
+          "landing_anchor": "Ratnagarbha_Ganapati_Landing",
+          "placement": null,
+          "notes": "This Ganapati is in the main enclosure. Sakshi Ganapati is a separate pilgrimage destination.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "sudarshana_veerabhadra",
+          "label": "Sudarshana Veerabhadra",
+          "deity": "Sudarshana Veerabhadra",
+          "form": "bhairava",
+          "kind": "subsidiary",
+          "evidence": "Recorded in the northwest of the Mukhamandapa beside Bhadrakali.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Sudarshana_Veerabhadra_Anchor",
+          "landing_anchor": "Sudarshana_Veerabhadra_Landing",
+          "placement": null,
+          "notes": "The installed warrior form is described with forty arms. The game uses a small multi-armed iconographic study.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
+        },
+        {
+          "id": "bhadrakali",
+          "label": "Bhadrakali · Mukhamandapa",
+          "deity": "Bhadrakali",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Recorded standing in black stone with Sudarshana Veerabhadra in the Mukhamandapa.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WALK"
+          ],
+          "model_anchor": "Bhadrakali_Anchor",
+          "landing_anchor": "Bhadrakali_Landing",
+          "placement": null,
+          "notes": "The guardian goddess is represented as a separate named sacred form.",
+          "artwork_description": "Original sacred-form study. Appearance and exact measured bay remain approximate."
         },
         {
           "id": "pancha_pandava_1",
-          "label": "Pancha Pandava linga 1",
-          "deity": "Pancha Pandava linga 1",
+          "label": "Sadyojata Linga · Pancha Sivalaya",
+          "deity": "Sadyojata Linga",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Pancha Sivalaya portico.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancha_Sivalaya_01_Anchor",
+          "landing_anchor": "Pancha_Sivalaya_01_Landing",
           "placement": null,
-          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+          "notes": "One of the Pancha Sivalaya Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
         },
         {
           "id": "pancha_pandava_2",
-          "label": "Pancha Pandava linga 2",
-          "deity": "Pancha Pandava linga 2",
+          "label": "Vamadeva Linga · Pancha Sivalaya",
+          "deity": "Vamadeva Linga",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Pancha Sivalaya portico.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancha_Sivalaya_02_Anchor",
+          "landing_anchor": "Pancha_Sivalaya_02_Landing",
           "placement": null,
-          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+          "notes": "One of the Pancha Sivalaya Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
         },
         {
           "id": "pancha_pandava_3",
-          "label": "Pancha Pandava linga 3",
-          "deity": "Pancha Pandava linga 3",
+          "label": "Aghora Linga · Pancha Sivalaya",
+          "deity": "Aghora Linga",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Pancha Sivalaya portico.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancha_Sivalaya_03_Anchor",
+          "landing_anchor": "Pancha_Sivalaya_03_Landing",
           "placement": null,
-          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+          "notes": "One of the Pancha Sivalaya Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
         },
         {
           "id": "pancha_pandava_4",
-          "label": "Pancha Pandava linga 4",
-          "deity": "Pancha Pandava linga 4",
+          "label": "Tatpurusha Linga · Pancha Sivalaya",
+          "deity": "Tatpurusha Linga",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Pancha Sivalaya portico.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancha_Sivalaya_04_Anchor",
+          "landing_anchor": "Pancha_Sivalaya_04_Landing",
           "placement": null,
-          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+          "notes": "One of the Pancha Sivalaya Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
         },
         {
           "id": "pancha_pandava_5",
-          "label": "Pancha Pandava linga 5",
-          "deity": "Pancha Pandava linga 5",
+          "label": "Ishana Linga · Pancha Sivalaya",
+          "deity": "Ishana Linga",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Pancha Sivalaya portico.",
           "source_ids": [
-            "SRISAILAM_GOV"
+            "SRISAILAM_PLAN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancha_Sivalaya_05_Anchor",
+          "landing_anchor": "Pancha_Sivalaya_05_Landing",
           "placement": null,
-          "notes": "One of the documented five-shrine group. Directory number is an interface identifier, not a claim about historical order or specific Pandava attribution."
+          "notes": "One of the Pancha Sivalaya Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_1",
+          "label": "Rudra Linga · Nava Brahma",
+          "deity": "Rudra Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_01_Anchor",
+          "landing_anchor": "Nava_Brahma_01_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_2",
+          "label": "Bhava Linga · Nava Brahma",
+          "deity": "Bhava Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_02_Anchor",
+          "landing_anchor": "Nava_Brahma_02_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_3",
+          "label": "Ugra Linga · Nava Brahma",
+          "deity": "Ugra Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_03_Anchor",
+          "landing_anchor": "Nava_Brahma_03_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_4",
+          "label": "Sarva Linga · Nava Brahma",
+          "deity": "Sarva Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_04_Anchor",
+          "landing_anchor": "Nava_Brahma_04_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_5",
+          "label": "Ishana Linga · Nava Brahma",
+          "deity": "Ishana Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_05_Anchor",
+          "landing_anchor": "Nava_Brahma_05_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_6",
+          "label": "Mahadeva Linga · Nava Brahma",
+          "deity": "Mahadeva Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_06_Anchor",
+          "landing_anchor": "Nava_Brahma_06_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_7",
+          "label": "Pashupati Linga · Nava Brahma",
+          "deity": "Pashupati Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_07_Anchor",
+          "landing_anchor": "Nava_Brahma_07_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_8",
+          "label": "Bhima Linga · Nava Brahma",
+          "deity": "Bhima Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_08_Anchor",
+          "landing_anchor": "Nava_Brahma_08_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nava_brahma_9",
+          "label": "Moksha Linga · Nava Brahma",
+          "deity": "Moksha Linga",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The illustrated architectural description gives the name and documents the shared Nava Brahma portico.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nava_Brahma_09_Anchor",
+          "landing_anchor": "Nava_Brahma_09_Landing",
+          "placement": null,
+          "notes": "One of the Nava Brahma Shiva forms. This row uses the published list order.",
+          "artwork_description": "Distinct model cell and linga within the documented row. The physical order of named cells still needs confirmation."
+        },
+        {
+          "id": "nandi_mandapa",
+          "label": "Nandi Mandapa · Nandi",
+          "deity": "Nandi",
+          "form": "nandi",
+          "kind": "subsidiary",
+          "evidence": "The Census and architectural descriptions locate the bull in the eastern pillared hall.",
+          "source_ids": [
+            "SRISAILAM_CENSUS",
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Nandimandapa_Anchor",
+          "landing_anchor": "Nandimandapa_Landing",
+          "placement": null,
+          "notes": "The monumental bull faces Mallikarjuna along the east–west sacred axis.",
+          "artwork_description": "Original recumbent Nandi study with carved necklace bands."
+        },
+        {
+          "id": "veerasiro_mandapa",
+          "label": "Veerasiro Mandapa",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The surveyed hall lies between Nandi Mandapa and the Mukhamandapa.",
+          "source_ids": [
+            "SRISAILAM_CENSUS",
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Veerasiromandapa_Anchor",
+          "landing_anchor": "Veerasiromandapa_Landing",
+          "placement": null,
+          "notes": "The published inscription account credits Anavema Reddi with the 1378 construction. The later open hall has sixteen pillars.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "eastern_gateway",
+          "label": "East Rajagopura · Mahadwaram",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The east enclosure opening is the main ceremonial approach.",
+          "source_ids": [
+            "SRISAILAM_ISPRS",
+            "SRISAILAM_AERIAL"
+          ],
+          "model_anchor": "East_Rajagopura_Anchor",
+          "landing_anchor": "East_Rajagopura_Landing",
+          "placement": null,
+          "notes": "The east gateway is associated with Krishnadevaraya in architectural records.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "western_gateway",
+          "label": "West Gopura · Brahmaraya",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The 2025 ground photo shows the west gate behind the Bhramaramba court.",
+          "source_ids": [
+            "SRISAILAM_WEST",
+            "SRISAILAM_AERIAL"
+          ],
+          "model_anchor": "West_Brahmaraya_Gopura_Anchor",
+          "landing_anchor": "West_Brahmaraya_Gopura_Landing",
+          "placement": null,
+          "notes": "The west gate opens behind Bhramaramba's raised court.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "northern_gateway",
+          "label": "North Gopura · Shivaji",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The north gateway and historic restoration are described in ISPRS.",
+          "source_ids": [
+            "SRISAILAM_ISPRS",
+            "SRISAILAM_AERIAL"
+          ],
+          "model_anchor": "North_Shivaji_Gopura_Anchor",
+          "landing_anchor": "North_Shivaji_Gopura_Landing",
+          "placement": null,
+          "notes": "The gate is traditionally associated with Chhatrapati Shivaji. The structural study documents the 2012 collapse.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "southern_gateway",
+          "label": "South Gopura",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The satellite and ground photos show the south enclosure opening.",
+          "source_ids": [
+            "SRISAILAM_PHOTOS",
+            "SRISAILAM_AERIAL"
+          ],
+          "model_anchor": "South_Harihara_Gopura_Anchor",
+          "landing_anchor": "South_Harihara_Gopura_Landing",
+          "placement": null,
+          "notes": "The gate links the southern approach to the shared Shiva–Shakti complex.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "south_prakara_relief",
+          "label": "South Prakara · Animal Procession",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "ASI epigraphy identified giraffes and camels with attendants on the south prakara.",
+          "source_ids": [
+            "SRISAILAM_ASI_RELIEF",
+            "SRISAILAM_CENSUS"
+          ],
+          "model_anchor": "South_Prakara_Relief_Anchor",
+          "landing_anchor": "South_Prakara_Relief_Landing",
+          "placement": null,
+          "notes": "The relief preserves a documented procession subject. Its exact wall block remains approximate.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "bhramaramba_vimana",
+          "label": "Bhramaramba Vimana · Shakti Niches",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The architectural account identifies Durga on the east, Vaishnavi on the west and Brahmi on the north.",
+          "source_ids": [
+            "SRISAILAM_PLAN",
+            "SRISAILAM_WEST"
+          ],
+          "model_anchor": "Bhramaramba_Vimana_Reliefs_Anchor",
+          "landing_anchor": "Bhramaramba_Vimana_Reliefs_Landing",
+          "placement": null,
+          "notes": "The raised shrine has a two-tier Dravidian vimana. The niche figures represent the documented identities.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "mallika_gundam",
+          "label": "Mallika Gundam",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The architectural survey places the covered spring north of Mallikarjuna.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Mallika_Gundam_Anchor",
+          "landing_anchor": "Mallika_Gundam_Landing",
+          "placement": null,
+          "notes": "Water serves the rituals of Mallikarjuna. The account attributes the pavilion to Lingabhupla through an inscription dated 1512.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "manohara_gundam",
+          "label": "Manohara Gundam",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The architectural survey locates the covered stepped well south of Mallikarjuna.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Manohara_Gundam_Anchor",
+          "landing_anchor": "Manohara_Gundam_Landing",
+          "placement": null,
+          "notes": "The approach stops at the protective rail around the well.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "balipitha",
+          "label": "Mallikarjuna Balipitha",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The architectural record describes the lotus pedestal and miniature sanctuary near the north porch.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Mallikarjuna_Balipitha_Anchor",
+          "landing_anchor": "Mallikarjuna_Balipitha_Landing",
+          "placement": null,
+          "notes": "The stone model shrine crowns the ritual pedestal. The account dates the gift to 1313.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "sayana_mandapa",
+          "label": "Sayana Mandapa",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The northeast hall is recorded as the later mirror hall.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Sayana_Mandapa_Anchor",
+          "landing_anchor": "Sayana_Mandapa_Landing",
+          "placement": null,
+          "notes": "This hall serves the closing worship of the divine pair.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "rudhira_gundam",
+          "label": "Rudhira Gundam",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The architectural survey locates the spring near the northwest of Bhramaramba's shrine.",
+          "source_ids": [
+            "SRISAILAM_PLAN"
+          ],
+          "model_anchor": "Rudhira_Gundam_Anchor",
+          "landing_anchor": "Rudhira_Gundam_Landing",
+          "placement": null,
+          "notes": "The covered spring supplies ritual water for the goddess.",
+          "artwork_description": "Original architectural study. Some construction details and positions remain approximate."
+        },
+        {
+          "id": "bhringi",
+          "label": "Bhringi · East Approach",
+          "deity": "Bhringi",
+          "form": "shaiva",
+          "kind": "subsidiary",
+          "evidence": "The Census describes a stone image of Bhringi near the front entrance.",
+          "source_ids": [
+            "SRISAILAM_CENSUS"
+          ],
+          "model_anchor": "Bhringi_Anchor",
+          "landing_anchor": "Bhringi_Landing",
+          "placement": null,
+          "notes": "Bhringi is remembered as a devoted attendant of Shiva.",
+          "artwork_description": "Original ascetic study. The historic statue and its exact placement require photographic survey."
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Both principal sanctuaries, fourteen named lingas in the two shrine rows, two Veerabhadra forms, documented subsidiary deities, the four gateways and covered springs. Installed images, additional lesser shrines and the complete relief and inscription inventory need field verification."
     },
     "pithapuram_puruhutika": {
       "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
