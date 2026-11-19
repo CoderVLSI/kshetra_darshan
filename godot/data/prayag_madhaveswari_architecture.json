@@ -6,28 +6,26 @@
     "city": "Prayagraj",
     "state": "Uttar Pradesh",
     "country": "India",
-    "lat": 25.4358,
-    "lng": 81.8795
+    "lat": 25.444158,
+    "lng": 81.870872
   },
-  "style": "North Indian Nagara style",
+  "style": "North Indian Nagara sanctuary in the living Alopibagh precinct",
   "key_structures": [
-    "Central sanctum with sacred Doli (palanquin / swing)",
-    "Concentric marble circumambulatory pathway",
-    "Shikhara with kalasha finial",
-    "Navagraha and Shiva sub-shrines",
-    "Triveni Sangam approach pavilion"
+    "Rose street arch with the Shakti Peetha name in Hindi and Tamil",
+    "Covered forecourt leading to the inner entrance and paired lion sculptures",
+    "Flat-roofed ranges around the tall tapered, panelled shikhara",
+    "Silver-clad cradle over the sacred kund",
+    "Shiva murti and Shiva lingam"
   ],
   "special_features": [
-    "Unique absence of an anthropomorphic idol: devotees revere a wooden swing (Doli) over a marble platform representing the disappearing (Alopa) form of Devi",
-    "Continuous canopy of sacred red threads tied by devotees for fulfillment of vows",
-    "Located near the confluence of Ganga, Yamuna, and mystical Saraswati"
+    "Devotees revere Alopi Shankari in the form of a covered wooden cradle",
+    "The temple occupies an urban compound in Alopibagh. The Triveni Sangam is a separate pilgrimage site"
   ],
   "materials": [
-    "White Makrana marble",
-    "Red sandstone slabs",
-    "Silver-plated sacred swing (Doli)",
-    "Gilded copper kalasha"
+    "Pink and rose painted exterior",
+    "Stone-paved approach",
+    "Silver-clad cradle and steel guardrails"
   ],
-  "period": "Ancient, reconstructed 19th Century CE",
-  "renovation_history": "Puranic sanctum anciently known as Madhaveswari; sanctum renovated and marble complex built in late 19th and early 20th century by local devotee guilds."
+  "period": "Historic sacred site with a living modern compound",
+  "renovation_history": "The game models the photographed approach and recent darshan arrangement. The dimensions and construction dates of individual ranges have not been surveyed."
 }

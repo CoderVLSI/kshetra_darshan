@@ -193,13 +193,13 @@ var temples: Dictionary = {
 	},
 	"prayag_madhaveswari": {
 		"id": "prayag_madhaveswari",
-		"name": "Alopi Devi (Madhaveswari) Temple",
-		"short_name": "Alopi Madhaveswari",
+		"name": "Alopi Devi Temple (Prayagraj tradition)",
+		"short_name": "Alopi Shankari",
 		"location": "Prayagraj, Uttar Pradesh",
-		"devi": "Mata Madhaveswari",
+		"devi": "Alopi Shankari",
 		"anga": "Fingers (Hastanguli)",
 		"bhairava": "Bhairava",
-		"style": "Nagara Doli Shrine & Triveni Sangam",
+		"style": "Alopibagh Nagara sanctuary and sacred cradle",
 		"color": Color(0.95, 0.75, 0.20)
 	},
 	"gaya_mangalagauri": {
@@ -248,8 +248,6 @@ func _ready() -> void:
 	temples["gaya_mangalagauri"]["style"] = "Small Nagara shrine on Mangala Gauri Hill"
 	temples["kashi_vishalakshi"]["style"] = "Compact urban shrine with Dravidian entrance"
 	temples["pradyumna_shrinkhala"]["style"] = "Present-day monument study; ancient shrine unresolved"
-	temples["prayag_madhaveswari"]["name"] = "Alopi Devi Temple (Prayagraj tradition)"
-	temples["prayag_madhaveswari"]["style"] = "Sacred cradle shrine; distinct from Lalita Devi"
 	temples["ujjain_mahakali"]["devi"] = "Mata Harsiddhi / Annapurna"
 	# Autodetect mobile platform
 	if OS.has_feature("mobile") or OS.has_feature("android") or OS.has_feature("ios") or OS.has_feature("web_android") or OS.has_feature("web_ios"):

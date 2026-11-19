@@ -391,13 +391,13 @@
   "prayag_madhaveswari": {
     "name": "Madhaveswari at Prayaga (game selects Alopi)",
     "stotram_order": 14,
-    "architecture": "Current Alopi shrine is an urban enclosed devotional space centred on a covered cot/cradle and platform, rather than a standard anthropomorphic main murti. Madhaveswari's identification with Alopi versus Lalita must remain explicit.",
+    "architecture": "The Alopibagh precinct has a rose bilingual street arch, a covered approach, a lion-flanked inner facade and a tall panelled shikhara over flat-roofed ranges. The nearby Lalita Devi temple at Mirapur is a separate identification and site.",
     "deity_form": "Covered cradle/cot sacred focus",
     "posture": "Suspended/covered cradle and platform arrangement",
     "arms": "Not applicable",
     "attributes": "Cloth, cradle/platform and ritual setting",
-    "deity_notes": "Do not add a full-body main Devi murti. Do not import Lalita Devi's image from a different Prayagraj temple.",
-    "uncertainties": "Platform/well geometry and current suspension arrangement need authenticated interior comparison.",
+    "deity_notes": "The covered cradle represents Alopi Shankari. The 2026 sanctum photograph shows four corner posts, silver relief panels, flowers and folded brocade over the kund. The district also documents a Shiva murti and a distinct Shiva lingam.",
+    "uncertainties": "The north-up aerial image establishes the visible roof masses and streets. Gate alignment and interior spacing remain approximations. A surveyed plan and photographs locating the individual Shiva forms were unavailable.",
     "reconstruction": false,
     "sources": [
       {
@@ -405,8 +405,28 @@
         "url": "https://prayagraj.nic.in/top-attractions/"
       },
       {
-        "title": "Alopi Devi Mandir: visitor description",
-        "url": "https://shubhpanchang.com/temples/alopi-devi-mandir"
+        "title": "Ministry of Tourism: Swadesh Darshan Prayagraj Destination Master Plan",
+        "url": "https://sd2.tourism.gov.in/DocumentRepoFiles/MasterPlan/MP728f755c-c44a-4149-acb1-ec46ee752c4a.pdf"
+      },
+      {
+        "title": "Esri World Imagery: north-up Alopibagh precinct",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?center=81.870872,25.444158&level=19&basemap=satellite"
+      },
+      {
+        "title": "Ashish Bhatnagar: geotagged street and shikhara photograph",
+        "url": "https://commons.wikimedia.org/wiki/File:Alop_Shankari_Devi_Mandir,_Prayagraj.jpg"
+      },
+      {
+        "title": "First India: bilingual gateway photographed at Navratri 2025",
+        "url": "https://firstindia.co.in/news/india/devotees-throng-alopi-shankari-devi-temple-in-prayagraj-on-first-day-of-shardiya-navratri"
+      },
+      {
+        "title": "Prayag Samagam: inner facade and lion sculptures",
+        "url": "https://prayagsamagam.com/temple/alopidevi-temple/"
+      },
+      {
+        "title": "Pankaj Srivastava for Aaj Tak: October 2026 sacred cradle photograph",
+        "url": "https://www.aajtak.in/uttar-pradesh/story/prayagraj-maa-alop-shankari-temple-51-shaktipeeth-cradle-worship-lclcn-strc-2665971-2026-10-09"
       },
       {
         "title": "National Sanskrit University: Eighteen Shaktipeethas (stotram on PDF pages 2-3)",
@@ -440,7 +460,7 @@
         "url": "https://devadarshanam.com/temple/jwalamukhi"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The Hindi and Tamil temple name, the inner lion pair and the cradle relief panels are represented. The rest of the sign text, building artwork and sculpture inventory still need complete documentation."
   },
   "gaya_mangalagauri": {
     "name": "Mangala Gauri",

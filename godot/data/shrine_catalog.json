@@ -2680,12 +2680,27 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "prayag_madhaveswari": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "Alopibagh's street gateway, covered forecourt and cradle sanctuary. Aerial imagery guides the compound footprint. The district confirms both subsidiary Shiva forms, and their bays are approximate.",
       "sources": [
         {
           "id": "PRAYAG",
           "title": "Prayagraj district: Places of Interest, Alopi and Lalita entries",
           "url": "https://prayagraj.nic.in/top-attractions/"
+        },
+        {
+          "id": "ALOPI_CRADLE",
+          "title": "Aaj Tak: October 2026 photograph of the Alopi sacred cradle and kund",
+          "url": "https://www.aajtak.in/uttar-pradesh/story/prayagraj-maa-alop-shankari-temple-51-shaktipeeth-cradle-worship-lclcn-strc-2665971-2026-10-09"
+        },
+        {
+          "id": "ALOPI_GATE",
+          "title": "First India: September 2025 photograph of the bilingual arch",
+          "url": "https://firstindia.co.in/news/india/devotees-throng-alopi-shankari-devi-temple-in-prayagraj-on-first-day-of-shardiya-navratri"
+        },
+        {
+          "id": "ALOPI_FACADE",
+          "title": "Prayag Samagam: photograph of the inner entrance and lion sculptures",
+          "url": "https://prayagsamagam.com/temple/alopidevi-temple/"
         }
       ],
       "excluded": [
@@ -2697,21 +2712,24 @@
       "shrines": [
         {
           "id": "main",
-          "label": "Alopi sacred cradle",
-          "deity": "Alopi sacred cradle",
+          "label": "Alopi Shankari · Sacred Cradle",
+          "deity": "Alopi Shankari",
           "form": "cradle",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The district documents the cot and round platform. The 2026 photo shows an ornamented silver-clad cradle, brocade, flowers and steel rails around the sacred area.",
           "source_ids": [
-            "PRAYAG"
+            "PRAYAG",
+            "ALOPI_CRADLE"
           ],
           "model_anchor": "Deity_Madhaveswari",
+          "landing_anchor": "Alopi_Cradle_Landing",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The covered cradle is the focus of Alopi Shankari worship. Devotees make offerings at the kund beneath it.",
+          "artwork_description": "Photo-led study of the cradle, suspended cloth, offering platform and protective rails."
         },
         {
           "id": "shiva_image",
-          "label": "Shiva image",
+          "label": "Shiva Murti",
           "deity": "Shiva image",
           "form": "shiva",
           "kind": "subsidiary",
@@ -2719,13 +2737,15 @@
           "source_ids": [
             "PRAYAG"
           ],
-          "model_anchor": null,
+          "model_anchor": "Alopi_Shiva_Image_Anchor",
+          "landing_anchor": "Alopi_Shiva_Image_Landing",
           "placement": null,
-          "notes": "District source distinguishes the image from the Shiva lingam; exact iconography unverified."
+          "notes": "The Prayagraj district lists Shiva's figurative image separately from the Shiva Lingam.",
+          "artwork_description": "Seated Shiva iconographic study with tripundra and trishula. The installed murti and bay still need photographic confirmation."
         },
         {
           "id": "shiva_lingam",
-          "label": "Shiva lingam",
+          "label": "Shiva Lingam",
           "deity": "Shiva lingam",
           "form": "linga",
           "kind": "subsidiary",
@@ -2733,9 +2753,39 @@
           "source_ids": [
             "PRAYAG"
           ],
-          "model_anchor": null,
+          "model_anchor": "Alopi_Shiva_Lingam_Anchor",
+          "landing_anchor": "Alopi_Shiva_Lingam_Landing",
           "placement": null,
-          "notes": "In Alopi temple; distinct from the Shiva image."
+          "notes": "The lingam is Shiva's sacred aniconic form and is listed separately from the Alopibagh Shiva murti.",
+          "artwork_description": "Lingam and yoni study. The installed form and bay remain approximate."
+        },
+        {
+          "id": "bilingual_gateway",
+          "label": "Alopibagh Bilingual Gateway",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The September 2025 photograph shows the rose arch and the Shakti Peetha name in Hindi and Tamil.",
+          "source_ids": ["ALOPI_GATE"],
+          "model_anchor": "Alopi_Outer_Gate_Reference",
+          "landing_anchor": "Alopi_Outer_Gate_Landing",
+          "placement": null,
+          "notes": "The upper sign names the Shri Alop Shankari Shakti Peetha in Hindi and Tamil. Here the temple name is reset in both scripts.",
+          "artwork_description": "Photo-led arch and original bilingual lettering."
+        },
+        {
+          "id": "inner_facade",
+          "label": "Sanctuary Entrance and Lions",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The inner entrance photo shows a scalloped surround, iron grilles and two flanking stone lions.",
+          "source_ids": ["ALOPI_FACADE"],
+          "model_anchor": "Alopi_Inner_Facade_Reference",
+          "landing_anchor": "Alopi_Inner_Facade_Landing",
+          "placement": null,
+          "notes": "The lions flank the inner threshold to the sacred cradle. The entry grille is open during the playable darshan.",
+          "artwork_description": "Sculptural studies of the pair of lions and the photographed entrance surround."
         }
       ],
       "inventory_complete": false,
