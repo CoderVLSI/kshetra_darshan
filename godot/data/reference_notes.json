@@ -445,21 +445,37 @@
   "gaya_mangalagauri": {
     "name": "Mangala Gauri",
     "stotram_order": 16,
-    "architecture": "Compact hill shrine approached by steps and road. The principal sacred form is symbolic; the sanctum also contains old relief work.",
-    "deity_form": "Symbolic sacred form in the sanctum",
+    "architecture": "Mangala Gauri is a small east-facing shrine atop Bhasmakut. The present exterior has low twin hipped roof forms dressed in cloth, marble-faced doorway panels and a checkered court edged by a modern canopy. A climb from the road links the hilltop to the city.",
+    "deity_form": "Sacred shila in the Stanapitha tradition",
     "posture": "Sacred symbol, not established as a full anthropomorphic figure",
     "arms": "Not applicable to the documented symbolic form",
     "attributes": "Reliefs and ritual adornment belong to the setting",
     "deity_notes": "Do not invent a large multi-armed main idol from a generic devotional poster.",
-    "uncertainties": "A verified close view of the actual sacred symbol is still required.",
+    "uncertainties": "Exact terrain profiles, step dimensions, temple-internal carvings and the subsidiary bay sequence require more detailed documentation.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Bihar Tourism: Mangala Gauri",
+        "title": "Bihar Tourism: Mangala Gauri and summit shrine photograph",
         "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri"
+      },
+      {
+        "title": "Bihar Tourism: Ready Reckoner, Mangla Gauri Mandir",
+        "url": "https://tourism.bihar.gov.in/content/dam/bihar-tourism/catalogue/ready-reckoner-2.pdf"
+      },
+      {
+        "title": "Incredible India: Mangla Gauri and its subsidiary shrines",
+        "url": "https://www.incredibleindia.gov.in/en/bihar/gaya/mangla-gauri-temple"
+      },
+      {
+        "title": "Bihar conservation brief: Mangala Gauri temple group (p.71)",
+        "url": "https://www.bseidc.in/pdf/RFP%20For%20Preparation%20Of%20DPR%20%20Work%20Supervision%20Of%20Archaeological%20Sites%20in%20Bihar.pdf"
+      },
+      {
+        "title": "Esri World Imagery: Bhasmakut hill and Mangala Gauri precinct",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemap=satellite&center=85.002306%2C24.775139&level=18"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The eastern façade preserves the photographed panel arrangement. The panel text and the Ganga–Yamuna doorway jamb noted by the state conservation brief still need epigraphic and sculptural verification."
   },
   "kashi_vishalakshi": {
     "name": "Vishalakshi",

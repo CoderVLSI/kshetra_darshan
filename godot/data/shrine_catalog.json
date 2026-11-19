@@ -2742,18 +2742,47 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "gaya_mangalagauri": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "The east-facing sanctuary and covered court on Bhasmakut, with the eastern foot approach. Named subsidiary forms reflect Bihar Tourism, Incredible India and the state conservation brief. Small-shrine positions remain approximate.",
       "sources": [
         {
-          "id": "GAYA",
-          "title": "Bihar Tourism: Mangala Gauri",
+          "id": "GAYA_TOURISM",
+          "title": "Bihar Tourism: Mangala Gauri and summit shrine photograph",
           "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mangala-gauri"
+        },
+        {
+          "id": "GAYA_RECKONER",
+          "title": "Bihar Tourism: Ready Reckoner, Mangla Gauri Mandir",
+          "url": "https://tourism.bihar.gov.in/content/dam/bihar-tourism/catalogue/ready-reckoner-2.pdf"
+        },
+        {
+          "id": "GAYA_IN",
+          "title": "Incredible India: Mangla Gauri and its subsidiary shrines",
+          "url": "https://www.incredibleindia.gov.in/en/bihar/gaya/mangla-gauri-temple"
+        },
+        {
+          "id": "GAYA_DPR",
+          "title": "Bihar conservation brief: Mangala Gauri temple group (p.71)",
+          "url": "https://www.bseidc.in/pdf/RFP%20For%20Preparation%20Of%20DPR%20%20Work%20Supervision%20Of%20Archaeological%20Sites%20in%20Bihar.pdf"
+        },
+        {
+          "id": "GAYA_JANARDANA",
+          "title": "Local18 on-site report: Janardana temple north of Mangala Gauri",
+          "url": "https://www.youtube.com/watch?v=QV-N8SbCFAY"
+        },
+        {
+          "id": "GAYA_AERIAL",
+          "title": "Esri World Imagery: Bhasmakut hill and Mangala Gauri precinct",
+          "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemap=satellite&center=85.002306%2C24.775139&level=18"
         }
       ],
       "excluded": [
         {
+          "name": "Vishnupad Temple, Akshaya-vata and Falgu ghats",
+          "reason": "Independent Gaya pilgrimage sites outside the main Mangala Gauri complex."
+        },
+        {
           "name": "Bhimvedi",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+          "reason": "Documented nearby by Bihar Tourism, with exact boundary and visitor approach to verify."
         }
       ],
       "shrines": [
@@ -2763,27 +2792,102 @@
           "deity": "Mangala Gauri",
           "form": "sacred_symbol",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The Bihar Tourism account places the sacred symbol in the east-facing hilltop sanctum.",
           "source_ids": [
-            "GAYA"
+            "GAYA_TOURISM",
+            "GAYA_RECKONER",
+            "GAYA_DPR"
           ],
           "model_anchor": "Deity_Mangalagauri",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The sacred rock is worshipped in the Peetha tradition recalling Sati. The model shows a devotional contour study within the small sanctum.",
+          "artwork_description": "Sindoor-covered shila study. The exact physical contour and its ornaments remain unverified.",
+          "landing_anchor": "Mangala_Darshan_Landing"
+        },
+        {
+          "id": "kali",
+          "label": "Dakshina Kali",
+          "deity": "Dakshina Kali",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Kali is described among the summit subsidiary shrines.",
+          "source_ids": [
+            "GAYA_TOURISM",
+            "GAYA_IN"
+          ],
+          "model_anchor": "Dakshina_Kali_Anchor",
+          "placement": null,
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Dakshina_Kali_Landing"
+        },
+        {
+          "id": "ganapati",
+          "label": "Ganapati",
+          "deity": "Ganapati",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Incredible India names Ganapati in the complex.",
+          "source_ids": [
+            "GAYA_IN"
+          ],
+          "model_anchor": "Ganapati_Anchor",
+          "placement": null,
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Ganapati_Landing",
+          "render_iconographic_study": true
         },
         {
           "id": "shiva",
-          "label": "Shiva shrine",
-          "deity": "Shiva shrine",
+          "label": "Shiva Linga I",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The state guide records two minor shrines dedicated to Shiva.",
           "source_ids": [
-            "GAYA"
+            "GAYA_TOURISM",
+            "GAYA_RECKONER",
+            "GAYA_IN"
           ],
-          "model_anchor": null,
+          "model_anchor": "Shiva_East_Anchor",
           "placement": null,
-          "notes": "Government source identifies a shrine inside the complex; exact image unverified."
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Shiva_East_Landing"
+        },
+        {
+          "id": "shiva_second",
+          "label": "Shiva Linga II",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The state guide records two minor shrines dedicated to Shiva.",
+          "source_ids": [
+            "GAYA_TOURISM",
+            "GAYA_RECKONER"
+          ],
+          "model_anchor": "Shiva_West_Anchor",
+          "placement": null,
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Shiva_West_Landing"
+        },
+        {
+          "id": "hanuman",
+          "label": "Hanuman",
+          "deity": "Hanuman",
+          "form": "hanuman",
+          "kind": "subsidiary",
+          "evidence": "Incredible India names Hanuman in the complex.",
+          "source_ids": [
+            "GAYA_IN"
+          ],
+          "model_anchor": "Hanuman_Anchor",
+          "placement": null,
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Hanuman_Landing"
         },
         {
           "id": "durga",
@@ -2791,45 +2895,89 @@
           "deity": "Durga",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The state guide documents the Durga image.",
           "source_ids": [
-            "GAYA"
+            "GAYA_TOURISM",
+            "GAYA_RECKONER"
           ],
-          "model_anchor": null,
+          "model_anchor": "Durga_Anchor",
           "placement": null,
-          "notes": "Government source identifies shrine inside complex."
-        },
-        {
-          "id": "dakshina_kali",
-          "label": "Dakshina Kali",
-          "deity": "Dakshina Kali",
-          "form": "devi",
-          "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
-          "source_ids": [
-            "GAYA"
-          ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Government source identifies shrine inside complex."
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Durga_Landing"
         },
         {
           "id": "mahishasuramardini",
-          "label": "Mahishasuramardini",
-          "deity": "Mahishasuramardini",
+          "label": "Mahishasura Mardini",
+          "deity": "Mahishasura Mardini",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The state guide identifies this goddess image at the site.",
           "source_ids": [
-            "GAYA"
+            "GAYA_TOURISM",
+            "GAYA_RECKONER"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mahishasuramardini_Anchor",
           "placement": null,
-          "notes": "A separately named shrine in the government inventory; do not collapse into the Durga record."
+          "notes": "The model marks the documented worship identity. The precise installed bay has not been independently surveyed.",
+          "artwork_description": "Original iconographic study. The position within the summit court and installed image details are approximate.",
+          "landing_anchor": "Mahishasuramardini_Landing"
+        },
+        {
+          "id": "janardana_vishnu",
+          "label": "Janardana Vishnu",
+          "deity": "Janardana",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "The Bihar conservation brief identifies a Janardana Vishnu temple above the Bhasmakut rock-cut site.",
+          "source_ids": [
+            "GAYA_DPR",
+            "GAYA_JANARDANA"
+          ],
+          "model_anchor": "Janardana_Vishnu_Reference",
+          "placement": null,
+          "notes": "The conservation brief records river-goddess reliefs on a doorway jamb. The game marks Janardana on the north side of the court, following the on-site report.",
+          "artwork_description": "Original Vishnu form study at an interpretation point. Exact shrine geometry, orientation and doorway reliefs remain unverified.",
+          "landing_anchor": "Janardana_Vishnu_Landing"
+        },
+        {
+          "id": "sanctum_panels",
+          "label": "Sanctum Marble Panels",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The Bihar Tourism photograph shows carved text across the marble-faced eastern doorway.",
+          "source_ids": [
+            "GAYA_TOURISM",
+            "GAYA_RECKONER"
+          ],
+          "model_anchor": "Mangala_Facade_Panels_Reference",
+          "placement": null,
+          "notes": "The eastern façade preserves the four-panel arrangement. The source photograph is linked from the guide.",
+          "artwork_description": "Panel architecture follows the published view. The text has not been reconstructed from the available resolution.",
+          "landing_anchor": "Mangala_Facade_Panels_Landing"
+        },
+        {
+          "id": "east_stairs",
+          "label": "Bhasmakut Eastern Stairs",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "State records describe both stairs and a motor approach to the hilltop.",
+          "source_ids": [
+            "GAYA_TOURISM",
+            "GAYA_RECKONER",
+            "GAYA_AERIAL"
+          ],
+          "model_anchor": "Eastern_Stairs_Reference",
+          "placement": null,
+          "notes": "The map landing starts below the visible climb to the east-facing sanctuary.",
+          "artwork_description": "Aerial alignment and documented approach. Rise and tread are playable estimates.",
+          "landing_anchor": "Eastern_Stairs_Landing"
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Published court and approach features are represented. A current measured survey and close documentation for individual installed carvings are still needed."
     },
     "pradyumna_shrinkhala": {
       "scope_note": "Present-day Pandua monument setting. Shrinkhala is a traditional association; the exact ancient shrine is unresolved. The minaret is not identified as a surviving temple tower.",

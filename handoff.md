@@ -1,8 +1,8 @@
 # Kshetra Darshan handoff
 
-Updated 19 November 2026 after the Kamakshi precinct rebuild.
+Updated 19 November 2026 after the Mangala Gauri summit rebuild.
 
-Current status: playable procedural preview with 21 scenes and 190 mapped destinations. Kanchi Kamakshi’s 19 destinations sit in a compound based on the restoration plan and aerial photographs. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
+Current status: playable procedural preview with 21 scenes and 196 mapped destinations. Kanchi Kamakshi’s 19 destinations sit in a compound based on the restoration plan and aerial photographs. Mangala Gauri’s 11 destinations follow its photographed hilltop shrine and documented approach. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
 
 ## Run
 

@@ -229,7 +229,7 @@ func generate_mesh_collisions(root: Node) -> void:
 		var mi = root as MeshInstance3D
 		var mesh_name = String(mi.name).to_lower()
 		# Decorative surfaces and water are not invisible barriers to a pilgrim.
-		for tag in ["flame", "garland", "flower", "water", "priest", "cloth", "silk", "ornamentdetail"]:
+		for tag in ["flame", "garland", "flower", "water", "priest", "cloth", "silk", "ornamentdetail", "renderonly"]:
 			if tag in mesh_name:
 				return
 		if mi.mesh != null and mi.mesh.get_faces().size() > 0:
