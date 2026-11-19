@@ -1,8 +1,8 @@
 # Kshetra Darshan handoff
 
-Updated 19 November 2026 after the Alopibagh precinct rebuild.
+Updated 19 November 2026 after the Kashi Vishalakshi rebuild.
 
-Current status is a playable procedural preview with 21 scenes and 198 mapped destinations. Kanchi Kamakshi’s 19 destinations sit in a compound based on the restoration plan and aerial photographs. Mangala Gauri’s 11 destinations follow its photographed hilltop shrine and documented approach. Alopibagh’s five destinations include the bilingual arch, sanctuary lions, cradle, Shiva murti and Shiva lingam. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
+Current status is a playable procedural preview with 21 scenes and 203 mapped destinations. Kashi Vishalakshi’s eleven destinations include both Devi images, the three Shiva-and-Nandi stops, mandapa Kala Bhairava and Navagraha, Ganapati, Adi Shankaracharya, the Mir Ghat gateway and the Tamil wall dedication. The compound follows aerial imagery, entrance photographs and the Vasant Kanya Mahavidyalaya field survey. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
 
 ## Run
 

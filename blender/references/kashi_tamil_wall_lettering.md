@@ -1,0 +1,3 @@
+# Kashi Vishalakshi Tamil lettering
+
+`kashi_tamil_wall_lettering.png` adapts a photograph by Kailash PL, [Kashi Vishalakshi Temple inscription](https://commons.wikimedia.org/wiki/File:%E0%AE%95%E0%AE%BE%E0%AE%9A%E0%AE%BF_%E0%AE%B5%E0%AE%BF%E0%AE%9A%E0%AE%BE%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9A%E0%AE%BF_%E0%AE%95%E0%AF%8B%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D_%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81.jpg). The adaptation crops and rectifies the wall and extracts its red lettering onto a transparent background. The original and the adapted lettering are licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This attribution also covers the copy embedded in the temple model and the texture extracted by Godot.

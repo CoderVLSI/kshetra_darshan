@@ -6,28 +6,27 @@
     "city": "Varanasi",
     "state": "Uttar Pradesh",
     "country": "India",
-    "lat": 25.3082,
-    "lng": 83.0105
+    "lat": 25.309963,
+    "lng": 83.011901
   },
-  "style": "Nagara-Dravidian composite sacred architecture",
+  "style": "Compact Mir Ghat temple with a polychrome Dravidian gateway",
   "key_structures": [
-    "Garbhagriha (inner sanctum with ancient swayambhu and utsava murti)",
-    "Mukhamandapa (pillared entrance portico)",
-    "Gopuram-style gateway spire adorned with sculpted deities",
-    "Sub-shrine of Annapurna and Kala Bhairava",
-    "Mir Ghat access steps leading from River Ganga"
+    "Polychrome street gopura in the residential gali",
+    "Gajalakshmi and elephant lintel, floral frame and flanking lions",
+    "Small mandapa, inner sanctuary, and circumambulatory passage",
+    "Kala Bhairava and Navagraha in the mandapa and Shiva with Nandi around the sanctuary"
   ],
   "special_features": [
-    "Two murtis in sanctum: an ancient small stone deity behind and a majestic granite murti in front",
-    "Ornate granite carving reflecting South Indian temple design within the lanes of ancient Kashi",
-    "Proximity to the Manikarnika and Mir Ghats"
+    "Two images of Vishalakshi share the sanctuary",
+    "Nagarathar Tamil wall lettering beside the entrance",
+    "Black-and-white checkerboard entrance floor"
   ],
   "materials": [
-    "Chunar sandstone",
-    "Black granite stonework",
-    "Brass and silver embossed doorways",
-    "White marble trim"
+    "Yellow plaster and painted sculptural relief",
+    "Gilt-painted doorway",
+    "Silver repousse shrine canopy",
+    "Checkerboard tile"
   ],
-  "period": "Ancient, reconstructed 19th–20th Century CE",
-  "renovation_history": "Ancient sanctum mentioned in Puranas; extensively renovated and consecrated by Nattukottai Chettiar community in 1908 and 1971 CE."
+  "period": "Historic sacred site within the living Mir Ghat neighbourhood",
+  "renovation_history": "The Indian Institute of Heritage documents Tamil patronage of the 1971 renovation. The Nagarathar dedication is visible beside the entrance."
 }

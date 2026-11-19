@@ -500,29 +500,49 @@
   "kashi_vishalakshi": {
     "name": "Vishalakshi",
     "stotram_order": 17,
-    "architecture": "Dense urban lane shrine with a compact sanctum and southern architectural influence. The approach is through narrow streets; neighbouring Dharmakupa precinct is distinct from the temple interior.",
-    "deity_form": "Two-image arrangement reported",
-    "posture": "Smaller older and larger later image reported",
-    "arms": "Not reliably established",
-    "attributes": "Exact attributes and hand count require checked frontal views",
-    "deity_notes": "Do not merge both images into one or substitute a generic Kamakshi portrait. Exact relative positioning remains provisional.",
-    "uncertainties": "Two-image arrangement comes from secondary descriptions; authority confirmation pending.",
+    "architecture": "A compact south-influenced gateway inserted into the narrow residential lanes of Mir Ghat. Yellow plaster encloses a checkerboard entrance, a small mandapa, the two-image sanctum and a pradakshina route with Shiva and Nandi stops in three directions.",
+    "deity_form": "Dressed Vishalakshi darshan and the smaller Adi Vishalakshi image in the same sanctum",
+    "posture": "The larger clothed front form is documented in the field survey. Accounts place the smaller older form to the rear left.",
+    "arms": "Concealed by textiles in the photographed darshan",
+    "attributes": "Wide painted eyes, red garments, white and red garlands and a silver repousse canopy",
+    "deity_notes": "The main form follows the visible festival adornment in the VKM survey. The smaller image is represented by a devotional study of the reported second image.",
+    "uncertainties": "Aerial imagery shows the tight residential block. Exact frontage bearing, room dimensions, individual subsidiary bays and installed iconography still need measured confirmation.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Kashi official portal: Vishalakshi Devi Temple",
-        "url": "https://www.darshan.kashi.gov.in/listing-details/vishalakshi-devi-temple"
+        "title": "Kashi official portal: Vishalakshi temple and gateway photograph",
+        "url": "https://kashi.gov.in/listing-details/vishalakshi-devi-temple"
       },
       {
-        "title": "Indian Institute of Heritage: Vishalakshi Temple, Rana P.B. Singh and Pravin S. Rana",
+        "title": "Vasant Kanya Mahavidyalaya: archaeology field survey, Thati pp. 64–66",
+        "url": "https://www.vkm.ac.in/uploads/academics/emagazine/thati%203.pdf"
+      },
+      {
+        "title": "Indian Institute of Heritage: Vishalakshi Temple by Rana P.B. Singh and Pravin S. Rana",
         "url": "https://culturalheritageofvaranasi.com/notable_temples/vishalakshi-temple/"
       },
       {
-        "title": "Vishalakshi Temple: architecture and two-image account",
-        "url": "https://temples.dsquaregee.com/en/temples/vishalakshi-varanasi/"
+        "title": "Gurvendra Kushwaha: Gauri Yatra of Kasi, published field observations",
+        "url": "https://www.researchgate.net/profile/Gurvendra-Kushwaha/publication/393715333_Gauri_Yatra_of_Kasi_An_Investigation/links/6876a3f1ae516743559d17f6/Gauri-Yatra-of-Kasi-An-Investigation.pdf"
+      },
+      {
+        "title": "Esri World Imagery: Mir Ghat and Lahori Tola roof blocks",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?center=83.011901,25.309963&level=19&basemap=satellite"
+      },
+      {
+        "title": "Kailash PL: original Tamil wall lettering photograph (CC BY-SA 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:காசி_விசாலாட்சி_கோயில்_கல்வெட்டு.jpg"
+      },
+      {
+        "title": "G. N. S. Sharma: first-person account and photographs",
+        "url": "https://gnssharma.blogspot.com/2025/05/on-my-visit-to-vishalakshi-temple.html"
+      },
+      {
+        "title": "Adisthan: two-image arrangement",
+        "url": "https://adisthan.com/places/maa-vishalakshi-temple"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The gate's English panel, the Nagarathar Tamil wall lettering, two lions, floral relief and Gajalakshmi doorway group are represented. The upper figures are studies. Full epigraphy of the adjoining tablets and the complete sculpture inventory remain open."
   },
   "kashmir_sharada": {
     "name": "Saraswati / Sharada Peeth",

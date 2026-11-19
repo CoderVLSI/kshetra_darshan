@@ -498,132 +498,232 @@
       "inventory_status": "All four Shiva shrines shown on the published visitor plan are represented. Dedicated names and any restricted images still require temple records."
     },
     "kashi_vishalakshi": {
-      "scope_note": "Vishalakshi building: main sanctum, pradakshina Shiva–Nandi images, mandapa Bhairava and Navagrahas. City Vishwanath, Annapurna and Kala Bhairava temples are not inside this scene.",
+      "scope_note": "The shared Mir Ghat gali, the narrow Vishalakshi building and its internal pradakshina. The adjacent Dharmakupa courtyard and the independent Vishwanath, Annapurna and Kala Bhairava temples are outside this precinct.",
       "sources": [
         {
           "id": "KASHI",
-          "title": "Kashi official portal: Vishalakshi Devi Temple",
-          "url": "https://www.darshan.kashi.gov.in/listing-details/vishalakshi-devi-temple"
+          "title": "Kashi official portal: Vishalakshi Devi Temple and gateway photograph",
+          "url": "https://kashi.gov.in/listing-details/vishalakshi-devi-temple"
         },
         {
           "id": "KASHI_FIELD_SURVEY",
-          "title": "Vasant Kanya Mahavidyalaya archaeology field survey: Thati, pp.64–66",
+          "title": "Vasant Kanya Mahavidyalaya: Thati printed pp. 64–66 (PDF pp. 77–79)",
           "url": "https://www.vkm.ac.in/uploads/academics/emagazine/thati%203.pdf"
+        },
+        {
+          "id": "KASHI_KAILASH",
+          "title": "Kailash PL: portal and Tamil inscription photographs, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/Category:Vishalakshi_Temple"
+        },
+        {
+          "id": "KASHI_WALK",
+          "title": "G. N. S. Sharma: first-person account and shrine photographs, May 2025",
+          "url": "https://gnssharma.blogspot.com/2025/05/on-my-visit-to-vishalakshi-temple.html"
+        },
+        {
+          "id": "KASHI_TWO_IMAGES",
+          "title": "Adisthan: the two images and their relative position",
+          "url": "https://adisthan.com/places/maa-vishalakshi-temple"
+        },
+        {
+          "id": "KASHI_VISHALAKSHEESHWAR",
+          "title": "Varanasi Temples: the Vishalaksheeshwar lingam in D.3/85",
+          "url": "https://varanasitemples.in/shiva-temples/vishalaksheeshwar/"
         }
       ],
       "excluded": [
         {
-          "name": "Dharmakupa well",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Dharmesha",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Divodasa linga",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Vindhyavasini",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+          "name": "Dharmakupa, Dharmesha, Divodasa lingam and Vindhyavasini",
+          "reason": "The Indian Institute of Heritage describes the Dharmakupa entrance and shrines outside Vishalakshi's temple building."
         }
       ],
       "shrines": [
         {
           "id": "main",
-          "label": "Vishalakshi",
+          "label": "Maa Vishalakshi",
           "deity": "Vishalakshi",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The VKM field survey photographs a dressed darshan with wide eyes, flower garlands and a silver canopy.",
           "source_ids": [
-            "KASHI"
+            "KASHI",
+            "KASHI_FIELD_SURVEY"
           ],
           "model_anchor": "Deity_Vishalakshi",
+          "landing_anchor": "Vishalakshi_Darshan_Landing",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "Vishalakshi is the Wide-Eyed Goddess of Kashi and a station on the local Nava Gauri pilgrimage.",
+          "artwork_description": "Photo-led model of the visible dressed form and silverwork. The concealed iconography still needs verification."
+        },
+        {
+          "id": "adi_vishalakshi",
+          "label": "Adi Vishalakshi",
+          "deity": "Adi Vishalakshi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Published accounts distinguish the older smaller image at the back left from the larger darshan image.",
+          "source_ids": [
+            "KASHI_TWO_IMAGES"
+          ],
+          "model_anchor": "Adi_Vishalakshi_Anchor",
+          "landing_anchor": "Adi_Vishalakshi_Landing",
+          "placement": null,
+          "notes": "The older form shares Vishalakshi's sanctum. Both images represent the same goddess.",
+          "artwork_description": "Small devotional study. An independent photograph of the installed older image is still needed."
         },
         {
           "id": "shiva_nandi_1",
-          "label": "Pradakshina Shiva–Nandi 1",
-          "deity": "Pradakshina Shiva–Nandi 1",
+          "label": "Left Pradakshina · Shiva and Nandi",
+          "deity": "Shiva and Nandi",
           "form": "linga_nandi",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "VKM records lingas and Nandi in three directions around the sanctum.",
           "source_ids": [
-            "KASHI_FIELD_SURVEY"
+            "KASHI_FIELD_SURVEY",
+            "KASHI_VISHALAKSHEESHWAR"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pradakshina_Left_Anchor",
+          "landing_anchor": "Pradakshina_Left_Landing",
           "placement": null,
-          "notes": "Field survey records Shiva lingas with Nandi in three directions around the sanctum. Numbering is for the model, not a surveyed direction."
+          "notes": "Shaiva worship along the sanctum's circumambulatory passage. Vishalaksheeshwar is documented in this temple. Its specific bay among the observed lingas is still unverified.",
+          "artwork_description": "Linga and Nandi studies in the three directional zones. Individual bay positions are approximate."
         },
         {
           "id": "shiva_nandi_2",
-          "label": "Pradakshina Shiva–Nandi 2",
-          "deity": "Pradakshina Shiva–Nandi 2",
+          "label": "Right Pradakshina · Shiva and Nandi",
+          "deity": "Shiva and Nandi",
           "form": "linga_nandi",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "VKM records lingas and Nandi in three directions around the sanctum.",
           "source_ids": [
-            "KASHI_FIELD_SURVEY"
+            "KASHI_FIELD_SURVEY",
+            "KASHI_VISHALAKSHEESHWAR"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pradakshina_Right_Anchor",
+          "landing_anchor": "Pradakshina_Right_Landing",
           "placement": null,
-          "notes": "Field survey records Shiva lingas with Nandi in three directions around the sanctum. Numbering is for the model, not a surveyed direction."
+          "notes": "Shaiva worship along the sanctum's circumambulatory passage. Vishalaksheeshwar is documented in this temple. Its specific bay among the observed lingas is still unverified.",
+          "artwork_description": "Linga and Nandi studies in the three directional zones. Individual bay positions are approximate."
         },
         {
           "id": "shiva_nandi_3",
-          "label": "Pradakshina Shiva–Nandi 3",
-          "deity": "Pradakshina Shiva–Nandi 3",
+          "label": "Rear Pradakshina · Shiva and Nandi",
+          "deity": "Shiva and Nandi",
           "form": "linga_nandi",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "VKM records lingas and Nandi in three directions around the sanctum.",
           "source_ids": [
-            "KASHI_FIELD_SURVEY"
+            "KASHI_FIELD_SURVEY",
+            "KASHI_VISHALAKSHEESHWAR"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pradakshina_Back_Anchor",
+          "landing_anchor": "Pradakshina_Back_Landing",
           "placement": null,
-          "notes": "Field survey records Shiva lingas with Nandi in three directions around the sanctum. Numbering is for the model, not a surveyed direction."
+          "notes": "Shaiva worship along the sanctum's circumambulatory passage. Vishalaksheeshwar is documented in this temple. Its specific bay among the observed lingas is still unverified.",
+          "artwork_description": "Linga and Nandi studies in the three directional zones. Individual bay positions are approximate."
         },
         {
           "id": "kala_bhairava",
-          "label": "Kala Bhairava — mandapa",
-          "deity": "Kala Bhairava — mandapa",
-          "form": "unknown",
+          "label": "Kala Bhairava · Mandapa",
+          "deity": "Kala Bhairava",
+          "form": "bhairava",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The VKM field survey records Kala Bhairava in Vishalakshi's mandapa.",
           "source_ids": [
             "KASHI_FIELD_SURVEY"
           ],
-          "model_anchor": "Bhairava_Shrine",
+          "model_anchor": "bhairava_Anchor",
+          "landing_anchor": "bhairava_Landing",
           "placement": null,
-          "notes": "Field survey describes an image in the temple mandapa; distinct from the separate city Kala Bhairava temple.",
-          "placement_mesh": "Mandapa",
-          "placement_context": "the mandapa",
-          "hall_slot": [
-            0.22,
-            0.62
-          ],
-          "figure_from_mesh": "Bhairava_Shrine"
+          "notes": "A Shaiva guardian form in this mandapa. The dedicated Kala Bhairava temple belongs to a separate city stop.",
+          "artwork_description": "Iconographic study with trishula. Installed image and exact bay remain unverified."
         },
         {
           "id": "navagraha",
-          "label": "Navagraha group",
-          "deity": "Navagraha group",
+          "label": "Navagraha · Nine Planetary Deities",
+          "deity": "Navagraha",
           "form": "navagraha",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The field survey names all nine planetary deities installed in the temple.",
           "source_ids": [
-            "KASHI_FIELD_SURVEY"
+            "KASHI_FIELD_SURVEY",
+            "KASHI_WALK"
           ],
-          "model_anchor": null,
+          "model_anchor": "navagraha_Anchor",
+          "landing_anchor": "navagraha_Landing",
           "placement": null,
-          "notes": "Nine planetary deities documented within this temple; precise arrangement remains schematic."
+          "notes": "Surya, Chandra, Mangala, Budha, Guru, Shukra, Shani, Rahu and Ketu.",
+          "artwork_description": "Nine individually modeled figures based on the group arrangement. Specific figures and directions are approximate."
+        },
+        {
+          "id": "ganapati",
+          "label": "Ganapati · Pradakshina",
+          "deity": "Ganapati",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "The May 2025 visitor account records a Ganesha image along the inner periphery.",
+          "source_ids": [
+            "KASHI_WALK"
+          ],
+          "model_anchor": "Ganapati_Anchor",
+          "landing_anchor": "Ganapati_Landing",
+          "placement": null,
+          "notes": "Ganapati is worshipped as lord of beginnings and remover of obstacles.",
+          "artwork_description": "Iconographic study placed on the documented inner circuit. Installed form and exact location remain unverified."
+        },
+        {
+          "id": "adi_shankaracharya",
+          "label": "Adi Shankaracharya",
+          "deity": "Adi Shankaracharya",
+          "form": "acharya",
+          "kind": "subsidiary",
+          "evidence": "The May 2025 visitor account records a marble shrine behind the inner sanctum.",
+          "source_ids": [
+            "KASHI_WALK"
+          ],
+          "model_anchor": "Shankaracharya_Anchor",
+          "landing_anchor": "Shankaracharya_Landing",
+          "placement": null,
+          "notes": "The shrine honours Adi Shankaracharya, a teacher in the Advaita Vedanta tradition.",
+          "artwork_description": "Seated study on the rear circuit. Installed form and exact position remain unverified."
+        },
+        {
+          "id": "mir_ghat_gateway",
+          "label": "Mir Ghat Gateway · Reliefs and Lions",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The official portal, field survey and ground photographs show the polychrome gopura, lion pair and doorway relief with two elephants.",
+          "source_ids": [
+            "KASHI",
+            "KASHI_FIELD_SURVEY",
+            "KASHI_KAILASH"
+          ],
+          "model_anchor": "Kashi_Gate_Reference",
+          "landing_anchor": "Kashi_Gate_Landing",
+          "placement": null,
+          "notes": "The lintel relief shows Lakshmi with elephants. The upper gate panel names Visalakshi Devi and Varanasi in English.",
+          "artwork_description": "Original doorway relief, lion sculptures and stepped gopura study. The complete upper sculptural program still needs an inventory."
+        },
+        {
+          "id": "nagarathar_inscription",
+          "label": "Nagarathar Tamil Wall Inscription",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "A photograph records the painted Tamil dedication to the right of the main door.",
+          "source_ids": [
+            "KASHI_KAILASH"
+          ],
+          "model_anchor": "Nagarathar_Lettering_Reference",
+          "landing_anchor": "Nagarathar_Lettering_Landing",
+          "placement": null,
+          "notes": "The lettering records Nagarathar renovation and consecration. The photographic lettering was isolated and straightened for this model.",
+          "artwork_description": "Lettering adapted from a photograph by Kailash PL, licensed CC BY-SA 4.0. The full transcription and adjacent plaque text still need epigraphic review."
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Working indoor inventory from the VKM field survey, published photographs and a firsthand visitor account. Individual installed idols and plaques still need a complete survey."
     },
     "kanchipuram_kamakshi": {
       "scope_note": "Kamakshi Ambal Devasthanam’s restored walled enclosure. The four named gateways, open courts, temple tank and main halls follow the HUDCO restoration plan. Subsidiary bays follow documented relationships where individual dimensions are unavailable.",
