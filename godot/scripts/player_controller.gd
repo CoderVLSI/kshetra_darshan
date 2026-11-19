@@ -188,11 +188,39 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, speed * delta * 10.0)
 		walk_anim_phase = move_toward(walk_anim_phase, 0.0, delta * 6.0)
 	
-	if not _try_step_up(Vector3(velocity.x, 0, velocity.z) * delta):
+	var horizontal_motion := Vector3(velocity.x, 0, velocity.z) * delta
+	if not _try_step_up(horizontal_motion):
+		var before_slide := global_position
 		move_and_slide()
+		_recover_floor_slide(before_slide, horizontal_motion)
 	
 	# Character visual movement & prayer/pranam animations
 	_update_character_animation(delta, direction.length() > 0.1)
+
+func _recover_floor_slide(before_slide: Vector3, motion: Vector3) -> void:
+	# A capsule resting just within its margin can report repeated upward
+	# recovery contacts, with no horizontal travel, on a broad flat slab.
+	if not is_on_floor() or motion.length_squared() < .00001 or get_slide_collision_count() < 2:
+		return
+	var progress := global_position - before_slide
+	if Vector2(progress.x, progress.z).length_squared() >= motion.length_squared() * .01:
+		return
+	for index in range(get_slide_collision_count()):
+		if get_slide_collision(index).get_normal().dot(Vector3.UP) < .999:
+			return
+	var raised := global_transform
+	raised.origin.y += .016
+	if test_move(raised, motion):
+		return
+	raised.origin += motion
+	# Confirm the new point is supported by the same elevation. A capsule
+	# sweep can miss this surface for the same reason as the original slide.
+	var floor_probe := PhysicsRayQueryParameters3D.create(
+		raised.origin, raised.origin + Vector3.DOWN * .026, collision_mask, [get_rid()]
+	)
+	var support := get_world_3d().direct_space_state.intersect_ray(floor_probe)
+	if not support.is_empty() and support["normal"].dot(Vector3.UP) > .999:
+		global_position = support["position"] + Vector3.UP * safe_margin
 
 func _try_step_up(horizontal_motion: Vector3) -> bool:
 	# Sweep the full capsule up, forward and down. Only accept a floor landing;

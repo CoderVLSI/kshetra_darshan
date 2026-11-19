@@ -33,29 +33,41 @@
   "kanchipuram_kamakshi": {
     "name": "Kamakshi Amman",
     "stotram_order": 2,
-    "architecture": "Dravidian enclosed complex, gateway towers, pushkarini and golden sanctum roof. Gayatri Mandapa has 24 pillars; the principal Kamakshi is seated, with Sri Chakra in front.",
+    "architecture": "Four named gopurams mark the restored enclosure. The HUDCO plan and aerial survey show a large west tank and teppam pavilion, the golden-vimana temple block, and separate Vasantha, Shukrawara, Navaratri and Vahana Mandapams. The in-game compound follows these footprints and is rotated to match the aerial view.",
     "deity_form": "Anthropomorphic main murti",
     "posture": "Seated in padmasana",
     "arms": "Four, documented",
     "attributes": "Sugarcane bow; lotus/parrot; pasha and ankusha. Published accounts vary on hand assignment.",
-    "deity_notes": "Do not use a standing four-armed generic Devi. Label processional images separately from the seated main murti.",
-    "uncertainties": "Exact finger/hand geometry must be checked against an authenticated main-murti view. The official page image inspected was an exterior, so it was not substituted for a murti portrait.",
+    "deity_notes": "The seated four-armed study uses the posture and attributes documented by the Devasthanam. Shri Chakra has its own place before the image.",
+    "uncertainties": "Detailed interior wall dimensions and subsidiary altar positions remain approximate. Some forms are based on written iconography and the associated ritual, since close views of the installed images remain unverified.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Kamakshi temple authority: posture, attributes and sannadhis",
+        "title": "Sri Kamakshi Ambal Devasthanam: Sannadhis and worship",
         "url": "https://kanchikamakshi.org/about/"
       },
       {
-        "title": "Incredible India: padmasana and four attributes",
-        "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/kanchipuram/sri-kamakshi-temple.html"
+        "title": "Sri Kamakshi Ambal Devasthanam: Grand Restoration",
+        "url": "https://kanchikamakshi.org/grand-restoration/"
       },
       {
-        "title": "CEC / Jamia Millia Islamia: Kamakshi Temple architecture teaching script",
-        "url": "https://cec.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf"
+        "title": "HUDCO Design Awards: Restoration site plan (p.91)",
+        "url": "https://www.hudco.org.in/writereaddata/EB/HUDCO-DA23/files/basic-html/page103.html"
+      },
+      {
+        "title": "HUDCO Design Awards: Aerial views before and after restoration (p.92)",
+        "url": "https://www.hudco.org.in/writereaddata/EB/HUDCO-DA23/files/basic-html/page104.html"
+      },
+      {
+        "title": "CEC / Jamia Millia Islamia: Kamakshi Temple teaching script",
+        "url": "https://www.cec-ugc.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf"
+      },
+      {
+        "title": "Tirumala Tirupati Devasthanams: Adivaraha Perumal, Kalvanur",
+        "url": "https://ebooks.tirumala.org/downloads/108_vaishnavite_divya_desams_vol_1.pdf"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model includes the documented enclosure, hall footprints, steps, sanctuary and broad stucco architecture. Individual carvings, restoration fabric and inscriptions require a separate object-by-object survey."
   },
   "pradyumna_shrinkhala": {
     "name": "Shrinkhala at Pradyumna (traditional identification)",

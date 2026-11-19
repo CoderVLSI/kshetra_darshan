@@ -18,7 +18,11 @@ func run() -> void:
 	var hud = world.get_node("UI_HUD/HUDRoot")
 	hud.toggle_minimap()
 	await capture("shrine_map_kanchi.png")
-	assert(hud.shrine_destinations.size() == 12)
+	assert(hud.shrine_destinations.size() == 19)
+	assert(hud.map_shapes.any(func(shape: Dictionary) -> bool:
+		var edge: Vector2 = shape.outline[1] - shape.outline[0]
+		return absf(edge.x) > 5.0 and absf(edge.y) > 5.0
+	))
 	var vishnu_id = ""
 	for destination in hud.shrine_destinations:
 		if destination.form == "vishnu": vishnu_id = destination.id

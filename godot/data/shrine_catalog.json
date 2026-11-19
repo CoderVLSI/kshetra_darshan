@@ -626,12 +626,37 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "kanchipuram_kamakshi": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "Kamakshi Ambal Devasthanam’s restored walled enclosure. The four named gateways, open courts, temple tank and main halls follow the HUDCO restoration plan. Subsidiary bays follow documented relationships where individual dimensions are unavailable.",
       "sources": [
         {
           "id": "KANCHI_TRUST",
-          "title": "Sri Kamakshi Ambal Devasthanam: About",
+          "title": "Sri Kamakshi Ambal Devasthanam: Sannadhis and worship",
           "url": "https://kanchikamakshi.org/about/"
+        },
+        {
+          "id": "KANCHI_RESTORATION",
+          "title": "Sri Kamakshi Ambal Devasthanam: Grand Restoration",
+          "url": "https://kanchikamakshi.org/grand-restoration/"
+        },
+        {
+          "id": "KANCHI_PLAN",
+          "title": "HUDCO Design Awards: Restoration site plan (p.91)",
+          "url": "https://www.hudco.org.in/writereaddata/EB/HUDCO-DA23/files/basic-html/page103.html"
+        },
+        {
+          "id": "KANCHI_AERIAL",
+          "title": "HUDCO Design Awards: Aerial views before and after restoration (p.92)",
+          "url": "https://www.hudco.org.in/writereaddata/EB/HUDCO-DA23/files/basic-html/page104.html"
+        },
+        {
+          "id": "KANCHI_CEC",
+          "title": "CEC / Jamia Millia Islamia: Kamakshi Temple teaching script",
+          "url": "https://www.cec-ugc.nic.in/webpath/curriculum/Module/FART/Paper22/11/downloads/script.pdf"
+        },
+        {
+          "id": "KANCHI_TTD",
+          "title": "Tirumala Tirupati Devasthanams: Adivaraha Perumal, Kalvanur",
+          "url": "https://ebooks.tirumala.org/downloads/108_vaishnavite_divya_desams_vol_1.pdf"
         }
       ],
       "excluded": [],
@@ -639,16 +664,20 @@
         {
           "id": "main",
           "label": "Kamakshi Amman",
-          "deity": "Kamakshi Amman",
+          "deity": "Kamakshi",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The Development Authority and teaching script place the presiding deity in the Gayatri Mandapam.",
           "source_ids": [
-            "KANCHI_TRUST"
+            "KANCHI_TRUST",
+            "KANCHI_PLAN",
+            "KANCHI_CEC"
           ],
           "model_anchor": "Deity_Kamakshi",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "Seated in padmasana with four arms and her documented bow, lotus and parrot, noose and goad. The Sri Chakra is in front.",
+          "artwork_description": "Original temple-specific image study based on documented iconography and ceremonial adornment.",
+          "landing_anchor": "Kamakshi_Darshan_Landing"
         },
         {
           "id": "varahi",
@@ -656,39 +685,36 @@
           "deity": "Varahi",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Varahi is listed in the Gayatri Mandapam beside Arupa Lakshmi.",
           "source_ids": [
-            "KANCHI_TRUST"
+            "KANCHI_TRUST",
+            "KANCHI_CEC"
           ],
-          "model_anchor": null,
+          "model_anchor": "Varahi_Anchor",
           "placement": null,
-          "notes": "Gayatri Mandapa; a boar-headed identity. Exact temple image and hands are unverified. Inside Gayatri Mandapam. The individual bay is approximate.",
-          "hall_slot": [
-            0.22,
-            0.66
-          ],
-          "placement_mesh": "Mandapa",
-          "placement_context": "Gayatri Mandapam"
+          "notes": "Boar-headed goddess associated with Kamakshi’s worship.",
+          "artwork_description": "Original iconographic study in Gayatri Mandapam. Exact bay dimensions and carved details are approximate.",
+          "landing_anchor": "Varahi_Landing",
+          "render_iconographic_study": true
         },
         {
           "id": "arupa_lakshmi",
-          "label": "Arupa Lakshmi (Anjana Lakshmi)",
-          "deity": "Arupa Lakshmi",
+          "label": "Arupa Lakshmi",
+          "deity": "Arupa Lakshmi (Anjana Lakshmi)",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The teaching and Vaishnava accounts place Arupa Lakshmi to the left of Kamakshi’s sannadhi.",
           "source_ids": [
-            "KANCHI_TRUST"
+            "KANCHI_TRUST",
+            "KANCHI_CEC",
+            "KANCHI_TTD"
           ],
-          "model_anchor": null,
+          "model_anchor": "Arupa_Lakshmi_Anchor",
           "placement": null,
-          "notes": "Gayatri Mandapa; Arupa/Anjana Lakshmi must not be treated as an ordinary standing Lakshmi portrait. Inside Gayatri Mandapam. The individual bay is approximate.",
-          "hall_slot": [
-            0.78,
-            0.66
-          ],
-          "placement_mesh": "Mandapa",
-          "placement_context": "Gayatri Mandapam"
+          "notes": "Devotees offer kumkum here. This tradition distinguishes Anjana or Arupa Lakshmi from Soundarya Lakshmi.",
+          "artwork_description": "Kumkum offerings and a recessed sacred form study. The exact installed relief has not been verified.",
+          "landing_anchor": "Arupa_Lakshmi_Landing",
+          "tradition": "Lakshmi worship • Kumkum offerings at Anjana Lakshmi"
         },
         {
           "id": "ganapati",
@@ -696,53 +722,88 @@
           "deity": "Ganapati",
           "form": "ganesha",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority includes Ganapati in the Gayatri Mandapam.",
           "source_ids": [
-            "KANCHI_TRUST"
+            "KANCHI_TRUST",
+            "KANCHI_CEC"
           ],
-          "model_anchor": null,
+          "model_anchor": "Sowbhagya_Ganapati_Anchor",
           "placement": null,
-          "notes": "Gayatri Mandapa; exact image pose unverified. Inside Gayatri Mandapam. The individual bay is approximate.",
-          "hall_slot": [
-            0.22,
-            0.33
-          ],
-          "placement_mesh": "Mandapa",
-          "placement_context": "Gayatri Mandapam"
+          "notes": "Ganapati worship in the inner hall.",
+          "artwork_description": "Original iconographic study in Gayatri Mandapam. Exact bay dimensions and carved details are approximate.",
+          "landing_anchor": "Sowbhagya_Ganapati_Landing",
+          "render_iconographic_study": true
         },
         {
           "id": "kalvar_perumal",
-          "label": "Kalvar Perumal (Vishnu)",
-          "deity": "Kalvar Perumal (Vishnu)",
+          "label": "Kalvar Perumal (Adi Varaha)",
+          "deity": "Adi Varaha Perumal",
           "form": "vishnu",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Tirukkalvanur is a Vaishnava Divya Desam inside the complex. TTD describes a four-armed sculpture near the sanctum.",
           "source_ids": [
-            "KANCHI_TRUST"
+            "KANCHI_TRUST",
+            "KANCHI_RESTORATION",
+            "KANCHI_TTD",
+            "KANCHI_CEC"
           ],
-          "model_anchor": null,
+          "model_anchor": "Kalvar_Perumal_Anchor",
           "placement": null,
-          "notes": "Vishnu worship location within Gayatri Mandapa; exact image pose unverified. Inside Gayatri Mandapam. The individual bay is approximate.",
-          "hall_slot": [
-            0.78,
-            0.33
+          "notes": "Also known as Adi Varaha Perumal. The installed figure’s details are unverified.",
+          "artwork_description": "Original pillar-side Varaha form study. Four arms follow the published description. Head, ornaments and carved details are approximate.",
+          "landing_anchor": "Kalvar_Perumal_Landing",
+          "tradition": "Sri Vaishnava tradition • Tirukkalvanur Divya Desam"
+        },
+        {
+          "id": "soundarya_lakshmi",
+          "label": "Soundarya Lakshmi (Rupa Lakshmi)",
+          "deity": "Soundarya Lakshmi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "The CEC teaching script places Soundarya Lakshmi and Kalvar in the Gayatri Mandapam.",
+          "source_ids": [
+            "KANCHI_CEC",
+            "KANCHI_TTD"
           ],
-          "placement_mesh": "Mandapa",
-          "placement_context": "Gayatri Mandapam"
+          "model_anchor": "Soundarya_Lakshmi_Anchor",
+          "placement": null,
+          "notes": "Lakshmi’s manifest form, distinct from Anjana Lakshmi on the other side.",
+          "artwork_description": "Original iconographic study in Gayatri Mandapam. Exact bay dimensions and carved details are approximate.",
+          "landing_anchor": "Soundarya_Lakshmi_Landing",
+          "tradition": "Lakshmi worship • Rupa or Soundarya Lakshmi"
+        },
+        {
+          "id": "ardhanari",
+          "label": "Ardhanarishvara",
+          "deity": "Ardhanarishvara",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "The CEC teaching script describes Ardhanarishvara in Gayatri Mandapam.",
+          "source_ids": [
+            "KANCHI_CEC"
+          ],
+          "model_anchor": "Ardhanari_Anchor",
+          "placement": null,
+          "notes": "The joined form of Shiva and Shakti.",
+          "artwork_description": "Original iconographic study in Gayatri Mandapam. Exact bay dimensions and carved details are approximate.",
+          "landing_anchor": "Ardhanari_Landing"
         },
         {
           "id": "ayyappan",
-          "label": "Ayyappan / Sasta",
-          "deity": "Ayyappan / Sasta",
+          "label": "Ayyappan (Shasta)",
+          "deity": "Ayyappan",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority lists Shasta in the prakaram.",
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Ayyappan_Anchor",
           "placement": null,
-          "notes": "Prakaram; do not infer temple-specific posture from a generic Ayyappa image."
+          "notes": "Ayyappan’s shrine in the inner circuit.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Ayyappan_Landing",
+          "tradition": "Shasta worship • Ayyappan"
         },
         {
           "id": "saraswati",
@@ -750,13 +811,16 @@
           "deity": "Saraswati",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority places Saraswati in the prakaram.",
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Saraswati_Anchor",
           "placement": null,
-          "notes": "Prakaram; exact temple iconography unverified."
+          "notes": "The goddess of learning and the arts.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Saraswati_Landing",
+          "render_iconographic_study": true
         },
         {
           "id": "annapoorani",
@@ -764,13 +828,16 @@
           "deity": "Annapoorani",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority places Annapoorani in the prakaram.",
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Annapoorani_Anchor",
           "placement": null,
-          "notes": "Prakaram; exact temple iconography unverified."
+          "notes": "The goddess of food and nourishment.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Annapoorani_Landing",
+          "render_iconographic_study": true
         },
         {
           "id": "adi_shankara",
@@ -778,27 +845,32 @@
           "deity": "Adi Shankaracharya",
           "form": "acharya",
           "kind": "acharya",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority lists an Adi Shankaracharya sannadhi in the prakaram.",
           "source_ids": [
-            "KANCHI_TRUST"
+            "KANCHI_TRUST",
+            "KANCHI_RESTORATION"
           ],
-          "model_anchor": null,
+          "model_anchor": "Adi_Shankara_Anchor",
           "placement": null,
-          "notes": "Authority explicitly identifies this sannadhi in the prakaram. Exact image pose and location require plan confirmation."
+          "notes": "Temple tradition associates Shankaracharya with the installation of Sri Chakra.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Adi_Shankara_Landing"
         },
         {
           "id": "kala_bhairava",
           "label": "Kala Bhairavar",
           "deity": "Kala Bhairavar",
-          "form": "unknown",
+          "form": "shiva",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority places Kala Bhairavar in the outer prakaram.",
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": "Bhairava_Shrine",
+          "model_anchor": "Kala_Bhairavar_Anchor",
           "placement": null,
-          "notes": "Outer prakaram; temple-specific image not authenticated."
+          "notes": "Bhairava worship within the Kamakshi enclosure.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Kala_Bhairavar_Landing"
         },
         {
           "id": "mahishasuramardini",
@@ -806,13 +878,15 @@
           "deity": "Mahishasura Mardhini",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority places Mahishasura Mardhini in the outer prakaram.",
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Mahishasuramardini_Anchor",
           "placement": null,
-          "notes": "Outer prakaram; exact image and hand mapping unverified."
+          "notes": "The goddess in her Mahishasura-slaying aspect.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Mahishasuramardini_Landing"
         },
         {
           "id": "kashi_viswanathar",
@@ -820,17 +894,109 @@
           "deity": "Kashi Viswanathar",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The temple authority lists Kashi Viswanathar in the outer prakaram.",
           "source_ids": [
             "KANCHI_TRUST"
           ],
-          "model_anchor": null,
+          "model_anchor": "Kashi_Viswanathar_Anchor",
           "placement": null,
-          "notes": "Outer prakaram."
+          "notes": "The Shiva shrine within this enclosure, named for Vishwanath.",
+          "artwork_description": "Original iconographic study in its documented precinct. Individual bay and carved details are approximate.",
+          "landing_anchor": "Kashi_Viswanathar_Landing"
+        },
+        {
+          "id": "sri_chakra",
+          "label": "Sri Chakra Peetham",
+          "deity": "Sri Chakra",
+          "form": "sacred_symbol",
+          "kind": "subsidiary",
+          "evidence": "The temple account places Sri Chakra in front of Kamakshi in the sanctum.",
+          "source_ids": [
+            "KANCHI_RESTORATION",
+            "KANCHI_CEC"
+          ],
+          "model_anchor": "Sri_Chakra_Anchor",
+          "placement": null,
+          "notes": "The altar is part of the Sri Vidya worship tradition.",
+          "artwork_description": "Separate peetham study. The installed engraving geometry is not claimed.",
+          "landing_anchor": "Sri_Chakra_Landing",
+          "tradition": "Sri Vidya • Worship of Sri Chakra"
+        },
+        {
+          "id": "pushkarini",
+          "label": "Temple Tank and Teppam Pavilion",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The restored plan shows the tank, its stone banks and the central pavilion west of the main shrine.",
+          "source_ids": [
+            "KANCHI_TRUST",
+            "KANCHI_PLAN",
+            "KANCHI_AERIAL"
+          ],
+          "model_anchor": "Kamakshi_Tank_Island_Reference",
+          "placement": null,
+          "notes": "The Devasthanam associates the pushkarini with the Teppotsavam float festival. Teleport arrives on the bank.",
+          "artwork_description": "Stepped stone tank and pavilion footprints traced from the conservation plan and aerial photo.",
+          "landing_anchor": "Kamakshi_Tank_Landing"
+        },
+        {
+          "id": "vasantha_mandapam",
+          "label": "Vasantha Mandapam",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "This named hall is shown on the HUDCO restoration site plan.",
+          "source_ids": [
+            "KANCHI_PLAN",
+            "KANCHI_AERIAL",
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": "Vasantha_Mandapam_Reference",
+          "placement": null,
+          "notes": "The pillared hall belongs to the temple’s festival and processional landscape.",
+          "artwork_description": "Plan-traced pavilion study. Carved decoration is an approximation.",
+          "landing_anchor": "Vasantha_Mandapam_Landing"
+        },
+        {
+          "id": "shukrawara_mandapam",
+          "label": "Shukrawara Mandapam",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "This named hall is shown on the HUDCO restoration site plan.",
+          "source_ids": [
+            "KANCHI_PLAN",
+            "KANCHI_AERIAL",
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": "Shukrawara_Mandapam_Reference",
+          "placement": null,
+          "notes": "The pillared hall belongs to the temple’s festival and processional landscape.",
+          "artwork_description": "Plan-traced pavilion study. Carved decoration is an approximation.",
+          "landing_anchor": "Shukrawara_Mandapam_Landing"
+        },
+        {
+          "id": "navaratri_mandapam",
+          "label": "Navaratri Mandapam",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "This named hall is shown on the HUDCO restoration site plan.",
+          "source_ids": [
+            "KANCHI_PLAN",
+            "KANCHI_AERIAL",
+            "KANCHI_TRUST"
+          ],
+          "model_anchor": "Navaratri_Mandapam_Reference",
+          "placement": null,
+          "notes": "The pillared hall belongs to the temple’s festival and processional landscape.",
+          "artwork_description": "Plan-traced pavilion study. Carved decoration is an approximation.",
+          "landing_anchor": "Navaratri_Mandapam_Landing"
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "The directory includes the Devasthanam’s published shrines, selected additional documented forms and the main ritual halls. Exact surveyed subsidiary bay dimensions and some installed sculptures remain unverified."
     },
     "madurai_meenakshi": {
       "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",

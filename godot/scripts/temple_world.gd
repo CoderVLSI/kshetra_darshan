@@ -208,8 +208,10 @@ func load_temple(temple_id: String) -> void:
 		var primary_anchor = {"jwalamukhi_vaishnavi": "SacredFlame_Mahakali", "draksharama_manikyamba": "Bhimeswara_Linga"}
 		if primary_anchor.has(GameManager.current_temple_id):
 			deity = _find_node_fuzzy(model_instance, primary_anchor[GameManager.current_temple_id]) as Node3D
-	if deity:
-		var target = deity.global_position
+	var arrival_facing := model_instance.find_child("Arrival_Facing", true, false) as Node3D
+	var arrival_target = arrival_facing if arrival_facing else deity
+	if arrival_target:
+		var target = arrival_target.global_position
 		target.y = player.global_position.y
 		if player.global_position.distance_to(target) > .1:
 			player.look_at(target)

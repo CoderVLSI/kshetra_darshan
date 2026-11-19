@@ -1,444 +1,252 @@
-"""
-Kanchipuram Kamakshi Amman Temple (Kanchipuram, Tamil Nadu)
-Kamakshi Devi - Golden Dravidian Vimanam, 24-Pillar Gayatri Mandapam & Panchaganga Tank
-"""
-import sys
-from pathlib import Path
-
-blender_dir = Path(__file__).resolve().parent
-if str(blender_dir) not in sys.path:
-    sys.path.insert(0, str(blender_dir))
-
-import bpy
-import bmesh
+"""Kanchi Kamakshi: restored compound, Gayatri Mandapam and shrine studies."""
 import math
-from mathutils import Vector
+from mathutils import Matrix, Vector
+import bpy
 
-import common_materials as mats
-import common_geometry as geom
+from common_geometry import clear_scene, create_deepam, create_shikhara
+from common_materials import create_granite_stone
+from deity_detail import Sculpture, crown_band, garland, palette
+from kanchi_precinct import boundary, build_tank, cube, framed_portal, hall, orient_scene, pillar, point
+from present_day_sites import anchor, cylinder, finish, linga, material, sphere
 
-def export_glb_53(filepath, apply_modifiers=True):
-    bpy.ops.export_scene.gltf(
-        filepath=filepath,
-        export_format='GLB',
-        export_apply=apply_modifiers,
-        export_yup=True,
-        export_materials='EXPORT',
-        export_cameras=False,
-        export_lights=False,
-    )
-    print(f"Exported: {filepath}")
 
-geom.export_glb = export_glb_53
+def setup_murti(s, p, height, seated, face_form='human'):
+    dark=p['black']
+    torso=height*.55
+    face=height*.82
+    s.ellipsoid((0,.05,torso),(.181*height,.105*height,.175*height),dark,24,18)
+    s.ellipsoid((0,-.016,face),(.104*height,.084*height,.128*height),dark,30,20)
+    for side in [-1,1]:
+        if seated:
+            s.ellipsoid((side*.17*height,-.065,height*.155),(.23*height,.134*height,.095*height),p['red'])
+        else:
+            s.tube([(side*.078*height,-.015,height*.085),(side*.083*height,.015,height*.23),
+                    (side*.088*height,.035,height*.43)],height*.071,dark,14)
+            s.ellipsoid((side*.079*height,-.055,height*.064),(.077*height,.105*height,.043*height),dark)
+        s.ellipsoid((side*.044*height,-.093*height,face+.021*height),
+                    (.028*height,.012*height,.012*height),p['gold'],16,10)
+        s.rosette((side*.101*height,-.071*height,face-.039*height),.031*height,p['gold'],p['red'])
+    if face_form=='boar':
+        s.ellipsoid((.042*height,-.114*height,face-.027*height),(.077*height,.114*height,.063*height),dark)
+        for side in [-1,1]:
+            s.ellipsoid((side*.076*height,-.030*height,face+.087*height),
+                        (.035*height,.032*height,.049*height),dark)
+    else:
+        s.ellipsoid((0,-.103*height,face),(.021*height,.027*height,.033*height),dark)
+        s.ellipsoid((0,-.107*height,face-.049*height),(.033*height,.011*height,.009*height),dark)
+    crown_band(s,p,height*.19,face+.09*height,-.071*height,4)
+    for row in range(4):
+        length=(.091+row*.026)*height
+        s.tube([(length*math.cos(math.pi*i/29),-.101*height,
+                 torso+height*.10-math.sin(math.pi*i/29)*(.033+row*.038)*height) for i in range(30)],
+               .007*height,p['gold'],6)
+    s.rosette((0,-.113*height,torso-.07*height),.044*height,p['gold'],p['red'])
 
-def build_kanchipuram_kamakshi():
-    geom.clear_scene()
 
-    # 1. Materials
-    mat_granite = mats.create_granite_stone("Dravidian_Granite", color=(0.22, 0.20, 0.19, 1.0))
-    mat_gold = mats.create_gold_metal("Vimanam_Gold")
-    mat_marble = mats.create_white_marble("Mandapam_Floor")
-    mat_brass = mats.create_brass_metal("Bell_Brass")
-    mat_water = mats.create_water("Panchaganga_Water")
-    mat_flame = mats.create_flame_emission("Deepam_Flame")
-    mat_skin = mats.create_skin("Priest_Skin")
-    mat_cloth = mats.create_white_dhoti("Priest_Dhoti")
-    mat_silk = mats.create_red_silk("Kamakshi_Kanchipuram_Silk")
-    mat_kumkum = mats.create_kumkum_red("Kumkum_Vermilion")
-    mat_garland = mats.create_flower_garland("Jasmine_Garland", color=(0.95, 0.95, 0.85, 1.0))
-    mat_paving = mats.create_granite_stone("Prakara_Paving", color=(0.35, 0.32, 0.30, 1.0))
+def kamakshi(position):
+    s=Sculpture(); p=palette(s)
+    setup_murti(s,p,1.80,True)
+    s.ellipsoid((0,.055,.21),(.64,.36,.17),p['gold'],36,18)
+    for petal in range(24):
+        a=math.tau*petal/24
+        s.ellipsoid((.51*math.cos(a),.29*math.sin(a),.237),(.128,.085,.053),
+                    p['gold'] if petal%3 else p['red'],14,8)
+    s.ellipsoid((0,-.043,.53),(.49,.18,.34),p['red'],36,24)
+    for crease in range(21):
+        x=(crease-10)*.043
+        s.tube([(x*.28,-.188,.75),(x*.65,-.216,.55),(x,-.186,.28)],.007,p['gold'],7)
+    for sign in [-1,1]:
+        for level in [0,1]:
+            hand=(sign*(.39+level*.13),-.132,1.08+level*.31)
+            s.tube([(sign*.237,.047,1.15),(sign*(.43+level*.07),.0,.99+level*.39),hand],
+                   .048,p['black'],14)
+            s.ellipsoid(hand,(.068,.040,.084),p['black'])
+            s.ellipsoid((hand[0],hand[1],hand[2]-.043),(.081,.047,.018),p['gold'])
+    # Sugarcane bow on the goddess's left, flowers and parrot on her right.
+    s.tube([(.52+.15*math.sin(math.pi*i/44),-.098,.55+i*.029) for i in range(45)],.021,p['green'],10)
+    s.tube([(.52,-.097,.55),(.52,-.097,1.83)],.005,p['gold'],6)
+    for i in range(5):
+        x=-.30-i*.047
+        s.tube([(x+.09,-.229,.78),(x,-.23,1.13+i*.035)],.012,p['green'],7)
+        s.rosette((x,-.24,1.16+i*.035),.047,p['red'],p['yellow'])
+    s.ellipsoid((-.56,-.14,1.21),(.056,.037,.071),p['green'])
+    s.ellipsoid((-.58,-.17,1.264),(.034,.026,.034),p['green'])
+    s.tube([(-.60,-.187,1.26),(-.634,-.19,1.246)],.015,p['orange'],7)
+    s.tube([(-.50+.084*math.cos(math.tau*i/40),-.12,1.53+.116*math.sin(math.tau*i/40))
+            for i in range(41)],.012,p['gold'],8)
+    s.tube([(.51,-.119,1.39),(.53,-.119,1.75),(.60,-.118,1.79),(.642,-.118,1.72)],
+           .013,p['gold'],8)
+    s.tube([(.064*math.cos(math.pi+math.pi*i/32),-.186,1.65+.045*math.sin(math.pi+math.pi*i/32))
+            for i in range(33)],.010,p['silver'])
+    for elevation in [0,.046,.098]:
+        s.tube([((.83+elevation)*math.cos(math.pi*i/96),.118,
+                 .41+(1.47+elevation)*math.sin(math.pi*i/96)) for i in range(97)],.017,p['gold'],8)
+    for i in range(35):
+        a=math.pi*i/34
+        s.rosette((.89*math.cos(a),.088,.42+1.53*math.sin(a)),.032,p['gold'],p['red'])
+    for row in range(3):
+        garland(s,p,.44+row*.14,1.37,.61+row*.17,-.25-row*.018,53)
+    s.finish('Deity_Kamakshi',position)['has_authored_ornaments']=True
 
-    # 2. Main Ground Plane
-    ground = geom.create_ground_plane(name="Ground_Main", size=75, mat=mat_paving)
 
-    # 3. Panchaganga Theertham (Sacred Temple Tank on East side: X = 14 to 28)
-    kunda_objs = geom.create_kunda(
-        name="Panchaganga_Tank",
-        location=(19.0, 5.0, 0.0),
-        size=(10.0, 12.0, 1.8),
-        mat_stone=mat_granite,
-        mat_water=mat_water,
-        steps=5
-    )
+def companion(name, position, angle, height, seated=False, form='human'):
+    s=Sculpture(); p=palette(s)
+    setup_murti(s,p,height,seated,form)
+    for side in [-1,1]:
+        for i in range(2 if form=='boar' else 1):
+            hand=(side*height*(.16+i*.075),-.09*height,height*(.43+i*.29))
+            s.tube([(side*.141*height,.01,height*.64),(side*.23*height,-.03,height*(.44+i*.19)),hand],
+                   height*.033,p['black'],13)
+            s.ellipsoid(hand,(.041*height,.037*height,.059*height),p['black'])
+    if name.startswith('Kalvar'):
+        for side in [-1,1]:
+            x=side*height*.21
+            s.rosette((x,-.08,height*.74),.052*height,p['gold'],p['red'])
+    if name.startswith('Ardhanari'):
+        for i in range(4):
+            s.rosette((-.091,-.098,.41+i*.11),.044,p['gold'],p['red'])
+    garland(s,p,height*.19,height*.63,height*.37,-.119*height,31)
+    obj=s.finish(name,position)
+    obj.rotation_euler.z=angle
 
-    # 4. Adhisthana (Raised Dravidian Temple Platform)
-    adhisthana = geom.create_platform(
-        name="Adhisthana_Platform",
-        location=(0, 8.0, 0),
-        size=(18.0, 24.0, 0.6),
-        mat=mat_granite,
-        steps=3
-    )
 
-    # 5. Garbhagriha (Sanctum)
-    garb_center = (0.0, 14.5, 0.6)
-    garb_objs = geom.create_garbhagriha(
-        name="Garbhagriha_Wall",
-        location=garb_center,
-        width=5.5,
-        depth=5.5,
-        wall_height=4.2,
-        wall_thickness=0.5,
-        mat=mat_granite,
-        door_width=1.6,
-        door_height=2.7
-    )
+def shrine(name, x, y, angle, stone, floor=.15, approach=2.15):
+    local=Matrix.Translation((x,y,0))@Matrix.Rotation(angle,4,'Z')
+    before=set(bpy.context.scene.objects)
+    cube(name+'_Niche_Back',(0,.54,floor+1.38),(2.20,.28,2.76),stone,.042)
+    for side in [-1,1]:
+        cube(name+'_Niche_Jamb',(side*.99,0,floor+1.38),(.24,1.14,2.76),stone,.038)
+    cube(name+'_Niche_Canopy',(0,0,floor+2.85),(2.32,1.30,.19),stone,.043)
+    cube(name+'_Pedestal',(0,.08,floor+.19),(1.37,.83,.38),stone,.034)
+    anchor(name+'_Anchor',(0,.02,floor+.11))
+    anchor(name+'_Landing',(0,-approach,floor+.02))
+    bpy.context.view_layer.update()
+    for obj in set(bpy.context.scene.objects)-before:
+        obj.matrix_world=local@obj.matrix_world
+    return local
 
-    # Join Garbhagriha walls & floor into "Garbhagriha"
-    bpy.ops.object.select_all(action='DESELECT')
-    for o in garb_objs:
-        o.select_set(True)
-    bpy.context.view_layer.objects.active = garb_objs[0]
-    bpy.ops.object.join()
-    garbhagriha = bpy.context.active_object
-    garbhagriha.name = "Garbhagriha"
 
-    # 6. Golden Dravidian Vimanam (Stepped Pyramid covered in gold)
-    vimana_objs = geom.create_shikhara(
-        name="Golden_Vimanam",
-        location=(garb_center[0], garb_center[1], garb_center[2] + 4.2),
-        base_width=5.2,
-        height=7.5,
-        tiers=5,
-        mat=mat_gold,
-        style="dravidian"
-    )
-    for obj in vimana_objs:
-        obj.data.materials.clear()
-        obj.data.materials.append(mat_gold)
+def front_mandapa():
+    clear_scene()
+    pavement=create_granite_stone('Kanchi_Courtyard_Paving',(.55,.50,.42,1))
+    charcoal=create_granite_stone('Kanchi_Gray_Granite',(.355,.326,.28,1))
+    stone=create_granite_stone('Kanchi_Interior_Granite',(.39,.345,.29,1))
+    cream=material('Kanchi_Ivory_Limework',(.75,.69,.53))
+    coping=material('Kanchi_Worn_Terrace',(.58,.54,.47))
+    gold=material('Kanchi_Gilt',(.83,.49,.105),.63,.35)
+    water=material('Kanchi_Pushkarini',(.031,.092,.075),.17,.13)
+    grass=material('Kanchi_Garden',(.19,.27,.09))
+    leaves=material('Kanchi_Garden_Trees',(.10,.19,.068))
+    bark=material('Kanchi_Garden_Bark',(.21,.135,.072))
+    red=material('Kanchi_Kumkum',(.48,.036,.019))
+    wick=material('Kanchi_OilLampFlame',(.98,.54,.16),emission=2.4)
+    build_tank(charcoal,pavement,water)
+    boundary(charcoal,cream,gold)
+    for name,bounds,z,columns in [
+        ('Vasantha_Mandapam',(1075,960,1327,1177),.24,(7,6)),
+        ('Shukrawara_Mandapam',(950,963,1064,1272),.14,(4,7)),
+        ('Vahana_Mandapam',(1247,416,1492,565),.0,(7,4)),
+        ('Navaratri_Mandapam',(401,299,550,593),.0,(4,7)),
+        ('Madapalli_Range',(399,1324,570,1482),.0,(4,4)),
+        ('East_Interior_Arrival_Mandapam',(663,1284,760,1380),.0,(3,3)),
+        ('North_Prakaras_Range',(1370,612,1462,742),.0,(3,4)),
+        ('East_Utility_Range',(1210,1290,1380,1448),.0,(4,5))]:
+        x1,y1=point(bounds[0],bounds[3])
+        x2,y2=point(bounds[2],bounds[1])
+        hall(name,(x1,y1,x2,y2),charcoal,pavement,coping,z,4.25,columns)
+    for px,py,w,d in [(444,969,12.1,32.6),(1087,788,7,22),(1384,781,8,8)]:
+        x,y=point(px,py)
+        cube('Kanchi_Nandavanam_Lawn',(x,y,.12),(w,d,.24),grass,.04)
+        for inset,side in [(0,-1),(1,1)]:
+            cube('Kanchi_Nandavanam_Granite_Seating',(x+side*(w/2-.12),y,.37),(.51,d,.74),charcoal,.05)
+        for i in range(3):
+            cylinder('Kanchi_Garden_Trunk',(x,y+(i-1)*d*.29,1.84),.24,3.62,bark)
+            sphere('Kanchi_Garden_Canopy',(x,y+(i-1)*d*.29,4.3),(2.9,3.3,2.8),leaves,20)
 
-    # 7. Deity_Kamakshi Murti (Kamakshi Amman seated in Padmasana)
-    # 4 arms: Sugarcane bow (Ikshu kodanda), 5 flower arrows (Pancha bana), Pasha (noose), Ankusha (goad)
-    devi_objs = []
-    devi_loc = (0.0, 15.5, 0.62)
+    # Restoration plan's enclosed temple block, with a smaller Gayatri core.
+    x1,y1=point(633,1296)
+    x2,y2=point(952,919)
+    cube('Kamakshi_Main_Temple_Floor',((x1+x2)/2,(y1+y2)/2,.065),(x2-x1,y2-y1,.13),pavement,.02)
+    for x in [x1,x2]:
+        cube('Kamakshi_Main_Temple_Long_Wall',(x,(y1+y2)/2,2.6),(.51,y2-y1,5.2),stone,.041)
+    cube('Kamakshi_Main_Temple_Sanctum_Back',((x1+x2)/2,y2,2.6),(x2-x1,.51,5.2),stone,.041)
+    framed_portal('Kamakshi_East_Temple_Entrance',(x1+x2)/2,y1,x2-x1,4.65,.13,5.20,stone,cream)
+    cube('Kamakshi_Main_Temple_Roof',((x1+x2)/2,(y1+y2)/2,5.32),(x2-x1+.65,y2-y1+.65,.56),coping,.075)
+    cube('Gayatri_Mandapam_Paving',(0,-.24,.145),(16.35,16.2,.29),pavement,.034)
+    for x in [-6.6,-3.03,3.03,6.6]:
+        for y in [-7.15,-4.25,-1.38,1.52,4.37,7.26]:
+            pillar('Gayatri_Mandapam_Carved_Pillar',x,y,.28,4.75,charcoal,.42)
+    for x in [-2.83,2.83]:
+        cube('Kamakshi_Sanctum_Side',(x,4.12,2.61),(.56,6.05,4.72),stone,.039)
+    cube('Kamakshi_Sanctum_Back',(0,7.15,2.61),(6.2,.51,4.72),stone,.039)
+    framed_portal('Kamakshi_Sanctum_Door',0,1.24,6.2,2.66,.25,4.85,stone,gold)
+    for px,py,w,h,mat in [(833,1105,6.8,7.4,gold),(710,968,6.1,6.7,cream),
+                           (918,960,5.4,5.8,cream),(913,1241,4.95,5.2,cream)]:
+        x,y=point(px,py)
+        create_shikhara('Golden_Kamakshi_Vimana' if mat==gold else 'Kamakshi_Subsidiary_Vimana',
+                        (x,y,5.61),w,h,4,mat,'dravidian')
+    anchor('Spawn_Point',(12.35,-45.0,.065))
+    anchor('Arrival_Facing',(13.65,-27.0,.065))
+    anchor('Kamakshi_Darshan_Landing',(0,1.67,.30))
+    anchor('Sanctum_Lamp_Position',(0,2.8,2.76))
+    # Ritual apparatus has a dedicated footprint before the installed image.
+    cylinder('Sri_Chakra_Peetha',(0,3.17,.43),.72,.35,stone)
+    cylinder('Sri_Chakra_Peetha_Copper_Rim',(0,3.17,.61),.64,.035,gold)
+    for side in [-1,1]:
+        create_deepam('Gayatri_OilLamp',(side*1.62,3.66,.30),gold,wick)
+        create_deepam('Gayatri_OilLamp',(side*1.92,4.95,.30),gold,wick)
+    cube('Kamakshi_Murti_Adhisthana',(0,5.43,.58),(2.34,1.52,.63),charcoal,.067)
+    kamakshi((0,5.34,.90))
 
-    # Sri Chakra Yantra Peetha (Sanctum front altar)
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=16, radius=0.9, depth=0.25,
-        location=(devi_loc[0], devi_loc[1], devi_loc[2] + 0.125)
-    )
-    yantra_peetha = bpy.context.active_object
-    yantra_peetha.data.materials.append(mat_gold)
-    devi_objs.append(yantra_peetha)
+    # Individual interior bays are arranged from left/right relationships in the
+    # authority and CEC accounts. The restoration drawing labels the hall.
+    bay_specs=[
+        ('Varahi',-6.05,3.43,math.pi/2,.29),
+        ('Arupa_Lakshmi',-6.05,.88,math.pi/2,.29),
+        ('Sowbhagya_Ganapati',-2.02,-3.13,-math.pi/2,.29),
+        ('Kalvar_Perumal',7.63,5.65,0,.29),
+        ('Soundarya_Lakshmi',5.46,-.33,0,.29),
+        ('Ardhanari',7.48,-5.03,-math.pi/2,.29),
+        ('Ayyappan',-17.16,3.9,math.pi/2,.15),
+        ('Saraswati',-17.16,9.5,math.pi/2,.15),
+        ('Annapoorani',-17.16,15.2,math.pi/2,.15),
+        ('Adi_Shankara',-10.70,17.67,0,.15),
+        ('Kala_Bhairavar',-32.18,-4.23,math.pi/2,.01),
+        ('Mahishasuramardini',-32.18,2.32,math.pi/2,.01),
+        ('Kashi_Viswanathar',14.13,14.28,math.pi,.01)]
+    for name,x,y,angle,z in bay_specs:
+        approach=1.76 if name in ['Varahi','Arupa_Lakshmi'] else 2.15
+        transform=shrine(name,x,y,angle,charcoal,z,approach)
+        if name in ['Sowbhagya_Ganapati','Saraswati','Annapoorani','Varahi']:
+            continue
+        if name=='Kashi_Viswanathar':
+            model=linga('Kanchi_Kashi_Viswanathar_Linga',tuple(transform@Vector((0,.08,z+.38))),.85,charcoal)
+            model.rotation_euler.z=angle
+        elif name=='Arupa_Lakshmi':
+            # Anjana Lakshmi receives kumkum. Preserve a low sacred surface and
+            # offerings while leaving the unknown anatomy unrepresented.
+            for i in range(5):
+                sphere('Arupa_Lakshmi_Vermilion_Offering',tuple(transform@Vector(((i-2)*.12,-.19,z+.40))),
+                       (.072,.081,.023),red,16)
+            sphere('Arupa_Lakshmi_Sacred_Relief_Study',tuple(transform@Vector((0,.14,z+.84))),
+                   (.19,.25,.50),red,24)
+        else:
+            companion(name+'_Iconographic_Study',tuple(transform@Vector((0,.10,z+.38))),
+                      angle,1.19 if name in ['Ayyappan','Adi_Shankara'] else 1.51,
+                      name in ['Ayyappan','Adi_Shankara'],'boar' if name=='Kalvar_Perumal' else 'human')
+    # A whole architectural destination for the pillared comparison views.
+    for name,px,py,z,offset in [('Vasantha_Mandapam',1210,1074,1.1,4.1),
+                                ('Shukrawara_Mandapam',1018,1158,1.1,4.1),
+                                ('Navaratri_Mandapam',460,450,1.1,4.1)]:
+        x,y=point(px,py)
+        anchor(name+'_Reference',(x,y,z))
+        anchor(name+'_Landing',(x,y-offset,.18))
+    anchor('Sri_Chakra_Anchor',(0,3.17,.65))
+    anchor('Sri_Chakra_Landing',(-.82,1.91,.30))
+    orient_scene()
 
-    # Padmasana Lotus Throne
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=24, radius=0.75, depth=0.2,
-        location=(devi_loc[0], devi_loc[1], devi_loc[2] + 0.32)
-    )
-    lotus = bpy.context.active_object
-    lotus.data.materials.append(mat_gold)
-    devi_objs.append(lotus)
 
-    # Torso (Dark Granite clad in Kanchipuram silk sari)
-    bpy.ops.mesh.primitive_cube_add(
-        size=2, location=(devi_loc[0], devi_loc[1], devi_loc[2] + 0.95)
-    )
-    torso = bpy.context.active_object
-    torso.scale = (0.32, 0.2, 0.42)
-    bpy.ops.object.transform_apply(scale=True)
-    torso.data.materials.append(mat_silk)
-    devi_objs.append(torso)
-
-    # Head (Polished black granite with kumkum tilak)
-    bpy.ops.mesh.primitive_uv_sphere_add(
-        radius=0.17, location=(devi_loc[0], devi_loc[1], devi_loc[2] + 1.48)
-    )
-    head = bpy.context.active_object
-    head.data.materials.append(mat_granite)
-    devi_objs.append(head)
-
-    # Kumkum tilak on forehead
-    bpy.ops.mesh.primitive_uv_sphere_add(
-        radius=0.035, location=(devi_loc[0], devi_loc[1] - 0.16, devi_loc[2] + 1.54)
-    )
-    tilak = bpy.context.active_object
-    tilak.data.materials.append(mat_kumkum)
-    devi_objs.append(tilak)
-
-    # Golden Kireeta (Grand Dravidian Crown)
-    bpy.ops.mesh.primitive_cone_add(
-        vertices=16, radius1=0.22, radius2=0.04, depth=0.6,
-        location=(devi_loc[0], devi_loc[1], devi_loc[2] + 1.88)
-    )
-    crown = bpy.context.active_object
-    crown.data.materials.append(mat_gold)
-    devi_objs.append(crown)
-
-    # Crescent Moon (Chandra Kala) on crown
-    bpy.ops.mesh.primitive_torus_add(
-        major_radius=0.15, minor_radius=0.02,
-        location=(devi_loc[0] + 0.1, devi_loc[1] - 0.1, devi_loc[2] + 1.95)
-    )
-    moon = bpy.context.active_object
-    moon.data.materials.append(mat_gold)
-    devi_objs.append(moon)
-
-    # Golden Prabhavali Arch
-    bpy.ops.mesh.primitive_torus_add(
-        major_radius=0.7, minor_radius=0.07,
-        location=(devi_loc[0], devi_loc[1] + 0.08, devi_loc[2] + 1.35)
-    )
-    prabha = bpy.context.active_object
-    prabha.rotation_euler = (math.pi / 2, 0, 0)
-    bpy.ops.object.transform_apply(rotation=True)
-    prabha.data.materials.append(mat_gold)
-    devi_objs.append(prabha)
-
-    # Padmasana folded legs
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=16, radius=0.48, depth=0.25,
-        location=(devi_loc[0], devi_loc[1], devi_loc[2] + 0.48)
-    )
-    legs = bpy.context.active_object
-    legs.data.materials.append(mat_silk)
-    devi_objs.append(legs)
-
-    # 4 Arms:
-    # Upper Right: Pasha (sacred noose)
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=8, radius=0.035, depth=0.45,
-        location=(devi_loc[0] + 0.42, devi_loc[1], devi_loc[2] + 1.2)
-    )
-    arm_ur = bpy.context.active_object
-    arm_ur.rotation_euler = (0, 0.5, 0)
-    bpy.ops.object.transform_apply(rotation=True)
-    arm_ur.data.materials.append(mat_granite)
-    devi_objs.append(arm_ur)
-
-    # Upper Left: Ankusha (elephant goad)
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=8, radius=0.035, depth=0.45,
-        location=(devi_loc[0] - 0.42, devi_loc[1], devi_loc[2] + 1.2)
-    )
-    arm_ul = bpy.context.active_object
-    arm_ul.rotation_euler = (0, -0.5, 0)
-    bpy.ops.object.transform_apply(rotation=True)
-    arm_ul.data.materials.append(mat_granite)
-    devi_objs.append(arm_ul)
-
-    # Lower Left: Ikshu Kodanda (Sugarcane bow held vertically)
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=8, radius=0.02, depth=1.4,
-        location=(devi_loc[0] - 0.38, devi_loc[1] - 0.1, devi_loc[2] + 1.1)
-    )
-    bow = bpy.context.active_object
-    bow.data.materials.append(mat_gold)
-    devi_objs.append(bow)
-
-    # Lower Right: Pushpa Bana (5 flower arrows)
-    bpy.ops.mesh.primitive_cylinder_add(
-        vertices=8, radius=0.015, depth=0.6,
-        location=(devi_loc[0] + 0.35, devi_loc[1] - 0.1, devi_loc[2] + 0.85)
-    )
-    arrows = bpy.context.active_object
-    arrows.rotation_euler = (0.2, 0.3, 0)
-    bpy.ops.object.transform_apply(rotation=True)
-    arrows.data.materials.append(mat_gold)
-    devi_objs.append(arrows)
-
-    # Jasmine garland (Malli poo)
-    bpy.ops.mesh.primitive_torus_add(
-        major_radius=0.3, minor_radius=0.045,
-        location=(devi_loc[0], devi_loc[1] - 0.05, devi_loc[2] + 1.0)
-    )
-    garland = bpy.context.active_object
-    garland.data.materials.append(mat_garland)
-    devi_objs.append(garland)
-
-    # Join into single Deity object named "Deity_Kamakshi"
-    bpy.ops.object.select_all(action='DESELECT')
-    for o in devi_objs:
-        o.select_set(True)
-    bpy.context.view_layer.objects.active = devi_objs[0]
-    bpy.ops.object.join()
-    deity = bpy.context.active_object
-    deity.name = "Deity_Kamakshi"
-
-    # 8. Deepams inside Garbhagriha
-    deepam1 = geom.create_deepam(
-        name="Deepam_1",
-        location=(-1.4, 14.0, 0.62),
-        mat_brass=mat_brass,
-        mat_flame=mat_flame
-    )
-    deepam2 = geom.create_deepam(
-        name="Deepam_2",
-        location=(1.4, 14.0, 0.62),
-        mat_brass=mat_brass,
-        mat_flame=mat_flame
-    )
-    geom.create_deepam(
-        name="Deepam_3",
-        location=(-1.4, 15.8, 0.62),
-        mat_brass=mat_brass,
-        mat_flame=mat_flame
-    )
-    geom.create_deepam(
-        name="Deepam_4",
-        location=(1.4, 15.8, 0.62),
-        mat_brass=mat_brass,
-        mat_flame=mat_flame
-    )
-
-    # 9. Priest near sanctum door (standing at right of doorway)
-    priest = geom.create_human_figure(
-        name="Priest",
-        location=(1.4, 11.0, 0.6),
-        height=1.75,
-        mat_skin=mat_skin,
-        mat_cloth=mat_cloth
-    )
-
-    # 10. Gayatri Mandapam (24 pillars representing 24 syllables of Gayatri Mantra!)
-    # 6 rows along Y (at Y = 2.0, 3.5, 5.0, 6.5, 8.0, 9.5), 4 pillars per row (X = -3.6, -1.8, 1.8, 3.6)
-    # The central corridor (-1.8 to +1.8) is completely open!
-    mandapa_objs = []
-    # Floor slab
-    bpy.ops.mesh.primitive_cube_add(
-        size=2, location=(0.0, 5.8, 0.6 + 0.05)
-    )
-    m_floor = bpy.context.active_object
-    m_floor.scale = (4.6, 4.6, 0.05)
-    bpy.ops.object.transform_apply(scale=True)
-    m_floor.data.materials.append(mat_marble)
-    mandapa_objs.append(m_floor)
-
-    # 24 Gayatri Pillars
-    pillar_idx = 1
-    y_coords = [2.0, 3.5, 5.0, 6.5, 8.0, 9.5]
-    x_coords = [-3.6, -1.8, 1.8, 3.6]
-    for py in y_coords:
-        for px in x_coords:
-            p = geom.create_pillar(
-                name=f"Gayatri_Pillar_{pillar_idx}",
-                location=(px, py, 0.7),
-                height=3.6,
-                radius=0.18,
-                mat=mat_granite,
-                style="square"
-            )
-            mandapa_objs.append(p)
-            pillar_idx += 1
-
-    # Roof slab
-    bpy.ops.mesh.primitive_cube_add(
-        size=2, location=(0.0, 5.8, 0.7 + 3.6 + 0.1)
-    )
-    m_roof = bpy.context.active_object
-    m_roof.scale = (4.8, 4.8, 0.15)
-    bpy.ops.object.transform_apply(scale=True)
-    m_roof.data.materials.append(mat_granite)
-    mandapa_objs.append(m_roof)
-
-    # Join into single object named "Mandapa"
-    bpy.ops.object.select_all(action='DESELECT')
-    for o in mandapa_objs:
-        o.select_set(True)
-    bpy.context.view_layer.objects.active = mandapa_objs[0]
-    bpy.ops.object.join()
-    mandapa = bpy.context.active_object
-    mandapa.name = "Mandapa"
-
-    # 11. Ghanta (Hanging Brass Bell at Gayatri Mandapam entrance)
-    ghanta = geom.create_hanging_bell(
-        name="Ghanta",
-        location=(0.0, 1.4, 3.2),
-        mat_brass=mat_brass,
-        scale=1.2
-    )
-
-    # 12. Spawn Point (facing North)
-    spawn = bpy.data.objects.new("Spawn_Point", None)
-    spawn.location = (0.0, -8.0, 0.0)
-    bpy.context.collection.objects.link(spawn)
-
-    # 13. Bhairava Shrine on West side
-    b_objs = []
-    b_loc = (-11.0, 7.0, 0.0)
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(b_loc[0], b_loc[1], b_loc[2] + 0.3))
-    b_base = bpy.context.active_object
-    b_base.scale = (1.5, 1.5, 0.3)
-    bpy.ops.object.transform_apply(scale=True)
-    b_base.data.materials.append(mat_granite)
-    b_objs.append(b_base)
-    for dx, dy in [(-1.2, -1.2), (1.2, -1.2), (-1.2, 1.2), (1.2, 1.2)]:
-        p = geom.create_pillar(f"B_Pillar_{dx}_{dy}", (b_loc[0] + dx, b_loc[1] + dy, b_loc[2] + 0.6), height=2.2, radius=0.12, mat=mat_granite)
-        b_objs.append(p)
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(b_loc[0], b_loc[1], b_loc[2] + 2.9))
-    b_roof = bpy.context.active_object
-    b_roof.scale = (1.6, 1.6, 0.15)
-    bpy.ops.object.transform_apply(scale=True)
-    b_roof.data.materials.append(mat_granite)
-    b_objs.append(b_roof)
-    bpy.ops.mesh.primitive_cone_add(vertices=8, radius1=1.2, radius2=0.2, depth=1.5, location=(b_loc[0], b_loc[1], b_loc[2] + 3.8))
-    b_cone = bpy.context.active_object
-    b_cone.data.materials.append(mat_granite)
-    b_objs.append(b_cone)
-    # Bhairava Murti
-    b_murti = geom.create_deity_figure(name="Bhairava_Murti", location=(b_loc[0], b_loc[1], b_loc[2] + 0.6), height=1.2, arms=4, mat_body=mat_granite, mat_ornament=mat_gold)
-    b_objs.append(b_murti)
-    # Join into Bhairava_Shrine
-    bpy.ops.object.select_all(action='DESELECT')
-    for o in b_objs:
-        o.select_set(True)
-    bpy.context.view_layer.objects.active = b_objs[0]
-    bpy.ops.object.join()
-    bhairava_shrine = bpy.context.active_object
-    bhairava_shrine.name = "Bhairava_Shrine"
-
-    # 14. Ganesha Shrine (Santhana Ganapathi on West side)
-    g_objs = []
-    g_loc = (-11.0, 13.0, 0.0)
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(g_loc[0], g_loc[1], g_loc[2] + 0.3))
-    g_base = bpy.context.active_object
-    g_base.scale = (1.5, 1.5, 0.3)
-    bpy.ops.object.transform_apply(scale=True)
-    g_base.data.materials.append(mat_granite)
-    g_objs.append(g_base)
-    for dx, dy in [(-1.2, -1.2), (1.2, -1.2), (-1.2, 1.2), (1.2, 1.2)]:
-        p = geom.create_pillar(f"G_Pillar_{dx}_{dy}", (g_loc[0] + dx, g_loc[1] + dy, g_loc[2] + 0.6), height=2.2, radius=0.12, mat=mat_granite)
-        g_objs.append(p)
-    bpy.ops.mesh.primitive_cube_add(size=2, location=(g_loc[0], g_loc[1], g_loc[2] + 2.9))
-    g_roof = bpy.context.active_object
-    g_roof.scale = (1.6, 1.6, 0.15)
-    bpy.ops.object.transform_apply(scale=True)
-    g_roof.data.materials.append(mat_granite)
-    g_objs.append(g_roof)
-    bpy.ops.mesh.primitive_cone_add(vertices=8, radius1=1.2, radius2=0.2, depth=1.5, location=(g_loc[0], g_loc[1], g_loc[2] + 3.8))
-    g_cone = bpy.context.active_object
-    g_cone.data.materials.append(mat_granite)
-    g_objs.append(g_cone)
-    # Santhana Ganapathi Murti
-    g_murti = geom.create_deity_figure(name="Santhana_Ganapathi_Murti", location=(g_loc[0], g_loc[1], g_loc[2] + 0.6), height=1.1, arms=4, mat_body=mat_granite, mat_ornament=mat_gold)
-    g_objs.append(g_murti)
-    # Join into Ganesha_Shrine
-    bpy.ops.object.select_all(action='DESELECT')
-    for o in g_objs:
-        o.select_set(True)
-    bpy.context.view_layer.objects.active = g_objs[0]
-    bpy.ops.object.join()
-    ganesha_shrine = bpy.context.active_object
-    ganesha_shrine.name = "Ganesha_Shrine"
-
-    # 15. Prakara Wall with Dravidian Yali pillars & South Gateway
-    prakara_objs = geom.create_prakara_wall(
-        name="Prakara_Kamakshi",
-        center=(0, 7.0, 0),
-        width=38.0,
-        depth=34.0,
-        wall_height=3.4,
-        wall_thickness=0.6,
-        mat=mat_granite,
-        gate_width=4.0,
-        gate_sides=["S"]
-    )
-
-    # 16. Export GLB
-    export_path = Path(__file__).resolve().parent.parent / "godot" / "assets" / "models" / "kanchipuram_kamakshi_kshetra_full.glb"
-    export_path.parent.mkdir(parents=True, exist_ok=True)
-    geom.export_glb(str(export_path))
-    print(f"Kanchipuram Kamakshi export complete: {export_path}")
-
-if __name__ == "__main__":
-    build_kanchipuram_kamakshi()
+if __name__=='__main__':
+    front_mandapa()
+    if not globals().get('DEFER_GLB_EXPORT', False):
+        finish('kanchipuram_kamakshi')

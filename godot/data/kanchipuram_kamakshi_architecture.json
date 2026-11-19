@@ -6,28 +6,27 @@
     "city": "Kanchipuram",
     "state": "Tamil Nadu",
     "country": "India",
-    "lat": 12.8407,
-    "lng": 79.7036
+    "lat": 12.840684,
+    "lng": 79.703238
   },
-  "style": "Dravidian architecture (Pallava, Chola, and Vijayanagara)",
+  "style": "Dravidian temple complex with gopurams, vimanas and stone mandapams",
   "key_structures": [
-    "Gayatri Mandapam (inner sanctum with four pillars representing 4 Vedas)",
-    "Golden Vimana (gilded superstructure over sanctum)",
-    "Sri Chakra Yantra (established by Adi Shankaracharya)",
-    "Four towering Rajagopurams",
-    "Pancha Ganga Tank"
+    "Four named gopurams on the walled enclosure",
+    "Gayatri Mandapam and the gilded Kamakshi sanctum vimana",
+    "Sri Chakra peetham before Kamakshi",
+    "Stepped pushkarini west of the temple block with a central festival pavilion",
+    "Vasantha, Shukrawara, Vahana and Navaratri Mandapams"
   ],
   "special_features": [
-    "Goddess seated in Padmasana posture holding sugarcane bow, lotus, parrot, and floral arrows",
-    "Absence of other traditional Shakti sanctums in Kanchipuram city, centering all cosmic energy here",
-    "Sri Chakra consecrated before the deity to pacify ferocious energy"
+    "Kamakshi seated in padmasana with four arms",
+    "Open routes around the walled complex for processions",
+    "Landscaped Nandavanam and granite seating documented in the restoration"
   ],
   "materials": [
-    "Carved black granite stone",
-    "Gilded gold sheets covering Vimana",
-    "Laterite prakara boundary walls",
-    "Stucco sculptures"
+    "Carved granite pillars and hall structure",
+    "Gilding over the principal shrine vimana",
+    "Ivory stucco and stone gateway masonry"
   ],
-  "period": "6th–14th Century CE",
-  "renovation_history": "Initially patronized by Pallava monarchs; renovated and adorned with golden vimana by Chola kings and expanded by Vijayanagara emperors."
+  "period": "Later Pandya sanctum with later additions and modern restoration",
+  "renovation_history": "The HUDCO conservation record describes restoration of the historic structure and visitor route, completed in 2018."
 }

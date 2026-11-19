@@ -463,9 +463,22 @@ func _collect_map_shapes(node: Node) -> void:
 	if node is MeshInstance3D and node.mesh != null:
 		var key = str(node.name).to_lower()
 		if not ("ground" in key or "terrain" in key or "priest" in key or "tree" in key or "flame" in key or "flower" in key):
-			var box: AABB = node.global_transform * node.get_aabb()
-			var rect = Rect2(Vector2(box.position.x, box.position.z), Vector2(box.size.x, box.size.z))
-			if rect.size.x > 0.12 and rect.size.y > 0.12:
+			var box: AABB = node.get_aabb()
+			var height := box.get_center().y
+			var outline := PackedVector2Array()
+			for corner in [
+				Vector3(box.position.x, height, box.position.z),
+				Vector3(box.end.x, height, box.position.z),
+				Vector3(box.end.x, height, box.end.z),
+				Vector3(box.position.x, height, box.end.z),
+			]:
+				var world: Vector3 = node.global_transform * corner
+				outline.append(Vector2(world.x, world.z))
+			var rect := Rect2(outline[0], Vector2.ZERO)
+			for corner in outline:
+				rect = rect.expand(corner)
+			var area := absf((outline[1] - outline[0]).cross(outline[3] - outline[0]))
+			if rect.size.x > 0.12 and rect.size.y > 0.12 and area > 0.0144:
 				var col = Color("69766c")
 				if "water" in key or "tank" in key or "kunda" in key:
 					col = Color("477d89")
@@ -473,7 +486,7 @@ func _collect_map_shapes(node: Node) -> void:
 					col = Color("c1aa7c")
 				elif "roof" in key or "shikhara" in key or "vimana" in key:
 					col = Color("89977f")
-				map_shapes.append({"rect": rect, "color": col})
+				map_shapes.append({"rect": rect, "outline": outline, "color": col})
 		if "deity" in key or "ghanta" in key or "spawn" in key:
 			var box: AABB = node.global_transform * node.get_aabb()
 			map_points.append({"point": Vector2(box.get_center().x, box.get_center().z), "deity": "deity" in key})
@@ -493,10 +506,12 @@ func _on_minimap_draw() -> void:
 	var scale_factor = minf(usable.x / maxf(map_bounds.size.x, 1), usable.y / maxf(map_bounds.size.y, 1))
 	var origin = Vector2(12, 32) + (usable - map_bounds.size * scale_factor) * 0.5
 	for shape in map_shapes:
-		var rect: Rect2 = shape["rect"]
-		var mapped = Rect2(origin + (rect.position - map_bounds.position) * scale_factor, rect.size * scale_factor)
-		minimap_panel.draw_rect(mapped, Color(shape["color"], 0.3), true)
-		minimap_panel.draw_rect(mapped, Color(shape["color"], 0.65), false, 0.7)
+		var mapped := PackedVector2Array()
+		for corner in shape["outline"]:
+			mapped.append(origin + (corner - map_bounds.position) * scale_factor)
+		minimap_panel.draw_colored_polygon(mapped, Color(shape["color"], 0.3))
+		mapped.append(mapped[0])
+		minimap_panel.draw_polyline(mapped, Color(shape["color"], 0.65), .7)
 	map_marker_positions.clear()
 	for index in range(shrine_destinations.size()):
 		var destination: Dictionary = shrine_destinations[index]
