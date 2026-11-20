@@ -470,13 +470,13 @@
   "jwalamukhi_vaishnavi": {
     "name": "Vaishnavi / Jwalamukhi",
     "stotram_order": 15,
-    "architecture": "Hillside temple complex with a gilded dome. Natural flames in rock fissures are worshipped as the central manifestation. Nine named flames share the sacred precinct.",
+    "architecture": "The main hillside compound follows the photo and satellite layout. Shri Jawala Ji and Seja Bhawan have distinct gilded roofs around the chequered court. The Charan Paduka and domed pavilions stand in the courtyard. The raised Gorakh Dibbi terrace connects to the adjoining Radha–Krishna and Shiva–Shakti shrines.",
     "deity_form": "Natural flames from rock fissures",
     "posture": "Flames in their rock/shrine setting",
     "arms": "Not applicable",
     "attributes": "Nine named flame identities; actual visible flames may vary",
-    "deity_notes": "Do not replace the flames with one large idol or nine detached statues. Reject photos from Shaktinagar or Khrew.",
-    "uncertainties": "No authenticated close-up flame photograph selected; exact fissure positions remain unverified. Courtyard and dome silhouettes use published photo references; no measured plan or stone-by-stone reconstruction is claimed.",
+    "deity_notes": "The temple identifies Mahakali as the central rock fissure. Eight other names are associated with naturally burning vents. The model follows the recorded square pit, passage around it and the temple’s photograph of the central Jyoti.",
+    "uncertainties": "This is a photo-led layout. There is no current measured plan for the game’s room positions. The eight peripheral fissures, Radha–Krishna images, subsidiary building details and courtyard display locations remain approximate. The outer hills and service blocks give landscape context.",
     "reconstruction": false,
     "sources": [
       {
@@ -490,9 +490,49 @@
       {
         "title": "Jwala Ji: complex features and surrounding shrines",
         "url": "https://devadarshanam.com/temple/jwalamukhi"
+      },
+      {
+        "title": "Jawala Ji Temple, Holy Flames and Main Mahakali Jyoti",
+        "url": "https://jawalaji.in/holy-flames/"
+      },
+      {
+        "title": "Jawala Ji Temple photo gallery",
+        "url": "https://jawalaji.in/gallery/"
+      },
+      {
+        "title": "Jawala Ji Temple, photograph of the main Jyoti",
+        "url": "https://jawalaji.in/main-jawala-maa-jyoti/"
+      },
+      {
+        "title": "Satellite view of the main Jawala Ji compound",
+        "url": "https://www.google.com/maps/@31.87561,76.32435,20z/data=!3m1!1e3"
+      },
+      {
+        "title": "Dated photographs of the main courtyard and terrace",
+        "url": "https://hindutemples-india.blogspot.com/2019/12/jwalamukhi-devi-temple-kangra-himachal-pradesh.html"
+      },
+      {
+        "title": "Archaeological Survey of India, 1872–73 field report, pp. 169–171",
+        "url": "https://ignca.gov.in/Asi_data/85001.pdf"
+      },
+      {
+        "title": "Photograph of the displayed Akbar Chhatra",
+        "url": "https://commons.wikimedia.org/wiki/File:Akbar%27s_Golden_Parasol_Chattar.jpg"
+      },
+      {
+        "title": "Jawala Ji Temple, Shaiyan Aarti and Seja Bhawan",
+        "url": "https://jawalaji.in/jwala-devi-temple-timings/"
+      },
+      {
+        "title": "Kangra Temples, Hindi field descriptions of the adjoining shrines",
+        "url": "https://kangratemples.hp.gov.in/hi/shri-jawala-mata-mandir/"
+      },
+      {
+        "title": "Kangra Temples, rites at Yogini Kund",
+        "url": "https://kangratemples.hp.gov.in/gallery/"
       }
     ],
-    "preservation_status": "The Hindi and Tamil temple name, the inner lion pair and the cradle relief panels are represented. The rest of the sign text, building artwork and sculpture inventory still need complete documentation."
+    "preservation_status": "The temple photographs guide the ornamental silver surround, marble arches, gilded cupolas and embossed footprints. Sculpture, masonry and metalwork are original geometric interpretations. Inscription transcription and a complete object inventory remain pending."
   },
   "gaya_mangalagauri": {
     "name": "Mangala Gauri",

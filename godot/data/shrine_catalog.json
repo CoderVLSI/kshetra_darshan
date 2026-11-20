@@ -4599,7 +4599,7 @@
       ]
     },
     "jwalamukhi_vaishnavi": {
-      "scope_note": "Main temple courtyard and shared flame sanctum only. The nine flame identities are not nine detached temples. Positions and subsidiary building forms are schematic.",
+      "scope_note": "Only the main hillside compound and its adjoining Gorakh Dibbi terrace. The nine Jyotis share a pit and a circumambulation passage. Hill shrines reached by separate approaches are outside this map.",
       "sources": [
         {
           "id": "JWALA",
@@ -4610,183 +4610,358 @@
           "id": "JWALA_CONTEXT",
           "title": "Jwalamukhi complex contextual inventory",
           "url": "https://devadarshanam.com/temple/jwalamukhi"
+        },
+        {
+          "id": "JWALA_JYOTI",
+          "title": "Jawala Ji Temple, Holy Flames and Main Mahakali Jyoti",
+          "url": "https://jawalaji.in/holy-flames/"
+        },
+        {
+          "id": "JWALA_PHOTOS",
+          "title": "Jawala Ji Temple photo gallery",
+          "url": "https://jawalaji.in/gallery/"
+        },
+        {
+          "id": "JWALA_AERIAL",
+          "title": "Satellite view of the main Jawala Ji compound",
+          "url": "https://www.google.com/maps/@31.87561,76.32435,20z/data=!3m1!1e3"
+        },
+        {
+          "id": "JWALA_FIELD",
+          "title": "Archaeological Survey of India, 1872–73 field report, pp. 169–171",
+          "url": "https://ignca.gov.in/Asi_data/85001.pdf"
+        },
+        {
+          "id": "JWALA_PARASOL",
+          "title": "Photograph of the displayed Akbar Chhatra",
+          "url": "https://commons.wikimedia.org/wiki/File:Akbar%27s_Golden_Parasol_Chattar.jpg"
+        },
+        {
+          "id": "JWALA_SEJA",
+          "title": "Jawala Ji Temple, Shaiyan Aarti and Seja Bhawan",
+          "url": "https://jawalaji.in/jwala-devi-temple-timings/"
+        },
+        {
+          "id": "JWALA_NEAR",
+          "title": "Kangra Temples, Hindi field descriptions of the adjoining shrines",
+          "url": "https://kangratemples.hp.gov.in/hi/shri-jawala-mata-mandir/"
+        },
+        {
+          "id": "JWALA_RITES",
+          "title": "Kangra Temples, rites at Yogini Kund",
+          "url": "https://kangratemples.hp.gov.in/gallery/"
         }
       ],
       "excluded": [
         {
-          "name": "Tara Devi, Teda/Raghunath and other surrounding temples",
+          "name": "Tara Devi, Arjun Naga, Ashtabhuja, Siddha Nagarjuna, Ambikeshwar and Teda/Raghunath",
           "reason": "Outside strict main-compound scope."
         }
       ],
-      "inventory_status": "Documented flame identities; associated building placement needs survey.",
+      "inventory_status": "Nine named Jyotis and documented associated stops. The identities of the unnamed courtyard pavilions and some exact interior positions remain unverified.",
       "shrines": [
         {
           "id": "mahakali",
-          "label": "Mahakali Flame",
+          "label": "Jawala Ji · Mahakali Jyoti",
           "deity": "Mahakali",
           "form": "flame",
           "kind": "main",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Central fissure documented in the archaeological field report and the temple’s Jyoti photograph.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Mahakali",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "The central flame is revered as the fiery mouth of Mahakali. A silver arched surround and offerings frame its natural rock setting.",
+          "landing_anchor": "Landing_Jyoti_Mahakali",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "annapurna",
-          "label": "Annapurna Flame",
+          "label": "Annapurna Jyoti",
           "deity": "Annapurna",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Annapurna",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Annapurna",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "chandi",
-          "label": "Chandi Flame",
+          "label": "Chandi Jyoti",
           "deity": "Chandi",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Chandi",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Chandi",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "hinglaj",
-          "label": "Hinglaj Flame",
+          "label": "Hinglaj Jyoti",
           "deity": "Hinglaj",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Hinglaj",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Hinglaj",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "vindhyavasini",
-          "label": "Vindhyavasini Flame",
+          "label": "Vindhyavasini Jyoti",
           "deity": "Vindhyavasini",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Vindhyavasini",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Vindhyavasini",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "mahalakshmi",
-          "label": "Mahalakshmi Flame",
+          "label": "Mahalakshmi Jyoti",
           "deity": "Mahalakshmi",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Mahalakshmi",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Mahalakshmi",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "saraswati",
-          "label": "Saraswati Flame",
+          "label": "Saraswati Jyoti",
           "deity": "Saraswati",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Saraswati",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Saraswati",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "ambika",
-          "label": "Ambika Flame",
+          "label": "Ambika Jyoti",
           "deity": "Ambika",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Ambika",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Ambika",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "anjana",
-          "label": "Anjana Flame",
+          "label": "Anjana Jyoti",
           "deity": "Anjana",
           "form": "flame",
           "kind": "shared_sanctum",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "Name documented by the temple. The individual modeled vent is approximate.",
           "source_ids": [
-            "JWALA"
+            "JWALA_JYOTI",
+            "JWALA_FIELD"
           ],
           "model_anchor": "SacredFlame_Anjana",
           "placement": null,
-          "notes": "One of the nine traditional flame identities in the shared sanctum. Exact fissure position is schematic; no figurative idol is implied."
+          "notes": "One of the eight other named forms in the common flame pit. The surrounding walkway provides darshan.",
+          "landing_anchor": "Landing_Jyoti_Anjana",
+          "tradition": "Shakta tradition • Natural flame in the shared sanctum"
         },
         {
           "id": "gorakh_dibbi",
-          "label": "Gorakh Dibbi",
-          "deity": "Gorakh Dibbi",
+          "label": "Gorakh Dibbi · Rudra Kund",
+          "deity": "Guru Gorakhnath",
           "form": "sacred_symbol",
           "kind": "associated_feature",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The Kangra temple authority records the kund beside the main temple and its ten-step approach.",
           "source_ids": [
+            "JWALA",
             "JWALA_CONTEXT"
           ],
           "model_anchor": "Gorakh_Dibbi_Reference",
+          "landing_anchor": "Landing_Gorakh_Dibbi",
           "placement": null,
-          "notes": "Associated in-complex feature; object appearance and position remain interpretive."
+          "notes": "The bubbling cold-water kund is associated with Guru Gorakhnath. The modeled stone basin follows the documented form.",
+          "tradition": "Nath tradition • Guru Gorakhnath and the Rudra Kund"
+        },
+        {
+          "id": "radha_krishna",
+          "label": "Radha–Krishna Temple",
+          "deity": "Radha and Krishna",
+          "form": "radha_krishna",
+          "kind": "subsidiary",
+          "evidence": "The Kangra temple authority places the Radha–Krishna temple by Gorakh Dibbi.",
+          "source_ids": [
+            "JWALA_NEAR"
+          ],
+          "model_anchor": "Radha_Krishna_Reference",
+          "landing_anchor": "Landing_Radha_Krishna",
+          "placement": null,
+          "notes": "A Vaishnava shrine on the adjacent terrace. The figures are iconographic studies of Radha and flute-bearing Krishna.",
+          "tradition": "Vaishnava tradition • Radha and Krishna"
+        },
+        {
+          "id": "shiva_shakti",
+          "label": "Shiva–Shakti · Linga and Jyoti",
+          "deity": "Shiva and Shakti",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The Kangra temple authority describes a linga and flame at the head of about fifteen steps immediately above Gorakh Dibbi.",
+          "source_ids": [
+            "JWALA_NEAR"
+          ],
+          "model_anchor": "Shiva_Shakti_Reference",
+          "landing_anchor": "Landing_Shiva_Shakti",
+          "placement": null,
+          "notes": "The upper shrine models the documented sacred forms. Its exact room dimensions and installed surfaces remain approximate.",
+          "tradition": "Shaiva and Shakta traditions • The linga with a Jyoti"
         },
         {
           "id": "shaiya_bhawan",
-          "label": "Shaiya Bhawan",
-          "deity": "Devi resting-place tradition",
-          "form": "unknown",
+          "label": "Seja Bhawan · Devi’s Resting Chamber",
+          "deity": "Jawala Mata",
+          "form": "sacred_symbol",
           "kind": "associated_feature",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The temple’s gallery identifies the domed Seja Bhawan. The Shaiyan Aarti page documents its use.",
           "source_ids": [
-            "JWALA_CONTEXT"
+            "JWALA_SEJA",
+            "JWALA_PHOTOS"
           ],
           "model_anchor": "Shaiya_Bhawan_Reference",
+          "landing_anchor": "Landing_Shaya_Bhawan",
           "placement": null,
-          "notes": "Associated resting-place building, not a new independent goddess idol."
+          "notes": "The second part of the bedtime aarti takes place here, with verses from Adi Shankaracharya’s Saundarya Lahari.",
+          "tradition": "Shakta tradition • Shaiyan Aarti and Saundarya Lahari"
+        },
+        {
+          "id": "charan_paduka",
+          "label": "Charan Paduka · Sacred Footprints",
+          "deity": "Jawala Mata",
+          "form": "sacred_symbol",
+          "kind": "associated_feature",
+          "evidence": "The temple gallery shows the paired metal footprints at the entrance.",
+          "source_ids": [
+            "JWALA_PHOTOS",
+            "JWALA_CONTEXT"
+          ],
+          "model_anchor": "Charan_Paduka_Reference",
+          "landing_anchor": "Landing_Charan_Paduka",
+          "placement": null,
+          "notes": "The paired footprints represent the Devi’s presence. The modeled paduka follows the photographed metal plate and floral offerings.",
+          "tradition": "Shakta tradition • Reverence for the Devi’s footprints"
+        },
+        {
+          "id": "yogini_kund",
+          "label": "Yogini Kund",
+          "deity": "Yogini worship",
+          "form": "sacred_symbol",
+          "kind": "associated_feature",
+          "evidence": "The Kangra temple authority places the ritual kund near the main entrance.",
+          "source_ids": [
+            "JWALA_RITES"
+          ],
+          "model_anchor": "Yogini_Kund_Reference",
+          "landing_anchor": "Landing_Yogini_Kund",
+          "placement": null,
+          "notes": "Khappar Puja is documented here. The basin and its exact position are modeled approximately.",
+          "tradition": "Shakta ritual • Khappar Puja at the Yogini Kund"
         },
         {
           "id": "akbar_chhatra",
-          "label": "Akbar Chhatra",
-          "deity": "Historical offering tradition",
+          "label": "Akbar’s Chhatra",
+          "deity": "Jawala Mata offering tradition",
           "form": "sacred_symbol",
           "kind": "historical_feature",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "A documented devotional offering with a published photograph of the display.",
           "source_ids": [
+            "JWALA_PARASOL",
             "JWALA_CONTEXT"
           ],
           "model_anchor": "Akbar_Chhatra_Reference",
+          "landing_anchor": "Landing_Akbar_Chhatra",
           "placement": null,
-          "notes": "Associated canopy offering; the simplified reference object is not an authenticated artefact replica."
+          "notes": "The metal parasol is associated with Akbar in temple tradition. The canopy is modeled from its photographed concentric bands.",
+          "tradition": "Offering tradition • The story of Akbar’s chhatra"
+        },
+        {
+          "id": "silver_door",
+          "label": "Kharak Singh’s Silver Door",
+          "deity": "Jawala Mata",
+          "form": "sacred_symbol",
+          "kind": "historical_feature",
+          "evidence": "The 1872–73 archaeological field report attributes the silver folding door to Kharak Singh.",
+          "source_ids": [
+            "JWALA_FIELD",
+            "JWALA_JYOTI"
+          ],
+          "model_anchor": "Silver_Door_Reference",
+          "landing_anchor": "Landing_Silver_Door",
+          "placement": null,
+          "notes": "The threshold models the open folding leaves and silver floral decoration. Individual repousse patterns are approximate.",
+          "tradition": "Temple patronage • Kharak Singh’s silver-plated door"
+        },
+        {
+          "id": "courtyard",
+          "label": "Jawala Ji · Checkered Courtyard",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The temple gallery and aerial photographs show the court and its two distinct gilded roofs.",
+          "source_ids": [
+            "JWALA_PHOTOS",
+            "JWALA_AERIAL"
+          ],
+          "model_anchor": "Courtyard_Approach",
+          "landing_anchor": "Landing_Courtyard_Approach",
+          "placement": null,
+          "notes": "The court connects the Paduka, main temple, the three visible domed pavilions and Seja Bhawan.",
+          "tradition": "Main compound • Pilgrim entrance and darshan routes"
         }
       ]
     },

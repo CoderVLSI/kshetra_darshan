@@ -1,8 +1,8 @@
 # Kshetra Darshan handoff
 
-Updated 20 November 2026 after the Sharada Peeth and Kamakhya rebuilds.
+Updated 20 November 2026 after the Jwalamukhi rebuild.
 
-Current status is a playable procedural preview with 21 scenes and 256 mapped destinations. Sharada Peeth has eight named stops around the roofless sanctuary and surviving enclosure. Its 63-step approach follows the western route in the field plan. Kamakhya has 20 named stops in the main compound, including the shared cave and two kunds. Srisailam has 45 named stops in its satellite-led enclosure, including both principal sanctuaries, the Sri Chakra, the Pancha Sivalaya and Nava Brahma rows, four gateways and three ritual springs. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
+Current status is a playable procedural preview with 21 scenes and 262 mapped destinations. Jwalamukhi has 18 named stops across the main flame chamber, its courtyard, Seja Bhawan and the connected terraces. Sharada Peeth has eight stops around its roofless sanctuary and field-plan enclosure. Kamakhya has 20 stops in the main compound, including the shared cave and two kunds. Srisailam has 45 stops in its satellite-led enclosure, including both principal sanctuaries, the Sri Chakra, the Pancha Sivalaya and Nava Brahma rows, four gateways and three ritual springs. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for current scenes.
 
 ## Run
 
@@ -17,13 +17,13 @@ Player now faces away from the rear camera, rests with relaxed arms, and joins p
 
 ## Validation and evidence
 
-The Up arrow route tests cover Sharada's western stairs and the roofless sanctuary, Draksharamam's upper stair, and Kamakhya's western approach, halls and cave floor. All four arrow bindings were checked separately. The general arrival probes cover about nine metres per site. Test scripts include `godot/scripts/test_player.gd`, `qa_worlds.gd`, `qa_routes.gd`, `qa_shrines.gd`, `verify_present_day_routes.gd`, `verify_presentation.gd` and `qa_release.gd`. Logs are in `output/review/`. Earlier independent model views are in `godot/screenshots/audit/`.
+The Up arrow route tests cover Jwalamukhi's flame chamber and both stairways, Sharada's western ascent and roofless sanctuary, Draksharamam's upper stair, and Kamakhya's western approach, halls and cave floor. All four arrow bindings were checked separately. The general arrival probes cover about nine metres per site. Test scripts include `godot/scripts/test_player.gd`, `qa_worlds.gd`, `qa_routes.gd`, `qa_shrines.gd`, `verify_present_day_routes.gd`, `verify_presentation.gd` and `qa_release.gd`. Logs are in `output/review/`. Earlier independent model views are in `godot/screenshots/audit/`.
 
 ## Research and limits
 
-The51-page architecture/deity PDF and primary research files are under `research/2026-11-16/`. Main-murti uncertainties and reconstruction caveats ship in `godot/data/reference_notes.json`.
+The 51-page architecture and deity PDF and primary research files are under `research/2026-11-16/`. Main-murti uncertainties and reconstruction caveats ship in `godot/data/reference_notes.json`.
 
-The playable collection covers the traditional eighteen names plus Kalighat, Madurai and Tuljapur. Pandua's hypothetical temple has been replaced with a study of the minaret and mosque ruins based on Archaeological Survey of India records. The historic Shrinkhala shrine's location remains unresolved. Jwalamukhi still uses its initial courtyard blockout, and Madurai still lacks its full internal plan. Temple-specific architecture, installed deity artwork, and individual carvings and inscriptions need further review across the collection.
+The playable collection covers the traditional eighteen names plus Kalighat, Madurai and Tuljapur. Pandua uses the minaret and mosque ruins from Archaeological Survey of India records. The historic Shrinkhala shrine's location remains unresolved. Madurai still lacks its full internal plan. Temple-specific architecture, installed deity artwork, and individual carvings and inscriptions need further review across the collection.
 
 GitHub origin is configured. Publication uses a fresh `codex/publish-preview` source snapshot targeting remote `main`; earlier local history is retained on `codex/complex-shrines-navigation`. The old audio generator contained a hard-coded credential, removed from current source; never publish it through previous history. Credentials now come from the environment. Generated narration is local MP3; API credentials must never ship in the game. Builds and downloaded research media remain local.
 

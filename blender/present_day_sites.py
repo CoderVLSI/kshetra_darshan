@@ -4,11 +4,8 @@ These are present-condition architectural blockouts, not measured replicas.
 No photographed inscriptions, unknown idols or lost roofs are invented.
 Sources and specific limits ship in each site's reference_notes entry.
 """
-import math
 from pathlib import Path
 import bpy
-from common_geometry import clear_scene, create_pillar, create_garbhagriha, create_gopuram
-from common_materials import create_granite_stone, create_white_marble, create_gold_metal
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -74,17 +71,6 @@ def keep_parent(o, parent):
     return o
 
 
-def enclosure(name, center, w, d, h, mat, gates=True):
-    x,y,z=center
-    gap=4.0 if gates else 0
-    for sign in [-1,1]:
-        for side in [-1,1]:
-            span=(w-gap)/2
-            box(f'{name}_NS_{sign}_{side}',(x+side*(gap/2+span/2),y+sign*d/2,z+h/2),(span,.65,h),mat,.025)
-            span=(d-gap)/2
-            box(f'{name}_EW_{sign}_{side}',(x+sign*w/2,y+side*(gap/2+span/2),z+h/2),(.65,span,h),mat,.025)
-
-
 def linga(name, p, height, mat):
     x,y,z=p
     a=anchor(name,p)
@@ -96,93 +82,7 @@ def linga(name, p, height, mat):
     return a
 
 
-def dome(name,p,r,h,mat):
-    # Lathed profile reproduces the visible bulbous dome silhouette, not a cone.
-    profile=[(0,1),(.10,1.06),(.25,1.13),(.42,1.08),(.60,.91),(.75,.64),(.88,.34),(1,.03)]
-    verts=[]; faces=[]; rings=64
-    for t,rad in profile:
-        for k in range(rings):
-            a=math.tau*k/rings
-            verts.append((p[0]+r*rad*math.cos(a),p[1]+r*rad*math.sin(a),p[2]+h*t))
-    for row in range(len(profile)-1):
-        for k in range(rings):
-            a=row*rings+k;b=row*rings+(k+1)%rings
-            faces.append((a,b,b+rings,a+rings))
-    mesh=bpy.data.meshes.new(name);mesh.from_pydata(verts,[],faces);mesh.update()
-    o=bpy.data.objects.new(name,mesh);bpy.context.collection.objects.link(o);o.data.materials.append(mat)
-    for f in mesh.polygons:f.use_smooth=True
-    cylinder(name+'_Finial',(p[0],p[1],p[2]+h+.27),.08,.55,mat)
-    sphere(name+'_FinialBead',(p[0],p[1],p[2]+h+.25),(.14,.14,.12),mat)
-
-
-def arch(name, x,y,z,w,h,thick,mat):
-    # Voussoirs leave the passage genuinely open.
-    radius=w/2
-    for sign in [-1,1]:
-        box(name+'_Jamb',(x+sign*(radius+.12),y,z+(h-radius)/2),(.24,thick,h-radius),mat,.025)
-    for k in range(20):
-        t=math.pi*(k+.5)/20
-        o=box(name+'_Voussoir',(x+(radius+.12)*math.cos(t),y,z+h-radius+(radius+.12)*math.sin(t)),(.24,thick,math.pi*(radius+.12)/20+.025),mat,.012)
-        o.rotation_euler.y=-t
-
-
 def finish(site):
     target=ROOT/'godot/assets/models'/f'{site}_kshetra_full.glb'
     bpy.ops.export_scene.gltf(filepath=str(target),export_format='GLB',export_apply=True,export_yup=True,export_cameras=False,export_lights=False)
     print('PRESENT_DAY_STUDY',site)
-
-
-def build_jwala():
-    clear_scene()
-    white=create_white_marble('Jwala_Whitewashed_Stone',(.83,.81,.75,1),.65)
-    dark=material('Jwala_Dark_Paving',(.20,.22,.23));gold=create_gold_metal('Jwala_Gilded_Domes')
-    rock=create_granite_stone('Jwala_Rock',(.14,.13,.12,1));red=material('Jwala_Red_Trim',(.45,.065,.035))
-    box('Ground_Courtyard',(0,0,-.12),(44,38,.24),white)
-    # Alternating marble paving appears in the inspected courtyard photograph.
-    for i in range(40):
-        for j in range(30):
-            if (i+j)%2:box('Courtyard_Checker',(i-19.5,j-14.5,.006),(.96,.96,.012),dark)
-    enclosure('Courtyard_Boundary',(0,0,0),42,36,1.1,white)
-    x,y=-9,8
-    create_garbhagriha('Jwala_Main_Hall',(x,y,0),width=13,depth=10,wall_height=4.2,wall_thickness=.55,mat=white,door_width=3.2,door_height=3.4)
-    box('Jwala_Main_Roof',(x,y,4.25),(13.8,10.8,.35),white,.06)
-    for dx in [-6.5,6.5]:
-        for dy in [-5,5]:dome('Corner_Gilded_Cupola',(x+dx,y+dy,4.55),.70,.85,gold)
-    cylinder('Central_Dome_Drum',(x,y,4.9),2.4,.75,white)
-    dome('Central_Gilded_Dome',(x,y,5.25),2.45,2.65,gold)
-    # Arcaded entrance veranda has open passages rather than a solid facade.
-    box('Veranda_Roof',(x,y-6.0,3.8),(13.7,2.0,.25),white,.04)
-    # Courtyard photograph shows a paired front opening and an arcade
-    # continuing along the side facing the paved court.
-    for dx in [-1.25,1.25]:arch('Veranda_Arch',x+dx,y-6.25,0,2.2,3.65,.45,white)
-    box('Side_Gallery_Roof',(x+7.1,y,3.8),(1.5,10.8,.25),white,.04)
-    for dy in [-3.6,-1.2,1.2,3.6]:
-        for side in [-1,1]:
-            box('Court_Gallery_Pier',(x+7.65,y+dy+side*1.05,1.35),(.32,.20,2.7),white,.02)
-        for i in range(14):
-            a=math.pi*(i+.5)/14
-            block=box('Court_Gallery_Arch',(x+7.65,y+dy+1.05*math.cos(a),2.70+1.05*math.sin(a)),(.32,.20,.25),white,.01)
-            block.rotation_euler.x=a
-    # Modest blue/gold flames in rock recesses, not nine anthropomorphic idols.
-    blue=material('Jwala_Blue_Flame',(.07,.25,1),.35,emission=3)
-    tip=material('Jwala_Golden_Flame',(1,.48,.08),.35,emission=2)
-    names=['Mahakali','Annapurna','Chandi','Hinglaj','Vindhyavasini','Mahalakshmi','Saraswati','Ambika','Anjana']
-    for k,name in enumerate(names):
-        px=x-4+(k%5)*2;py=y+1.5+(k//5)*1.65
-        a=anchor('SacredFlame_'+name,(px,py,.50))
-        for o in [box('Rock_Fissure',(px,py,.28),(1.2,.65,.56),rock,.12),
-                  sphere('SacredFlame_'+name+'_Blue',(px,py-.15,.61),(.07,.055,.19),blue),
-                  sphere('SacredFlame_'+name+'_Tip',(px,py-.15,.78),(.028,.026,.11),tip)]:keep_parent(o,a)
-    for px,py,n in [(9,8,'Gorakh_Dibbi'),(10,-5,'Shaiya_Bhawan')]:
-        create_garbhagriha(n,(px,py,0),width=4.5,depth=4.5,wall_height=2.6,mat=white,door_width=1.8,door_height=2.3)
-        box(n+'_Roof',(px,py,2.7),(5,5,.25),white)
-        dome(n+'_Dome',(px,py,2.85),1.4,1.5,white)
-        anchor(n+'_Reference',(px,py,.5))
-    # Akbar's chhatra is an associated object, not another deity statue.
-    a=anchor('Akbar_Chhatra_Reference',(0,-4,.12))
-    keep_parent(cylinder('Chhatra_Reference_Canopy',(0,-4,.10),1.2,.09,dark),a)
-    for px in [-17,17]:
-        cylinder('Flagpole',(px,-10,4.5),.055,9,gold)
-        box('Flag',(px+.55,-10,8.35),(1.1,.025,.65),red)
-    anchor('Spawn_Point',(0,-14,.05))
-    finish('jwalamukhi_vaishnavi')
