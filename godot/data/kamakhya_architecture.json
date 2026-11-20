@@ -9,26 +9,24 @@
     "lat": 26.1664,
     "lng": 91.7054
   },
-  "style": "Nilachala style (hybrid Nagara beehive dome and medieval Assamese roof)",
+  "style": "Nilachala style with a banded sixteen-sided dome on older stone masonry",
   "key_structures": [
-    "Garbhagriha (subterranean cave shrine with natural spring)",
-    "Calanta (quadrangular hall with idols)",
-    "Pancharatna (five-spired mandapa)",
-    "Natamandira (pillared dance hall with apsidal end)",
-    "Saubhagya Kunda (sacred stepped water pond)"
+    "West-facing apsidal Natmandir with an elephant-back roof",
+    "Five-domed Bhogamandapa (Pancharatna), Chalanta and Antarala",
+    "Octagonal Manobhava Guha beneath the Vimana",
+    "Saubhagya and Rinmoksha Kund within the temple compound"
   ],
   "special_features": [
-    "Natural subterranean spring flowing over yoni-shaped rock fracture",
-    "Beehive shikhara with sculptured stone bands",
-    "Sunken inner sanctum accessed by steep rock-cut steps",
-    "Sculpted relief panels of Ganesha, Mahishasuramardini, and Chamunda on outer walls"
+    "Sacred spring-fed rock depression in the Manobhava Guha",
+    "Sacred stones for Matangi and Kamala in the same lower chamber",
+    "The survey places the cave floor 2.5 metres below the halls",
+    "Sculptured stone niches beneath the later brick dome"
   ],
   "materials": [
-    "Red laterite stone",
-    "Granite masonry blocks",
-    "Terracotta decorative bricks",
-    "Brass and gold-gilded finials"
+    "Earlier stone foundation and sculpted granite",
+    "Banded brick shikhara and terracotta roofs",
+    "Limewashed walls and metal finials"
   ],
-  "period": "8th–17th Century CE",
-  "renovation_history": "Original temple destroyed during invasions; rebuilt by Koch King Chilarai and King Naranarayana in 1565 CE in Nilachala architectural style; expanded by Ahom kings in 17th-18th centuries."
+  "period": "Early stone fabric, Koch rebuilding and Ahom additions",
+  "renovation_history": "The temple authority records rebuilding in 1565 under the Koch rulers. The field survey documents the Natmandir dedication of 1759 under Rajeswar Singha."
 }

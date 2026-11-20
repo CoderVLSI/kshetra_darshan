@@ -1,8 +1,8 @@
 # Kshetra Darshan handoff
 
-Updated 19 November 2026 after the Srisailam rebuild.
+Updated 20 November 2026 after the Kamakhya rebuild.
 
-Current status is a playable procedural preview with 21 scenes and 240 mapped destinations. Srisailam has 45 named stops in its satellite-led enclosure, including both principal sanctuaries, the Sri Chakra, the Pancha Sivalaya and Nava Brahma rows, four gateways and three ritual springs. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
+Current status is a playable procedural preview with 21 scenes and 249 mapped destinations. Kamakhya has 20 named stops in the main compound. Its west-facing hall sequence and descent to the shared cave follow the published measured plan, and the two kunds have separate map destinations. Srisailam has 45 named stops in its satellite-led enclosure, including both principal sanctuaries, the Sri Chakra, the Pancha Sivalaya and Nava Brahma rows, four gateways and three ritual springs. Exact installed images, inscriptions and building sculptures still need site-by-site review. The files under `research/2026-11-16/` record the earlier audit, and `godot/data/reference_notes.json` contains the sources and limits for the current scenes.
 
 ## Run
 
@@ -17,7 +17,7 @@ Player now faces away from the rear camera, rests with relaxed arms, and joins p
 
 ## Validation and evidence
 
-Geometry regression, ten player checks, eighteen grounded world spawns, eighteen short arrival-route probes, presentation checks and exported-pack checks pass. Arrival probes cover about nine metres per site, not complete shrine navigation. Test scripts: `godot/scripts/test_player.gd`, `qa_worlds.gd`, `qa_routes.gd`, `verify_presentation.gd`, `qa_release.gd`; logs in `output/review/`. Independent model views: `godot/screenshots/audit/`.
+Kamakhya's western approach, hall sequence and descent to the cave floor were exercised by walking with the Up arrow. All four arrow bindings were checked separately. The general arrival probes cover about nine metres per site. Test scripts include `godot/scripts/test_player.gd`, `qa_worlds.gd`, `qa_routes.gd`, `qa_shrines.gd`, `verify_presentation.gd` and `qa_release.gd`. Logs are in `output/review/`. Earlier independent model views are in `godot/screenshots/audit/`.
 
 ## Research and limits
 

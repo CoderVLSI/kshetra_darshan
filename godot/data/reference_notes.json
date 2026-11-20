@@ -388,29 +388,37 @@
   "kamakhya": {
     "name": "Kamarupa / Kamakhya",
     "stotram_order": 13,
-    "architecture": "Nilachala hybrid architecture: polygonal banded dome, differentiated attached chamber roofs, two-roof antarala, five-domed bhogmandir and apsidal shell-roof natmandir. Four- and five-chamber descriptions coexist; retain the documented east-west axial composition.",
-    "deity_form": "Natural sacred rock cleft and spring",
-    "posture": "Subterranean sacred formation; not an anthropomorphic main idol",
-    "arms": "Not applicable",
-    "attributes": "Natural cleft, spring water and ritual coverings",
-    "deity_notes": "Do not replace the main cave sacred form with a generic multi-armed Devi. Keep movable Kameshwari images distinct from the main sacred formation.",
-    "uncertainties": "No authenticated cave close-up selected; exact access, water and coverings need separate evidence.",
+    "architecture": "A west-facing sequence through the apsidal Natmandir, five-domed Bhogamandapa, Chalanta and Antarala to the eastern Vimana. IIT Guwahati figs. 33–36 inform hall footprints and door positions. The aerial view informs courtyard scale and roof silhouettes.",
+    "deity_form": "Sacred natural rock and spring in the octagonal Manobhava Guha",
+    "posture": "Three sacred stone forms share the lower chamber, 2.5 metres below the halls.",
+    "arms": "None for the rock Peetha",
+    "attributes": "A spring-fed depression, natural stone, oil lamps and red offerings",
+    "deity_notes": "Kamakhya/Sodasi, Matangi and Kamala have separate viewpoints in the shared cave. The movable Kameshwari and Kameshwara studies remain in Chalanta.",
+    "uncertainties": "The cave contour and precise Matangi and Kamala positions are approximate. The two tanks are documented inside the precinct. Their exact game footprints, tree positions and remaining individual sculpture identities are estimates.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Maa Kamakhya Devalaya: Architecture",
+        "title": "Maa Kamakhya Devalaya: architecture",
         "url": "https://www.maakamakhya.org/architecture"
       },
       {
-        "title": "Maa Kamakhya Devalaya: Nilachal temples",
-        "url": "https://www.maakamakhya.org/nilachal"
+        "title": "IIT Guwahati: Contextualizing the Archaeological Landscape, figs. 19, 32–36 and 80",
+        "url": "https://gyan.iitg.ac.in/server/api/core/bitstreams/4d9fa9b7-5c27-4b88-8662-f9052d4a2567/content"
       },
       {
-        "title": "Assam government: Mahabahu Brahmaputra, Kamakhya section",
-        "url": "https://fremaa.assam.gov.in/sites/default/files/swf_utility_folder/departments/fremaa_webcomindia_org_oid_4/menu/right_menu/right_menu/the_mahabahu_brahmaputra_0.pdf"
+        "title": "GPlus: Ambubachi 2025 aerial documentation",
+        "url": "https://www.guwahatiplus.com/guwahati/aerial-view-captures-captivating-images-of-kamakhya-temple-during-ambubachi-2025"
+      },
+      {
+        "title": "Satellite view of Kamakhya’s hilltop precinct",
+        "url": "https://www.google.com/maps/@26.16641,91.70521,19z/data=!3m1!1e3"
+      },
+      {
+        "title": "Kamakhya architecture: named interior worship images",
+        "url": "https://kamakhya.org/architecture-aesthetics/"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model includes stone niche bands, Chamunda panel studies and both documentation records for the 1565 and 1759 dedications. Full plaque text and exact object-by-object sculpture matching are pending."
   },
   "prayag_madhaveswari": {
     "name": "Madhaveswari at Prayaga (game selects Alopi)",

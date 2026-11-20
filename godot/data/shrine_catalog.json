@@ -6,105 +6,70 @@
   "completeness": "Evidence-backed working catalog, not a certified exhaustive survey. An unlisted shrine is not evidence of absence.",
   "temples": {
     "kamakhya": {
-      "scope_note": "Main Kamakhya building and immediate entrance precinct: shared cave Peethas, Chalanta processional worship and entrance Ganesh. Wider Nilachal Mahavidya and Shiva temples are excluded.",
+      "scope_note": "The main west-facing building, its immediate court, and the two tanks documented inside its boundary. The three Peethas share the lower Manobhava Guha. The separate Nilachal hill temples are beyond this modeled precinct.",
       "sources": [
         {
           "id": "KAMAKHYA",
-          "title": "Maa Kamakhya Devalaya: Architecture",
+          "title": "Maa Kamakhya Devalaya: Architecture and chamber roofs",
           "url": "https://www.maakamakhya.org/architecture"
         },
         {
           "id": "KAMAKHYA_IIT",
-          "title": "IIT Guwahati archaeology field documentation: main sanctum and wider hill",
+          "title": "IIT Guwahati: archaeological survey, figs. 19, 32–36 and 80",
           "url": "https://gyan.iitg.ac.in/server/api/core/bitstreams/4d9fa9b7-5c27-4b88-8662-f9052d4a2567/content"
         },
         {
           "id": "KAMAKHYA_CHALANTA",
-          "title": "Kamakhya architecture account: Chalanta worship locations",
+          "title": "Kamakhya architecture: interior worship images and court",
           "url": "https://kamakhya.org/architecture-aesthetics/"
         },
         {
           "id": "KAMAKHYA_FIELD_2011",
           "title": "Ravi S. Singh: Kamakhya Temple field study (2011)",
           "url": "https://www.academia.edu/26392847/_R023_11_Singh_Ravi_S_2011_The_Kamakhya_Devi_Temple_Symbolism_Sacredscapes_and_Festivities_in_Singh_Rana_P_B_ed_Holy_Places_and_Pilgrimages_Essays_on_India_Planet_Earth_and_Cultural_Understanding_Series_Pub_8_Shubhi_Publications_New_Delhi_pp_81_104"
+        },
+        {
+          "id": "KAMAKHYA_AERIAL",
+          "title": "GPlus: aerial photograph at Ambubachi 2025",
+          "url": "https://www.guwahatiplus.com/guwahati/aerial-view-captures-captivating-images-of-kamakhya-temple-during-ambubachi-2025"
+        },
+        {
+          "id": "KAMAKHYA_SAT",
+          "title": "Satellite image of the Kamakhya compound",
+          "url": "https://www.google.com/maps/@26.16641,91.70521,19z/data=!3m1!1e3"
         }
       ],
       "excluded": [
         {
-          "name": "Bagala",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+          "name": "Wider Nilachal Mahavidya shrines",
+          "reason": "The field survey distinguishes Tara, Dakshina Kali, Dhumavati, Bagala, Bhuvaneshvari, Bhairavi and Chinnamasta from the main Kamakhya building and its shared cave."
         },
         {
-          "name": "Kali",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+          "name": "Kamesvara, Siddheswara, Aghora, Amratakeswara, Kotilinga, Kedareshwar and Kamalesvara",
+          "reason": "These free-standing temples belong to the wider hill precinct. Chalanta's processional Kameshwara is included."
         },
         {
-          "name": "Tara",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Bhairavi",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Chinnamasta",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Dhumavati",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Bhubaneshwari",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Kameshwar",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Siddheshwar",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Aghora",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Amratokeshwar",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Kautilinga",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Kedareshwar",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Saubhagya",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
-        },
-        {
-          "name": "Pandunath",
-          "reason": "Outside the strict main-compound scope, or current compound membership is not established."
+          "name": "Mahakal Ganesh and Darpul Ganesh",
+          "reason": "The separately surveyed hill shrines are outside the immediate visitor court. The entrance Ganesh worship stop is in scope."
         }
       ],
       "shrines": [
         {
           "id": "main",
-          "label": "Kamakhya / Sodasi sacred Peetha",
-          "deity": "Kamakhya / Sodasi sacred Peetha",
+          "label": "Kamakhya / Sodasi Peetha",
+          "deity": "Kamakhya",
           "form": "sacred_symbol",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The field survey describes the spring-fed rock depression in the Manobhava Guha, 2.5 metres below the halls.",
           "source_ids": [
-            "KAMAKHYA"
+            "KAMAKHYA",
+            "KAMAKHYA_IIT"
           ],
           "model_anchor": "Deity_Kamakhya",
+          "landing_anchor": "Kamakhya_Darshan_Landing",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "Kamakhya is worshipped through the sacred rock and its perennial spring.",
+          "artwork_description": "Original non-figurative model of the natural rock and spring. The stone contours and altar dressing are approximate."
         },
         {
           "id": "matangi",
@@ -112,13 +77,15 @@
           "deity": "Matangi Peetha",
           "form": "sacred_symbol",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "IIT Guwahati records this form within the shared Manobhava Guha.",
           "source_ids": [
             "KAMAKHYA_IIT"
           ],
-          "model_anchor": null,
+          "model_anchor": "Matangi_Peetha_Anchor",
+          "landing_anchor": "Matangi_Peetha_Landing",
           "placement": null,
-          "notes": "Sacred stone form inside the shared main cave; exact geometry and relative coordinates are not authenticated."
+          "notes": "Sacred form worshipped alongside the Kamakhya/Sodasi Peetha.",
+          "artwork_description": "A separate sacred-stone study inside the cave. The precise installed position and contours remain unverified."
         },
         {
           "id": "kamala",
@@ -126,129 +93,292 @@
           "deity": "Kamala Peetha",
           "form": "sacred_symbol",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "IIT Guwahati records this form within the shared Manobhava Guha.",
           "source_ids": [
             "KAMAKHYA_IIT"
           ],
-          "model_anchor": null,
+          "model_anchor": "Kamala_Peetha_Anchor",
+          "landing_anchor": "Kamala_Peetha_Landing",
           "placement": null,
-          "notes": "Sacred stone form inside the shared main cave; not a separate hill temple or anthropomorphic image."
+          "notes": "Sacred form worshipped alongside the Kamakhya/Sodasi Peetha.",
+          "artwork_description": "A separate sacred-stone study inside the cave. The precise installed position and contours remain unverified."
         },
         {
           "id": "kameshwari",
-          "label": "Kameshwari — Chalanta processional image",
-          "deity": "Kameshwari — Chalanta processional image",
+          "label": "Kameshwari · Chalanta",
+          "deity": "Kameshwari",
           "form": "devi",
           "kind": "processional",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The movable Kameshwari image shares the simhasana with Kameshwara.",
           "source_ids": [
             "KAMAKHYA_CHALANTA"
           ],
-          "model_anchor": "Preceding_Deity_Kameshwari",
+          "model_anchor": "Kameshwari_Anchor",
+          "landing_anchor": "Kameshwari_Landing",
           "placement": null,
-          "notes": "Movable worship image in Chalanta, distinct from the cave Peetha. Existing stylised model; exact anatomy is not authenticated."
+          "notes": "The movable Kameshwari image shares the simhasana with Kameshwara.",
+          "artwork_description": "Original metal processional image study."
         },
         {
           "id": "kameshwara",
-          "label": "Kameshwara — Chalanta processional worship",
-          "deity": "Kameshwara — Chalanta processional worship",
-          "form": "unknown",
+          "label": "Kameshwara · Chalanta",
+          "deity": "Kameshwara",
+          "form": "shiva",
           "kind": "processional",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The movable Kameshwara image shares the simhasana with Kameshwari.",
           "source_ids": [
             "KAMAKHYA_CHALANTA"
           ],
-          "model_anchor": "Chalanta_Altar",
+          "model_anchor": "Kameshwara_Anchor",
+          "landing_anchor": "Kameshwara_Landing",
           "placement": null,
-          "notes": "Shares the Chalanta altar with Kameshwari. A named reference altar is used because the movable image is not authenticated; the old invented linga is hidden."
+          "notes": "The movable Kameshwara image shares the simhasana with Kameshwari.",
+          "artwork_description": "Original seated processional study. The installed image has not been authenticated."
         },
         {
           "id": "batuk_bhairava",
-          "label": "Batuk Bhairava — Chalanta",
-          "deity": "Batuk Bhairava — Chalanta",
-          "form": "unknown",
+          "label": "Batuk Bhairava · Chalanta",
+          "deity": "Batuk Bhairava",
+          "form": "bhairava",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The guardian Bhairava is recorded within Chalanta.",
           "source_ids": [
             "KAMAKHYA_CHALANTA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Batuk_Bhairava_Anchor",
+          "landing_anchor": "Batuk_Bhairava_Landing",
           "placement": null,
-          "notes": "Named in the Chalanta hall; schematic shrine and reference altar, not the separate hill Shiva temples."
+          "notes": "The guardian Bhairava is recorded within Chalanta.",
+          "artwork_description": "Original small iconographic study. Exact bay and image remain approximate."
         },
         {
           "id": "ganesha",
-          "label": "Ganesh — entrance worship",
-          "deity": "Ganesh — entrance worship",
+          "label": "Ganesh · Entrance Worship",
+          "deity": "Ganesh",
           "form": "ganesha",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The field study records Ganesh worship before visitors enter the main edifice.",
           "source_ids": [
             "KAMAKHYA_FIELD_2011"
           ],
-          "model_anchor": "Ganesha_Shrine",
+          "model_anchor": "Entrance_Ganesh_Anchor",
+          "landing_anchor": "Entrance_Ganesh_Landing",
           "placement": null,
-          "notes": "Field study records Ganesh worship before entering the main edifice; precise sculpture and placement remain schematic."
+          "notes": "The field study records Ganesh worship before visitors enter the main edifice.",
+          "artwork_description": "Original seated Ganesh study at the entrance. Exact worship position remains approximate."
         },
         {
           "id": "chamunda",
-          "label": "Chamunda — Pancharatna",
-          "deity": "Chamunda — Pancharatna",
+          "label": "Chamunda · Pancharatna",
+          "deity": "Chamunda",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main temple building by the local architecture account.",
+          "evidence": "The local description names Chamunda in the Pancharatna hall.",
           "source_ids": [
             "KAMAKHYA_CHALANTA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancharatna_Chamunda_Anchor",
+          "landing_anchor": "Pancharatna_Chamunda_Landing",
           "placement": null,
-          "notes": "The local architecture account places this image in Pancharatna. Placement in this schematic complex is not a surveyed location."
+          "notes": "The local description names Chamunda in the Pancharatna hall.",
+          "artwork_description": "Original relief study. The installed Pancharatna figure has not been authenticated."
         },
         {
           "id": "manasa",
-          "label": "Manasa altar — Pancharatna",
-          "deity": "Manasa altar — Pancharatna",
-          "form": "sacred_symbol",
+          "label": "Manasa · Pancharatna",
+          "deity": "Manasa",
+          "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main temple building by the local architecture account.",
+          "evidence": "The Pancharatna is used for the annual Manasa Puja. The field survey describes its temporary ritual enclosure.",
           "source_ids": [
-            "KAMAKHYA_CHALANTA"
+            "KAMAKHYA_CHALANTA",
+            "KAMAKHYA_IIT"
           ],
-          "model_anchor": null,
+          "model_anchor": "Pancharatna_Manasa_Anchor",
+          "landing_anchor": "Pancharatna_Manasa_Landing",
           "placement": null,
-          "notes": "Named altar within Pancharatna; exact altar and sculpture are not authenticated."
+          "notes": "The Pancharatna is used for the annual Manasa Puja. The field survey describes its temporary ritual enclosure.",
+          "artwork_description": "Original Manasa study identifying the festival worship site."
         },
         {
           "id": "durga_natmandir",
-          "label": "Durga — Natmandir entrance image",
-          "deity": "Durga — Natmandir entrance image",
+          "label": "Durga · Natmandir Relief",
+          "deity": "Durga",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main temple building by the local architecture account.",
+          "evidence": "One of the two life-sized images at the eastern Natmandir gate.",
           "source_ids": [
             "KAMAKHYA_CHALANTA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Nat_Durga_Anchor",
+          "landing_anchor": "Nat_Durga_Landing",
           "placement": null,
-          "notes": "Named as a life-sized image beside the eastern Natmandir gate; schematic artwork and placement."
+          "notes": "One of the two life-sized images at the eastern Natmandir gate.",
+          "artwork_description": "Original standing relief study. Exact figure details remain approximate."
         },
         {
           "id": "shiva_natmandir",
-          "label": "Shiva — Natmandir entrance image",
-          "deity": "Shiva — Natmandir entrance image",
-          "form": "unknown",
+          "label": "Shiva · Natmandir Relief",
+          "deity": "Shiva",
+          "form": "shiva",
           "kind": "subsidiary",
-          "evidence": "Named within the main temple building by the local architecture account.",
+          "evidence": "One of the two life-sized images at the eastern Natmandir gate.",
           "source_ids": [
             "KAMAKHYA_CHALANTA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Nat_Shiva_Anchor",
+          "landing_anchor": "Nat_Shiva_Landing",
           "placement": null,
-          "notes": "Named as a life-sized image beside the eastern Natmandir gate; not an invented linga substituted for an anthropomorphic image."
+          "notes": "One of the two life-sized images at the eastern Natmandir gate.",
+          "artwork_description": "Original standing relief study. Exact figure details remain approximate."
+        },
+        {
+          "id": "saubhagya_kund",
+          "label": "Saubhagya Kund",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "Survey fig. 32 shows a stepped tank with a small pavilion.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Saubhagya_Kund_Anchor",
+          "landing_anchor": "Saubhagya_Kund_Landing",
+          "placement": null,
+          "notes": "The pond serves ritual purification before darshan.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "rinmoksha_kund",
+          "label": "Rinmoksha Kund",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The thesis records a distinct adjacent tank within the main compound.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Rinmoksha_Kund_Anchor",
+          "landing_anchor": "Rinmoksha_Kund_Landing",
+          "placement": null,
+          "notes": "The tank is used for ancestral rites such as Pitru Tarpan.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "chamunda_court_north",
+          "label": "Chamunda · Courtyard Relief Study",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The field survey documents two detached Chamunda panels in figure 80.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Chamunda_Courtyard_North_Anchor",
+          "landing_anchor": "Chamunda_Courtyard_North_Landing",
+          "placement": null,
+          "notes": "This relief preserves the surveyed stone-panel form as a visual study. Its display location is approximate.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "chamunda_court_south",
+          "label": "Chamunda · Second Courtyard Relief Study",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The field survey distinguishes two Chamunda slabs, CL1 and CR1.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Chamunda_Courtyard_South_Anchor",
+          "landing_anchor": "Chamunda_Courtyard_South_Landing",
+          "placement": null,
+          "notes": "The original slabs differ in their framing and imagery. The model represents their placement approximately.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "vimana_north_reliefs",
+          "label": "Vimana · North Stone Reliefs",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The thesis records standing sculpture niches along the stone bada.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Vimana_North_Sculptures_Anchor",
+          "landing_anchor": "Vimana_North_Sculptures_Landing",
+          "placement": null,
+          "notes": "The sculpture band is a reference to the documented older masonry. Individual figures need a full inventory.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "vimana_south_reliefs",
+          "label": "Vimana · South Stone Reliefs",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The thesis records standing sculpture niches along the stone bada.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Vimana_South_Sculptures_Anchor",
+          "landing_anchor": "Vimana_South_Sculptures_Landing",
+          "placement": null,
+          "notes": "The northern and southern walls have separate map viewpoints.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "koch_inscription",
+          "label": "Koch Rebuilding Inscription · 1565",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "The survey reports the 1565 rebuilding record associated with Naranarayana and Chilarai.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Koch_Reconstruction_Anchor",
+          "landing_anchor": "Koch_Reconstruction_Landing",
+          "placement": null,
+          "notes": "The panel and historical summary mark the dedication. The original text still needs a verified transcription for the model.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "ahom_inscription",
+          "label": "Natmandir Dedication · 1759",
+          "deity": "",
+          "form": "architecture",
+          "kind": "heritage",
+          "evidence": "Survey figure 19 identifies the Natmandir inscription under Rajeswar Singha.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Ahom_Dedication_Anchor",
+          "landing_anchor": "Ahom_Dedication_Landing",
+          "placement": null,
+          "notes": "The inscription records construction by Dasaratha Tarun Duwar. The original lettering still needs a verified transcription for the model.",
+          "artwork_description": "Reference location with a short source-backed description. Exact surface detail remains approximate."
+        },
+        {
+          "id": "tripura_bhairavi_relief",
+          "label": "Tripura Bhairavi · Rock Relief",
+          "deity": "Tripura Bhairavi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Figure 81 shows the vermilion-covered rock relief inside the main compound.",
+          "source_ids": [
+            "KAMAKHYA_IIT"
+          ],
+          "model_anchor": "Tripura_Bhairavi_Court_Anchor",
+          "landing_anchor": "Tripura_Bhairavi_Court_Landing",
+          "placement": null,
+          "notes": "The surveyed carving is distinct from the separate Bhairavi temple on Nilachal Hill.",
+          "artwork_description": "Original study of the photographed granite face, red pigment, garlands and bells. Exact position and companion figure remain unverified."
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Working inventory for the measured temple and its immediate compound. Installed movable images, individual sculpture details and epigraphy still need review with temple access."
     },
     "kalighat": {
       "scope_note": "The enclosed Kalighat compound. North-up aerial imagery and a published visitor diagram inform the footprint. Relative structure positions follow the diagram and visitor dimensions are approximate.",
