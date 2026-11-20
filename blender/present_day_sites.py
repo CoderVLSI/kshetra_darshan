@@ -1,11 +1,10 @@
-"""Original, reference-led studies of three previously missing destinations.
+"""Geometry shared by reference-led studies of previously missing destinations.
 
 These are present-condition architectural blockouts, not measured replicas.
 No photographed inscriptions, unknown idols or lost roofs are invented.
 Sources and specific limits ship in each site's reference_notes entry.
 """
 import math
-import random
 from pathlib import Path
 import bpy
 from common_geometry import clear_scene, create_pillar, create_garbhagriha, create_gopuram
@@ -131,97 +130,6 @@ def finish(site):
     target=ROOT/'godot/assets/models'/f'{site}_kshetra_full.glb'
     bpy.ops.export_scene.gltf(filepath=str(target),export_format='GLB',export_apply=True,export_yup=True,export_cameras=False,export_lights=False)
     print('PRESENT_DAY_STUDY',site)
-
-
-def build_sharada():
-    clear_scene();rng=random.Random(617)
-    grass=material('Sharada_ValleyGrass',(.19,.25,.12))
-    stone=[create_granite_stone('Sharada_LocalStone_'+str(i),(.31+i*.018,.30+i*.015,.25+i*.012,1)) for i in range(6)]
-    box('Ground_Valley',(0,0,-.20),(105,120,.4),grass)
-    top=10.08
-    # Grass court and a hillock rather than a fabricated paved fort terrace.
-    # The northern retaining face is documented; the slope is contextual art.
-    box('Hill_Base',(0,1,top/2),(44,30,top),grass)
-    box('Enclosure_Floor',(0,1,top-.1),(43,29,.2),grass)
-    box('Northern_Retaining_Wall',(0,-13.78,top/2),(43,.55,top),stone[2])
-    vertices=[];faces=[];count=96
-    for ring in range(3):
-        for k in range(count):
-            a=math.tau*k/count
-            # Superellipse keeps the court flat while softening the hill edges.
-            x=math.copysign(abs(math.cos(a))**.40,math.cos(a))
-            y=math.copysign(abs(math.sin(a))**.40,math.sin(a))
-            scale=[1,1.37,1.8][ring]
-            vertices.append((x*22*scale,y*15*scale+1,[top-.08,top*.35,-.12][ring]))
-    for ring in range(2):
-        for k in range(count):
-            n=(k+1)%count
-            faces.append((ring*count+k,(ring+1)*count+k,(ring+1)*count+n,ring*count+n))
-    mesh=bpy.data.meshes.new('Context_Hillock');mesh.from_pydata(vertices,[],faces);mesh.update()
-    hill=bpy.data.objects.new('Hill_Base_ContextSlope',mesh);bpy.context.collection.objects.link(hill);hill.data.materials.append(grass)
-    # 63 approached stone-slab steps are documented by DOAM. Rise and tread
-    # here are navigable design dimensions; they are not a survey of each slab.
-    for k in range(63):
-        h=(k+1)*.16
-        box(f'Approach_Step_{k+1:02}',(0,-34.16+(k+.5)*.32,h/2),(2.7,.32,h),stone[k%6],.012)
-    anchor('Spawn_Point',(0,-37,.05))
-    # DOAM documents a northern gateway. Close the other three breaks
-    # inherited from the generic four-gate enclosure helper.
-    enclosure('Enclosing_Quadrangle',(0,1,top),43,29,1.65,stone[1])
-    box('South_Enclosure_Continuation',(0,15.5,top+.825),(4,.65,1.65),stone[1])
-    for side in [-1,1]:
-        box('Side_Enclosure_Continuation',(side*21.5,1,top+.825),(.65,4,1.65),stone[1])
-    # The preserved entrance masonry and recessed cell, not a new gopuram.
-    for x in [-2.1,2.1]:
-        box('Entrance_Stone_Pier',(x,-13.5,top+1.9),(1.15,1.1,3.8),stone[2],.07)
-    arch('Entrance_Trefoil_Lower',0,-13.5,top,2.65,3.4,.75,stone[4])
-    # Central roofless sanctuary: jointed masonry and surviving pilasters.
-    court_objects=set(bpy.context.scene.objects)
-    cy=3.8;base=top+.48
-    box('Sanctuary_Platform',(0,cy,top+.24),(10,10,.48),stone[3],.05)
-    for k in range(3):
-        box('Sanctuary_Step_'+str(k),(0,cy-5.9+k*.40,top+(k+1)*.16/2),(3.2,.4,(k+1)*.16),stone[4],.025)
-    ruin=anchor('Sanctuary_Ruins',(0,cy,base))
-    floor=box('Sanctuary_Ruins_Floor',(0,cy,base-.04),(6.4,6.4,.08),stone[2]);keep_parent(floor,ruin)
-    # Individual irregular stones retain joints and a broken upper silhouette.
-    for face in range(4):
-        for row in range(11):
-            for col in range(6):
-                along=-3.45+(col+.5)*1.15
-                if face==0 and abs(along)<1.2 and row<7:continue
-                if row>8 and rng.random()<.27:continue
-                z=base+(row+.5)*.48
-                p=(along,cy-3.45,z) if face==0 else ((3.45,cy+along,z) if face==1 else ((along,cy+3.45,z) if face==2 else (-3.45,cy+along,z)))
-                size=(1.12,.74,.46) if face%2==0 else (.74,1.12,.46)
-                o=box('Sanctuary_Masonry',p,size,rng.choice(stone),.045);keep_parent(o,ruin)
-    for sx in [-1,1]:
-        for sy in [-1,1]:
-            for level,sz in [(0,.18),(.25,.18),(4.6,.18),(4.85,.20)]:
-                box('Surviving_Pilaster_Course',(sx*3.5,cy+sy*3.5,base+level+.12),(1.15,1.15,sz),stone[3],.03)
-            create_pillar('Surviving_Pilaster',(sx*3.5,cy+sy*3.5,base+.35),4.25,.35,mat=stone[1])
-    for x in [-1.48,1.48]:
-        box('Sanctuary_Door_Jamb',(x,cy-3.7,base+2.5),(.70,.85,5.0),stone[4],.055)
-    box('Surviving_Door_Lintel',(0,cy-3.7,base+5.03),(3.8,1.0,.55),stone[2],.06)
-    # Recessed false-door motifs on three sides; no invented inscription text.
-    for face in [1,2,3]:
-        for sign in [-1,1]:
-            p=(3.87,cy+sign*1.30,base+2.05) if face==1 else ((sign*1.30,cy+3.87,base+2.05) if face==2 else (-3.87,cy+sign*1.30,base+2.05))
-            box('Recessed_Niche_Pilaster',p,(.22,.36,3.4) if face!=2 else (.36,.22,3.4),stone[4],.025)
-    for k in range(22):
-        x=rng.choice([-1,1])*rng.uniform(4.7,8); y=cy+rng.uniform(-6,6)
-        o=box('Fallen_Masonry',(x,y,top+.12),(rng.uniform(.4,1),rng.uniform(.35,.8),.24),rng.choice(stone),.06);o.rotation_euler.z=rng.random()*3
-    # No roof and no presumed original idol: the surviving sanctuary is the
-    # destination. Current Teetwal and Sringeri sculptures are different sites.
-    # DOAM records the west door at a right angle to the north entry.
-    # Local north points toward -Y, so local west points toward +X.
-    from mathutils import Matrix
-    pivot=Matrix.Translation((0,cy,0))
-    quarter_turn=pivot @ Matrix.Rotation(math.pi/2,4,'Z') @ pivot.inverted()
-    bpy.context.view_layer.update()
-    for obj in set(bpy.context.scene.objects)-court_objects:
-        if obj.parent is None:
-            obj.matrix_world=quarter_turn @ obj.matrix_world
-    finish('kashmir_sharada')
 
 
 def build_jwala():

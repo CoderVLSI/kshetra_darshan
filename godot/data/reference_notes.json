@@ -579,13 +579,13 @@
   "kashmir_sharada": {
     "name": "Saraswati / Sharada Peeth",
     "stotram_order": 18,
-    "architecture": "Present-condition study of the roofless stone sanctuary, raised platform, enclosure and 63-step approach documented by the archaeology authority. Photographic reference guides masonry and doorway massing. Approximate geometry is not a measured replica; no historic roof or lost idol has been invented.",
+    "architecture": "The Neelum Valley ruins are represented with the 35 × 26 m field-survey enclosure, 63-step western approach, damaged double porch, southern break, eastern postern and raised roofless sanctuary. The square sanctuary has a 3.8 m interior and opens west. The north wall retains a recessed chamber described in the archaeological record.",
     "deity_form": "Ruined historic sanctuary; original image unverified",
     "posture": "Unknown for the lost original",
     "arms": "Unknown for the lost original",
     "attributes": "Generic veena-bearing Saraswati imagery is not proof of this site's original sculpture",
-    "deity_notes": "Do not use Sringeri's Sharadamba or Teetwal's modern image as the verified lost Sharada murti.",
-    "uncertainties": "Exact present-day stone-by-stone condition, complete enclosure heights and lost original image remain unverified. Step count is documented; rise, tread and scene dimensions are design approximations.",
+    "deity_notes": "The historic Sharada image is unverified. The separately consecrated Teetwal image belongs to the modern temple in Kupwara.",
+    "uncertainties": "The project uses the detailed field plan for orientation and dimensions. The Department of Archaeology and Museums entry describes the main entrance as north; the field plan places it west. Individual stone profiles, wall collapse, valley terrain and trefoil carving depth are approximate.",
     "reconstruction": false,
     "sources": [
       {
@@ -603,9 +603,25 @@
       {
         "title": "Wikimedia Commons: Sharada Peeth reference photographs",
         "url": "https://commons.wikimedia.org/wiki/Category%3ASharada_Peeth"
+      },
+      {
+        "title": "Ahmad and Samad, Śarda Temple survey, Pakistan Heritage 8 (2016), pp. 127–144",
+        "url": "https://ph.hu.edu.pk/public/uploads/journals/Vol.%208%20%282016%29.pdf"
+      },
+      {
+        "title": "Ahmad et al., Sharda Temple field plan, fig. 6 (2022)",
+        "url": "https://doi.org/10.31703/grr.2022(VII-II).17"
+      },
+      {
+        "title": "Arab News photographs of Sharada Peeth, 7 May 2026",
+        "url": "https://www.arabnews.com/node/2643370/amp"
+      },
+      {
+        "title": "Esri World Imagery, Sharada Peeth and Madhumati bank",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?center=74.190226,34.792222&level=18&basemap=satellite"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model represents a west entrance panel and blind sanctuary trefoils. Individual carvings and inscriptions still need a full conservation record."
   },
   "madurai_meenakshi": {
     "name": "Meenakshi–Sundareswarar (existing game extra)",

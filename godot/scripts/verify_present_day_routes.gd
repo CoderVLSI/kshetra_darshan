@@ -12,19 +12,32 @@ func run() -> void:
 		current_scene = world
 		while not world.shrine_registry.is_ready: await physics_frame
 		var player: CharacterBody3D = world.player
-		player.rotation = Vector3.ZERO
-		if id == "draksharama_manikyamba": player.global_position = Vector3(6.8,.1,3)
+		var draksharama_heading := deg_to_rad(21)
+		var draksharama_landing := Vector3(10.48, .1, -6.9).rotated(Vector3.UP, draksharama_heading)
+		if id == "draksharama_manikyamba":
+			player.global_position = Vector3(19.2, .1, -6.9).rotated(Vector3.UP, draksharama_heading)
+			player.look_at(draksharama_landing)
+		var heading := -player.global_basis.z
 		for frame in range(30): await physics_frame
-		Input.action_press("move_forward")
-		var limit: float = -5.75 if id == "draksharama_manikyamba" else 13.0
-		for frame in range(650):
+		var arrow := InputEventKey.new()
+		arrow.keycode = KEY_UP
+		arrow.pressed = true
+		Input.parse_input_event(arrow)
+		Input.flush_buffered_events()
+		for frame in range(1000):
 			await physics_frame
-			if player.global_position.z <= limit: break
-		Input.action_release("move_forward")
+			if id == "draksharama_manikyamba" and (draksharama_landing - player.global_position).dot(heading) <= 0.0: break
+			if id == "kashmir_sharada" and player.global_position.x >= -14.5: break
+		arrow = arrow.duplicate()
+		arrow.pressed = false
+		Input.parse_input_event(arrow)
+		Input.flush_buffered_events()
 		for frame in range(12): await physics_frame
-		var expected: float = 3.15 if id == "draksharama_manikyamba" else 10.0
+		var expected: float = 3.15 if id == "draksharama_manikyamba" else 15.7
 		if player.global_position.y < expected or not player.is_on_floor():
 			failures.append(id + " stair route failed: " + str(player.global_position))
+		if id == "kashmir_sharada" and player.global_position.x < -14.6:
+			failures.append(id + " route stopped outside the west gateway")
 		print("PRESENT_ROUTE ",id," finish=",player.global_position," grounded=",player.is_on_floor())
 		current_scene = null
 		world.free()

@@ -4791,12 +4791,27 @@
       ]
     },
     "kashmir_sharada": {
-      "scope_note": "Surviving historic Sharada Peeth enclosure and roofless sanctuary only. No original figurative idol is asserted. This is separate from modern Teetwal and Sringeri temples.",
+      "scope_note": "The map follows the recorded ruins at Sharada Peeth in the Neelum Valley. Its stops cover the sanctuary and surviving architectural features inside the compound, plus the approach immediately below the west gateway.",
       "sources": [
         {
           "id": "SHARADA_DOAM",
           "title": "Department of Archaeology and Museums: Sharda Temple",
           "url": "https://doam.gov.pk/public/sites/6633"
+        },
+        {
+          "id": "SHARADA_SURVEY",
+          "title": "Ahmad and Samad, Śarda Temple survey, Pakistan Heritage 8 (2016), pp. 127–144",
+          "url": "https://ph.hu.edu.pk/public/uploads/journals/Vol.%208%20%282016%29.pdf"
+        },
+        {
+          "id": "SHARADA_PLAN",
+          "title": "Ahmad et al., Sharda Temple field plan, fig. 6 (2022)",
+          "url": "https://doi.org/10.31703/grr.2022(VII-II).17"
+        },
+        {
+          "id": "SHARADA_PHOTOS",
+          "title": "Arab News photographs of Sharada Peeth, 7 May 2026",
+          "url": "https://www.arabnews.com/node/2643370/amp"
         }
       ],
       "excluded": [
@@ -4809,21 +4824,143 @@
           "reason": "No securely documented inventory or plan available."
         }
       ],
-      "inventory_status": "Surviving architectural features only; ancient ritual inventory unresolved.",
+      "inventory_status": "The field plan records the ruins and niches. Their historic ritual contents remain uncertain.",
       "shrines": [
         {
           "id": "sanctuary",
-          "label": "Sharada Peeth — Roofless Sanctuary",
-          "deity": "Sharada / Saraswati tradition",
+          "label": "Sharada Peeth · Roofless Sanctuary",
+          "deity": "Sharada / Saraswati",
           "form": "unknown",
           "kind": "historical_feature",
-          "evidence": "Documented site identity; model details and positions are schematic.",
+          "evidence": "The survey records a 3.8 m square chamber on a raised plinth with a west door.",
           "source_ids": [
-            "SHARADA_DOAM"
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
           ],
           "model_anchor": "Sanctuary_Ruins",
+          "landing_anchor": "Landing_Sanctuary_Ruins",
           "placement": null,
-          "notes": "Historic ruined sanctuary. No verified surviving original murti is represented. Sacred tradition associates Sharada with learning and Shankaracharya’s Sarvajna Peetha; that tradition does not establish the lost sculpture."
+          "notes": "Sacred tradition links Sharada with learning and Adi Shankaracharya’s ascent to the Sarvajna Peetha. The original worshipped form remains unverified.",
+          "tradition": "Sharada / Saraswati • Shakti Peetha and Sarvajna Peetha traditions"
+        },
+        {
+          "id": "west_steps",
+          "label": "Western Stone Stairway",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "The field report counts 63 treads. The site plan shows the stair west of the terrace.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "Western_Steps_View",
+          "landing_anchor": "Landing_Western_Steps",
+          "placement": null,
+          "notes": "Stepped stone flanking walls rise with the stair to the entrance podium.",
+          "tradition": "Historical approach • Western stone ascent"
+        },
+        {
+          "id": "west_gateway",
+          "label": "West Gateway · Double Porch Remains",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "The survey describes a two-part porch with the southern half largely lost.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "West_Gateway_Remains",
+          "landing_anchor": "Landing_West_Gateway",
+          "placement": null,
+          "notes": "The surviving northern side preserves pilasters and panel remnants.",
+          "tradition": "Kashmiri stone architecture • Ruined double porch"
+        },
+        {
+          "id": "west_niche",
+          "label": "West Wall · Taqchah A",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "A recess just north of the portal is marked Niche A on the field plan.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "West_Taqchah",
+          "landing_anchor": "Landing_West_Taqchah",
+          "placement": null,
+          "notes": "A taqchah is a wall niche. The original occupant of this recess is uncertain.",
+          "tradition": "Enclosure niche • Original use uncertain"
+        },
+        {
+          "id": "north_niche",
+          "label": "North Wall · Taqchah B",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "The north niche is documented in the middle of the wall.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "North_Taqchah",
+          "landing_anchor": "Landing_North_Taqchah",
+          "placement": null,
+          "notes": "Stein reported two small lingas in this chamber. The model depicts the surviving recess.",
+          "tradition": "Enclosure niche • Two small lingas recorded historically"
+        },
+        {
+          "id": "east_niche",
+          "label": "East Wall · Taqchah C",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "The field plan marks a recessed niche north of the east postern.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "East_Taqchah",
+          "landing_anchor": "Landing_East_Taqchah",
+          "placement": null,
+          "notes": "Its crowning elements are missing. The model shows the surviving lower courses.",
+          "tradition": "Enclosure niche • Upper courses lost"
+        },
+        {
+          "id": "east_postern",
+          "label": "Eastern Postern",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "The field survey describes a simple lintelled doorway with a narrower outer end.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "East_Postern",
+          "landing_anchor": "Landing_East_Postern",
+          "placement": null,
+          "notes": "The route stops inside the enclosure at the debris-filled threshold.",
+          "tradition": "Historical feature • Lintelled eastern doorway"
+        },
+        {
+          "id": "trefoil_relief",
+          "label": "Sanctuary · East Trefoil Relief",
+          "deity": "",
+          "form": "unknown",
+          "kind": "historical_feature",
+          "evidence": "The survey records blind trefoil recesses within nested pediments on three sanctuary faces.",
+          "source_ids": [
+            "SHARADA_SURVEY",
+            "SHARADA_PLAN"
+          ],
+          "model_anchor": "Sanctuary_Trefoil_Relief",
+          "landing_anchor": "Landing_Sanctuary_Relief",
+          "placement": null,
+          "notes": "This stone relief is modeled from the recorded motif and serves as a view of the east face.",
+          "tradition": "Kashmiri stone architecture • Blind trefoil and pediments"
         }
       ]
     }
