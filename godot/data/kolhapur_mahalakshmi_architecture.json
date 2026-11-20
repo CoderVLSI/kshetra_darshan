@@ -6,28 +6,31 @@
     "city": "Kolhapur",
     "state": "Maharashtra",
     "country": "India",
-    "lat": 16.6956,
-    "lng": 74.2246
+    "lat": 16.69486,
+    "lng": 74.22289
   },
-  "style": "Hemadpanthi / Western Chalukya temple architecture",
+  "style": "Offset basalt trikuta with a later timber Garuda Mandapa and limewashed masonry shikharas",
   "key_structures": [
-    "Main Garbhagriha with five-spire curvilinear shikharas",
-    "Kurma Mandapa (tortoise platform pavilion)",
-    "Garuda Mandapa (outer wooden carved pillared hall)",
-    "Deepastambhas (tall carved stone lamp towers)",
-    "Manikarnika Kund (sacred tank)"
+    "Western Mahadwar, with Nagarkhana above the gate",
+    "Red-tiled Garuda Mandapa with square timber columns and foliated arches",
+    "Mukha or Ganesha Mandapa, Kasav Chowk, Pitali Umbartha, Sabha Mandapa and Antarala",
+    "West-facing Ambabai, south-facing Mahakali and north-facing Mahasaraswati sanctums",
+    "Upper Matulinga shrine, approached through the Nandi Mandapa",
+    "Three outdoor bhadra niches with Balaji, Katyayani and Gauri Shankar",
+    "Kashi Vishweshwar with Kashi Kund and the Navagraha ceiling-panel mandapa"
   ],
   "special_features": [
-    "Kiranotsav phenomenon: twice a year the setting sun rays illuminate the deity's feet, chest, and face directly through windows",
-    "Unusual monolithic gemstone (sandstone) deity holding citrus fruit, mace, shield, and bowl crowned with a lingam and cobra",
-    "Star-shaped platform base typical of early Chalukyan engineering"
+    "During Kiranotsav, sunset rays reach the image through the western entrance and aligned halls",
+    "Ambabai is represented by a standing four-armed black-stone icon carrying citron, mace, shield and bowl",
+    "The northern courtyard mandapa has nine ceiling panels, described in the Gazetteer in connection with the directional guardians"
   ],
   "materials": [
-    "Black basalt stone masonry",
-    "Carved timber wooden pillars",
-    "Mortarless stone interlocking blocks",
-    "Brass and gold kalashas"
+    "Basalt masonry and dressed mouldings",
+    "Timber columns and arches",
+    "Terracotta roofing",
+    "Light masonry shikharas",
+    "Brass threshold"
   ],
-  "period": "7th–11th Century CE",
-  "renovation_history": "Initiated by Chalukya King Karnadeva in 634 CE; enriched by Shilahara and Yadava dynasties; preserved and restored under Chhatrapati Shivaji Maharaj and subsequent Maratha rulers."
+  "period": "Medieval stone core with later rebuilding and a nineteenth-century western hall",
+  "renovation_history": "The archaeological survey distinguishes the layered work on the three sanctums and the later Garuda Mandapa. The current lighter shikharas reflect later rebuilding."
 }

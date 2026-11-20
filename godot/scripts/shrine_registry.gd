@@ -649,7 +649,8 @@ func _add_destination_label(entry: Dictionary, destination: Dictionary) -> void:
 	var target: Vector3 = destination["target"]
 	var landing: Vector3 = destination["position"]
 	var approach := target.lerp(landing, .35) if destination["available"] else target
-	approach.y = maxf(target.y + .80, landing.y + 1.70)
+	var label_height := float(entry.get("label_height", .80))
+	approach.y = maxf(target.y + label_height, landing.y + 1.70)
 	group.global_position = approach
 	var title := _label_3d(str(destination["label"]), 28, Color(1.0, .9, .64))
 	title.name = "ShrineLabel"

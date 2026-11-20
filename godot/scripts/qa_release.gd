@@ -48,22 +48,29 @@ func run() -> void:
 	current_scene = null
 	world.free()
 	await process_frame
-	gm.current_temple_id = "madurai_meenakshi"
-	var madurai = load("res://scenes/temple_world.tscn").instantiate()
-	root.add_child(madurai)
-	current_scene = madurai
-	for frame in range(120):
-		await physics_frame
-		if madurai.shrine_registry.is_ready:
-			break
-	check(madurai.shrine_registry.is_ready, "Release Madurai registry must populate")
-	var madurai_destinations: Array = madurai.shrine_registry.get_destinations()
-	check(madurai_destinations.size() == 59, "Release must include all 59 Madurai destinations")
-	for destination in madurai_destinations:
-		check(destination.available, "Madurai destination needs a landing: " + str(destination.id))
-		check(destination.placement_status == "existing_model_anchor", "Madurai destination needs an authored shrine anchor: " + str(destination.id))
-	current_scene = null
-	madurai.free()
+	for site in [
+		{"id": "madurai_meenakshi", "destinations": 59, "label": "Madurai"},
+		{"id": "kolhapur_mahalakshmi", "destinations": 64, "label": "Kolhapur"}
+	]:
+		gm.current_temple_id = site.id
+		var temple = load("res://scenes/temple_world.tscn").instantiate()
+		root.add_child(temple)
+		current_scene = temple
+		for frame in range(120):
+			await physics_frame
+			if temple.shrine_registry.is_ready:
+				break
+		check(temple.shrine_registry.is_ready, "Release %s registry must populate" % site.label)
+		var destinations: Array = temple.shrine_registry.get_destinations()
+		check(destinations.size() == site.destinations,
+			"Release must include all %d %s destinations" % [site.destinations, site.label])
+		for destination in destinations:
+			check(destination.available, "%s destination needs a landing: %s" % [site.label, destination.id])
+			check(destination.placement_status == "existing_model_anchor",
+				"%s destination needs an authored shrine anchor: %s" % [site.label, destination.id])
+		current_scene = null
+		temple.free()
+		await process_frame
 	OS.delay_msec(80)
 	await process_frame
 	print("RELEASE_CHECK: ", failures.size(), " failures; 21 models, 21 reference records, 21 heritage files, grounded player, neutral/prayer poses")

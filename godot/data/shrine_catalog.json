@@ -2560,34 +2560,78 @@
       "inventory_status": "Both sub-shrines listed by Karnataka HRI & CE are placed within the route described by the temple authority. Door sculpture subjects and any further restricted objects require individual records."
     },
     "kolhapur_mahalakshmi": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "The Ambabai precinct, following the current courtyard outline, the archaeology survey of the trikuta, and the numbered devotional map. The diagram identifies shrine bays; exact offsets and installed artworks still require field or photographic verification.",
       "sources": [
         {
-          "id": "KOLHAPUR",
-          "title": "Kolhapur Tourism: Mahalaxmi Temple",
-          "url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/"
+          "id": "KOLHAPUR_PLAN",
+          "title": "Yogesh Prabhudesai, Archaeology of Religious Ideas at Kolhapur, chapter 4, figures 4.12–4.15 and pp. 54–55",
+          "url": "https://www.wisdomlib.org/history/essay/archaeology-of-religious-ideas-at-kolhapur/d/doc1906908.html"
         },
         {
-          "id": "KOLHAPUR_PLAN",
-          "title": "Yogesh Prabhudesai, Archaeology of Religious Ideas at Kolhapur, figure 4.12",
-          "url": "https://www.wisdomlib.org/history/essay/archaeology-of-religious-ideas-at-kolhapur/ocr/1906859/16"
+          "id": "KOLHAPUR_PRECINCT",
+          "title": "Ambabai devotees’ numbered precinct diagram, Prakar Devta and Parisar Devata",
+          "url": "https://ambabai.com/detail-map-of-temple.html"
+        },
+        {
+          "id": "KOLHAPUR_GAZETTEER",
+          "title": "Maharashtra Gazetteers, Kolhapur district, Ambabai and subsidiary buildings",
+          "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/KOLHAPUR/places_Kolhapur.html"
+        },
+        {
+          "id": "KOLHAPUR",
+          "title": "Maharashtra Tourism, Shree Mahalaxmi Ambabai Mata",
+          "url": "https://maharashtratourism.gov.in/temple/mahalaxmi/"
+        },
+        {
+          "id": "KOLHAPUR_MUNICIPAL",
+          "title": "Kolhapur Municipal Corporation, tourism sites",
+          "url": "https://web.kolhapurcorporation.gov.in/paryantanSthale"
+        },
+        {
+          "id": "KOLHAPUR_KIRANOTSAV",
+          "title": "Devasthan Management Committee and Vivekanand College Kirnotsav observation",
+          "url": "https://www.vivekanandcollege.ac.in/uploads/dptphysics/best%20practice/kirnotsav/best%20practice%202021%20-%2022.pdf"
+        },
+        {
+          "id": "KOLHAPUR_AERIAL",
+          "title": "Esri World Imagery, Ambabai compound at 16.69486 N, 74.22289 E",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        },
+        {
+          "id": "KOLHAPUR_MURTI",
+          "title": "Ambabai devotees’ public shrine photo gallery, bare-stone face and alankara studies",
+          "url": "https://www.ambabai.com/gallery.html"
+        },
+        {
+          "id": "KOLHAPUR_EPIGRAPHY",
+          "title": "M. G. Dikshit, Kolhapur inscription of Silahara Bhoja II, Epigraphia Indica XXIX, pp. 13–18",
+          "url": "https://library.bjp.org/jspui/bitstream/123456789/1910/20/epigraphia-indica-vol-29.pdf"
         }
       ],
-      "excluded": [],
+      "excluded": [
+        "Binkhambi Ganapati beyond the main enclosure",
+        "Wider city temples",
+        "Exterior or ambiguous points from the precinct diagram are excluded pending boundary verification"
+      ],
       "shrines": [
         {
           "id": "main",
           "label": "Mahalakshmi / Ambabai",
-          "deity": "Mahalakshmi / Ambabai",
+          "deity": "",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "West-facing Ambabai image at the center of the eastern sanctum, reached through Garuda, Mukha, Sabha and Antarala.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR",
+            "KOLHAPUR_KIRANOTSAV",
+            "KOLHAPUR_MURTI"
           ],
-          "model_anchor": "Deity_Mahalakshmi",
-          "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "model_anchor": "Kolhapur_main",
+          "landing_anchor": "Landing_main",
+          "notes": "West-facing Ambabai image at the center of the eastern sanctum, reached through Garuda, Mukha, Sabha and Antarala.",
+          "artwork_description": "Original sculpted study of the dark-stone face and four documented attributes, with a modeled seasonal presentation. Fine contours and the concealed surfaces are approximate.",
+          "label_height": 1.66
         },
         {
           "id": "mahakali",
@@ -2595,15 +2639,14 @@
           "deity": "Mahakali",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Northern sanctum faces south into the Sabha Mandapa.",
           "source_ids": [
-            "KOLHAPUR",
             "KOLHAPUR_PLAN"
           ],
-          "model_anchor": "Mahakali_Sanctum_Anchor",
-          "installed_image_unverified": true,
-          "placement": null,
-          "notes": "The northern sanctum opens south into the Sabha Mandapa. Its installed image awaits a reference."
+          "model_anchor": "Kolhapur_mahakali",
+          "landing_anchor": "Landing_mahakali",
+          "notes": "Northern sanctum faces south into the Sabha Mandapa.",
+          "installed_image_unverified": true
         },
         {
           "id": "mahasaraswati",
@@ -2611,29 +2654,31 @@
           "deity": "Mahasaraswati",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Southern sanctum faces north into the Sabha Mandapa. The field survey records uncertainty over the installed image’s original identity and hand restorations.",
           "source_ids": [
-            "KOLHAPUR",
             "KOLHAPUR_PLAN"
           ],
-          "model_anchor": "Mahasaraswati_Sanctum_Anchor",
-          "render_iconographic_study": true,
-          "placement": null,
-          "notes": "The southern sanctum opens north into the Sabha Mandapa. Its Saraswati study represents the iconographic tradition."
+          "model_anchor": "Kolhapur_mahasaraswati",
+          "landing_anchor": "Landing_mahasaraswati",
+          "notes": "Southern sanctum faces north into the Sabha Mandapa. The field survey records uncertainty over the installed image’s original identity and hand restorations.",
+          "render_iconographic_study": true
         },
         {
-          "id": "garuda",
-          "label": "Garuda",
-          "deity": "Garuda",
+          "id": "garuda_mandapa",
+          "label": "Garuda Mandapa",
+          "deity": "",
           "form": "unknown",
-          "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "kind": "heritage",
+          "evidence": "Long timber hall on the western approach beneath a red-tiled roof.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_PRECINCT",
+            "KOLHAPUR_AERIAL",
+            "KOLHAPUR_GAZETTEER"
           ],
-          "model_anchor": "Preceding_Shrine_Garuda",
-          "placement": null,
-          "notes": "Image in Garuda mandapa facing main sanctum."
+          "model_anchor": "Kolhapur_garuda_mandapa",
+          "landing_anchor": "Landing_garuda_mandapa",
+          "notes": "Long timber hall on the western approach beneath a red-tiled roof. The historical Gazetteer records a Devanagari inscription dated 1218 CE to the left of the outer porch entrance. The inscription remains a historical reference in this reconstruction."
         },
         {
           "id": "ganesh",
@@ -2641,57 +2686,107 @@
           "deity": "Ganesha",
           "form": "ganesha",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Ganesha in the approach hall before the Sabha Mandapa.",
           "source_ids": [
-            "KOLHAPUR",
-            "KOLHAPUR_PLAN"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_KIRANOTSAV"
           ],
-          "model_anchor": "Ganesha_Mandapa_Anchor",
-          "render_iconographic_study": true,
-          "placement": null,
-          "notes": "The source places the Ganesha shrine in the entrance halls. The modeled bay is approximate."
+          "model_anchor": "Kolhapur_ganesh",
+          "landing_anchor": "Landing_ganesh",
+          "notes": "Ganesha in the approach hall before the Sabha Mandapa.",
+          "render_iconographic_study": true
         },
         {
           "id": "upper_shiva",
-          "label": "Upper Shiva lingam",
-          "deity": "Upper Shiva lingam",
+          "label": "Matulinga · Upper Shiva shrine",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Linga in the upper sanctum directly over Ambabai, reached by the stair near Mahakali.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Above the main Mahalakshmi sanctum; a separate upper worship location."
+          "model_anchor": "Kolhapur_upper_shiva",
+          "landing_anchor": "Landing_upper_shiva",
+          "notes": "Linga in the upper sanctum directly over Ambabai, reached by the stair near Mahakali.",
+          "artwork_description": "Original linga and yoni study in the documented upper cell."
         },
         {
           "id": "upper_nandi",
-          "label": "Upper Nandi",
-          "deity": "Upper Nandi",
+          "label": "Nandi · Upper mandapa",
+          "deity": "Nandi",
           "form": "nandi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Nandi in the mandapa before the upper sanctum.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Associated with the upper Shiva shrine."
+          "model_anchor": "Kolhapur_upper_nandi",
+          "landing_anchor": "Landing_upper_nandi",
+          "notes": "Nandi in the mandapa before the upper sanctum.",
+          "artwork_description": "Original Nandi study in the documented upper mandapa."
+        },
+        {
+          "id": "upper_ganesha",
+          "label": "Ganesha · Matulinga chamber",
+          "deity": "Ganesha",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Ganesha in the upper sanctum alongside the linga and Paduka.",
+          "source_ids": [
+            "KOLHAPUR_PLAN"
+          ],
+          "model_anchor": "Kolhapur_upper_ganesha",
+          "landing_anchor": "Landing_upper_ganesha",
+          "notes": "Ganesha in the upper sanctum alongside the linga and Paduka.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "paduka",
+          "label": "Paduka · Matulinga chamber",
+          "deity": "Paduka · Matulinga chamber",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "The upper sanctum contains a sacred foot impression alongside Ganesha and the linga.",
+          "source_ids": [
+            "KOLHAPUR_PLAN"
+          ],
+          "model_anchor": "Kolhapur_paduka",
+          "landing_anchor": "Landing_paduka",
+          "notes": "The upper sanctum contains a sacred foot impression alongside Ganesha and the linga.",
+          "artwork_description": "Stone and footprint study of the observed form. The precise shape remains approximate."
+        },
+        {
+          "id": "matulinga_stair",
+          "label": "Matulinga Stair",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The stair toward the upper sanctum is marked next to the northern shrine approach.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT",
+            "KOLHAPUR_GAZETTEER"
+          ],
+          "model_anchor": "Kolhapur_matulinga_stair",
+          "landing_anchor": "Landing_matulinga_stair",
+          "notes": "The stair toward the upper sanctum is marked next to the northern shrine approach."
         },
         {
           "id": "venkatesha",
-          "label": "Venkatesha",
-          "deity": "Venkatesha",
+          "label": "Vyankatesh Balaji",
+          "deity": "Vyankatesh Balaji",
           "form": "vishnu",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "North-facing exterior bhadra niche beside the eastern sanctum.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "North-facing devakoshta image; exact form unverified."
+          "model_anchor": "Kolhapur_venkatesha",
+          "landing_anchor": "Landing_venkatesha",
+          "notes": "North-facing exterior bhadra niche beside the eastern sanctum.",
+          "render_iconographic_study": true
         },
         {
           "id": "katyayani",
@@ -2699,111 +2794,123 @@
           "deity": "Katyayani",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "East-facing exterior bhadra niche behind Ambabai’s sanctum.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "East-facing devakoshta image."
+          "model_anchor": "Kolhapur_katyayani",
+          "landing_anchor": "Landing_katyayani",
+          "notes": "East-facing exterior bhadra niche behind Ambabai’s sanctum.",
+          "installed_image_unverified": true
         },
         {
           "id": "gowri_shankar",
-          "label": "Gowri Shankar",
-          "deity": "Gowri Shankar",
+          "label": "Gauri Shankar",
+          "deity": "Gauri Shankar",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "South-facing exterior bhadra shrine identified with Gauri and Shiva together.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "South-facing devakoshta image; do not substitute a Shiva lingam for an unverified paired image."
+          "model_anchor": "Kolhapur_gowri_shankar",
+          "landing_anchor": "Landing_gowri_shankar",
+          "notes": "South-facing exterior bhadra shrine identified with Gauri and Shiva together.",
+          "installed_image_unverified": true
         },
         {
           "id": "navagrahas",
-          "label": "Navagrahas",
-          "deity": "Navagrahas",
-          "form": "navagraha",
-          "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "label": "Navagraha / Ashtadikpala Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The northern arcade mandapa is named for its nine carved ceiling panels. The gazetteer identifies the directional guardians.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT",
+            "KOLHAPUR_GAZETTEER"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Courtyard shrine; relative arrangement of the nine images unverified."
+          "model_anchor": "Kolhapur_navagrahas",
+          "landing_anchor": "Landing_navagrahas",
+          "notes": "The northern arcade mandapa is named for its nine carved ceiling panels. The gazetteer identifies the directional guardians. The historical Gazetteer records a Devanagari inscription on a pillar of this mandapa. The inscription remains a historical reference in this reconstruction.",
+          "artwork_description": "The nine ceiling-panel positions are modeled. The individual carvings remain undocumented in this build."
         },
         {
           "id": "surya",
-          "label": "Surya",
+          "label": "Surya · Mahakali Approach",
           "deity": "Surya",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The diagram places Surya beside the Mahakali approach and the Matulinga staircase.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Courtyard shrine; exact image unverified."
+          "model_anchor": "Kolhapur_surya",
+          "landing_anchor": "Landing_surya",
+          "notes": "The diagram places Surya beside the Mahakali approach and the Matulinga staircase.",
+          "render_iconographic_study": true
         },
         {
           "id": "mahishasuramardini",
-          "label": "Mahishasuramardini",
-          "deity": "Mahishasuramardini",
+          "label": "Sinhavahini · Durga",
+          "deity": "Durga",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The south arcade diagram marks Sinhavahini, the lion-mounted goddess.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Courtyard shrine; exact image unverified."
+          "model_anchor": "Kolhapur_mahishasuramardini",
+          "landing_anchor": "Landing_mahishasuramardini",
+          "notes": "The south arcade diagram marks Sinhavahini, the lion-mounted goddess.",
+          "installed_image_unverified": true
         },
         {
           "id": "vitthal_rakhmai",
-          "label": "Vitthal–Rakhmai",
-          "deity": "Vitthal–Rakhmai",
+          "label": "Vitthal and Rakhumai",
+          "deity": "Vitthal and Rakhumai",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The pair share a named shrine on the north arcade.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Paired courtyard worship location; preserve both identities."
+          "model_anchor": "Kolhapur_vitthal_rakhmai",
+          "landing_anchor": "Landing_vitthal_rakhmai",
+          "notes": "The pair share a named shrine on the north arcade.",
+          "installed_image_unverified": true
         },
         {
           "id": "courtyard_shiva",
-          "label": "Courtyard Shiva shrine",
-          "deity": "Courtyard Shiva shrine",
+          "label": "Gokarneshwar and Jatajateshwar",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The east arcade has a shared shrine group identified with Gokarneshwar, Jatajateshwar, Durga and Mahavishnu.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Distinct from upper Shiva shrine; precise identity and image need confirmation."
+          "model_anchor": "Kolhapur_courtyard_shiva",
+          "landing_anchor": "Landing_courtyard_shiva",
+          "notes": "The east arcade has a shared shrine group identified with Gokarneshwar, Jatajateshwar, Durga and Mahavishnu.",
+          "artwork_description": "One linga study marks the shared position. Individual installed images and orientations are unverified."
         },
         {
           "id": "courtyard_vishnu",
-          "label": "Courtyard Vishnu shrine",
-          "deity": "Courtyard Vishnu shrine",
+          "label": "Sheshashayi Vishnu",
+          "deity": "Vishnu",
           "form": "vishnu",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "East arcade shrine with Vishnu reclining on the serpent couch.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT",
+            "KOLHAPUR_GAZETTEER"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Distinct from Venkatesha devakoshta; exact pose unverified."
+          "model_anchor": "Kolhapur_courtyard_vishnu",
+          "landing_anchor": "Landing_courtyard_vishnu",
+          "notes": "East arcade shrine with Vishnu reclining on the serpent couch.",
+          "artwork_description": "Original relief study of reclining Vishnu and the serpent couch. The installed carving remains approximate."
         },
         {
           "id": "tulja_bhavani",
@@ -2811,31 +2918,671 @@
           "deity": "Tulja Bhavani",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "An in-compound shrine in the south row, near Sinhavahini and Indrasabha.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Courtyard shrine inside this complex, not a teleport to Tuljapur town."
+          "model_anchor": "Kolhapur_tulja_bhavani",
+          "landing_anchor": "Landing_tulja_bhavani",
+          "notes": "An in-compound shrine in the south row, near Sinhavahini and Indrasabha.",
+          "installed_image_unverified": true
         },
         {
           "id": "visweshwar",
-          "label": "Visweshwar Mahadev",
-          "deity": "Visweshwar Mahadev",
+          "label": "Kashi Vishweshwar Mahadev",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "Field survey places this Shiva shrine north of the trikuta, with Kashi Kund in front. The precinct diagram names both near Ghati Darwaza.",
           "source_ids": [
-            "KOLHAPUR"
+            "KOLHAPUR_PLAN",
+            "KOLHAPUR_PRECINCT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "By Manikarnika Kund inside the courtyard."
+          "model_anchor": "Kolhapur_visweshwar",
+          "landing_anchor": "Landing_visweshwar",
+          "notes": "Field survey places this Shiva shrine north of the trikuta, with Kashi Kund in front. The precinct diagram names both near Ghati Darwaza.",
+          "artwork_description": "Original linga study. Vimana and relative floor levels await a closer measured survey."
+        },
+        {
+          "id": "kasav",
+          "label": "Kasav Chowk · Tortoise",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The courtyard tortoise marks the passage between Ganesha and the brass threshold.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_kasav",
+          "landing_anchor": "Landing_kasav",
+          "notes": "The courtyard tortoise marks the passage between Ganesha and the brass threshold."
+        },
+        {
+          "id": "pittali",
+          "label": "Pitali Umbartha",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Brass threshold along the western approach that the Devasthan Kirnotsav record follows.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_pittali",
+          "landing_anchor": "Landing_pittali",
+          "notes": "Brass threshold along the western approach that the Devasthan Kirnotsav record follows."
+        },
+        {
+          "id": "mahadwar",
+          "label": "Mahadwar · Western Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Main western entrance below the Nagarkhana drum chamber.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT",
+            "KOLHAPUR_GAZETTEER"
+          ],
+          "model_anchor": "Kolhapur_mahadwar",
+          "landing_anchor": "Landing_mahadwar",
+          "notes": "Main western entrance below the Nagarkhana drum chamber. The historical Gazetteer records a Devanagari inscription on a pillar to the left after entering the court, dated 1236 CE. The inscription remains a historical reference in this reconstruction."
+        },
+        {
+          "id": "ghati",
+          "label": "Ghati Darwaza · North Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "North gate between the lamp and jyotirlinga structures and the north shrine row.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_ghati",
+          "landing_anchor": "Landing_ghati",
+          "notes": "North gate between the lamp and jyotirlinga structures and the north shrine row."
+        },
+        {
+          "id": "east_gate",
+          "label": "Purva Darwaza · East Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Eastern entrance beside the banyan and Shani–Maruti shrine group.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT",
+            "KOLHAPUR_GAZETTEER"
+          ],
+          "model_anchor": "Kolhapur_east_gate",
+          "landing_anchor": "Landing_east_gate",
+          "notes": "Eastern entrance beside the banyan and Shani–Maruti shrine group. The historical Gazetteer records an inscription behind the temple, left of the eastern entrance. The inscription remains a historical reference in this reconstruction."
+        },
+        {
+          "id": "south_gate",
+          "label": "Vidyapeeth Darwaza · South Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Southern gate between the end of the east shrine row and the southern line of shrines.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_south_gate",
+          "landing_anchor": "Landing_south_gate",
+          "notes": "Southern gate between the end of the east shrine row and the southern line of shrines."
+        },
+        {
+          "id": "deepmals",
+          "label": "Five Deepmala Towers",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The diagram groups five stone lamp towers north of the west approach.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_deepmals",
+          "landing_anchor": "Landing_deepmals",
+          "notes": "The diagram groups five stone lamp towers north of the west approach."
+        },
+        {
+          "id": "kashi_kund",
+          "label": "Kashi Kund",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Water court associated with Kashi Vishweshwar at the north side of the temple.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_kashi_kund",
+          "landing_anchor": "Landing_kashi_kund",
+          "notes": "Water court associated with Kashi Vishweshwar at the north side of the temple."
+        },
+        {
+          "id": "banyan",
+          "label": "Banyan Platform",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Banyan in the northeast court near Purva Darwaza.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_banyan",
+          "landing_anchor": "Landing_banyan",
+          "notes": "Banyan in the northeast court near Purva Darwaza."
+        },
+        {
+          "id": "yantra",
+          "label": "Mahalakshmi Yantra",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The numbered diagram identifies a yantra near the Mahakali hall.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_yantra",
+          "landing_anchor": "Landing_yantra",
+          "notes": "The numbered diagram identifies a yantra near the Mahakali hall.",
+          "artwork_description": "Location study following the numbered precinct diagram."
+        },
+        {
+          "id": "indrasabha",
+          "label": "Indrasabha",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Named bay on the southern side, between Tulja Bhavani and Ekamukhi Datta.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_indrasabha",
+          "landing_anchor": "Landing_indrasabha",
+          "notes": "Named bay on the southern side, between Tulja Bhavani and Ekamukhi Datta."
+        },
+        {
+          "id": "umashankar",
+          "label": "Umashankar",
+          "deity": "Umashankar",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "At the north edge of Garuda Mandapa.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_umashankar",
+          "landing_anchor": "Landing_umashankar",
+          "notes": "At the north edge of Garuda Mandapa.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "jay",
+          "label": "Jay · Sanctum Guardian",
+          "deity": "Jay · Sanctum Guardian",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "North of the inner threshold.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_jay",
+          "landing_anchor": "Landing_jay",
+          "notes": "North of the inner threshold.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "vijay",
+          "label": "Vijay · Sanctum Guardian",
+          "deity": "Vijay · Sanctum Guardian",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "South of the inner threshold.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_vijay",
+          "landing_anchor": "Landing_vijay",
+          "notes": "South of the inner threshold.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "bharata",
+          "label": "Bharata · Mahakali Approach",
+          "deity": "Bharata · Mahakali Approach",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named guardian on the south side of the Mahakali hall.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_bharata",
+          "landing_anchor": "Landing_bharata",
+          "notes": "Named guardian on the south side of the Mahakali hall.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "shatrughna",
+          "label": "Shatrughna · Mahakali Shrine",
+          "deity": "Shatrughna · Mahakali Shrine",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named guardian on the north side of the Mahakali shrine.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_shatrughna",
+          "landing_anchor": "Landing_shatrughna",
+          "notes": "Named guardian on the north side of the Mahakali shrine.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "ravalnath",
+          "label": "Ravalnath",
+          "deity": "Ravalnath",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "On the south side of the Sabha approach.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_ravalnath",
+          "landing_anchor": "Landing_ravalnath",
+          "notes": "On the south side of the Sabha approach.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "krushna",
+          "label": "Krishna · Sabha Approach",
+          "deity": "Krishna · Sabha Approach",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "Krishna beside the southern hall approach.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_krushna",
+          "landing_anchor": "Landing_krushna",
+          "notes": "Krishna beside the southern hall approach.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "gajalakshmi",
+          "label": "Gajalakshmi",
+          "deity": "Gajalakshmi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Sculpture at the southern edge of the Mukha Mandapa.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_gajalakshmi",
+          "landing_anchor": "Landing_gajalakshmi",
+          "notes": "Sculpture at the southern edge of the Mukha Mandapa.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "siddhivinayak_west",
+          "label": "Siddhivinayak · West Gate",
+          "deity": "Siddhivinayak · West Gate",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "West boundary row, north of the Mahadwar.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_siddhivinayak_west",
+          "landing_anchor": "Landing_siddhivinayak_west",
+          "notes": "West boundary row, north of the Mahadwar.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "kanakeshwar",
+          "label": "Kanakeshwar",
+          "deity": "Kanakeshwar",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Near the northwest corner along the western wall.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_kanakeshwar",
+          "landing_anchor": "Landing_kanakeshwar",
+          "notes": "Near the northwest corner along the western wall.",
+          "artwork_description": "Linga study in the documented west-row bay."
+        },
+        {
+          "id": "shakambhari",
+          "label": "Shakambhari",
+          "deity": "Shakambhari",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "Near the northwest corner along the western wall.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_shakambhari",
+          "landing_anchor": "Landing_shakambhari",
+          "notes": "Near the northwest corner along the western wall.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "jyotirlinga",
+          "label": "Jyotirlinga Mandir",
+          "deity": "Jyotirlinga Mandir",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "On the west side of Ghati Darwaza.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_jyotirlinga",
+          "landing_anchor": "Landing_jyotirlinga",
+          "notes": "On the west side of Ghati Darwaza.",
+          "artwork_description": "Linga study within the gate-side building."
+        },
+        {
+          "id": "kartik",
+          "label": "Kartik Swami",
+          "deity": "Kartik Swami",
+          "form": "murugan",
+          "kind": "subsidiary",
+          "evidence": "North arcade beside the Kashi Kund and the Navagraha Mandapa.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_kartik",
+          "landing_anchor": "Landing_kartik",
+          "notes": "North arcade beside the Kashi Kund and the Navagraha Mandapa.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "mudagaleshwar",
+          "label": "Mudagaleshwar",
+          "deity": "Mudagaleshwar",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "North row between Vitthal–Rakhumai and the Shankaracharya bay.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_mudagaleshwar",
+          "landing_anchor": "Landing_mudagaleshwar",
+          "notes": "North row between Vitthal–Rakhumai and the Shankaracharya bay.",
+          "artwork_description": "Original linga study in the documented north-row bay."
+        },
+        {
+          "id": "shankaracharya",
+          "label": "Adi Shankaracharya",
+          "deity": "Adi Shankaracharya",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named acharya bay along the northern court.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_shankaracharya",
+          "landing_anchor": "Landing_shankaracharya",
+          "notes": "Named acharya bay along the northern court.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "swami_samarth",
+          "label": "Swami Samarth",
+          "deity": "Swami Samarth",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named bay in the north row, near the northeast corner.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_swami_samarth",
+          "landing_anchor": "Landing_swami_samarth",
+          "notes": "Named bay in the north row, near the northeast corner.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "dashavatara",
+          "label": "Dashavatara",
+          "deity": "Dashavatara",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named ten-avatars bay near the northeast corner.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_dashavatara",
+          "landing_anchor": "Landing_dashavatara",
+          "notes": "Named ten-avatars bay near the northeast corner.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "rama_panchayatana",
+          "label": "Rama Panchayatana",
+          "deity": "Rama Panchayatana",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named group along the northeast part of the eastern row.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_rama_panchayatana",
+          "landing_anchor": "Landing_rama_panchayatana",
+          "notes": "Named group along the northeast part of the eastern row.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "maruti",
+          "label": "Maruti · East Row",
+          "deity": "Maruti · East Row",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named Maruti bay between Rama Panchayatana and the east gate.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_maruti",
+          "landing_anchor": "Landing_maruti",
+          "notes": "Named Maruti bay between Rama Panchayatana and the east gate.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "east_shani",
+          "label": "Shani, Maruti and Pimpal",
+          "deity": "Shani, Maruti and Pimpal",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Shared bay just south of the east gate.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_east_shani",
+          "landing_anchor": "Landing_east_shani",
+          "notes": "Shared bay just south of the east gate.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "gajanan_maharaj",
+          "label": "Gajanan Maharaj",
+          "deity": "Gajanan Maharaj",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named bay in the eastern row.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_gajanan_maharaj",
+          "landing_anchor": "Landing_gajanan_maharaj",
+          "notes": "Named bay in the eastern row.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "shani_maruti",
+          "label": "Jarandeshwar Maruti and Shani",
+          "deity": "Jarandeshwar Maruti and Shani",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named pair in the southern reach of the east arcade.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_shani_maruti",
+          "landing_anchor": "Landing_shani_maruti",
+          "notes": "Named pair in the southern reach of the east arcade.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "lakshmi_narayana",
+          "label": "Lakshmi Narayana",
+          "deity": "Lakshmi Narayana",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Shared Lakshmi and Narayana shrine in the eastern arcade.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_lakshmi_narayana",
+          "landing_anchor": "Landing_lakshmi_narayana",
+          "notes": "Shared Lakshmi and Narayana shrine in the eastern arcade.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "khandoba",
+          "label": "Khandoba",
+          "deity": "Khandoba",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named bay near the southeast corner.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_khandoba",
+          "landing_anchor": "Landing_khandoba",
+          "notes": "Named bay near the southeast corner.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "nagai",
+          "label": "Nagai",
+          "deity": "Nagai",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Named bay near the southeast corner.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_nagai",
+          "landing_anchor": "Landing_nagai",
+          "notes": "Named bay near the southeast corner.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "atibaleshwar",
+          "label": "Atibaleshwar Mahadev",
+          "deity": "Atibaleshwar Mahadev",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "South row near the east corner and the south gate.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_atibaleshwar",
+          "landing_anchor": "Landing_atibaleshwar",
+          "notes": "South row near the east corner and the south gate.",
+          "artwork_description": "Original linga study in the documented south-row bay."
+        },
+        {
+          "id": "kala_bhairava",
+          "label": "Kala Bhairava and Yogeshwari",
+          "deity": "Kala Bhairava and Yogeshwari",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Paired shrine just west of the south gate.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_kala_bhairava",
+          "landing_anchor": "Landing_kala_bhairava",
+          "notes": "Paired shrine just west of the south gate.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "siddhivinayak_south",
+          "label": "Siddhivinayak · South Row",
+          "deity": "Siddhivinayak · South Row",
+          "form": "ganesha",
+          "kind": "subsidiary",
+          "evidence": "Southern line of shrines by Kala Bhairava and Sinhavahini.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_siddhivinayak_south",
+          "landing_anchor": "Landing_siddhivinayak_south",
+          "notes": "Southern line of shrines by Kala Bhairava and Sinhavahini.",
+          "render_iconographic_study": true
+        },
+        {
+          "id": "ekamukhi_datta",
+          "label": "Ekamukhi Datta",
+          "deity": "Ekamukhi Datta",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "West end of the southern shrine row before the Nagarkhana.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_ekamukhi_datta",
+          "landing_anchor": "Landing_ekamukhi_datta",
+          "notes": "West end of the southern shrine row before the Nagarkhana.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "nagmandir",
+          "label": "Nagmandir",
+          "deity": "Nagmandir",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Serpent shrine near the five lamp towers in the western courtyard.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_nagmandir",
+          "landing_anchor": "Landing_nagmandir",
+          "notes": "Serpent shrine near the five lamp towers in the western courtyard.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "gurudev_datta",
+          "label": "Gurudev Datta · Courtyard",
+          "deity": "Gurudev Datta · Courtyard",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Freestanding worship location north of Garuda Mandapa and east of the Audumbar tree marker on the diagram.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_gurudev_datta",
+          "landing_anchor": "Landing_gurudev_datta",
+          "notes": "Freestanding worship location north of Garuda Mandapa and east of the Audumbar tree marker on the diagram.",
+          "installed_image_unverified": true
+        },
+        {
+          "id": "niranjan_samadhi",
+          "label": "Niranjan Swami Samadhi",
+          "deity": "Niranjan Swami Samadhi",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "Samadhi beside the western courtyard lamp towers.",
+          "source_ids": [
+            "KOLHAPUR_PRECINCT"
+          ],
+          "model_anchor": "Kolhapur_niranjan_samadhi",
+          "landing_anchor": "Landing_niranjan_samadhi",
+          "notes": "Samadhi beside the western courtyard lamp towers.",
+          "installed_image_unverified": true
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Current playable inventory reconciles mapped core sanctums, approaches and courtyard shrines. Some numbered locations, exterior monuments, facade sculptures and installed images remain under review."
     },
     "tuljapur_bhavani": {
       "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
@@ -4597,7 +5344,9 @@
           "form": "architecture",
           "kind": "heritage",
           "evidence": "The September 2025 photograph shows the rose arch and the Shakti Peetha name in Hindi and Tamil.",
-          "source_ids": ["ALOPI_GATE"],
+          "source_ids": [
+            "ALOPI_GATE"
+          ],
           "model_anchor": "Alopi_Outer_Gate_Reference",
           "landing_anchor": "Alopi_Outer_Gate_Landing",
           "placement": null,
@@ -4611,7 +5360,9 @@
           "form": "architecture",
           "kind": "heritage",
           "evidence": "The inner entrance photo shows a scalloped surround, iron grilles and two flanking stone lions.",
-          "source_ids": ["ALOPI_FACADE"],
+          "source_ids": [
+            "ALOPI_FACADE"
+          ],
           "model_anchor": "Alopi_Inner_Facade_Reference",
           "landing_anchor": "Alopi_Inner_Facade_Landing",
           "placement": null,

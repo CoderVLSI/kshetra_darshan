@@ -222,25 +222,53 @@
   "kolhapur_mahalakshmi": {
     "name": "Mahalakshmi / Ambabai",
     "stotram_order": 7,
-    "architecture": "Dark Deccan stone core with offset mouldings, connected mandapas and later lighter shikharas. Western Mahadwara leads through Garuda mandapa toward three west-facing sanctuaries.",
+    "architecture": "The west-facing trikuta begins at Mahadwar and Garuda Mandapa, then passes through Mukha, Sabha and Antarala. Ambabai faces west, Mahakali faces south and Mahasaraswati faces north. Matulinga and the Nandi mandapa occupy the upper storey.",
     "deity_form": "Black-stone four-armed main image",
     "posture": "Upright main image; west-facing shrine",
     "arms": "Four, documented",
     "attributes": "Deity's lower right: citron; upper right: mace with head down; upper left: shield; lower left: bowl",
-    "deity_notes": "Keep right/left relative to the deity, not the viewer. Do not replace these with four lotuses or generic blessing hands.",
-    "uncertainties": "Ornaments and sari vary; the precise underlying sculpture and crown details need photographic comparison.",
+    "deity_notes": "The deity’s right hands carry the citron and mace. Her left hands carry the shield and bowl. The model is an original study of the standing black-stone form.",
+    "uncertainties": "The aerial image establishes the main roof outline and the numbered precinct diagram establishes relative shrine locations. Smaller bay dimensions, installed sculpture, political-era repairs and inscription transcriptions need further site evidence.",
     "reconstruction": false,
     "sources": [
       {
-        "title": "Kolhapur Tourism: Mahalaxmi Temple",
-        "url": "https://www.kolhapurtourism.org/our-destination/mahalaxmi-temple-2/"
+        "title": "Yogesh Prabhudesai, Archaeology of Religious Ideas at Kolhapur, chapter 4, figures 4.12–4.15 and pp. 54–55",
+        "url": "https://www.wisdomlib.org/history/essay/archaeology-of-religious-ideas-at-kolhapur/d/doc1906908.html"
       },
       {
-        "title": "Shree Karveer Niwasini Ambabai Mahalaxmi",
-        "url": "https://www.mahalaxmikolhapur.com/"
+        "title": "Ambabai devotees’ numbered precinct diagram, Prakar Devta and Parisar Devata",
+        "url": "https://ambabai.com/detail-map-of-temple.html"
+      },
+      {
+        "title": "Maharashtra Gazetteers, Kolhapur district, Ambabai and subsidiary buildings",
+        "url": "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/KOLHAPUR/places_Kolhapur.html"
+      },
+      {
+        "title": "Maharashtra Tourism, Shree Mahalaxmi Ambabai Mata",
+        "url": "https://maharashtratourism.gov.in/temple/mahalaxmi/"
+      },
+      {
+        "title": "Kolhapur Municipal Corporation, tourism sites",
+        "url": "https://web.kolhapurcorporation.gov.in/paryantanSthale"
+      },
+      {
+        "title": "Devasthan Management Committee and Vivekanand College Kirnotsav observation",
+        "url": "https://www.vivekanandcollege.ac.in/uploads/dptphysics/best%20practice/kirnotsav/best%20practice%202021%20-%2022.pdf"
+      },
+      {
+        "title": "Esri World Imagery, Ambabai compound at 16.69486 N, 74.22289 E",
+        "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+      },
+      {
+        "title": "Ambabai devotees’ public shrine photo gallery, bare-stone face and alankara studies",
+        "url": "https://www.ambabai.com/gallery.html"
+      },
+      {
+        "title": "M. G. Dikshit, Kolhapur inscription of Silahara Bhoja II, Epigraphia Indica XXIX, pp. 13–18",
+        "url": "https://library.bjp.org/jspui/bitstream/123456789/1910/20/epigraphia-indica-vol-29.pdf"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The scene preserves the west approach, wooden Garuda hall, Kasav Chowk, Pitali Umbartha, three sanctums, Matulinga level, cardinal gates, ceiling-panel positions and named court bays. Many secondary artworks are location markers or studies. Exact installed forms, individual Ashtadikpala reliefs and inscriptions are still incomplete. Heritage notes record four inscriptions described by the Gazetteer. Dikshit documented a 1182 CE Śilāhāra grant in the Hari-Hareśvara shrine wall. The in-scene engravings and the latter slab’s current position are unverified."
   },
   "mahur_renuka": {
     "name": "Ekaveerika / Renuka",
