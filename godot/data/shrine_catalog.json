@@ -1229,174 +1229,1079 @@
       "inventory_status": "The directory includes the Devasthanam’s published shrines, selected additional documented forms and the main ritual halls. Exact surveyed subsidiary bay dimensions and some installed sculptures remain unverified."
     },
     "madurai_meenakshi": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "Only the walled temple precinct, with its paired sanctuaries and in-compound halls. Model footprints follow the archival plans and imagery. Some smaller sacred bays and individual relief placements are approximate.",
       "sources": [
         {
-          "id": "MADURAI",
-          "title": "Madurai district: Sri Meenakshi-Sundareswarar Temple",
-          "url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/"
+          "id": "MADURAI_ARCHIVE",
+          "title": "Madurai through the Ages, temple architecture and sculpture chapters",
+          "url": "https://ignca.gov.in/Asi_data/65812.pdf"
         },
         {
-          "id": "MADURAI_PLAN",
-          "title": "Smarthistory: Meenakshi Temple plan",
-          "url": "https://smarthistory.org/meenakshi-madurai/"
+          "id": "MADURAI_MEASURED",
+          "title": "The temple city of Madurai, 1:3000 plan and south gopura section, plate 88",
+          "url": "https://www.ignca.gov.in/Asi_data/73821.pdf"
+        },
+        {
+          "id": "MADURAI_MURRAY",
+          "title": "John Murray, annotated 1911 Madura temple plan",
+          "url": "https://commons.wikimedia.org/wiki/File:Plan_of_Meenakshi_Amman_Temple_Madurai_India.jpg"
+        },
+        {
+          "id": "MADURAI_AERIAL",
+          "title": "Esri imagery, present roof and street alignments at Madurai",
+          "url": "https://www.arcgis.com/apps/mapviewer/index.html?center=78.11930,9.91950&level=18&basemap=satellite"
+        },
+        {
+          "id": "MADURAI_TOWERS",
+          "title": "Tamil Nadu HRCE temple tower register",
+          "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/towers.php?tid=31962"
+        },
+        {
+          "id": "MADURAI_CARVINGS",
+          "title": "Tamil Nadu HRCE temple sculpture register",
+          "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/sculpture.php?tid=31962"
+        },
+        {
+          "id": "MADURAI_TVA",
+          "title": "Tamil Virtual Academy, Madurai Meenakshi Sundareswarar Temple",
+          "url": "https://tamilculturalatlas.in/data-details/VFZBLVRFTS0wMTg2"
         },
         {
           "id": "MADURAI_HRCE_SHRINES",
-          "title": "Tamil Nadu HRCE: Meenakshi temple subsidiary shrine register",
+          "title": "Tamil Nadu HRCE Meenakshi Temple subsidiary shrine register",
           "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/shrines.php?tid=31962"
         },
         {
-          "id": "MADURAI_RESEARCH",
-          "title": "Veda Samskrita Academy journal: Meenakshi temple shrines",
-          "url": "https://vedasamskritaacademy.org/wp-content/uploads/2023/06/MAHAMAHOPADHYAYA-D%F4%80%81%95.-Vid%F4%80%81%99an-N.-Rangana%F4%80%81%97ha-Sha%F4%80%81%95ma.pdf"
+          "id": "MADURAI_MINAKSI",
+          "title": "British Museum, historical painting of Minaksi",
+          "url": "https://www.britishmuseum.org/collection/object/A_2007-3005-49"
         }
       ],
-      "excluded": [],
+      "excluded": [
+        {
+          "name": "Pudu Mandapam, Raya Gopuram and Vandiyur Teppakulam",
+          "reason": "Separate sites outside the modeled temple enclosure."
+        }
+      ],
       "shrines": [
         {
           "id": "main",
-          "label": "Meenakshi–Sundareswarar (existing game extra)",
-          "deity": "Meenakshi–Sundareswarar (existing game extra)",
+          "label": "Meenakshi Amman",
+          "deity": "Meenakshi",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "The plans place the east-facing Amman sanctuary south of the Swami shrine.",
           "source_ids": [
-            "MADURAI"
+            "MADURAI_MEASURED",
+            "MADURAI_MINAKSI"
           ],
-          "model_anchor": "Deity_Meenakshi",
+          "model_anchor": "Madurai_main",
+          "landing_anchor": "Landing_main",
           "placement": null,
-          "notes": "Existing main model retained. Image detail and compound coordinates remain subject to the deity dossier; no claim of exact reconstruction."
+          "notes": "The original model study uses the two-armed form with lotus and parrot. Its colors and adornment are interpretive.",
+          "tradition": "Shakta tradition • Meenakshi Amman"
         },
         {
           "id": "sundareswarar",
-          "label": "Sundareswarar",
+          "label": "Sundareswarar · Swami Sannidhi",
           "deity": "Sundareswarar",
           "form": "linga",
-          "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "kind": "main",
+          "evidence": "The plans record the separate east-facing Swami sanctuary.",
           "source_ids": [
-            "MADURAI"
+            "MADURAI_MEASURED",
+            "MADURAI_TVA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_sundareswarar",
+          "landing_anchor": "Landing_sundareswarar",
           "placement": null,
-          "notes": "The other principal sanctuary in this same temple complex."
+          "notes": "Shiva is worshipped here as Sundareswarar, also known as Chokkanathar.",
+          "tradition": "Shaiva tradition • Thiru Aalavaayudaiya Naayanar"
         },
         {
           "id": "mukkuruni_vinayagar",
           "label": "Mukkuruni Vinayagar",
-          "deity": "Mukkuruni Vinayagar",
+          "deity": "Ganesha",
           "form": "ganesha",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The archive places the large four-armed Pillaiyar opposite the Nadukattu Gopuram on the south of the second Swami prakara.",
           "source_ids": [
-            "MADURAI_PLAN"
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_mukkuruni_vinayagar",
+          "landing_anchor": "Landing_mukkuruni_vinayagar",
           "placement": null,
-          "notes": "Plan-labelled shrine on the route between principal sanctuaries."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Ganapatya tradition • Mukkuruni Pillaiyar"
         },
         {
           "id": "sevvanthiswarar",
           "label": "Sevvantheeswarar",
-          "deity": "Sevvantheeswarar",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "HRCE records this shrine near Meenakshi Amman.",
           "source_ids": [
             "MADURAI_HRCE_SHRINES"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_sevvanthiswarar",
+          "landing_anchor": "Landing_sevvanthiswarar",
           "placement": null,
-          "notes": "HRCE places this shrine near Meenakshi Amman."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Shiva linga"
         },
         {
           "id": "kasi_viswanathar",
           "label": "Kasi Viswanathar",
-          "deity": "Kasi Viswanathar",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "HRCE records this shrine near the Amman sanctuary.",
           "source_ids": [
-            "MADURAI_HRCE_SHRINES"
+            "MADURAI_HRCE_SHRINES",
+            "MADURAI_TVA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_kasi_viswanathar",
+          "landing_anchor": "Landing_kasi_viswanathar",
           "placement": null,
-          "notes": "HRCE places this shrine near Meenakshi Amman."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Viswanathar"
+        },
+        {
+          "id": "jayantishwarar",
+          "label": "Jayantishwarar",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "The archive places the Jayantisvara shrine south of Meenakshi.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_MURRAY"
+          ],
+          "model_anchor": "Madurai_jayantishwarar",
+          "landing_anchor": "Landing_jayantishwarar",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Jayantisvara"
         },
         {
           "id": "kalyanasundarar",
-          "label": "Kalyanasundarar",
-          "deity": "Kalyanasundarar",
-          "form": "unknown",
+          "label": "Kalyanasundarar Sannidhi",
+          "deity": "Shiva and Meenakshi",
+          "form": "shiva",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "HRCE lists this as a shrine of the second Swami prakara.",
           "source_ids": [
-            "MADURAI_HRCE_SHRINES"
+            "MADURAI_HRCE_SHRINES",
+            "MADURAI_TVA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_kalyanasundarar",
+          "landing_anchor": "Landing_kalyanasundarar",
           "placement": null,
-          "notes": "HRCE places this shrine in Swamy second prakara; precise image is a reference study."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • The divine wedding"
         },
         {
           "id": "ekadasa_linga",
-          "label": "Ekadasa Linga group",
-          "deity": "Ekadasa Linga group",
+          "label": "Ekadasa Linga · Eleven Lingas",
+          "deity": "Shiva",
           "form": "linga_group",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "HRCE records the linga grouping in the second prakara.",
           "source_ids": [
             "MADURAI_HRCE_SHRINES"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_ekadasa_linga",
+          "landing_anchor": "Landing_ekadasa_linga",
           "placement": null,
-          "notes": "HRCE records the group in Swamy second prakara; eleven lingas are represented schematically."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Eleven lingas"
         },
         {
           "id": "sangathar",
-          "label": "Sangathar shrine",
-          "deity": "Sangathar shrine",
+          "label": "Sangathar Sannidhi",
+          "deity": "Tamil Sangam tradition",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The archive places this shrine in the northwest of the second Swami enclosure.",
           "source_ids": [
-            "MADURAI_HRCE_SHRINES"
+            "MADURAI_HRCE_SHRINES",
+            "MADURAI_ARCHIVE"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_sangathar",
+          "landing_anchor": "Landing_sangathar",
           "placement": null,
-          "notes": "Named by the HRCE shrine register; no invented count or identity of individual figures."
+          "notes": "The original roster of individual images is unresolved; this stop marks the documented shrine.",
+          "tradition": "Tamil literary tradition • Sangathar"
         },
         {
           "id": "nataraja",
-          "label": "Nataraja — Silver Sabha",
-          "deity": "Nataraja — Silver Sabha",
-          "form": "unknown",
+          "label": "Velli Ambalam · Nataraja",
+          "deity": "Nataraja",
+          "form": "shiva",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The temple has a Silver Sabha near the Swami sanctuary. The right leg is raised in this Madurai dance tradition.",
           "source_ids": [
-            "MADURAI_RESEARCH"
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_nataraja",
+          "landing_anchor": "Landing_nataraja",
           "placement": null,
-          "notes": "Named temple-specific dance shrine. The raised-leg form requires dedicated authenticated sculpture; reference altar used."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Silver Sabha"
         },
         {
           "id": "murugan",
-          "label": "Murugan",
+          "label": "Subramanya · Valli and Deivanai",
           "deity": "Murugan",
           "form": "unknown",
           "kind": "subsidiary",
-          "evidence": "Documented inside the main temple precinct in the cited source.",
+          "evidence": "The Tamil Cultural Atlas records Murugan with his two consorts in the compound.",
           "source_ids": [
-            "MADURAI_RESEARCH"
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE"
           ],
-          "model_anchor": null,
+          "model_anchor": "Madurai_murugan",
+          "landing_anchor": "Landing_murugan",
           "placement": null,
-          "notes": "Research places the shrine in the second courtyard; exact image and measured placement remain unverified."
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Kaumara tradition • Subramanya"
+        },
+        {
+          "id": "navagraha",
+          "label": "Navagraha Shrine",
+          "deity": "Navagrahas",
+          "form": "navagraha",
+          "kind": "subsidiary",
+          "evidence": "The archive and atlas document the Navagraha group.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_navagraha",
+          "landing_anchor": "Landing_navagraha",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Navagraha worship • Nine planetary deities"
+        },
+        {
+          "id": "nandi",
+          "label": "Kambathadi · Nandi",
+          "deity": "Nandi",
+          "form": "nandi",
+          "kind": "subsidiary",
+          "evidence": "HRCE identifies the Nandi Mandapa in the Kambathadi hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_nandi",
+          "landing_anchor": "Landing_nandi",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Nandi faces the Swami sanctuary"
+        },
+        {
+          "id": "karimanikka_perumal",
+          "label": "Karimanikka Perumal",
+          "deity": "Vishnu",
+          "form": "vishnu",
+          "kind": "subsidiary",
+          "evidence": "The archive places the shrine in the second Swami prakara’s northern range.",
+          "source_ids": [
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_karimanikka_perumal",
+          "landing_anchor": "Landing_karimanikka_perumal",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Vaishnava tradition • Karimanikka Perumal"
+        },
+        {
+          "id": "dakshinamurti",
+          "label": "Dakshinamurti",
+          "deity": "Shiva",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "The Tamil Cultural Atlas records Dakshinamurti within the complex.",
+          "source_ids": [
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_dakshinamurti",
+          "landing_anchor": "Landing_dakshinamurti",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Shiva as teacher"
+        },
+        {
+          "id": "durga",
+          "label": "Durga Sannidhi",
+          "deity": "Durga",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "The Tamil Cultural Atlas records Durga within the complex.",
+          "source_ids": [
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_durga",
+          "landing_anchor": "Landing_durga",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shakta tradition • Durga"
+        },
+        {
+          "id": "swami_mahalakshmi",
+          "label": "Mahalakshmi Sannidhi",
+          "deity": "Mahalakshmi",
+          "form": "devi",
+          "kind": "subsidiary",
+          "evidence": "The Tamil Cultural Atlas lists the Mahalakshmi shrine.",
+          "source_ids": [
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_swami_mahalakshmi",
+          "landing_anchor": "Landing_swami_mahalakshmi",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Lakshmi worship • Separate precinct shrine"
+        },
+        {
+          "id": "bhairavar",
+          "label": "Bhairavar Sannidhi",
+          "deity": "Bhairavar",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "Bhairavar is recorded in the temple’s shrine inventory.",
+          "source_ids": [
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_bhairavar",
+          "landing_anchor": "Landing_bhairavar",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Bhairavar"
+        },
+        {
+          "id": "surya",
+          "label": "Surya · Usha and Pratyusha",
+          "deity": "Surya",
+          "form": "unknown",
+          "kind": "subsidiary",
+          "evidence": "The Tamil Cultural Atlas identifies the three figures together.",
+          "source_ids": [
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_surya",
+          "landing_anchor": "Landing_surya",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Saura tradition • Surya and his companions"
+        },
+        {
+          "id": "nayanmars",
+          "label": "Arupathu Moovar · 63 Nayanmars",
+          "deity": "Nayanmars",
+          "form": "acharya",
+          "kind": "subsidiary",
+          "evidence": "Both the atlas and annotated plan record the saints within the precinct.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_MURRAY"
+          ],
+          "model_anchor": "Madurai_nayanmars",
+          "landing_anchor": "Landing_nayanmars",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Tamil Shaiva tradition • Sixty-three saints"
+        },
+        {
+          "id": "sabhapati",
+          "label": "Sabhapati · Hundred Pillar Hall",
+          "deity": "Nataraja",
+          "form": "shiva",
+          "kind": "subsidiary",
+          "evidence": "The archive places the Sabhapati shrine in the northeast Hundred Pillar Hall of the second enclosure.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_CARVINGS"
+          ],
+          "model_anchor": "Madurai_sabhapati",
+          "landing_anchor": "Landing_sabhapati",
+          "placement": null,
+          "notes": "The modeled image or sacred form is an iconographic study. Individual surfaces and bay placement remain approximate.",
+          "tradition": "Shaiva tradition • Sabhapati"
+        },
+        {
+          "id": "yajnarupini",
+          "label": "Yajnarupini · Ashta Shakti",
+          "deity": "Yajnarupini",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the north row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_yajnarupini",
+          "landing_anchor": "Landing_yajnarupini",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "shyamala",
+          "label": "Shyamala · Ashta Shakti",
+          "deity": "Shyamala",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the north row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_shyamala",
+          "landing_anchor": "Landing_shyamala",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "maheshwari",
+          "label": "Maheshwari · Ashta Shakti",
+          "deity": "Maheshwari",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the north row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_maheshwari",
+          "landing_anchor": "Landing_maheshwari",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "manonmani",
+          "label": "Manonmani · Ashta Shakti",
+          "deity": "Manonmani",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the north row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_manonmani",
+          "landing_anchor": "Landing_manonmani",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "kaumari",
+          "label": "Kaumari · Ashta Shakti",
+          "deity": "Kaumari",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the south row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_kaumari",
+          "landing_anchor": "Landing_kaumari",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "raudri",
+          "label": "Raudri · Ashta Shakti",
+          "deity": "Raudri",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the south row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_raudri",
+          "landing_anchor": "Landing_raudri",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "vaishnavi",
+          "label": "Vaishnavi · Ashta Shakti",
+          "deity": "Vaishnavi",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the south row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_vaishnavi",
+          "landing_anchor": "Landing_vaishnavi",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "mahalakshmi",
+          "label": "Mahalakshmi · Ashta Shakti",
+          "deity": "Mahalakshmi",
+          "form": "devi",
+          "kind": "relief",
+          "evidence": "The archive identifies this carving in the south row and gives the east-to-west order.",
+          "source_ids": [
+            "MADURAI_ARCHIVE",
+            "MADURAI_TVA"
+          ],
+          "model_anchor": "Madurai_mahalakshmi",
+          "landing_anchor": "Landing_mahalakshmi",
+          "placement": null,
+          "notes": "One of eight stone goddess figures in the Ashta Shakti Mandapa. Details of the model are interpretive.",
+          "tradition": "Shakta tradition • Ashta Shakti pillar sculpture"
+        },
+        {
+          "id": "golden_lily",
+          "label": "Potramarai Kulam · Golden Lily Tank",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Open stepped tank east of Meenakshi. The colonnades, stair courses and central lotus are represented.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_golden_lily",
+          "landing_anchor": "Landing_golden_lily",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Potramarai Kulam · Golden Lily Tank"
+        },
+        {
+          "id": "tank_murals",
+          "label": "Golden Lily Tank · Nayak Mural Band",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The Tamil Cultural Atlas records paintings around the tank, including the north and east walls.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_tank_murals",
+          "landing_anchor": "Landing_tank_murals",
+          "placement": null,
+          "notes": "The surviving mural location is represented. The painted scenes still need reconstruction.",
+          "tradition": "Madurai temple heritage • Golden Lily Tank · Nayak Mural Band"
+        },
+        {
+          "id": "ashta_shakti",
+          "label": "Ashta Shakti Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Eastern entrance hall with eight carved goddess pillars.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_ashta_shakti",
+          "landing_anchor": "Landing_ashta_shakti",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Ashta Shakti Mandapa"
+        },
+        {
+          "id": "meenakshi_nayaka",
+          "label": "Meenakshi Nayaka Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Five-aisled hall between the Ashta Shakti entrance sequence and Chitra Gopuram.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_meenakshi_nayaka",
+          "landing_anchor": "Landing_meenakshi_nayaka",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Meenakshi Nayaka Mandapa"
+        },
+        {
+          "id": "mudali_pillai",
+          "label": "Mudali Pillai Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Hall on the route from Chitra Gopuram toward the tank and Amman shrine.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_mudali_pillai",
+          "landing_anchor": "Landing_mudali_pillai",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Mudali Pillai Mandapa"
+        },
+        {
+          "id": "kilikoottu",
+          "label": "Kilikoottu Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Ornate hall immediately west of the tank, on the route to the Amman sanctuary.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_kilikoottu",
+          "landing_anchor": "Landing_kilikoottu",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Kilikoottu Mandapa"
+        },
+        {
+          "id": "oonjal",
+          "label": "Oonjal Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Swing hall south of Kilikoottu, associated with Meenakshi and Sundareswarar.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_oonjal",
+          "landing_anchor": "Landing_oonjal",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Oonjal Mandapa"
+        },
+        {
+          "id": "kalyana_hall",
+          "label": "Thirukalyana Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Wedding hall associated with the annual Chithirai celebration.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_kalyana_hall",
+          "landing_anchor": "Landing_kalyana_hall",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Thirukalyana Mandapa"
+        },
+        {
+          "id": "mangayarkarasi",
+          "label": "Mangayarkarasi Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Named hall in the eastern precinct.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_mangayarkarasi",
+          "landing_anchor": "Landing_mangayarkarasi",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Mangayarkarasi Mandapa"
+        },
+        {
+          "id": "veera_vasantharayar",
+          "label": "Veera Vasantharayar Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Covered approach on the eastern Swami axis.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_veera_vasantharayar",
+          "landing_anchor": "Landing_veera_vasantharayar",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Veera Vasantharayar Mandapa"
+        },
+        {
+          "id": "kambathadi",
+          "label": "Kambathadi Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Hall of the flagstaff, Nandi and major Shaiva carved pillars.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_kambathadi",
+          "landing_anchor": "Landing_kambathadi",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Kambathadi Mandapa"
+        },
+        {
+          "id": "flagstaff",
+          "label": "Kambathadi · Dhvajastambha",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The processional flagstaff stands on the east-facing Swami approach.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_flagstaff",
+          "landing_anchor": "Landing_flagstaff",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Kambathadi · Dhvajastambha"
+        },
+        {
+          "id": "wedding_relief",
+          "label": "Meenakshi’s Wedding · Kambathadi Relief",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The documented wedding group depicts Meenakshi, Sundareswarar and Vishnu.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_wedding_relief",
+          "landing_anchor": "Landing_wedding_relief",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Meenakshi’s Wedding · Kambathadi Relief"
+        },
+        {
+          "id": "hundred_pillars",
+          "label": "Hundred Pillar · Mandapa Nayaka Hall",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The hall occupies the northeast of the Swami second enclosure.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_hundred_pillars",
+          "landing_anchor": "Landing_hundred_pillars",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Hundred Pillar · Mandapa Nayaka Hall"
+        },
+        {
+          "id": "thousand_pillars",
+          "label": "Ayiram Kaal · Thousand Pillar Hall",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The great pillared hall occupies the northeast sector of the outer compound.",
+          "source_ids": [
+            "MADURAI_TVA",
+            "MADURAI_ARCHIVE",
+            "MADURAI_MEASURED"
+          ],
+          "model_anchor": "Madurai_thousand_pillars",
+          "landing_anchor": "Landing_thousand_pillars",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Ayiram Kaal · Thousand Pillar Hall"
+        },
+        {
+          "id": "musical_pillars",
+          "label": "Musical Pillars · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The HRCE sculpture register lists a musical pillar in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS"
+          ],
+          "model_anchor": "Madurai_musical_pillars",
+          "landing_anchor": "Landing_musical_pillars",
+          "placement": null,
+          "notes": "The modeled feature and its surroundings follow the described location. Individual details are approximate.",
+          "tradition": "Madurai temple heritage • Musical Pillars · Ayiram Kaal"
+        },
+        {
+          "id": "east_raja",
+          "label": "East Raja Gopuram",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Gateway documented in the temple plan and tower register.",
+          "source_ids": [
+            "MADURAI_MEASURED",
+            "MADURAI_TOWERS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_east_raja",
+          "landing_anchor": "Landing_east_raja",
+          "placement": null,
+          "notes": "The through-passage, tiered stucco silhouette and carved base are original modeled architecture.",
+          "tradition": "Nayak and Pandya temple heritage • East Raja Gopuram"
+        },
+        {
+          "id": "west_raja",
+          "label": "West Raja Gopuram",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Gateway documented in the temple plan and tower register.",
+          "source_ids": [
+            "MADURAI_MEASURED",
+            "MADURAI_TOWERS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_west_raja",
+          "landing_anchor": "Landing_west_raja",
+          "placement": null,
+          "notes": "The through-passage, tiered stucco silhouette and carved base are original modeled architecture.",
+          "tradition": "Nayak and Pandya temple heritage • West Raja Gopuram"
+        },
+        {
+          "id": "north_raja",
+          "label": "North Raja Gopuram",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Gateway documented in the temple plan and tower register.",
+          "source_ids": [
+            "MADURAI_MEASURED",
+            "MADURAI_TOWERS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_north_raja",
+          "landing_anchor": "Landing_north_raja",
+          "placement": null,
+          "notes": "The through-passage, tiered stucco silhouette and carved base are original modeled architecture.",
+          "tradition": "Nayak and Pandya temple heritage • North Raja Gopuram"
+        },
+        {
+          "id": "south_raja",
+          "label": "South Raja Gopuram",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Gateway documented in the temple plan and tower register.",
+          "source_ids": [
+            "MADURAI_MEASURED",
+            "MADURAI_TOWERS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_south_raja",
+          "landing_anchor": "Landing_south_raja",
+          "placement": null,
+          "notes": "The through-passage, tiered stucco silhouette and carved base are original modeled architecture.",
+          "tradition": "Nayak and Pandya temple heritage • South Raja Gopuram"
+        },
+        {
+          "id": "chitra",
+          "label": "Chitra Gopuram",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Gateway documented in the temple plan and tower register.",
+          "source_ids": [
+            "MADURAI_MEASURED",
+            "MADURAI_TOWERS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_chitra",
+          "landing_anchor": "Landing_chitra",
+          "placement": null,
+          "notes": "The through-passage, tiered stucco silhouette and carved base are original modeled architecture.",
+          "tradition": "Nayak and Pandya temple heritage • Chitra Gopuram"
+        },
+        {
+          "id": "nadukattu",
+          "label": "Nadukattu Gopuram",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Gateway documented in the temple plan and tower register.",
+          "source_ids": [
+            "MADURAI_MEASURED",
+            "MADURAI_TOWERS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_nadukattu",
+          "landing_anchor": "Landing_nadukattu",
+          "placement": null,
+          "notes": "The through-passage, tiered stucco silhouette and carved base are original modeled architecture.",
+          "tradition": "Nayak and Pandya temple heritage • Nadukattu Gopuram"
+        },
+        {
+          "id": "horse_rider",
+          "label": "Horse Rider · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_horse_rider",
+          "landing_anchor": "Landing_horse_rider",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "kuratti",
+          "label": "Kuratti · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_kuratti",
+          "landing_anchor": "Landing_kuratti",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "kuravan",
+          "label": "Kuravan · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_kuravan",
+          "landing_anchor": "Landing_kuravan",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "tripurantaka",
+          "label": "Tripurantaka · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_tripurantaka",
+          "landing_anchor": "Landing_tripurantaka",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "pandya_king",
+          "label": "Pandya King · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_pandya_king",
+          "landing_anchor": "Landing_pandya_king",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "bhikshatana",
+          "label": "Bhikshatana · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_bhikshatana",
+          "landing_anchor": "Landing_bhikshatana",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "arjuna",
+          "label": "Arjuna · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_arjuna",
+          "landing_anchor": "Landing_arjuna",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
+        },
+        {
+          "id": "daksha",
+          "label": "Daksha · Ayiram Kaal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "relief",
+          "evidence": "HRCE lists this carving in the Thousand Pillar Hall.",
+          "source_ids": [
+            "MADURAI_CARVINGS",
+            "MADURAI_ARCHIVE"
+          ],
+          "model_anchor": "Madurai_daksha",
+          "landing_anchor": "Landing_daksha",
+          "placement": null,
+          "notes": "The modeled stone figure is a subject study. Exact sculpture geometry and pier position remain approximate.",
+          "tradition": "Madurai sculpture tradition • Ayiram Kaal"
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "Named precinct stops from the archival plan, HRCE listings and Tamil Virtual Academy. The complete present-day sculpture and inscription inventory remains unresolved."
     },
     "mysore_chamundeshwari": {
       "scope_note": "Chamundeshwari’s quadrangular hilltop enclosure and its entrance, with the aerial footprint oriented east–west. The nearby hill temples, plaza monument and large Nandi belong to separate grounds.",

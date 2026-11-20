@@ -664,15 +664,15 @@
     "preservation_status": "The model represents a west entrance panel and blind sanctuary trefoils. Individual carvings and inscriptions still need a full conservation record."
   },
   "madurai_meenakshi": {
-    "name": "Meenakshi–Sundareswarar (existing game extra)",
+    "name": "Meenakshi–Sundareswarar",
     "stotram_order": null,
-    "architecture": "Large Dravidian twin-sanctuary complex with nested enclosures, many sculpted gateway towers, extensive roofed halls and Golden Lily Tank. Four detached outer towers do not reproduce its internal plan. The two principal shrines face east according to Library of Congress image metadata.",
-    "deity_form": "Anthropomorphic main form, distinct from festival representations",
-    "posture": "Standing queenly form; verify main-image photograph",
+    "architecture": "Two east-facing principal shrines in separate nested enclosures with Meenakshi south of Sundareswarar. The Golden Lily Tank lies east of Amman, and the Thousand Pillar Hall occupies the northeast. The plans and aerials guide the gates, halls, roof masses, enclosure lines and routes.",
+    "deity_form": "Standing two-armed Meenakshi and the separate Sundareswarar linga",
+    "posture": "Standing Meenakshi with lotus and parrot; Sundareswarar worshipped in linga form",
     "arms": "Two in traditional iconography",
     "attributes": "Parrot associated with raised right hand/flower; other hand lowered in traditional representations",
-    "deity_notes": "Do not use a generic four-/eight-armed Devi, assume literal emerald stone, or mistake a festival bronze for the main image.",
-    "uncertainties": "Temple-specific hand/flower/parrot geometry requires a verified main-image photograph; historical painting is only comparative iconography.",
+    "deity_notes": "The modeled Amman is a two-armed iconographic study with flower and parrot. The installed image’s exact surfaces remain unverified.",
+    "uncertainties": "The archival plans and satellite views constrain the footprint and relative placement. Some individual rooms, adjoining shrine bays, pillar art and the present installed deity images remain approximate. No complete stone-by-stone survey, epigraphic record or photographic replica is claimed.",
     "reconstruction": false,
     "sources": [
       {
@@ -702,9 +702,41 @@
       {
         "title": "Library of Congress: Meenakshi temple image metadata example",
         "url": "https://www.loc.gov/catworkshop/courses/metadatadl/pdf/mdld-instr-manual-01a.pdf"
+      },
+      {
+        "title": "Madurai through the Ages, temple architecture and sculpture chapters",
+        "url": "https://ignca.gov.in/Asi_data/65812.pdf"
+      },
+      {
+        "title": "The temple city of Madurai, 1:3000 plan and south gopura section, plate 88",
+        "url": "https://www.ignca.gov.in/Asi_data/73821.pdf"
+      },
+      {
+        "title": "John Murray, annotated 1911 Madura temple plan",
+        "url": "https://commons.wikimedia.org/wiki/File:Plan_of_Meenakshi_Amman_Temple_Madurai_India.jpg"
+      },
+      {
+        "title": "Esri imagery, present roof and street alignments at Madurai",
+        "url": "https://www.arcgis.com/apps/mapviewer/index.html?center=78.11930,9.91950&level=18&basemap=satellite"
+      },
+      {
+        "title": "Tamil Nadu HRCE temple tower register",
+        "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/towers.php?tid=31962"
+      },
+      {
+        "title": "Tamil Nadu HRCE temple sculpture register",
+        "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/sculpture.php?tid=31962"
+      },
+      {
+        "title": "Tamil Virtual Academy, Madurai Meenakshi Sundareswarar Temple",
+        "url": "https://tamilculturalatlas.in/data-details/VFZBLVRFTS0wMTg2"
+      },
+      {
+        "title": "Tamil Nadu HRCE Meenakshi Temple subsidiary shrine register",
+        "url": "https://maduraimeenakshi.hrce.tn.gov.in/hrcehome/shrines.php?tid=31962"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "Selected museum and hall sculptures are modeled as studies. The Golden Lily Tank mural band has a mapped location. Exact paintings, the full sculpture inventory and inscription transcriptions remain pending."
   },
   "kalighat": {
     "name": "Kalighat Kali",

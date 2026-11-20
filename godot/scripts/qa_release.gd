@@ -45,7 +45,25 @@ func run() -> void:
 	for frame in range(30):
 		await physics_frame
 	check(player.prayer_blend > .95, "Prayer must animate in the release")
+	current_scene = null
 	world.free()
+	await process_frame
+	gm.current_temple_id = "madurai_meenakshi"
+	var madurai = load("res://scenes/temple_world.tscn").instantiate()
+	root.add_child(madurai)
+	current_scene = madurai
+	for frame in range(120):
+		await physics_frame
+		if madurai.shrine_registry.is_ready:
+			break
+	check(madurai.shrine_registry.is_ready, "Release Madurai registry must populate")
+	var madurai_destinations: Array = madurai.shrine_registry.get_destinations()
+	check(madurai_destinations.size() == 59, "Release must include all 59 Madurai destinations")
+	for destination in madurai_destinations:
+		check(destination.available, "Madurai destination needs a landing: " + str(destination.id))
+		check(destination.placement_status == "existing_model_anchor", "Madurai destination needs an authored shrine anchor: " + str(destination.id))
+	current_scene = null
+	madurai.free()
 	OS.delay_msec(80)
 	await process_frame
 	print("RELEASE_CHECK: ", failures.size(), " failures; 21 models, 21 reference records, 21 heritage files, grounded player, neutral/prayer poses")
