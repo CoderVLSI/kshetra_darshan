@@ -50,7 +50,9 @@ func run() -> void:
 	await process_frame
 	for site in [
 		{"id": "madurai_meenakshi", "destinations": 59, "label": "Madurai"},
-		{"id": "kolhapur_mahalakshmi", "destinations": 64, "label": "Kolhapur"}
+		{"id": "kolhapur_mahalakshmi", "destinations": 64, "label": "Kolhapur"},
+		{"id": "jajpur_biraja", "destinations": 32, "label": "Biraja",
+			"unverified": ["jupesvara", "mrityunjayesvara"]}
 	]:
 		gm.current_temple_id = site.id
 		var temple = load("res://scenes/temple_world.tscn").instantiate()
@@ -65,6 +67,10 @@ func run() -> void:
 		check(destinations.size() == site.destinations,
 			"Release must include all %d %s destinations" % [site.destinations, site.label])
 		for destination in destinations:
+			if destination.id in site.get("unverified", []):
+				check(not destination.available and destination.placement_status == "location_unverified",
+					"Biraja location still needs source evidence: " + str(destination.id))
+				continue
 			check(destination.available, "%s destination needs a landing: %s" % [site.label, destination.id])
 			check(destination.placement_status == "existing_model_anchor",
 				"%s destination needs an authored shrine anchor: %s" % [site.label, destination.id])

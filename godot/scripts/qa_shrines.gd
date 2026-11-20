@@ -28,8 +28,14 @@ func run() -> void:
 		await physics_frame
 		var destinations = registry.get_destinations()
 		var unavailable: Array = []
+		var location_unverified: Array = []
 		var teleported = 0
 		for destination in destinations:
+			if destination.placement_status == "location_unverified":
+				location_unverified.append(destination.id)
+				check(not destination.available and not registry.teleport_to(destination.id),
+					id + " unverified location must never teleport: " + destination.id)
+				continue
 			if not destination.available:
 				unavailable.append(destination.label)
 				continue
@@ -44,8 +50,10 @@ func run() -> void:
 			teleported += 1 if success else 0
 		check(not destinations.is_empty(), id + " non-empty catalogue")
 		check(unavailable.is_empty(), id + " unavailable shrines: " + str(unavailable))
-		results.append({"temple":id,"destinations":destinations.size(),"teleports":teleported,"unavailable":unavailable})
-		print("SHRINE_QA ", id, " destinations=", destinations.size(), " teleports=", teleported, " unavailable=", unavailable)
+		results.append({"temple":id,"destinations":destinations.size(),"teleports":teleported,
+			"unavailable":unavailable,"location_unverified":location_unverified})
+		print("SHRINE_QA ", id, " destinations=", destinations.size(), " teleports=", teleported,
+			" unavailable=", unavailable, " location_unverified=", location_unverified)
 		current_scene = null
 		world.free()
 		await process_frame

@@ -515,6 +515,8 @@ func _on_minimap_draw() -> void:
 	map_marker_positions.clear()
 	for index in range(shrine_destinations.size()):
 		var destination: Dictionary = shrine_destinations[index]
+		if destination.get("placement_status") == "location_unverified":
+			continue
 		var shrine_point: Vector3 = destination.get("target", destination.get("position", Vector3.ZERO))
 		var marker = origin + (Vector2(shrine_point.x, shrine_point.z) - map_bounds.position) * scale_factor
 		var actual_marker = marker
@@ -800,25 +802,30 @@ func _populate_shrine_list() -> void:
 		var column = VBoxContainer.new()
 		column.add_theme_constant_override("separation", 5)
 		row.add_child(column)
-		var title = _label("%02d  %s" % [index + 1, label], 15, TEXT)
+		var status = str(destination.get("placement_status", "schematic_position"))
+		var located: bool = status != "location_unverified"
+		var title = _label("%02d  %s" % [index + 1, label] if located else label, 15, TEXT)
 		title.tooltip_text = str(destination.get("notes", ""))
 		column.add_child(title)
-		var status = str(destination.get("placement_status", "schematic_position"))
 		var detail = str(destination.get("kind", "shrine")).capitalize()
 		if status == "schematic_position":
 			detail += " · schematic placement"
 		elif status == "unavailable":
 			detail += " · safe arrival unavailable"
+		elif not located:
+			detail += " · location unverified"
 		var subtitle = _label(detail, 11, MUTED)
 		column.add_child(subtitle)
 		var actions = HBoxContainer.new()
 		column.add_child(actions)
 		var locate = Button.new()
-		locate.text = "Locate"
+		locate.text = "Locate" if located else "Read details"
 		locate.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		var shrine_id = str(destination.get("id", ""))
 		locate.pressed.connect(func(): _select_shrine(shrine_id))
 		actions.add_child(locate)
+		if not located:
+			continue
 		var teleport = Button.new()
 		teleport.text = "Teleport  →"
 		teleport.size_flags_horizontal = Control.SIZE_EXPAND_FILL

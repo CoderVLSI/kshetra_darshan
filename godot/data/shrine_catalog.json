@@ -4960,7 +4960,7 @@
       "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
     },
     "jajpur_biraja": {
-      "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",
+      "scope_note": "The current Biraja enclosure, with the aerial footprint and the IGNCA inventory guiding the main plan. The temple inventories confirm two additional Shiva shrines whose exact positions have yet to be verified.",
       "sources": [
         {
           "id": "BIRAJA",
@@ -4996,9 +4996,38 @@
           "id": "BIRAJA_INSCRIPTIONS",
           "title": "Biraja Mandira Trust Board, Inscriptions in the Biraja Temple",
           "url": "https://maabiraja.com/inscription.html"
+        },
+        {
+          "id": "BIRAJA_ISANESVARA",
+          "title": "IGNCA archaeological inventory, Isanesvara Siva Temple",
+          "url": "https://ignca.gov.in/asi_reports/Orjajpur022.pdf"
+        },
+        {
+          "id": "BIRAJA_ENDOWMENT",
+          "title": "Odisha Hindu Religious Endowment Commission, Biraja Temple precinct",
+          "url": "https://hinduendowments.odisha.gov.in/temples/biraja-temple/"
+        },
+        {
+          "id": "BIRAJA_ICON",
+          "title": "Biraja Mandira Trust Board, Iconography of Goddess Biraja",
+          "url": "https://maabiraja.com/iconography.html"
+        },
+        {
+          "id": "BIRAJA_DISTRICT_PHOTOS",
+          "title": "Jajpur Administration, photographic survey of Biraja Temple",
+          "url": "https://artsandculture.google.com/story/MAXxyGWrHpU28Q"
+        },
+        {
+          "id": "BIRAJA_FIELD_PHOTOS",
+          "title": "Anuradha Goyal, first-hand Biraja precinct photographs and visitor observations",
+          "url": "https://inditales.com/biraja-devi-shaktipeeth-jajpur-odisha/"
         }
       ],
-      "excluded": [],
+      "excluded": [
+        "Trilochaneswara temple complex south of the precinct",
+        "Varahanatha and Dasasvamedha Ghat temples beside the Baitarani",
+        "The external Brahma Kund and Shubha Stambha"
+      ],
       "shrines": [
         {
           "id": "main",
@@ -5006,114 +5035,98 @@
           "deity": "Girija / Biraja",
           "form": "devi",
           "kind": "main",
-          "evidence": "Main sacred destination documented by the cited source.",
+          "evidence": "Two-armed Mahishamardini in the east-facing sanctum. The right hand holds the trident, the left raises the buffalo's tail, and the left foot subdues the buffalo. The Trust identifies no lion on the installed image.",
           "source_ids": [
             "BIRAJA",
             "BIRAJA_IGNCA",
-            "BIRAJA_INSCRIPTIONS"
+            "BIRAJA_ICON"
           ],
-          "model_anchor": "Deity_Biraja",
-          "placement": null,
-          "notes": "The shrine faces the east Simhadwara through the antarala, jagamohana and Chandi Mandapa. Sculpture and architectural detail remain approximate. The Trust records five surviving inscriptions in the compound, including Bhikari Das’s Odia record of the enclosure wall on the Simhadwara lintel. The model marks the inscribed stone; its lettering is pending."
+          "notes": "Two-armed Mahishamardini in the east-facing sanctum. The right hand holds the trident, the left raises the buffalo's tail, and the left foot subdues the buffalo. The Trust identifies no lion on the installed image.",
+          "model_anchor": "Biraja_main",
+          "landing_anchor": "Landing_main",
+          "artwork_description": "Original iconographic study using the Trust’s published figure and description. Installed surface and adornment remain approximate.",
+          "label_height": 1.11
         },
         {
           "id": "nabhigaya",
-          "label": "Nabhigaya sacred well",
-          "deity": "Nabhigaya sacred well",
+          "label": "Nabhi Gaya · Sacred Well",
+          "deity": "",
           "form": "sacred_symbol",
           "kind": "heritage",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The tiled well chamber is used for ancestral rites. The circular metal railing protects the sacred well.",
           "source_ids": [
-            "BIRAJA_WELL"
+            "BIRAJA_WELL",
+            "BIRAJA_FIELD_PHOTOS"
           ],
-          "model_anchor": "Nabhigaya_Well_Rim",
-          "placement": null,
-          "notes": "An in-compound sacred well southeast of the main shrine, associated with rites for ancestors. The modeled well and pavilion are approximate."
-        },
-        {
-          "id": "jupesvara",
-          "label": "Jupeshwara",
-          "deity": "Jupeshwara",
-          "form": "linga",
-          "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
-          "source_ids": [
-            "BIRAJA"
-          ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Named temple inside the complex."
+          "notes": "The tiled well chamber is used for ancestral rites. The circular metal railing protects the sacred well.",
+          "model_anchor": "Biraja_nabhigaya",
+          "landing_anchor": "Landing_nabhigaya",
+          "artwork_description": "Well, offerings and railing study after photographed current features."
         },
         {
           "id": "isanesvara",
-          "label": "Ishaneshwara",
-          "deity": "Ishaneshwara",
+          "label": "Ishaneshwara Shiva",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "East-facing pidha shrine beside a flat-roofed open mandapa. The IGNCA records the linga in a circular pedestal one metre below the ground level.",
           "source_ids": [
-            "BIRAJA"
+            "BIRAJA_ISANESVARA",
+            "BIRAJA_ENDOWMENT"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Named temple inside the complex."
-        },
-        {
-          "id": "mrityunjayesvara",
-          "label": "Mrityunjayeshwara",
-          "deity": "Mrityunjayeshwara",
-          "form": "linga",
-          "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
-          "source_ids": [
-            "BIRAJA"
-          ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Named temple inside the complex."
+          "notes": "East-facing pidha shrine beside a flat-roofed open mandapa. The IGNCA records the linga in a circular pedestal one metre below the ground level.",
+          "model_anchor": "Biraja_isanesvara",
+          "landing_anchor": "Landing_isanesvara",
+          "artwork_description": "Circular yoni and recessed chamber reconstruction. Exact installed stone finish is approximate."
         },
         {
           "id": "bhushandesvara",
-          "label": "Bhushandeshwara",
-          "deity": "Bhushandeshwara",
+          "label": "Bhushandeshwara Shiva",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "This Shiva shrine stands in front of a fragmentary inscription in the southwest enclosure wall.",
           "source_ids": [
             "BIRAJA",
             "BIRAJA_INSCRIPTIONS"
           ],
-          "model_anchor": "Bhushandeshwara_Linga",
-          "placement": null,
-          "notes": "The Trust identifies this shrine in front of a fragmentary 12th- or 13th-century inscription in the southwest wall. The shrine elevation and linga in the model are approximate."
+          "notes": "This Shiva shrine stands in front of a fragmentary inscription in the southwest enclosure wall.",
+          "model_anchor": "Biraja_bhushandesvara",
+          "landing_anchor": "Landing_bhushandesvara",
+          "artwork_description": "Linga and pidha shrine study at the Trust’s documented precinct corner."
         },
         {
           "id": "bagalamukhi",
           "label": "Bagalamukhi / Vagalamukhi",
-          "deity": "Bagalamukhi / Vagalamukhi",
+          "deity": "Bagalamukhi",
           "form": "devi",
           "kind": "subsidiary",
-          "evidence": "Named within the main precinct by the cited source.",
+          "evidence": "The small temple behind the main shrine has a painted tower, porch lions and wooden Mahavidya door panels. Bagalamukhi is one of the Ten Mahavidyas.",
           "source_ids": [
-            "BIRAJA"
+            "BIRAJA",
+            "BIRAJA_ENDOWMENT",
+            "BIRAJA_FIELD_PHOTOS"
           ],
-          "model_anchor": null,
-          "placement": null,
-          "notes": "Named temple inside the complex; exact image unverified."
+          "notes": "The small temple behind the main shrine has a painted tower, porch lions and wooden Mahavidya door panels. Bagalamukhi is one of the Ten Mahavidyas.",
+          "model_anchor": "Biraja_bagalamukhi",
+          "landing_anchor": "Landing_bagalamukhi",
+          "artwork_description": "Shrine and doorway study based on public photos. The installed sacred image remains unverified."
         },
         {
           "id": "baidyanatha",
           "label": "Baidyanatha Shiva",
-          "deity": "Baidyanatha",
+          "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Documented by the IGNCA archaeological inventory for this precinct.",
+          "evidence": "A 4.1 by 4.1 metre east-facing pidha sanctuary in the northeast. The district photographs identify it near the sacred tree.",
           "source_ids": [
-            "BIRAJA_BAIDYANATHA"
+            "BIRAJA_BAIDYANATHA",
+            "BIRAJA_DISTRICT_PHOTOS"
           ],
-          "model_anchor": "Baidyanatha_Linga",
-          "placement": null,
-          "notes": "An east-facing pidha sanctuary in the northeastern part of the compound."
+          "notes": "A 4.1 by 4.1 metre east-facing pidha sanctuary in the northeast. The district photographs identify it near the sacred tree.",
+          "model_anchor": "Biraja_baidyanatha",
+          "landing_anchor": "Landing_baidyanatha",
+          "artwork_description": "Linga and sanctuary study following the archaeological record."
         },
         {
           "id": "sahasralinga_i",
@@ -5121,13 +5134,14 @@
           "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Documented by the IGNCA archaeological inventory for this precinct.",
+          "evidence": "West-facing sheet-roof shrine with 54 recorded sacred objects, including 24 Sahasralingas and one votive stone temple. The stones are preserved as a group.",
           "source_ids": [
             "BIRAJA_SAHASRALINGA_I"
           ],
-          "model_anchor": "Sahasralinga_I_Anchor",
-          "placement": null,
-          "notes": "The west-facing sheet-roof shrine holds 54 lingas. The individual stones and their arrangement are representative."
+          "notes": "West-facing sheet-roof shrine with 54 recorded sacred objects, including 24 Sahasralingas and one votive stone temple. The stones are preserved as a group.",
+          "model_anchor": "Biraja_sahasralinga_i",
+          "landing_anchor": "Landing_sahasralinga_i",
+          "artwork_description": "Representative arrangement and dimensions for individual stones."
         },
         {
           "id": "sahasralinga_ii",
@@ -5135,17 +5149,375 @@
           "deity": "Shiva",
           "form": "linga",
           "kind": "subsidiary",
-          "evidence": "Documented by the IGNCA archaeological inventory for this precinct.",
+          "evidence": "East-facing sheet-roof shrine with 37 lingas and five votive temples recorded in the northeastern compound.",
           "source_ids": [
             "BIRAJA_SAHASRALINGA_II"
           ],
-          "model_anchor": "Sahasralinga_II_Anchor",
-          "placement": null,
-          "notes": "The east-facing sheet-roof shrine holds 37 lingas. IGNCA also records five votive temples. The individual stones and their arrangement are representative."
+          "notes": "East-facing sheet-roof shrine with 37 lingas and five votive temples recorded in the northeastern compound.",
+          "model_anchor": "Biraja_sahasralinga_ii",
+          "landing_anchor": "Landing_sahasralinga_ii",
+          "artwork_description": "Representative arrangement and dimensions for individual stones."
+        },
+        {
+          "id": "mahamaya",
+          "label": "Mahamaya · Bagalamukhi precinct",
+          "deity": "Mahamaya",
+          "form": "relief",
+          "kind": "subsidiary",
+          "evidence": "A relief identified with Mahamaya is recorded around the Bagalamukhi shrine.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "A relief identified with Mahamaya is recorded around the Bagalamukhi shrine.",
+          "model_anchor": "Biraja_mahamaya",
+          "landing_anchor": "Landing_mahamaya",
+          "artwork_description": "Sculptural study. Exact carving and approach placement remain approximate.",
+          "label_distance": 3.25
+        },
+        {
+          "id": "mahakali",
+          "label": "Mahakali · Bagalamukhi precinct",
+          "deity": "Mahakali",
+          "form": "relief",
+          "kind": "subsidiary",
+          "evidence": "A relief identified with Mahakali is recorded around the Bagalamukhi shrine.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "A relief identified with Mahakali is recorded around the Bagalamukhi shrine.",
+          "model_anchor": "Biraja_mahakali",
+          "landing_anchor": "Landing_mahakali",
+          "artwork_description": "Sculptural study. Exact carving and approach placement remain approximate.",
+          "label_distance": 3.25
+        },
+        {
+          "id": "kapalabhairava",
+          "label": "Kapala Bhairava · Bagalamukhi precinct",
+          "deity": "Kapala Bhairava",
+          "form": "relief",
+          "kind": "subsidiary",
+          "evidence": "A Bhairava image is documented around the Bagalamukhi shrine.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "A Bhairava image is documented around the Bagalamukhi shrine.",
+          "model_anchor": "Biraja_kapalabhairava",
+          "landing_anchor": "Landing_kapalabhairava",
+          "artwork_description": "Sculptural study. Exact carving and approach placement remain approximate.",
+          "label_distance": 3.25
+        },
+        {
+          "id": "ekapada_bhairavi",
+          "label": "Ekapada Bhairavi",
+          "deity": "Bhairavi",
+          "form": "relief",
+          "kind": "subsidiary",
+          "evidence": "Photographed with the adjacent dark relief of Kali. The Bhairavi image has one foot.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "Photographed with the adjacent dark relief of Kali. The Bhairavi image has one foot.",
+          "model_anchor": "Biraja_ekapada_bhairavi",
+          "landing_anchor": "Landing_ekapada_bhairavi",
+          "artwork_description": "Sculptural study. Exact carving and approach placement remain approximate.",
+          "label_distance": 3.25
+        },
+        {
+          "id": "dvipad_kali",
+          "label": "Dvipada Kali",
+          "deity": "Kali",
+          "form": "relief",
+          "kind": "subsidiary",
+          "evidence": "Photographed as the paired relief beside one-legged Bhairavi.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "Photographed as the paired relief beside one-legged Bhairavi.",
+          "model_anchor": "Biraja_dvipad_kali",
+          "landing_anchor": "Landing_dvipad_kali",
+          "artwork_description": "Sculptural study. Exact carving and approach placement remain approximate.",
+          "label_distance": 3.25
+        },
+        {
+          "id": "simhadwara",
+          "label": "Simhadwara · East Lion Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The principal entrance in the eastern wall of the Biraja enclosure.",
+          "source_ids": [
+            "BIRAJA",
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "The principal entrance in the eastern wall of the Biraja enclosure.",
+          "model_anchor": "Biraja_simhadwara",
+          "landing_anchor": "Landing_simhadwara"
+        },
+        {
+          "id": "west_gate",
+          "label": "West Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Separate western opening in the enclosing wall.",
+          "source_ids": [
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "Separate western opening in the enclosing wall.",
+          "model_anchor": "Biraja_west_gate",
+          "landing_anchor": "Landing_west_gate"
+        },
+        {
+          "id": "north_gate",
+          "label": "North Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Northern opening in the enclosing wall, aligned with the north court.",
+          "source_ids": [
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "Northern opening in the enclosing wall, aligned with the north court.",
+          "model_anchor": "Biraja_north_gate",
+          "landing_anchor": "Landing_north_gate"
+        },
+        {
+          "id": "south_gate",
+          "label": "South Gate",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Southern opening into the courtyard and worship precinct.",
+          "source_ids": [
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "Southern opening into the courtyard and worship precinct.",
+          "model_anchor": "Biraja_south_gate",
+          "landing_anchor": "Landing_south_gate"
+        },
+        {
+          "id": "chandi",
+          "label": "Chandi Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The eastern front hall is used for worship and recitation of the Devi Mahatmya.",
+          "source_ids": [
+            "BIRAJA",
+            "BIRAJA_DISTRICT_PHOTOS"
+          ],
+          "notes": "The eastern front hall is used for worship and recitation of the Devi Mahatmya.",
+          "model_anchor": "Biraja_chandi",
+          "landing_anchor": "Landing_chandi"
+        },
+        {
+          "id": "jagamohana",
+          "label": "Pidha Jagamohana",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Assembly hall with six interior pillars and a stepped roof. Earlier fragmentary carvings are incorporated into its outer walls.",
+          "source_ids": [
+            "BIRAJA",
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "Assembly hall with six interior pillars and a stepped roof. Earlier fragmentary carvings are incorporated into its outer walls.",
+          "model_anchor": "Biraja_jagamohana",
+          "landing_anchor": "Landing_jagamohana"
+        },
+        {
+          "id": "antarala",
+          "label": "Antarala",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Short vestibule joining the Jagamohana to Biraja’s sanctum.",
+          "source_ids": [
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "Short vestibule joining the Jagamohana to Biraja’s sanctum.",
+          "model_anchor": "Biraja_antarala",
+          "landing_anchor": "Landing_antarala"
+        },
+        {
+          "id": "simha_stambha",
+          "label": "Simha Stambha · Lion Pillar",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The lion emblem stands on a pillar in the approach to Biraja. This separate figure represents her vahana.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "The lion emblem stands on a pillar in the approach to Biraja. This separate figure represents her vahana.",
+          "model_anchor": "Biraja_simha_stambha",
+          "landing_anchor": "Landing_simha_stambha"
+        },
+        {
+          "id": "dola",
+          "label": "Dola Mandapa",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The white arched stone platform carries the deity’s swing during Holi.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "The white arched stone platform carries the deity’s swing during Holi.",
+          "model_anchor": "Biraja_dola",
+          "landing_anchor": "Landing_dola"
+        },
+        {
+          "id": "sacred_tree",
+          "label": "Sacred Tree · Vow Offerings",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The district photographs and visitor record show a sacred courtyard tree and worship near Baidyanatha.",
+          "source_ids": [
+            "BIRAJA_DISTRICT_PHOTOS",
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "The district photographs and visitor record show a sacred courtyard tree and worship near Baidyanatha.",
+          "model_anchor": "Biraja_sacred_tree",
+          "landing_anchor": "Landing_sacred_tree"
+        },
+        {
+          "id": "mahavidya_door",
+          "label": "Bagalamukhi · Ten Mahavidya Door Panels",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "Ten carved Mahavidya panels are recorded on the shrine’s wooden door. The model retains the two rows of panels with interpretive miniature reliefs.",
+          "source_ids": [
+            "BIRAJA_FIELD_PHOTOS"
+          ],
+          "notes": "Ten carved Mahavidya panels are recorded on the shrine’s wooden door. The model retains the two rows of panels with interpretive miniature reliefs.",
+          "model_anchor": "Biraja_mahavidya_door",
+          "landing_anchor": "Landing_mahavidya_door",
+          "label_distance": 3.25
+        },
+        {
+          "id": "bhikari_das_lintel",
+          "label": "Bhikari Das · Odia Lintel Record",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The Trust records this nineteenth-century Odia inscription on the upper lion-gate lintel, commemorating the building of the enclosure wall.",
+          "source_ids": [
+            "BIRAJA_INSCRIPTIONS"
+          ],
+          "notes": "The Trust records this nineteenth-century Odia inscription on the upper lion-gate lintel, commemorating the building of the enclosure wall.",
+          "model_anchor": "Biraja_bhikari_das_lintel",
+          "landing_anchor": "Landing_bhikari_das_lintel",
+          "artwork_description": "Stone and location study. Engraved characters have not been transcribed."
+        },
+        {
+          "id": "chodaganga_record",
+          "label": "Chodaganga · Lamp Offering Record",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The Trust attributes this inscribed stone on the temple to a twelfth-century record of an offering of lamps to Biraja.",
+          "source_ids": [
+            "BIRAJA_INSCRIPTIONS"
+          ],
+          "notes": "The Trust attributes this inscribed stone on the temple to a twelfth-century record of an offering of lamps to Biraja.",
+          "model_anchor": "Biraja_chodaganga_record",
+          "landing_anchor": "Landing_chodaganga_record",
+          "artwork_description": "Stone and location study. Engraved characters have not been transcribed."
+        },
+        {
+          "id": "hero_stone",
+          "label": "Hero Stone · Inscribed Pedestal",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The hero stone stands in front of the Jagamohana. The Trust describes an early inscription beneath its pedestal that remains undeciphered.",
+          "source_ids": [
+            "BIRAJA_INSCRIPTIONS",
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "The hero stone stands in front of the Jagamohana. The Trust describes an early inscription beneath its pedestal that remains undeciphered.",
+          "model_anchor": "Biraja_hero_stone",
+          "landing_anchor": "Landing_hero_stone",
+          "artwork_description": "Stone and location study. Engraved characters have not been transcribed."
+        },
+        {
+          "id": "gate_wall_fragment",
+          "label": "Simhadwara · Wall Inscription Fragment",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The Trust records a fragmentary, undeciphered inscription in the enclosure wall beside the lion gate.",
+          "source_ids": [
+            "BIRAJA_INSCRIPTIONS"
+          ],
+          "notes": "The Trust records a fragmentary, undeciphered inscription in the enclosure wall beside the lion gate.",
+          "model_anchor": "Biraja_gate_wall_fragment",
+          "landing_anchor": "Landing_gate_wall_fragment",
+          "artwork_description": "Stone and location study. Engraved characters have not been transcribed."
+        },
+        {
+          "id": "southwest_fragment",
+          "label": "Southwest Wall Inscription Fragment",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "An undeciphered record set into the southwest wall behind Bhushandeshwara is dated by the Trust to the twelfth or thirteenth century.",
+          "source_ids": [
+            "BIRAJA_INSCRIPTIONS"
+          ],
+          "notes": "An undeciphered record set into the southwest wall behind Bhushandeshwara is dated by the Trust to the twelfth or thirteenth century.",
+          "model_anchor": "Biraja_southwest_fragment",
+          "landing_anchor": "Landing_southwest_fragment",
+          "artwork_description": "Stone and location study. Engraved characters have not been transcribed."
+        },
+        {
+          "id": "carved_fragments",
+          "label": "Jagamohana · Carved Fragments",
+          "deity": "",
+          "form": "unknown",
+          "kind": "heritage",
+          "evidence": "The IGNCA records early images in temple and enclosure walls, including Ardhanarishvara, Lakulisha, Uma Maheshvara and the Matrikas.",
+          "source_ids": [
+            "BIRAJA_IGNCA"
+          ],
+          "notes": "The IGNCA records early images in temple and enclosure walls, including Ardhanarishvara, Lakulisha, Uma Maheshvara and the Matrikas.",
+          "model_anchor": "Biraja_carved_fragments",
+          "landing_anchor": "Landing_carved_fragments"
+        },
+        {
+          "id": "jupesvara",
+          "label": "Jupeshwara Shiva",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the enclosure by both the Temple Trust and Odisha’s Endowment Commission. The shrine’s exact location and installed image remain unverified.",
+          "source_ids": [
+            "BIRAJA",
+            "BIRAJA_ENDOWMENT"
+          ],
+          "notes": "Named within the enclosure by both the Temple Trust and Odisha’s Endowment Commission. The shrine’s exact location and installed image remain unverified.",
+          "location_unverified": true
+        },
+        {
+          "id": "mrityunjayesvara",
+          "label": "Mrityunjayeshwara Shiva",
+          "deity": "Shiva",
+          "form": "linga",
+          "kind": "subsidiary",
+          "evidence": "Named within the enclosure by both the Temple Trust and Odisha’s Endowment Commission. The shrine’s exact location and installed image remain unverified.",
+          "source_ids": [
+            "BIRAJA",
+            "BIRAJA_ENDOWMENT"
+          ],
+          "notes": "Named within the enclosure by both the Temple Trust and Odisha’s Endowment Commission. The shrine’s exact location and installed image remain unverified.",
+          "location_unverified": true
         }
       ],
       "inventory_complete": false,
-      "inventory_status": "Source-backed working inventory; exhaustive temple-authority plan review remains incomplete."
+      "inventory_status": "The core plan is aerial-aligned. Known shrine buildings and carving studies are mapped where the evidence supports them. Jupeshwara and Mrityunjayeshwara remain searchable with source details while their positions are unverified."
     },
     "ujjain_mahakali": {
       "scope_note": "Main temple compound only. Shrine identities are sourced; layout and iconographic detail are schematic unless separately verified.",

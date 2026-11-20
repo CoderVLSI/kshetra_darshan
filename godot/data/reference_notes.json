@@ -358,13 +358,13 @@
   "jajpur_biraja": {
     "name": "Girija / Biraja",
     "stotram_order": 11,
-    "architecture": "Kalinga ensemble with rekha vimana, pidha jagamohana, front chandi mandapa and lion gate. The principal Biraja image is two-armed; Nabhigaya is a well within the enclosure.",
+    "architecture": "East-facing three-part temple on a low padmapitha, with the curved pancharatha Rekha Deula, Antarala, six-pillar Pidha Jagamohana and Chandi Mandapa. The aerial plan places the main sanctuary toward the west of the current enclosure.",
     "deity_form": "Two-armed Mahishamardini",
     "posture": "Standing in a buffalo-subduing pose",
     "arms": "Two, documented",
     "attributes": "Right hand trident; left hand lifts the buffalo tail; left foot presses the demon",
-    "deity_notes": "Do not use the standard eight-/ten-armed lion-riding Durga template. The demon is buffalo-shaped.",
-    "uncertainties": "Trust says lion mount absent; district page mentions a lion. Retain this conflict until an authenticated image settles it.",
+    "deity_notes": "Biraja’s two-armed black-stone sacred image is distinct from generic Durga figures. The Trust records Ganapati, yoni, linga, crescent and serpent on her crown.",
+    "uncertainties": "The Trust photograph shows an iconographic model, and the installed image is heavily adorned. The current model follows the Trust iconography. The shrine positions of Jupeshwara and Mrityunjayeshwara and smaller individual relief placement remain unverified.",
     "reconstruction": false,
     "sources": [
       {
@@ -372,19 +372,51 @@
         "url": "https://maabiraja.com/temple.html"
       },
       {
-        "title": "Biraja Mandira Trust Board: Iconography",
-        "url": "https://maabiraja.com/iconography.html"
-      },
-      {
         "title": "Biraja Mandira Trust Board: Nabhigaya",
         "url": "https://maabiraja.com/navigaya.html"
       },
       {
-        "title": "Jajpur district: Biraja Khetra",
-        "url": "https://jajpur.odisha.gov.in/en/tourism/tourist-places/biraja-khetra"
+        "title": "IGNCA archaeological inventory, Viraja Temple",
+        "url": "https://ignca.gov.in/asi_reports/Orjajpur059.pdf"
+      },
+      {
+        "title": "IGNCA archaeological inventory, Baidyanatha Siva Temple",
+        "url": "https://ignca.gov.in/asi_reports/Orjajpur006.pdf"
+      },
+      {
+        "title": "IGNCA archaeological inventory, Sahasralinga Shrine I",
+        "url": "https://ignca.gov.in/asi_reports/Orjajpur043.pdf"
+      },
+      {
+        "title": "IGNCA archaeological inventory, Sahasralinga Shrine II",
+        "url": "https://ignca.gov.in/asi_reports/Orjajpur044.pdf"
+      },
+      {
+        "title": "Biraja Mandira Trust Board, Inscriptions in the Biraja Temple",
+        "url": "https://maabiraja.com/inscription.html"
+      },
+      {
+        "title": "IGNCA archaeological inventory, Isanesvara Siva Temple",
+        "url": "https://ignca.gov.in/asi_reports/Orjajpur022.pdf"
+      },
+      {
+        "title": "Odisha Hindu Religious Endowment Commission, Biraja Temple precinct",
+        "url": "https://hinduendowments.odisha.gov.in/temples/biraja-temple/"
+      },
+      {
+        "title": "Biraja Mandira Trust Board, Iconography of Goddess Biraja",
+        "url": "https://maabiraja.com/iconography.html"
+      },
+      {
+        "title": "Jajpur Administration, photographic survey of Biraja Temple",
+        "url": "https://artsandculture.google.com/story/MAXxyGWrHpU28Q"
+      },
+      {
+        "title": "Anuradha Goyal, first-hand Biraja precinct photographs and visitor observations",
+        "url": "https://inditales.com/biraja-devi-shaktipeeth-jajpur-odisha/"
       }
     ],
-    "preservation_status": "This is an interpretive scene, not a complete record of surviving carvings or inscriptions. Exact epigraphy and object-by-object sculpture matching remain incomplete."
+    "preservation_status": "The model represents documented inscription stones, the hero stone, a study of carved fragments, Bagalamukhi’s Ten Mahavidya doorway, the Nabhi Gaya enclosure and both Sahasralinga groups. The five inscriptions are described and linked to their primary source photos. Exact characters and individual conservation conditions remain incomplete."
   },
   "draksharama_manikyamba": {
     "name": "Manikyamba / Bhimeswara",

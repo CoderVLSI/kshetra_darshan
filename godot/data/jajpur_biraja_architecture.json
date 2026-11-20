@@ -6,28 +6,31 @@
     "city": "Jajpur",
     "state": "Odisha",
     "country": "India",
-    "lat": 20.8521,
-    "lng": 86.3387
+    "lat": 20.83376,
+    "lng": 86.33814
   },
-  "style": "Kalinga architectural style (Rekha Deula and Pidha Jagamohana)",
+  "style": "Kalinga Rekha Deula and Pidha Jagamohana, with later limewash and attached Chandi Mandapa",
   "key_structures": [
-    "Vimana (Rekha Deula sanctum tower)",
-    "Jagamohana (pyramidal assembly hall)",
-    "Nabhi Gaya Kunda (sacred pit for offering Pinda)",
-    "Brahmani and Vaitarani river banks",
-    "Chausathi Yogini remnants and Varaha temple"
+    "Eastern Simhadwara and three other gates",
+    "Biraja Rekha Deula, Antarala and six-pillar Pidha Jagamohana",
+    "Chandi Mandapa and lion pillar",
+    "Nabhi Gaya tiled well chamber with metal grille",
+    "Northeastern Baidyanatha and Sahasralinga groups",
+    "Bagalamukhi shrine and Ten Mahavidya door panels",
+    "Ishaneshwara recessed Shiva shrine",
+    "Bhushandeshwara and the southwest inscription fragment"
   ],
   "special_features": [
-    "Unique ancient two-armed (Dvi-bhuja) Mahishasuramardini idol spearing the demon while pulling the tail of the buffalo with left hand",
-    "Goddess mounts a lion with one foot resting on the subdued buffalo",
-    "Simhadwara (Lion Gate) facing the holy Vaitarani River"
+    "Two-armed Biraja with a trident and a subdued buffalo",
+    "Staged survival of displaced carvings in enclosure and temple walls",
+    "Five surviving inscriptions documented by the Biraja Mandira Trust"
   ],
   "materials": [
-    "Khandolite stone",
-    "Iron clamps and dowels",
-    "Laterite base foundations",
-    "Chlorite stone relief carvings"
+    "Khondalite ashlar and mortar",
+    "Lime plaster and whitewash",
+    "Later metal roofing",
+    "Ceramic tiles and metal grille in the well chamber"
   ],
-  "period": "10th–13th Century CE",
-  "renovation_history": "First established during the Gupta period; monumental stone temple built by Somavamshi King Yayati I in the 10th-11th century; renovated by Ganga rulers."
+  "period": "Earlier sculpture and inscription remains, with the present temple substantially reconstructed in the first half of the nineteenth century",
+  "renovation_history": "The Temple Trust attributes the present reconstruction to Sudarshan Mohapatra. The enclosing wall and its lintel record are associated with Bhikari Das."
 }

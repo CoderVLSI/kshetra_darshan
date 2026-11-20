@@ -38,7 +38,7 @@ func _process(delta: float) -> void:
 		identity["group"].visible = false
 		if camera and not camera.is_position_in_frustum(identity["group"].global_position):
 			continue
-		if distance < 12.0:
+		if distance < identity["label_distance"]:
 			var at_landing: bool = _player.global_position.distance_to(identity["landing"]) < 2.5
 			identity["priority"] = -1.0 if at_landing and identity["id"] == _last_teleport_id else distance
 			nearby.append(identity)
@@ -134,7 +134,10 @@ func _populate() -> void:
 		var target := Vector3.ZERO
 		var status := "existing_model_anchor"
 		var artwork := "Existing model; detailed iconography remains subject to reference review."
-		if entry.has("hall_slot"):
+		if entry.get("location_unverified", false):
+			status = "location_unverified"
+			artwork = "Documented in the temple inventory. Shrine location and installed image remain unverified."
+		elif entry.has("hall_slot"):
 			var hall = _model.find_child(str(entry.placement_mesh), true, false) as MeshInstance3D
 			status = "schematic_position"
 			if hall:
@@ -213,7 +216,7 @@ func _populate() -> void:
 				status = "unavailable"
 				target = _bounds.get_center()
 		var landing: Vector3 = Vector3(INF, INF, INF)
-		if status != "unavailable":
+		if status != "unavailable" and status != "location_unverified":
 			var landing_name := str(entry.get("landing_anchor", ""))
 			if not landing_name.is_empty():
 				var authored := _model.find_child(landing_name, true, false) as Node3D
@@ -221,7 +224,7 @@ func _populate() -> void:
 					var floor := _floor_at(authored.global_position, authored.global_position.y)
 					if _landing_clear(floor):
 						landing = floor
-			if not landing.is_finite():
+		if not landing.is_finite() and status != "location_unverified":
 				landing = _find_landing(target, target.y - 1.0)
 		var available: bool = landing.is_finite()
 		var destination: Dictionary = {
@@ -241,7 +244,8 @@ func _populate() -> void:
 			"available": available,
 		}
 		_destinations.append(destination)
-		_add_destination_label(entry, destination)
+		if status != "location_unverified":
+			_add_destination_label(entry, destination)
 		if available:
 			var marker = Marker3D.new()
 			marker.name = "Landing_" + destination["id"].validate_node_name()
@@ -669,7 +673,7 @@ func _add_destination_label(entry: Dictionary, destination: Dictionary) -> void:
 	context.outline_size = 8
 	group.add_child(context)
 	_identity_labels.append({"group": group, "title": title, "context": context, "target": target,
-		"id": destination["id"], "landing": landing})
+		"id": destination["id"], "landing": landing, "label_distance": float(entry.get("label_distance", 12.0))})
 
 func _add_nameplate(parent: Node3D, text: String, position: Vector3) -> void:
 	var label = _label_3d(text, 36, Color(.91, .79, .55))
